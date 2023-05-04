@@ -1,7 +1,7 @@
 # Folk-Art-Recommendation-System
 
 
-<img src="https://user-images.githubusercontent.com/1102651/236267695-f170b9fa-6470-4d2a-a225-7b30d9d13864.jpeg" height="50">
+<img src="https://user-images.githubusercontent.com/1102651/236267695-f170b9fa-6470-4d2a-a225-7b30d9d13864.jpeg" width=500 height="200">
 
 There is an urgent need to document the performing art of a class of itinerant singing painters from rural West Bengal, India who sing about moral and mythological stories painted on scrolls playing the dual role of performers and social entertainers. These scroll painters (also called Patuas, Chitrakars, Patidars or Patikars) walk from village to village unfurling their scrolls to sing their songs, the lyrics and tunes of which are composed by themselves or passed down by oral tradition for generations. They paint on small rectangular pieces of paper (called "chauko pata") or long vertical sheets of paper glued together (called "jorano pata") which can sometimes be as long as 5-10 meters. The songs are usually written in Bengali with some infiltration of words from the local dialect. This folk art of rural Bengal has been around for a long time (at least since the late 13th century) and the patuas were the chief source of entertainment in the villages -- their art being a combination of story telling, singing and painting. 
 
