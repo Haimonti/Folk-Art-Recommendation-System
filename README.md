@@ -11,3 +11,7 @@ However, the increasing popularity of modern methods of entertainment (such as t
 
 2. Construction of an art recommendation system for patachitras using advanced artificial intelligence techniques: The multi-modal data (image, audio and text) will be used to construct an elaborate art recommendation system using state-of-the-art Artificial Intelligence (AI) techniques (such as deep learning \cite{Zhang_17a}). This recommendation system will be used by scholars, connoisseurs of art, museum authorities, and potential customers to keep track of the state-of-the-art and purchase art-work of interest thereby contributing to the economic development of the itinerant singers. This art recommendation system will solely be designed for academic studies and will be hosted from a website at SUNY, Buffalo.
 
+This work has been supported by a joint fellowship from the National Endowment of Humanities and The American Institute for India Studies.
+
+
+
