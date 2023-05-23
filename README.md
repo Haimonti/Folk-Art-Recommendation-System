@@ -14,10 +14,10 @@ However, the increasing popularity of modern methods of entertainment (such as t
 This work has been supported by a joint fellowship from the National Endowment of Humanities and The American Institute for India Studies.
 <div class="row">
   <div class="column">
-    <img src="neh.png" alt="neh" style="width:30%" align="left">
+    <img src="neh.png" alt="neh" style="width:50%" align="left">
   </div>
   <div class="column">
-    <img src="aiis.png" alt="aiis" style="width:15%" align="right">
+    <img src="aiis.png" alt="aiis" style="width:30%" align="right">
   </div>
 </div>
 
