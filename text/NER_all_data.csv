@@ -1,0 +1,930 @@
+Path,Text,NER,INDEXING
+/content/drive/MyDrive/ProjectData/s1/txt/p1.txt,"Hail Durga, Ma Tara, destroyer of sorrows.
+Invincible as the strong southern winds, she is Nagendranandini (daughter of the king of mountains).
+As Ma Chandi, her ten arms stretch in ten directions.
+Her third eye shines brightly in the middle of her forehead.
+Lakshmi, with Saraswati on her left, Kartik and Ganesh
+Along with the lion, the Asura, Joya and Bijoya accompany the Mother. 
+","Hail Durga(PERSON), Ma Tara(PERSON), Nagendranandini(GPE), Ma Chandi(PERSON), ten(CARDINAL), ten(CARDINAL), third(ORDINAL), Lakshmi(PERSON), Saraswati(PERSON), Kartik(PERSON), Asura(PERSON), Joya(PERSON), Bijoya(WORK_OF_ART)","['PERSON:0', 'PERSON:3', 'GPE:20', 'PERSON:32', 'CARDINAL:36', 'CARDINAL:40', 'ORDINAL:45', 'PERSON:57', 'PERSON:60', 'PERSON:65', 'PERSON:75', 'PERSON:77', 'WORK_OF_ART:79']"
+/content/drive/MyDrive/ProjectData/s1/txt/p2.txt,"One day, the goddess Durga bestowed her grace
+And revealed a cache of precious gems in a pomegranate grove. 
+Kalketu found the treasure under the pomegranate tree
+(With this) he cleared the forest named Gujarat and established a town.
+Two more pots of gems remained.
+Which Kalketu filled into jars.
+Sealing them carefully, he carried the jars home
+Where the beautiful Khullona (Phullora) waited at the doorway of her thatched hut
+For twelve years, the ascetic had been languishing in jail. 
+Meanwhile, Khullona had given birth to (their son) Srimonto
+Srimonto grew up to be a bright young man
+And wished to go out in search of his father.
+“You are my only son, the light of my life,” (cried Khullona) 
+“If you leave for even a moment, I shall feel abandoned. “
+But, if you must go, do pray to Durga.”
+On being invoked, Chandi (Durga) appeared
+And Khullona handed over Srimonto to the goddess. ","One day(DATE), Durga(PERSON), Kalketu(PERSON), Gujarat(GPE), Two(CARDINAL), Kalketu(PERSON), Khullona(PERSON), Phullora(ORG), twelve years(DATE), Khullona(PERSON), Khullona(PERSON), Chandi(PERSON), Khullona(PERSON), Srimonto(EVENT)","['DATE:0', 'PERSON:5', 'PERSON:23', 'GPE:41', 'CARDINAL:48', 'PERSON:57', 'PERSON:76', 'ORG:78', 'DATE:90', 'PERSON:104', 'PERSON:153', 'PERSON:190', 'PERSON:197', 'EVENT:200']"
+/content/drive/MyDrive/ProjectData/s1/txt/p3.txt,"Shouting “Hail Durga,” Srimonto boarded the boat
+And the boatmen set sail.
+They were sailing peacefully over the waters
+When at Magora, struck by misfortune, they were caught in a terrible storm. 
+(And Srimonto witnessed a strange sight:) A beautiful lady seated on a lotus was swallowing an elephant. 
+She was Kamal Kamini (a form of Durga) atop a hundred petalled lotus.
+She was the mother of Ganesh, swallowing an elephant.
+Srimonto, moved by this wondrous sight
+Bowed and offered his salutations a million times.","Srimonto(WORK_OF_ART), Magora(ORG), Srimonto(PERSON), lotus(ORG), Kamal Kamini(PERSON), a hundred(CARDINAL), lotus(ORG), Srimonto(EVENT), million(CARDINAL)","['WORK_OF_ART:6', 'ORG:28', 'PERSON:45', 'ORG:57', 'PERSON:66', 'CARDINAL:75', 'ORG:78', 'EVENT:93', 'CARDINAL:107']"
+/content/drive/MyDrive/ProjectData/s1/txt/p4.txt,"Finally, the boat docked at Ratnamala quay to the sound of kettledrums.
+Seeing them, the guards and wardens of the kingdom whispered among themselves.
+It seemed as if everyone was looting the kingdom 
+And the king was kept totally in the dark.",Ratnamala quay(FAC),['FAC:6']
+/content/drive/MyDrive/ProjectData/s1/txt/p5.txt,"The king Shalbahon was seated on a jewelled throne. 
+Srimonto stood before him with folded hands
+And said, “In your kingdom, O king, resides Kamal Kamini. 
+“I witnessed this woman swallowing an elephant.”
+The king ordered Srimonto to show him this sight.
+And promised him half of his kingdom and his daughter’s hand in marriage in return. 
+But if Srimonto failed to show him the scene, the king warned 
+He would be beheaded at the execution ground in the south. ","Srimonto(PERSON), Kamal Kamini(PERSON), Srimonto(PERSON), half(CARDINAL), Srimonto(PERSON)","['PERSON:11', 'PERSON:31', 'PERSON:49', 'CARDINAL:60', 'PERSON:77']"
+/content/drive/MyDrive/ProjectData/s1/txt/p6.txt,"The king travelled to Kalidaho to see Kamal Kamini.
+But to Srimonto’s embarrassment, the vision did not appear. 
+The goddess Bhagoboti stayed hidden among the lotuses.
+Wishing to upset Srimonto, she did not reveal herself.","Kalidaho(GPE), Kamal Kamini(PERSON), Srimonto(PERSON), Bhagoboti(PERSON), Srimonto(PERSON)","['GPE:4', 'PERSON:7', 'PERSON:13', 'PERSON:26', 'PERSON:37']"
+/content/drive/MyDrive/ProjectData/s1/txt/p7.txt,"The enraged king summoned the warden and had Srimonto chained.
+Bound in chains and in pain, Srimonto started weeping. 
+And as he wept, he invoked Durga
+“Oh Shankari,” he cried, “I shall die, but you seem to be unconcerned 
+“That your name, Trailokyotarini will be tarnished.”
+Chandi, who in the form of a kite, was flying in the sky (heard his prayer). 
+She assumed the garb of an aged Brahmin woman and appeared before Srimonto.
+","Srimonto(PERSON), Srimonto(PERSON), Shankari(PERSON), Trailokyotarini(ORG), Brahmin(NORP), Srimonto(EVENT)","['PERSON:8', 'PERSON:19', 'PERSON:35', 'ORG:58', 'NORP:94', 'EVENT:99']"
+/content/drive/MyDrive/ProjectData/s1/txt/p8.txt,"His chains fell away from him
+And a tearful Srimonto cried out in relief.
+With her eighteen arms Mother (Chandi) stood before him at the execution ground. 
+“Whose home have you visited, Ma? Who worshipped you?
+“My life has become worthwhile, Mother, having seen your eighteen arms.”","eighteen(CARDINAL), Ma(PERSON), Mother(PERSON), eighteen(CARDINAL)","['CARDINAL:19', 'PERSON:41', 'PERSON:55', 'CARDINAL:60']"
+/content/drive/MyDrive/ProjectData/s1/txt/p9.txt,"“I hereby grant you a boon, Srimonto”, (Durga replied)
+“You shall go and marry the daughter of King Shalbahon.”
+Thus, Srimonto married the princess Sushila.
+","Srimonto(PERSON), Durga(ORG), King Shalbahon(PERSON), Srimonto(PERSON), Sushila(PERSON)","['PERSON:8', 'ORG:12', 'PERSON:25', 'PERSON:32', 'PERSON:36']"
+/content/drive/MyDrive/ProjectData/s1/txt/p10.txt,"After the wedding, Srimonto returned home",Srimonto(PERSON),['PERSON:4']
+/content/drive/MyDrive/ProjectData/s1/txt/p11.txt,"Where Khullona was herding goats in the forest of Aruna.
+Srimonto (also) rescued his father and brought him home.","Khullona(PERSON), Aruna(PERSON), Srimonto(PERSON)","['PERSON:1', 'PERSON:9', 'PERSON:12']"
+/content/drive/MyDrive/ProjectData/s1/txt/p12.txt,"And installing the sacred water pot, introduced the custom of Durga Puja (worship).
+Garlanded with hibiscus and jasmine
+Shankar Bhabani (Durga) seemed to beckon from afar.
+
+And here ends my recitation.
+I, the writer, am Bahar Chitrakar of Medinipur. 
+Ah, Medinipur is where I live.","Durga Puja(WORK_OF_ART), Shankar Bhabani(PERSON), Bahar Chitrakar(PERSON), Medinipur(GPE), Medinipur(PERSON)","['WORK_OF_ART:11', 'PERSON:24', 'PERSON:49', 'GPE:52', 'PERSON:57']"
+/content/drive/MyDrive/ProjectData/s2/txt/p1.txt,"Hail Durga, Ma Tara, destroyer of sorrows.
+Invincible as the strong southern winds, she is Nagendranandini (daughter of the king of mountains).
+As Ma Chandi, her ten arms stretch in ten directions.
+Her third eye shines brightly in the middle of her forehead.
+Lakshmi, with Saraswati on her left, Kartik and Ganesh
+Along with the lion, the Asura, Joya and Bijoya accompany the Mother. ","Hail Durga(PERSON), Ma Tara(PERSON), Nagendranandini(GPE), Ma Chandi(PERSON), ten(CARDINAL), ten(CARDINAL), third(ORDINAL), Lakshmi(PERSON), Saraswati(PERSON), Kartik(PERSON), Asura(PERSON), Joya(PERSON), Bijoya(WORK_OF_ART)","['PERSON:0', 'PERSON:3', 'GPE:20', 'PERSON:32', 'CARDINAL:36', 'CARDINAL:40', 'ORDINAL:45', 'PERSON:57', 'PERSON:60', 'PERSON:65', 'PERSON:75', 'PERSON:77', 'WORK_OF_ART:79']"
+/content/drive/MyDrive/ProjectData/s2/txt/p2.txt,"One day, the goddess Durga bestowed her grace
+And revealed a cache of precious gems in a pomegranate grove. 
+Kalketu found the treasure under the pomegranate tree
+(With this) he cleared the forest named Gujarat and established a town.
+Two more pots of gems remained.
+Which Kalketu filled into jars.
+Sealing them carefully, he carried the jars home
+Where the beautiful Khullona (Phullora) waited at the doorway of her thatched hut
+For twelve years, the ascetic had been languishing in jail. 
+Meanwhile, Khullona had given birth to (their son) Srimonto
+Srimonto grew up to be a bright young man
+And wished to go out in search of his father.
+","One day(DATE), Durga(PERSON), Kalketu(PERSON), Gujarat(GPE), Two(CARDINAL), Kalketu(PERSON), Khullona(PERSON), Phullora(ORG), twelve years(DATE), Khullona(PERSON)","['DATE:0', 'PERSON:5', 'PERSON:23', 'GPE:41', 'CARDINAL:48', 'PERSON:57', 'PERSON:76', 'ORG:78', 'DATE:90', 'PERSON:104']"
+/content/drive/MyDrive/ProjectData/s2/txt/p3.txt,"“You are my only son, the light of my life,” (cried Khullona) 
+“If you leave for even a moment, I shall feel abandoned. “
+But, if you must go, do pray to Durga.”
+On being invoked, Chandi (Durga) appeared
+And Khullona handed over Srimonto to the goddess. 
+Shouting “Hail Durga,” Srimonto boarded the boat
+And the boatmen set sail.
+They were sailing peacefully over the waters
+When at Magora, struck by misfortune, they were caught in a terrible storm. 
+(And Srimonto witnessed a strange sight:) A beautiful lady seated on a lotus was swallowing an elephant. 
+She was Kamal Kamini (a form of Durga) atop a hundred petalled lotus.
+She was the mother of Ganesh, swallowing an elephant.
+Srimonto, moved by this wondrous sight
+Bowed and offered his salutations a million times.
+
+Finally, the boat docked at Ratnamala quay to the sound of kettledrums.
+Seeing them, the guards and wardens of the kingdom whispered among themselves.
+It seemed as if everyone was looting the kingdom 
+And the king was kept totally in the dark.
+","Khullona(PERSON), Chandi(PERSON), Khullona(PERSON), Srimonto(EVENT), Srimonto(WORK_OF_ART), Magora(ORG), Srimonto(PERSON), lotus(ORG), Kamal Kamini(PERSON), a hundred(CARDINAL), lotus(ORG), Srimonto(EVENT), million(CARDINAL), Ratnamala quay(FAC)","['PERSON:16', 'PERSON:53', 'PERSON:60', 'EVENT:63', 'WORK_OF_ART:75', 'ORG:97', 'PERSON:114', 'ORG:126', 'PERSON:135', 'CARDINAL:144', 'ORG:147', 'EVENT:162', 'CARDINAL:176', 'FAC:186']"
+/content/drive/MyDrive/ProjectData/s2/txt/p4.txt,"The king Shalbahon was seated on a jewelled throne. 
+Srimonto stood before him with folded hands
+And said, “In your kingdom, O king, resides Kamal Kamini. 
+“I witnessed this woman swallowing an elephant.”
+The king ordered Srimonto to show him this sight.
+And promised him half of his kingdom and his daughter’s hand in marriage in return. 
+But if Srimonto failed to show him the scene, the king warned 
+He would be beheaded at the execution ground in the south. 
+
+The king travelled to Kalidaho to see Kamal Kamini.
+But to Srimonto’s embarrassment, the vision did not appear. 
+The goddess Bhagoboti stayed hidden among the lotuses.
+","Srimonto(PERSON), Kamal Kamini(PERSON), Srimonto(PERSON), half(CARDINAL), Srimonto(PERSON), Kalidaho(GPE), Kamal Kamini(PERSON), Srimonto(PERSON), Bhagoboti(PERSON)","['PERSON:11', 'PERSON:31', 'PERSON:49', 'CARDINAL:60', 'PERSON:77', 'GPE:106', 'PERSON:109', 'PERSON:115', 'PERSON:128']"
+/content/drive/MyDrive/ProjectData/s2/txt/p5.txt,"Wishing to upset Srimonto, she did not reveal herself.
+
+The enraged king summoned the warden and had Srimonto chained.
+Bound in chains and in pain, Srimonto started weeping. 
+And as he wept, he invoked Durga
+“Oh Shankari,” he cried, “I shall die, but you seem to be unconcerned 
+“That your name, Trailokyotarini will be tarnished.”
+Chandi, who in the form of a kite, was flying in the sky (heard his prayer). 
+She assumed the garb of an aged Brahmin woman and appeared before Srimonto.
+
+His chains fell away from him
+And a tearful Srimonto cried out in relief.
+With her eighteen arms Mother (Chandi) stood before him at the execution ground. 
+“Whose home have you visited, Ma? Who worshipped you?
+“My life has become worthwhile, Mother, having seen your eighteen arms.”
+
+","Srimonto(PERSON), Srimonto(PERSON), Srimonto(PERSON), Shankari(PERSON), Trailokyotarini(ORG), Brahmin(NORP), Srimonto(EVENT), eighteen(CARDINAL), Ma(PERSON), Mother(PERSON), eighteen(CARDINAL)","['PERSON:3', 'PERSON:20', 'PERSON:31', 'PERSON:47', 'ORG:70', 'NORP:106', 'EVENT:111', 'CARDINAL:133', 'PERSON:155', 'PERSON:169', 'CARDINAL:174']"
+/content/drive/MyDrive/ProjectData/s2/txt/p6.txt,"“I hereby grant you a boon, Srimonto”, (Durga replied)
+“You shall go and marry the daughter of King Shalbahon.”
+Thus, Srimonto married the princess Sushila.
+
+After the wedding, Srimonto returned home
+
+Where Khullona was herding goats in the forest of Aruna.
+Srimonto (also) rescued his father and brought him home.
+
+And installing the sacred water pot, introduced the custom of Durga Puja (worship).
+Garlanded with hibiscus and jasmine
+Shankar Bhabani (Durga) seemed to beckon from afar.
+
+And here ends my recitation.
+I, the writer, am Bahar Chitrakar of Medinipur. 
+Ah, Medinipur is where I live.","Srimonto(PERSON), Durga(ORG), King Shalbahon(PERSON), Srimonto(PERSON), Sushila(PERSON), Srimonto(PERSON), Khullona(PERSON), Aruna(PERSON), Srimonto(PERSON), Durga Puja(WORK_OF_ART), Shankar Bhabani(PERSON), Bahar Chitrakar(PERSON), Medinipur(GPE), Medinipur(PERSON)","['PERSON:8', 'ORG:12', 'PERSON:25', 'PERSON:32', 'PERSON:36', 'PERSON:43', 'PERSON:48', 'PERSON:56', 'PERSON:59', 'WORK_OF_ART:83', 'PERSON:96', 'PERSON:121', 'GPE:124', 'PERSON:129']"
+/content/drive/MyDrive/ProjectData/s3/txt/p1.txt,"(Standing) under a tree, Krishna played his flute.
+Upon hearing the melody, the gopis of Braja can barely stay still. 
+Some dance, some sing, while the rest chant (the name of) Hari.
+With Radha’s name on their lips, the sakhis roll on the ground in ecstasy.
+The lord (Krishna) has dressed his turban with a peacock feather. 
+Garlands from the different flowers of Braja adorn his head 
+And to the tinkling of cymbals and wooden clappers, a Bakul flower is added atop his head.
+On his feet, the Lord has tied anklets.
+","Krishna(PERSON), Braja(PERSON), Radha(ORG), Krishna(PERSON), Garlands(GPE), Braja(PERSON), Bakul(ORG)","['PERSON:7', 'PERSON:21', 'ORG:47', 'PERSON:67', 'GPE:79', 'PERSON:85', 'ORG:101']"
+/content/drive/MyDrive/ProjectData/s3/txt/p2.txt,"The Lord hurried to Bidur’s abode. 
+Raja Duryadhana covered his mouth with a cloth and sniggered.
+“Bidur, are you home? O Bidur are you home? 
+“For three days I have fasted at your abode.
+Bidur, the Vaishnav was so absorbed in the adoration of Hari 
+That he put a banana peel into Krishna’s mouth, discarding the banana.
+“If I am born a human in my next life 
+I shall sing praises of Krishna with all my heart.”
+","Bidur(ORG), Raja Duryadhana(PERSON), Bidur(ORG), Bidur(PERSON), three days(DATE), Bidur(ORG), Vaishnav(LOC), Hari(PERSON), Krishna(PERSON), Krishna(PERSON)","['ORG:4', 'PERSON:9', 'ORG:22', 'PERSON:29', 'DATE:37', 'ORG:47', 'LOC:50', 'PERSON:58', 'PERSON:67', 'PERSON:93']"
+/content/drive/MyDrive/ProjectData/s3/txt/p3.txt,"Ganga came on a shark, Yama on a buffalo
+Govinda came on Garuda; the king was disturbed.
+","Ganga(GPE), Yama(PERSON), Garuda(PERSON)","['GPE:0', 'PERSON:6', 'PERSON:14']"
+/content/drive/MyDrive/ProjectData/s3/txt/p4.txt,"(While) the Sun and the Moon rose at the abode of Kamsa
+To Daivaki’s womb,the Lord went to be born. 
+Mother Daivaki was fast asleep on her bed.
+Standing near her head, the Lord caused her to dream. 
+O Mother Daivaki, why do you slumber so deep?
+Govinda seeks shelter in your womb. 
+In her slumber, the queen narrated a story:
+“In my womb, my dear, there is no space left.
+“To six sons, I had given birth, but Kamsa has slayed them all.
+“Stricken with grief, I have been weeping ever since.”
+In the form of a white fly, (Govinda) crept into her womb.
+The first month passed; the second month too.
+Upon the tenth day of the tenth month the news spread.
+On the eighth lunar day of Bhadra, Govinda was born.
+Daivaki had given birth to Lord Narayana. 
+","Sun(ORG), Moon(PERSON), Kamsa(GPE), Daivaki(GPE), Mother Daivaki(PERSON), Govinda(PERSON), six(CARDINAL), Kamsa(PERSON), Stricken(GPE), Govinda(PERSON), The first month(DATE), the second month(DATE), the tenth day of the tenth month(DATE), the eighth lunar day(DATE), Govinda(PERSON), Daivaki(GPE), Narayana(PERSON)","['ORG:4', 'PERSON:7', 'GPE:13', 'GPE:16', 'PERSON:28', 'PERSON:63', 'CARDINAL:99', 'PERSON:108', 'GPE:116', 'PERSON:138', 'DATE:146', 'DATE:151', 'DATE:158', 'DATE:171', 'PERSON:178', 'GPE:183', 'PERSON:189']"
+/content/drive/MyDrive/ProjectData/s3/txt/p5.txt,"Picking up his son still covered in birth fluid
+Basudeva gently kissed his face. 
+“I have walked and walked; much time has passed.”
+The waves of the dark Yamuna (Kalindi) soared in a tumult. 
+The water, earlier knee-high, rose to the height of a bamboo pole.
+Lord Krishna slipped (from his father’s arms) and started floating upon a lotus leaf.
+“O, what has happened! This wretched fate of mine! 
+“What a catastrophe I have to deal with at this advanced age of mine.” 
+Basudeva’s lamentations yielded (Krishna’s) sympathy. 
+Keeping two hands with the river (the child) climbed back on to his lap.
+","Basudeva(PERSON), Yamuna(LOC), Krishna(PERSON), lotus(ORG), Basudeva(PERSON), Krishna(PERSON), two(CARDINAL)","['PERSON:10', 'LOC:36', 'PERSON:65', 'ORG:79', 'PERSON:115', 'PERSON:120', 'CARDINAL:127']"
+/content/drive/MyDrive/ProjectData/s3/txt/p6.txt,"Krishna was exchanged at the house of Nanda (for a newborn baby girl). 
+(On being hugged by Devaki) the girl began to cry. 
+Hearing the cry, Kamsa’s messenger, who knows where he was hiding, instantly appeared at the doorway.
+Snatching the child, he hurled her upon a stone.
+But slipping from his grasp, young Durga flew up to heaven. 
+From the heavenly Himalayas, she spoke. 
+“What will you achieve, O hero, by killing me? 
+“The one who shall kill you will be Gokul-born.”
+Hearing the heavenly prophesy (he) started speaking (crying).
+
+The foolish milkman’s daughter, realizing nothing
+Placed (the little) Sri Hari on the demoness’ lap. 
+The (baby) Narayana gurgled delightedly 
+And started suckling (at her breast), drinking the demoness’ milk. ","Krishna(PERSON), Nanda(PERSON), Devaki(PERSON), Kamsa(PERSON), Himalayas(LOC), Gokul(PERSON), milkman(PERSON), Sri Hari(PERSON), Narayana(PERSON)","['PERSON:0', 'PERSON:7', 'PERSON:22', 'PERSON:35', 'LOC:82', 'PERSON:111', 'PERSON:133', 'PERSON:145', 'PERSON:158']"
+/content/drive/MyDrive/ProjectData/s3/txt/p7.txt,"He suckled again and sucked Putana’s life out.
+Howling with pain, Putana fell dead to the ground. 
+And all the living creatures there dragged her out. 
+","Putana(ORG), Putana(ORG)","['ORG:5', 'ORG:15']"
+/content/drive/MyDrive/ProjectData/s3/txt/p8.txt,Krishna slayed Agasura and the bird Bagasura in the water. ,"Krishna(PERSON), Agasura(PERSON), Bagasura(ORG)","['PERSON:0', 'PERSON:2', 'ORG:6']"
+/content/drive/MyDrive/ProjectData/s3/txt/p9.txt,"He ripped off the horse Keshari’s head with a whack. 
+All the heads steeped in sin, tumbled noisily to the ground.",Keshari(PERSON),['PERSON:5']
+/content/drive/MyDrive/ProjectData/s3/txt/p10.txt,"Tying up the calf, Yashoda milked the cow.
+The two brothers Krishna-Balarama stole the butter. 
+Fortunate Mother Yashoda (who) had been churning buttermilk
+With a rope Yashoda tied them up. 
+Having feasted of the curd and milk, the Lord lay down to sleep","Yashoda(PERSON), two(CARDINAL), Krishna-Balarama(PERSON), Yashoda(PERSON), Yashoda(PERSON)","['PERSON:5', 'CARDINAL:12', 'PERSON:14', 'PERSON:24', 'PERSON:36']"
+/content/drive/MyDrive/ProjectData/s3/txt/p11.txt,"(When) the two-faced Sakat arrived to carry him away to Mathura.
+With an umbrella upon his shoulders, a stick in his hand, he crossed (the river) with his cattle.
+And carried Kamala, the calf, across so that she would not drown.
+In bounteous palm and honey forests, Krishna rejoiced (with his friends).
+While his cattle grazed, Krishna played in the forest. 
+","two(CARDINAL), Sakat(ORG), Mathura(GPE), Kamala(PERSON), Krishna(PERSON), Krishna(PERSON)","['CARDINAL:4', 'ORG:7', 'GPE:14', 'PERSON:43', 'PERSON:64', 'PERSON:78']"
+/content/drive/MyDrive/ProjectData/s3/txt/p12.txt,"The night of Ram (Navami) ended and unaccompanied by their husbands
+All the sakhis walked towards the Yamuna for a bath.
+Govinda stole all their clothes 
+And then threw the clothes back, one by one.","The night(TIME), Ram(PERSON), Navami(PERSON), Yamuna(LOC), Govinda(PERSON), one(CARDINAL), one(CARDINAL)","['TIME:0', 'PERSON:3', 'PERSON:5', 'LOC:20', 'PERSON:26', 'CARDINAL:39', 'CARDINAL:41']"
+/content/drive/MyDrive/ProjectData/s3/txt/p13.txt,"“You are such a handsome boatman, (but) your boat is broken.”
+“It’s not a broken boat O sakhi, but a charioteer’s boat. 
+“I have carried horses and elephants across, how heavy could you be?
+“Sit as you please O sakhi, in front of me or up ahead. 
+“Droplets of water may trickle in, don’t giggle with shame.
+“I will take an anna each to carry all your companions. 
+“But to row Sri Radhika across, I shall take a gold earring.
+“To carry all the sakhis across I will take a buri apiece
+“But to carry Sri Radhika across, I shall have the bangles on her wrist.”
+Lord Narayan preserved Radhika’s honour.
+(Thus) Ayan Ghosh stood bemused as he beheld
+Srimati (Radha) offering flowers at the feet of Kali.
+A serpent wound itself around the Lord. 
+In agony from the poison, the Lord turned blue.
+Endangered, as he was, the Lord evoked Garuda. 
+Hearing Garuda’s roar, the serpent fled to the netherworld. ","Sri Radhika(PERSON), Sri Radhika(PERSON), Narayan(PERSON), Radhika(PERSON), Ayan Ghosh(PERSON), Srimati(ORG), Radha(PERSON), Kali(PERSON), Garuda(PERSON), Hearing Garuda(PERSON)","['PERSON:101', 'PERSON:131', 'PERSON:147', 'PERSON:149', 'PERSON:157', 'ORG:165', 'PERSON:167', 'PERSON:175', 'PERSON:208', 'PERSON:211']"
+/content/drive/MyDrive/ProjectData/s3/txt/p14.txt,"Saved from the serpent, (Krishna) performed the raasa.
+
+In Vrindavana, Raasa was celebrated in the bowers of sixteen-hundred gopinis. 
+Each gopi danced joyously in her own bower. 
+Within the bowers, Madhusudan (Krishna) played his flute.","Krishna(PERSON), Vrindavana(GPE), Raasa(ORG), sixteen-hundred(CARDINAL), Madhusudan(PERSON), Krishna(PERSON)","['PERSON:6', 'GPE:14', 'ORG:16', 'CARDINAL:23', 'PERSON:43', 'PERSON:45']"
+/content/drive/MyDrive/ProjectData/s3/txt/p15.txt,"Whoever drives the chariot must slay the gopis first. 
+Seizing the chariot’s wheels, the gopis threw themselves on the ground.
+
+
+The story of Krishna’s raasaleela is hereby completed.
+By the virtue of Krishna’s raasaleela everything thrives eternally. 
+This is where I end my poetic offering. 
+Medinipur’s Bahar Chitrakar is the name of the author. 
+O, Medinipur is the address. 
+
+","first(ORDINAL), gopis(PERSON), Krishna(PERSON), raasaleela(PERSON), Krishna(PERSON), raasaleela(PERSON), Medinipur(PERSON), Bahar Chitrakar(PERSON), Medinipur(PERSON)","['ORDINAL:8', 'PERSON:18', 'PERSON:29', 'PERSON:31', 'PERSON:41', 'PERSON:43', 'PERSON:59', 'PERSON:61', 'PERSON:73']"
+/content/drive/MyDrive/ProjectData/s4/txt/p1.txt,"When the divine Krishna plays his flute under the shade of a tree 
+All the gopis of Braj go into raptures.
+Some dance, some sing while some chant “Hari”.
+With Radha’s name on their lips, they roll on the ground in ecstasy.
+The lord (Krishna) has tied his turban with a peacock feather. 
+A garland made from all the flowers of Braj adorns his head.
+To the tinkling of cymbals, a Bakul flower is added to the garland. 
+On his feet the Lord has worn anklets.","Krishna(PERSON), Braj(PERSON), Hari(PERSON), Radha(ORG), Krishna(PERSON), Braj(PERSON), Bakul(ORG)","['PERSON:3', 'PERSON:18', 'PERSON:33', 'ORG:38', 'PERSON:57', 'PERSON:77', 'ORG:90']"
+/content/drive/MyDrive/ProjectData/s4/txt/p2.txt,"A veiled Radha is on her way to the river to collect water. 
+Her gait is graceful and alluring.
+As the sun sets, she sees Kanai (Krishna) waiting by the pond.
+
+Seeing him, Radha quickly draws her veil across herself.
+She berates him: “I have had to cover my bosom on your account.
+“Who has summoned you here, shameless Kanai (Krishna)? “ 
+“Nobody has sent for me, Aunt; I have come on my own. “
+(Radha responds:) “You are my nephew and I, your aunt.”
+(Krishna replies:) “If you are my maternal uncle’s wife, indeed you belong to another family.
+“I, the shameless Kanai, am only teasing you.”
+","Radha(PERSON), Kanai(PERSON), Krishna(PERSON), Radha(PERSON), Kanai(PERSON), Krishna(PERSON), Aunt(PERSON), Radha(PERSON), Krishna(PERSON), Kanai(ORG)","['PERSON:2', 'PERSON:30', 'PERSON:32', 'PERSON:43', 'PERSON:77', 'PERSON:79', 'PERSON:91', 'PERSON:103', 'PERSON:120', 'ORG:146']"
+/content/drive/MyDrive/ProjectData/s4/txt/p3.txt,"(Responds Radha:) “Let Nanda Ghosh (Krishna’s adoptive father) come here and I shall fix you.
+“The cows of your shed shall be sold and I shall humble you.”
+“Let my cows be lost,” (says Krishna); “I shall rear cows afresh. 
+“But where will I find an aunt as beautiful as you?”
+“Why do you yearn for someone else’s woman?
+“Go home and ask your father to get you married off!”
+“I did try, Aunt,” says Krishna, “but my fate has been sealed. 
+“I am to marry someone who is called Radha.
+
+“Don’t keep calling me dark, Bhanu Ghosh’s daughter. 
+“God has made me dark, what can I do?
+“The waters of the Yamuna are dark, so why do you fill your pitcher with it? 
+“Your bosom will be my pitcher, your hair my rope.
+“For me, your heart is the water of the Yamuna.
+“I will drown myself in these waters – this is my desire.”","Nanda Ghosh(PERSON), Krishna(PERSON), Krishna(PERSON), Krishna(PERSON), Radha(PERSON), Bhanu Ghosh(PERSON), Yamuna(LOC), Yamuna(LOC)","['PERSON:6', 'PERSON:9', 'PERSON:50', 'PERSON:112', 'PERSON:132', 'PERSON:143', 'LOC:167', 'LOC:207']"
+/content/drive/MyDrive/ProjectData/s4/txt/p4.txt,"Krishna is filled with remorse.
+He commands his flute to turn into a black snake. 
+The flute-turned-snake lies in wait on the road.
+",Krishna(PERSON),['PERSON:0']
+/content/drive/MyDrive/ProjectData/s4/txt/p5.txt,"Curling around her right ankle, it bites Radha’s left ankle.
+Radha (in desperation) agrees to whatever Krishna had asked for. 
+“The snake has bitten me, save me please,” she cries.
+“Tell me truthfully, aunt,“ (says Krishna) “how far has the poison spread?”
+“It has spread to every part of my body,” she cries. 
+Krishna then, using his divine touch, drives away the poison from her body. 
+Rid of the poison, Radha opens her eyes.
+","Radha(PERSON), Radha(PERSON), Krishna(PERSON), Krishna(PERSON), Krishna(PERSON), Radha(PERSON)","['PERSON:8', 'PERSON:14', 'PERSON:22', 'PERSON:54', 'PERSON:82', 'PERSON:104']"
+/content/drive/MyDrive/ProjectData/s4/txt/p6.txt,"Krishna now assumes the form of Krishna Kali.
+Ayan Ghosh stands there in deep thought, observing the scene. 
+Seeing Radha offering flowers at Kali’s feet
+He orders Jotila and Kutila not to disturb Radha. 
+And that is how aunt and nephew are united. ","Krishna(PERSON), Krishna Kali(PERSON), Ayan Ghosh(PERSON), Radha(PERSON), Kali(PERSON), Jotila(PERSON), Kutila(PERSON), Radha(PERSON)","['PERSON:0', 'PERSON:6', 'PERSON:10', 'PERSON:24', 'PERSON:28', 'PERSON:34', 'PERSON:36', 'PERSON:40']"
+/content/drive/MyDrive/ProjectData/s4/txt/p7.txt,"And here I end my recitation.
+I, the writer, am Bahar Chitrakar 
+And I live in Medinipur.
+Ah, Medinipur is where I live.","Bahar Chitrakar(PERSON), Medinipur(GPE), Medinipur(PERSON)","['PERSON:14', 'GPE:21', 'PERSON:26']"
+/content/drive/MyDrive/ProjectData/s5/txt/p1.txt,"When the divine Krishna plays his flute under the shade of a tree 
+All the gopis of Braj go into raptures.
+Some dance, some sing while some chant “Hari”.
+With Radha’s name on their lips, they roll on the ground in ecstasy.
+The lord (Krishna) has tied his turban with a peacock feather. 
+A garland made from all the flowers of Braj adorns his head.
+To the tinkling of cymbals, a Bakul flower is added to the garland. 
+On his feet the Lord has worn anklets.","Krishna(PERSON), Braj(PERSON), Hari(PERSON), Radha(ORG), Krishna(PERSON), Braj(PERSON), Bakul(ORG)","['PERSON:3', 'PERSON:18', 'PERSON:33', 'ORG:38', 'PERSON:57', 'PERSON:77', 'ORG:90']"
+/content/drive/MyDrive/ProjectData/s5/txt/p2.txt,"A veiled Radha is on her way to the river to collect water. 
+Her gait is graceful and alluring.
+As the sun sets, she sees Kanai (Krishna) waiting by the pond.","Radha(PERSON), Kanai(PERSON), Krishna(PERSON)","['PERSON:2', 'PERSON:30', 'PERSON:32']"
+/content/drive/MyDrive/ProjectData/s5/txt/p3.txt,"Seeing him, Radha quickly draws her veil across herself.
+She berates him: “I have had to cover my bosom on your account.
+“Who has summoned you here, shameless Kanai (Krishna)? “ 
+“Nobody has sent for me, Aunt; I have come on my own. “
+(Radha responds:) “You are my nephew and I, your aunt.”
+(Krishna replies:) “If you are my maternal uncle’s wife, indeed you belong to another family.
+“I, the shameless Kanai, am only teasing you.”","Radha(PERSON), Kanai(PERSON), Krishna(PERSON), Aunt(PERSON), Radha(PERSON), Krishna(PERSON), Kanai(ORG)","['PERSON:3', 'PERSON:37', 'PERSON:39', 'PERSON:51', 'PERSON:63', 'PERSON:80', 'ORG:106']"
+/content/drive/MyDrive/ProjectData/s5/txt/p4.txt,"(Responds Radha:) “Let Nanda Ghosh (Krishna’s adoptive father) come here and I shall fix you.
+“The cows of your shed shall be sold and I shall humble you.”
+","Nanda Ghosh(PERSON), Krishna(PERSON)","['PERSON:6', 'PERSON:9']"
+/content/drive/MyDrive/ProjectData/s5/txt/p5.txt,"“Let my cows be lost,” (says Krishna); “I shall rear cows afresh. 
+“But where will I find an aunt as beautiful as you?”
+",Krishna(PERSON),['PERSON:10']
+/content/drive/MyDrive/ProjectData/s5/txt/p6.txt,"“Why do you yearn for someone else’s woman?
+“Go home and ask your father to get you married off!”
+“I did try, Aunt,” says Krishna, “but my fate has been sealed. 
+“I am to marry someone who is called Radha.
+","Krishna(PERSON), Radha(PERSON)","['PERSON:36', 'PERSON:56']"
+/content/drive/MyDrive/ProjectData/s5/txt/p7.txt,"“Don’t keep calling me dark, Bhanu Ghosh’s daughter. 
+“God has made me dark, what can I do?
+“The waters of the Yamuna are dark, so why do you fill your pitcher with it? 
+“Your bosom will be my pitcher, your hair my rope.
+“For me, your heart is the water of the Yamuna.
+“I will drown myself in these waters – this is my desire.”","Bhanu Ghosh(PERSON), Yamuna(LOC), Yamuna(LOC)","['PERSON:8', 'LOC:32', 'LOC:72']"
+/content/drive/MyDrive/ProjectData/s5/txt/p8.txt,"Krishna is filled with remorse.
+He commands his flute to turn into a black snake. 
+The flute-turned-snake lies in wait on the road.
+Curling around her right ankle, it bites Radha’s left ankle.
+Radha (in desperation) agrees to whatever Krishna had asked for. 
+“The snake has bitten me, save me please,” she cries.
+“Tell me truthfully, aunt,“ (says Krishna) “how far has the poison spread?”
+“It has spread to every part of my body,” she cries. 
+Krishna then, using his divine touch, drives away the poison from her body. 
+Rid of the poison, Radha opens her eyes.
+","Krishna(PERSON), Radha(PERSON), Radha(PERSON), Krishna(PERSON), Krishna(PERSON), Krishna(PERSON), Radha(PERSON)","['PERSON:0', 'PERSON:41', 'PERSON:47', 'PERSON:55', 'PERSON:87', 'PERSON:115', 'PERSON:137']"
+/content/drive/MyDrive/ProjectData/s5/txt/p9.txt,"Krishna now assumes the form of Krishna Kali.
+Ayan Ghosh stands there in deep thought, observing the scene. 
+Seeing Radha offering flowers at Kali’s feet
+He orders Jotila and Kutila not to disturb Radha. 
+And that is how aunt and nephew are united. 
+
+And here I end my recitation.
+I, the writer, am Bahar Chitrakar 
+And I live in Medinipur.
+Ah, Medinipur is where I live.","Krishna(PERSON), Krishna Kali(PERSON), Ayan Ghosh(PERSON), Radha(PERSON), Kali(PERSON), Jotila(PERSON), Kutila(PERSON), Radha(PERSON), Bahar Chitrakar(PERSON), Medinipur(GPE), Medinipur(PERSON)","['PERSON:0', 'PERSON:6', 'PERSON:10', 'PERSON:24', 'PERSON:28', 'PERSON:34', 'PERSON:36', 'PERSON:40', 'PERSON:68', 'GPE:75', 'PERSON:80']"
+/content/drive/MyDrive/ProjectData/s6/txt/p1.txt,"(Standing) under a tree, Krishna, played his flute.
+Upon hearing the melody, the gopis of Braja can barely keep still.
+Some dance, some sing, while the rest chant (the name of) Hari 
+With Radha’s name on their lips, the sakhis roll on the ground in ecstasy.
+The lord (Krishna) has dressed his turban with a peacock feather.
+Garlands from the different flowers of Braja adorn his head.
+And atop the variety of Braja garlands, a Bakul flower too is placed.
+Golden anklets tinkle on his feet. 
+","Krishna(PERSON), Braja(PERSON), Radha(ORG), Krishna(PERSON), Garlands(GPE), Braja(PERSON), Braja garlands(GPE), Bakul(PERSON)","['PERSON:7', 'PERSON:22', 'ORG:47', 'PERSON:67', 'GPE:79', 'PERSON:85', 'GPE:96', 'PERSON:100']"
+/content/drive/MyDrive/ProjectData/s6/txt/p2.txt,"The Lord hurried to Bidur’s abode.
+Raja Duryadhana covered his mouth with a cloth and sniggered 
+“Bidur, are you home? O Bidur are you home?
+“For three days I have fasted at your abode.” 
+Bidur had (layers of) sewn cloth in his home
+Which he offered promptly as a seat (for Krishna).
+Bidur and the Vaishnavi are absorbed in the adoration of Hari. 
+Offering a banana to the Brahmana, they discarded the peel on the floor.
+Bidur exclaims, “O mother, If I am reborn as a human
+I shall sing praises of Krishna with all my heart.”
+","Bidur(ORG), Raja Duryadhana(PERSON), Bidur(ORG), Bidur(PERSON), three days(DATE), Bidur(ORG), Krishna(PERSON), Bidur(ORG), Hari(PERSON), Brahmana(PERSON), Bidur(ORG), Krishna(PERSON)","['ORG:4', 'PERSON:9', 'ORG:21', 'PERSON:28', 'DATE:36', 'ORG:47', 'PERSON:68', 'ORG:72', 'PERSON:82', 'PERSON:90', 'ORG:101', 'PERSON:121']"
+/content/drive/MyDrive/ProjectData/s6/txt/p3.txt,"King Kamsa of Mathura was a tyrannical ruler.
+52 crores of sages devoted to 33 crores of gods (assembled). 
+Ganga came on a shark, Yama on a Buffalo
+Pavana came on a deer; the king was disturbed. 
+Govinda, the lord of Dwaraka, came on Garuda. 
+Upon an ox came the five-headed Mahadeva.","Kamsa(PERSON), Mathura(GPE), 52 crores(QUANTITY), 33 crores(MONEY), Ganga(GPE), Yama(PERSON), Buffalo(GPE), Govinda(PERSON), Dwaraka(PERSON), Garuda(PERSON), five(CARDINAL), Mahadeva(PERSON)","['PERSON:1', 'GPE:3', 'QUANTITY:10', 'MONEY:16', 'GPE:25', 'PERSON:31', 'GPE:34', 'PERSON:48', 'PERSON:53', 'PERSON:57', 'CARDINAL:65', 'PERSON:68']"
+/content/drive/MyDrive/ProjectData/s6/txt/p4.txt,"(While) the Sun and the Moon rose at Kamsa’s abode
+The Lord went to Daivaki’s to be born.
+Mother Daivaki, was fast asleep on her bed. 
+Standing near her head the Lord caused her to dream.
+Mother Daivaki, why do you slumber so deep? 
+Govinda seeks shelter in your womb.
+“In my womb, my dear, there is no space left.”
+In the form of a white fly, (Govinda) crept into her womb.
+The first month passed; the second month too.
+Upon the tenth day of the tenth month the news spread.
+On the eighth lunar day of Bhadra, Govinda was born. 
+Daivaki had given birth to Lord Narayana.
+","Sun(ORG), Moon(PERSON), Kamsa(GPE), Daivaki(GPE), Mother Daivaki(PERSON), Mother Daivaki(PERSON), Govinda(PERSON), Govinda(PERSON), The first month(DATE), the second month(DATE), the tenth day of the tenth month(DATE), the eighth lunar day(DATE), Govinda(PERSON), Daivaki(GPE), Narayana(PERSON)","['ORG:4', 'PERSON:7', 'GPE:10', 'GPE:18', 'PERSON:25', 'PERSON:48', 'PERSON:59', 'PERSON:92', 'DATE:100', 'DATE:105', 'DATE:112', 'DATE:125', 'PERSON:132', 'GPE:137', 'PERSON:143']"
+/content/drive/MyDrive/ProjectData/s6/txt/p5.txt,"Picking up his son still covered in birth fluid 
+Basudeva gently kissed his face
+He walked and walked and time went by
+The waves of the dark Yamuna (Kalindi) soared in a tumult.
+The water, earlier knee-high, rose to the height of a bamboo pole.
+Lord Krishna slipped (from his father’s arms) and started floating upon a lotus leaf.
+“O what has happened! This wretched fate of mine!
+“What a catastrophe I have to deal with at this advanced age of mine.” 
+(The Lord) heard Basudeva’s wail and took pity.
+Keeping two hands with the river (the child) climbed back on to his lap. 
+At the house of Nanda, Krishna was exchanged for a (newborn) baby girl.
+That baby girl was brought back and placed on Daivaki’s lap.","Basudeva(PERSON), Yamuna(LOC), Krishna(PERSON), lotus(ORG), Basudeva(PERSON), two(CARDINAL), Nanda(PERSON), Krishna(PERSON), Daivaki(GPE)","['PERSON:10', 'LOC:30', 'PERSON:59', 'ORG:73', 'PERSON:113', 'CARDINAL:122', 'PERSON:143', 'PERSON:145', 'GPE:166']"
+/content/drive/MyDrive/ProjectData/s6/txt/p6.txt,"Suckling (at Putana’s breast) Krishna began to drink her milk. 
+He suckled again and sucked Putana’s life out.
+Screaming with pain, Putana fell dead to the ground
+And all the living creatures there dragged her out.","Putana(ORG), Krishna(PERSON), Putana(ORG), Putana(ORG)","['ORG:3', 'PERSON:7', 'ORG:20', 'ORG:30']"
+/content/drive/MyDrive/ProjectData/s6/txt/p7.txt,"The night of Ram (Navami) ended and unaccompanied by their husbands
+All the sakhis walked towards the Yamuna for a bath.
+Their clothes were all stolen by Govinda
+Who played his transverse flute on the Kadam tree.
+“O moon-faced friends, I tell you
+“Raise your arms and beg for your clothes.” 
+Having seen the sakhis naked
+He threw their clothes back to them, one by one.
+
+(Krishna) built a boat and ferried Radhika across the river. 
+You are such a handsome boatman, (but) your boat is broken.
+“It’s not a broken boat O sakhi, but a charioteer’s boat.
+“I have carried horses and elephants across, how heavy could you be?
+“Sit as you please O sakhi, in front of me or up ahead.
+“You may need to scoop out a little water, don’t giggle with shame.
+","The night(TIME), Ram(PERSON), Navami(PERSON), Yamuna(LOC), Govinda(ORG), Kadam(PERSON), one(CARDINAL), one(CARDINAL), Krishna(PERSON), Radhika(PERSON)","['TIME:0', 'PERSON:3', 'PERSON:5', 'LOC:20', 'ORG:32', 'PERSON:41', 'CARDINAL:82', 'CARDINAL:84', 'PERSON:88', 'PERSON:95']"
+/content/drive/MyDrive/ProjectData/s6/txt/p8.txt,"Lord Narayan, preserving Radhika’s honour
+Took the form of Krishna-Kali in the Nidhu grove. 
+Ayan Ghosh wondered as he beheld
+Srimati (Radha) offering flowers at the feet of Kali. 
+The story of Krishna Leela ends here.
+All chant Krishna’s name with love and joy. 
+In Medinipur district’s Habichak I reside. 
+Singing the song of Krishna Leela for you, I am Jharna Chitrakar.
+","Narayan(PERSON), Radhika(PERSON), Krishna-Kali(PERSON), Nidhu(PERSON), Ayan Ghosh(PERSON), Srimati(ORG), Radha(PERSON), Kali(PERSON), Krishna Leela(PERSON), Krishna(PERSON), Medinipur(GPE), Krishna Leela(PERSON), Jharna Chitrakar(PERSON)","['PERSON:1', 'PERSON:4', 'PERSON:12', 'PERSON:17', 'PERSON:21', 'ORG:28', 'PERSON:30', 'PERSON:38', 'PERSON:44', 'PERSON:52', 'GPE:62', 'PERSON:74', 'PERSON:81']"
+/content/drive/MyDrive/ProjectData/s7/txt/p1.txt,"Hail the vanquisher of poison—Manasa, the grace of this world
+Upon a lotus flower the maiden (Manasa) was born. 
+She traversed with a bora snake, two- and-a-half kingdoms in length.
+The nasty merchant (Chand Sadagar) hurled an oblique glance at her. 
+With an oblique gaze (upon Manasa) the merchant wrung his beard angrily.
+And this old man leaped around with a hental staff upon his shoulder. 
+“Should I get hold of that devious wretch 
+“I would smash her hip with a blow of this hental staff.” ","Manasa(PERSON), Manasa(PERSON), Chand Sadagar(GPE), Manasa(PERSON)","['PERSON:6', 'PERSON:21', 'GPE:49', 'PERSON:66']"
+/content/drive/MyDrive/ProjectData/s7/txt/p2.txt,"Upon hearing such abuse, Bishahari (the vanquisher of poison)
+Devoured the six sons of Chand in a fit of rage 
+Having devoured the six sons, six brides were widowed. 
+Never in his life has the old man (Chand) offered even a handful of flowers (in worship of Manasa).
+While others sing songs in her praise in honey-sweet voices
+His worship is a constant battle with the One-eyed Wretch (chyang muri kani)
+“I still have my youngest son, my precious Lakkhindar.”","Bishahari(PERSON), six(CARDINAL), six(CARDINAL), six(CARDINAL), Chand(PERSON), Manasa(PERSON), One(CARDINAL), muri kani(PERSON), Lakkhindar(ORG)","['PERSON:5', 'CARDINAL:15', 'CARDINAL:28', 'CARDINAL:31', 'PERSON:46', 'PERSON:58', 'CARDINAL:83', 'PERSON:89', 'ORG:103']"
+/content/drive/MyDrive/ProjectData/s7/txt/p3.txt,"Chand goes to the city of Champaknagar to get his son married there.
+Amala, the wife of the merchant of Champaknagar
+Has named her daughter Behula—the dancer.
+Old man Dannadan is sent off to arrange the match.
+Having fixed it up, the childless man died.
+Following the wedding, Lakkhindar gets ready to go to the nuptial chamber. 
+Bearers took the front and back (of the palanquin) upon their shoulders 
+While sweet royal melodies flowed from the Mohan-flute.","Champaknagar(GPE), Amala(PERSON), Champaknagar(GPE), Behula(PERSON), Dannadan(PERSON), Lakkhindar(ORG), Mohan(PERSON)","['GPE:6', 'PERSON:15', 'GPE:23', 'PERSON:29', 'PERSON:37', 'ORG:62', 'PERSON:95']"
+/content/drive/MyDrive/ProjectData/s7/txt/p4.txt,"An iron-cast nuptial chamber was built atop Santali hill.
+There, Lakhindar, soon fell into a deep sleep. 
+Slender as a thread, the snake Kali, sneaked into the room.
+Lakkhindar’s beauty made the snake waver. 
+Where should I bite this dark and handsome man? 
+(But) How would I respond if the gods were to question me? 
+With the sun and the moon as its witnesses, it sank its fangs (into Lakkhindar). 
+“Wake-up, wake-up merchant Shai’s daughter,” (cried Lakkhindar). 
+“Doomed sleep has devoured you, and what devoured me?” 
+(She) flung a golden betel nut cracker at the snake
+That severed two-and-a-half finger’s length of its tail. 
+Writhing in pain, the snake fled. 
+Nyara, the servant ran to the trader saying
+“Listen O Sir, your son has died.” 
+Hearing this news Chand started dancing (in fury).
+“Oh, it is good that my boy Lakkhindar has died,” he cried.
+Swinging hental staves in both hands, he started dancing.
+“How long,” he asks a woman, “for the day to break?”
+“Roasted fish I shall eat, along with fermented rice.” 
+“You had given me conch shell bangles and saris, (now) take them away (from me).
+(And) prepare one banana tree o father- in-law”.
+One banana tree was cut into three. 
+Upon the raft fastened with bamboo pegs, Behula sailed away.
+Floating and drifting, the raft went away. 
+(Her) six brothers, in hot pursuit, rushed to meet her.
+The brother said, “O dear sister, beloved sister 
+“Why are you sailing the waters with that rotten carcass?
+“Come back home, we shall look after you. 
+“Our six wives shall serve under you.” 
+“The house of my parents, o brother, doesn’t suit me anymore.
+“One is forever at loggerheads with the sisters-in-law.” 
+Having consoled her brothers, she sailed on.
+The raft floated up to Gada’s quay. 
+Gada doesn’t eat just rice, he catches rui fish (carp) as well.
+With swollen legs and a massive hump on his shoulders, Gada 
+The one-with-the-fish-hook casts his fishing rod here and there. 
+“(Let there be) Ash in your mouth Gada, ash in your mouth.
+“I am a servant of mother Manasa, I sail upon these waters.” 
+Having cursed Gada, Behula sailed on. 
+","Santali hill(GPE), Lakhindar(ORG), Kali(PERSON), Lakkhindar(ORG), Lakkhindar(ORG), Shai(PERSON), Lakkhindar(PERSON), two(CARDINAL), Nyara(GPE), Chand(PERSON), Lakkhindar(PERSON), the day(DATE), saris(PRODUCT), one(CARDINAL), One(CARDINAL), three(CARDINAL), Behula(PERSON), six(CARDINAL), six(CARDINAL), One(CARDINAL), Gada(PERSON), Gada(PERSON), Gada(PERSON), one(CARDINAL), Gada(PERSON), Manasa(PERSON), Gada(PERSON), Behula(GPE)","['GPE:9', 'ORG:15', 'PERSON:32', 'ORG:40', 'ORG:92', 'PERSON:105', 'PERSON:112', 'CARDINAL:145', 'GPE:169', 'PERSON:194', 'PERSON:212', 'DATE:245', 'PRODUCT:275', 'CARDINAL:293', 'CARDINAL:304', 'CARDINAL:310', 'PERSON:321', 'CARDINAL:339', 'CARDINAL:391', 'CARDINAL:418', 'PERSON:448', 'PERSON:453', 'PERSON:482', 'CARDINAL:485', 'PERSON:513', 'PERSON:528', 'PERSON:540', 'GPE:542']"
+/content/drive/MyDrive/ProjectData/s7/txt/p5.txt,"She sailed avoiding the banks of foxes and dogs.
+And many other such banks she went past. 
+(Finally) the raft drifted to the quay of Tamluk.
+Dhana-Mana—the two boys, were lying on a bed. 
+Nitai (Neta), the washerwoman, washed clothes on the river bank of Tamluk.
+“The rotting stink spreads about but how can I get rid of it?” (laments Behula).
+A white crow has even bitten the head of Lakkhindar.
+Two piles of (washed) clothes were put across for drying. 
+Behula’s wash was clean and bright. 
+Taking the clothes, Behula went to the abode of the gods
+And started dancing before Brahma, Vishnu, and Shiva. 
+She pleased the gods with her performance. 
+“What boon do you want, Behula, tell me?”
+“Resurrect my six brothers-in-law and my husband.” 
+“This boon I grant you Behula, I grant you this boon.”
+A small white boat she decorated with heartfelt joy 
+(And) Behula returned home only when her husband was brought back to life. ","Dhana-Mana(ORG), two(CARDINAL), Nitai(PERSON), Neta(PERSON), Tamluk(GPE), Behula(PERSON), Lakkhindar(ORG), Two(CARDINAL), Behula(PERSON), Behula(PERSON), Brahma(PERSON), Behula(GPE), six(CARDINAL), Behula(PERSON), Behula(PERSON)","['ORG:34', 'CARDINAL:39', 'PERSON:49', 'PERSON:51', 'GPE:64', 'PERSON:85', 'ORG:98', 'CARDINAL:101', 'PERSON:115', 'PERSON:128', 'PERSON:141', 'GPE:165', 'CARDINAL:175', 'PERSON:193', 'PERSON:216']"
+/content/drive/MyDrive/ProjectData/s7/txt/p6.txt,"Placing a pot under a Champaka tree, (Manasa’s) worship began. 
+Since then, Manasa is worshipped in every household.
+And with his left hand he (Chand Sadagar) offered flowers to Manasa. 
+Since then, Manasa is worshipped in every household. 
+This is where I end my poetic offering. 
+Medinipur’s Bahar Chitrakar is the name of the author.
+O Medinipur is the address. 
+","Champaka(ORG), Manasa(ORG), Manasa(PERSON), Chand Sadagar(GPE), Manasa(PERSON), Manasa(PERSON), Medinipur(PERSON), Bahar Chitrakar(PERSON), Medinipur(PERSON)","['ORG:5', 'ORG:9', 'PERSON:19', 'GPE:34', 'PERSON:40', 'PERSON:46', 'PERSON:64', 'PERSON:66', 'PERSON:77']"
+/content/drive/MyDrive/ProjectData/s8/txt/p1 (1).txt,"Madanmohan was a Satyapir devotee.
+",Madanmohan(PERSON),['PERSON:0']
+/content/drive/MyDrive/ProjectData/s8/txt/p1.txt,"Madanmohan was a Satyapir devotee.
+",Madanmohan(PERSON),['PERSON:0']
+/content/drive/MyDrive/ProjectData/s8/txt/p2 (1).txt," One day, after he had finished his worship, he was summoned by the king, who requested him to offer worship to the river Ganga.  ","One day(DATE), Ganga(GPE)","['DATE:1', 'GPE:27']"
+/content/drive/MyDrive/ProjectData/s8/txt/p2.txt," One day, after he had finished his worship, he was summoned by the king, who requested him to offer worship to the river Ganga.  ","One day(DATE), Ganga(GPE)","['DATE:1', 'GPE:27']"
+/content/drive/MyDrive/ProjectData/s8/txt/p3.txt,"Madanmohan faithfully complied but, as ordained by Satyapir, simply could not find his way back home.",Madanmohan(PERSON),['PERSON:0']
+/content/drive/MyDrive/ProjectData/s8/txt/p4 (1).txt,"Wandering around, he finally sat down by a pond, tired and disconsolate. After some time, the seven daughters-in-law of Monohar Phansure came there to fetch water. Seeing Manohar, they concluded he must be a prince.  
+","seven(CARDINAL), Monohar Phansure(GPE), Manohar(PERSON)","['CARDINAL:20', 'GPE:27', 'PERSON:36']"
+/content/drive/MyDrive/ProjectData/s8/txt/p4.txt,"Wandering around, he finally sat down by a pond, tired and disconsolate. After some time, the seven daughters-in-law of Monohar Phansure came there to fetch water. Seeing Manohar, they concluded he must be a prince.  
+","seven(CARDINAL), Monohar Phansure(GPE), Manohar(PERSON)","['CARDINAL:20', 'GPE:27', 'PERSON:36']"
+/content/drive/MyDrive/ProjectData/s8/txt/p5 (1).txt," In great excitement, the women rushed back home, leaving their pitchers behind. They informed their father-in-law about the stranger by the pond.  ",,[]
+/content/drive/MyDrive/ProjectData/s8/txt/p5.txt," In great excitement, the women rushed back home, leaving their pitchers behind. They informed their father-in-law about the stranger by the pond.  ",,[]
+/content/drive/MyDrive/ProjectData/s8/txt/p6 (1).txt,"Forthwith, Monohar instructed his six sons to fetch the young man home by using the tried and tested ploy used before to tempt previous victims. The sons went to Madan with an offer of marriage to their sister, Rahuti and thus tempted him to return home with them as their brother-in-law. ","Monohar(ORG), six(CARDINAL), Madan(PERSON), Rahuti(PERSON)","['ORG:2', 'CARDINAL:5', 'PERSON:31', 'PERSON:41']"
+/content/drive/MyDrive/ProjectData/s8/txt/p6.txt,"Forthwith, Monohar instructed his six sons to fetch the young man home by using the tried and tested ploy used before to tempt previous victims. The sons went to Madan with an offer of marriage to their sister, Rahuti and thus tempted him to return home with them as their brother-in-law. ","Monohar(ORG), six(CARDINAL), Madan(PERSON), Rahuti(PERSON)","['ORG:2', 'CARDINAL:5', 'PERSON:31', 'PERSON:41']"
+/content/drive/MyDrive/ProjectData/s8/txt/p7 (1).txt,"Madan agreed and the wedding took place.  On the night of the wedding, Rahuti, on entering the bedroom, was moved by his good looks. She then proceeded to reveal the truth to him.  
+
+Lamenting her fate, she revealed to him that her father and her brothers were robbers who would entice princes to their home by offering marriage to their sister. And with the sword that she always had by her side, she would then kill many a hapless prince.  Subsequently, her father and brothers would help themselves to all the gold, silver and jewels that the prince had with him. She informed Madan that she was sad that a similar fate awaited him.   ","Madan(PERSON), the night(TIME), Rahuti(PERSON), Madan(PERSON)","['PERSON:0', 'TIME:10', 'PERSON:16', 'PERSON:119']"
+/content/drive/MyDrive/ProjectData/s8/txt/p7.txt,"Madan agreed and the wedding took place.  On the night of the wedding, Rahuti, on entering the bedroom, was moved by his good looks. She then proceeded to reveal the truth to him.  
+
+Lamenting her fate, she revealed to him that her father and her brothers were robbers who would entice princes to their home by offering marriage to their sister. And with the sword that she always had by her side, she would then kill many a hapless prince.  Subsequently, her father and brothers would help themselves to all the gold, silver and jewels that the prince had with him. She informed Madan that she was sad that a similar fate awaited him.   ","Madan(PERSON), the night(TIME), Rahuti(PERSON), Madan(PERSON)","['PERSON:0', 'TIME:10', 'PERSON:16', 'PERSON:119']"
+/content/drive/MyDrive/ProjectData/s8/txt/p8.txt,"Taking pity on each other, Madan and Rahuti decided to run away to a distant kingdom and in the middle of the night, astride a pakshiraj horse, they made their escape. In the morning, the sisters-in-law   discovered that the room was deserted and raised the alarm. Making magical calculations on a chalk grid, Monohar quickly divined that the couple had fled south and instructed his sons to give chase. ","Madan(PERSON), Rahuti(PERSON), the morning(TIME), Monohar(LOC)","['PERSON:6', 'PERSON:8', 'TIME:36', 'LOC:65']"
+/content/drive/MyDrive/ProjectData/s8/txt/p9.txt,"The six brothers rushed off and finally caught up with the fleeing couple. (In a bid to escape), Rahuti started flinging out the jewelry she wore, one by one; while her brothers were distracted by the strewn jewelry, she killed them. Observing the chaos from afar, (with the help of his chalk grid), Monohar appeared at the scene to block the path of the couple himself. But Rahuti managed to chop off his hands and legs and finally, his head. ","six(CARDINAL), Rahuti(PERSON), one(CARDINAL), one(CARDINAL), Monohar(ORG), Rahuti(PERSON)","['CARDINAL:1', 'PERSON:22', 'CARDINAL:31', 'CARDINAL:33', 'ORG:65', 'PERSON:80']"
+/content/drive/MyDrive/ProjectData/s8/txt/p10.txt,"Having slain Monohar, the prince and Rahuti travelled to a distant kingdom. Tired and thirsty, Madan wished to rest. While he waited, Rahuti went off in search of water.  
+
+Meanwhile, a woman named Malini appeared where Madan waited. Pretending that she would help quench his thirst, she gave him a necklace to wear around his neck. Immediately Madan changed into a sheep, that Malini took home with her.   ","Monohar(LOC), Rahuti(PERSON), Madan(PERSON), Rahuti(PERSON), Malini(PERSON), Madan(PERSON), Madan(PERSON), Malini(PERSON)","['LOC:2', 'PERSON:7', 'PERSON:18', 'PERSON:27', 'PERSON:41', 'PERSON:44', 'PERSON:68', 'PERSON:75']"
+/content/drive/MyDrive/ProjectData/s8/txt/p11 (1).txt,"Meanwhile, Rahuti returned to find Madan missing. It was getting dark so she came up with the idea of seeking work at the king’s court.   
+
+Rahuti, disguised as a man, requested the king for a job. The king replied that there were no jobs left. However, there was an extremely difficult assignment that she could take on: a rhinoceros that was destroying crops in the village needed to be taken down. Would she be able to handle it?  
+
+Rahuti agreed to take on the job and asked to be directed to the location where the rhinoceros had caused damage.  
+
+At the site, she found that the trunk of a palm tree had become very smooth. The reason, she was told, was that the rhinoceros would rub his body daily against this trunk and then proceed to destroy the crops.  
+
+Rahuti asked a woodcutter to cleave the tree half-way through its trunk, and then went and hid, awaiting the rhino. When the rhinoceros arrived and rubbed itself against the trunk, she watched as the tree came crashing down on it, killing it. As a token of proof, Rahuti cut off the dead animal’s tongue.  ","Rahuti(PERSON), Madan(PERSON), Rahuti(PERSON), Rahuti(PERSON), daily(DATE), Rahuti(PERSON), half(CARDINAL), Rahuti(PERSON)","['PERSON:2', 'PERSON:6', 'PERSON:30', 'PERSON:92', 'DATE:148', 'PERSON:161', 'CARDINAL:169', 'PERSON:217']"
+/content/drive/MyDrive/ProjectData/s8/txt/p11.txt,"Meanwhile, Rahuti returned to find Madan missing. It was getting dark so she came up with the idea of seeking work at the king’s court.   
+
+Rahuti, disguised as a man, requested the king for a job. The king replied that there were no jobs left. However, there was an extremely difficult assignment that she could take on: a rhinoceros that was destroying crops in the village needed to be taken down. Would she be able to handle it?  
+
+Rahuti agreed to take on the job and asked to be directed to the location where the rhinoceros had caused damage.  
+
+At the site, she found that the trunk of a palm tree had become very smooth. The reason, she was told, was that the rhinoceros would rub his body daily against this trunk and then proceed to destroy the crops.  
+
+Rahuti asked a woodcutter to cleave the tree half-way through its trunk, and then went and hid, awaiting the rhino. When the rhinoceros arrived and rubbed itself against the trunk, she watched as the tree came crashing down on it, killing it. As a token of proof, Rahuti cut off the dead animal’s tongue.  ","Rahuti(PERSON), Madan(PERSON), Rahuti(PERSON), Rahuti(PERSON), daily(DATE), Rahuti(PERSON), half(CARDINAL), Rahuti(PERSON)","['PERSON:2', 'PERSON:6', 'PERSON:30', 'PERSON:92', 'DATE:148', 'PERSON:161', 'CARDINAL:169', 'PERSON:217']"
+/content/drive/MyDrive/ProjectData/s8/txt/p12.txt,"Later, some palanquin bearers who were passing by saw the dead rhinoceros. Aware of the king’s promised reward of half his kingdom and the hand of his daughter in marriage, they cut off the animal’s head and produced it triumphantly before the king.  
+
+The king then summoned the young man (Rahuti) who had been given the assignment in the first place. When she claimed that it was she who was the true slayer of the rhinoceros, the king demanded proof.  Rahuti asked the king to examine if the tongue was missing from the rhino’s head. When it was found to be indeed missing, she produced the tongue she had cut off earlier.  
+
+The fraudsters were thrown into prison while Rahuti was offered the promised reward. Rahuti (without revealing her true identity) replied that she would do so after she gave worship to goddess Kali. ","half(CARDINAL), Rahuti(PERSON), first(ORDINAL), Rahuti(PERSON), Rahuti(PERSON), Rahuti(PERSON), Kali(PERSON)","['CARDINAL:22', 'PERSON:58', 'ORDINAL:68', 'PERSON:93', 'PERSON:137', 'PERSON:144', 'PERSON:164']"
+/content/drive/MyDrive/ProjectData/s8/txt/p13.txt,"The worship required the sacrifice of a sheep. Malini was known to have a large flock of sheep. When Malini claimed to have no more than one sheep, the king was informed by his soldiers that Malini did indeed have many sheep which she herded during the day, but at night they all turned into humans.  She was summoned by the king and confronted. Malini then admitted that she would use her magic to transform these men into sheep.  ","Malini(PERSON), Malini(PERSON), no more than one(CARDINAL), Malini(PERSON), the day(DATE), night(TIME), Malini(PERSON)","['PERSON:9', 'PERSON:21', 'CARDINAL:25', 'PERSON:39', 'DATE:49', 'TIME:54', 'PERSON:71']"
+/content/drive/MyDrive/ProjectData/s8/txt/p14 (1).txt,"Threatened with dire consequences, Malini transformed all the sheep back into their human forms.  
+
+Rahuti immediately recognized Madan and then revealed her identity to the king: that she was a woman and the wife of prince Madanmohan. She requested him to marry his daughter to Madan and grant them half the kingdom so that Madan and his two wives could live happily together.   
+
+Here ends the story of Monohar Phansure. 
+","Malini(PERSON), Rahuti(PERSON), Madan(PERSON), Madanmohan(PERSON), Madan(PERSON), half(CARDINAL), Madan(PERSON), two(CARDINAL), Monohar Phansure(GPE)","['PERSON:5', 'PERSON:17', 'PERSON:20', 'PERSON:40', 'PERSON:50', 'CARDINAL:54', 'PERSON:59', 'CARDINAL:62', 'GPE:75']"
+/content/drive/MyDrive/ProjectData/s8/txt/p14.txt,"Threatened with dire consequences, Malini transformed all the sheep back into their human forms.  
+
+Rahuti immediately recognized Madan and then revealed her identity to the king: that she was a woman and the wife of prince Madanmohan. She requested him to marry his daughter to Madan and grant them half the kingdom so that Madan and his two wives could live happily together.   
+
+Here ends the story of Monohar Phansure. 
+","Malini(PERSON), Rahuti(PERSON), Madan(PERSON), Madanmohan(PERSON), Madan(PERSON), half(CARDINAL), Madan(PERSON), two(CARDINAL), Monohar Phansure(GPE)","['PERSON:5', 'PERSON:17', 'PERSON:20', 'PERSON:40', 'PERSON:50', 'CARDINAL:54', 'PERSON:59', 'CARDINAL:62', 'GPE:75']"
+/content/drive/MyDrive/ProjectData/s9/txt/p1.txt,"Hearing the news from the bird
+A grief-stricken Ram collapsed under a tree. 
+“We are bereft of our parents
+“And ordained by destiny, Sita has been abducted from the forest.”
+ Ram lamented in silence
+While his beloved (brother) Lakshman comforted him, stroking his hair. 
+","Sita(PERSON), Lakshman(PERSON)","['PERSON:32', 'PERSON:53']"
+/content/drive/MyDrive/ProjectData/s9/txt/p2.txt,"The monkeys rushed hither and thither, gathering boulders
+Helping the brothers Neel and Nal erect a bridge across the ocean. 
+With trees and boulders, the brave brothers built the bridge.
+Angad (then) declared that they were ready for battle. 
+Gathering all the fragrant flowers from the forest
+The monkeys wove them into a garland for Angad.","Neel(PERSON), Nal(PERSON), Angad(PERSON), Angad(PERSON)","['PERSON:13', 'PERSON:15', 'PERSON:37', 'PERSON:67']"
+/content/drive/MyDrive/ProjectData/s9/txt/p3.txt,"Shuk and Sharon were told at the sea-shore (by Ravana) 
+“The monkeys emit a mighty roar.
+“But that is just the sound of wild animals, not to be feared.","Shuk(PERSON), Sharon(PERSON), Ravana(PERSON)","['PERSON:0', 'PERSON:2', 'PERSON:12']"
+/content/drive/MyDrive/ProjectData/s9/txt/p4.txt,"“There is only one I dread - let him not return to burn our homes. 
+“He can reduce Lanka to ashes in the blink of an eye.
+“If that wretch were to return, we are doomed.”
+While king Ravana pondered grimly over these matters
+","Lanka(GPE), Ravana(PERSON)","['GPE:22', 'PERSON:49']"
+/content/drive/MyDrive/ProjectData/s9/txt/p5.txt,"The monkey warrior Angad arrived (at his kingdom), to speak to him.
+Angad was massive - fifty yojanas wide.
+ His gigantic tail touched the sky.
+(Seeing him), the guards at the gate took flight.
+A powerful kick brought the gate down and Angad entered the fort.","Angad(PERSON), Angad(PERSON), fifty(CARDINAL), Angad(PERSON)","['PERSON:3', 'PERSON:17', 'CARDINAL:21', 'PERSON:56']"
+/content/drive/MyDrive/ProjectData/s9/txt/p6.txt,"Seeing Angad, Ravana resorted to illusion:
+The court suddenly filled with hundreds of Ravanas.
+It was only Indrajit (Ravana’s son) who stood as himself
+For it would be shameful for a son to assume his father’s guise.
+Seating himself on his coiled tail, Angad faced the assembly
+And addressed Indrajit.
+“All these Ravanas everywhere, are they all your father?
+“Then, bravo, Queen Mandodari! I marvel at your (Indrajit’s) mother
+“For, how can one young woman deal with a hundred husbands?
+“Who among these is the father who shared a maid- servant’s meal in the netherworld?
+“Who among these was bound by my father and still bears the mark of a tail around his neck?
+“I have recounted, one by one, the misdeeds of all these ‘fathers’
+“But I have no need of them, point out to me your true ‘yogi’ father
+“Who disguised as an ascetic, stole Sita.
+“And we shall see how you retain your golden Lanka, (Ravana)!”
+As the tirade progressed, the atmosphere grew tense. 
+Angad then slapped Ravana and grabbed his crown
+And delivered it to Ram’s camp.","Angad(PERSON), Ravana(PERSON), hundreds(CARDINAL), Ravanas(ORG), Indrajit(PERSON), Ravana(PERSON), Angad(PERSON), Indrajit(PERSON), Ravanas(ORG), Mandodari(PERSON), Indrajit(ORG), one(CARDINAL), a hundred(CARDINAL), one(CARDINAL), one(CARDINAL), Sita(PERSON), Lanka(GPE), Ravana(PERSON), Angad(PERSON), Ravana(PERSON), Ram(PERSON)","['PERSON:1', 'PERSON:3', 'CARDINAL:14', 'ORG:16', 'PERSON:22', 'PERSON:24', 'PERSON:56', 'PERSON:63', 'ORG:69', 'PERSON:85', 'ORG:92', 'CARDINAL:102', 'CARDINAL:107', 'CARDINAL:158', 'CARDINAL:160', 'PERSON:199', 'GPE:212', 'PERSON:215', 'PERSON:231', 'PERSON:234', 'PERSON:244']"
+/content/drive/MyDrive/ProjectData/s9/txt/p7.txt,"And then began the combat between Ram and Ravana in the city of Lanka. 
+Ram released hundreds of arrows at a time.
+Volleys of arrows from both warriors tore across the sky. 
+Both shot their arrows with all the prowess at their command
+Seeing his own (charmed) arrows aimed at himself, Ravana was terrified.
+Ram, confident of Ravana’s destruction
+Chanted a sacred mantra and released the (divine) arrows 
+Two of which pierced Ravana’s heart.
+Ravana fell to the ground, writhing in pain
+(As) Brahma and all the other gods in the heavens (looked on).
+Of Ravana’s one hundred thousand sons and ten million grandsons
+Not one remained to continue his lineage.
+His fourteen thousand wives wailed around his fallen body
+“Who is left to rule the golden kingdom of Lanka now?”
+“Oh, my husband,” wept Mandodori, “though you worshipped Shiva
+“He deserted you when you were dying!”
+Touching each of the ten faces with a torch, Bibhishan lit the pyre.
+And plumes of smoke rose from Ravana’s burning pyre. 
+From the Ramayan composed by the poet, Pandit Krittibash 
+I end my recitation here.
+The name of the author is Bahar Chitrakar of Medinipur. 
+Ah, Medinipur is the address.
+","Ram(PERSON), Ravana(PERSON), Lanka(GPE), hundreds(CARDINAL), Ravana(PERSON), Ravana(PERSON), Chanted(ORG), Two(CARDINAL), Ravana(PERSON), Ravana(PERSON), Ravana(PERSON), one hundred thousand(CARDINAL), ten million(CARDINAL), fourteen thousand(CARDINAL), Lanka(GPE), Mandodori(PERSON), ten(CARDINAL), Ravana(PERSON), Ramayan(PERSON), Pandit Krittibash(PERSON), Bahar Chitrakar(PERSON), Medinipur(GPE), Medinipur(PERSON)","['PERSON:6', 'PERSON:8', 'GPE:13', 'CARDINAL:18', 'PERSON:61', 'PERSON:70', 'ORG:74', 'CARDINAL:86', 'PERSON:90', 'PERSON:95', 'PERSON:124', 'CARDINAL:126', 'CARDINAL:131', 'CARDINAL:145', 'GPE:164', 'PERSON:177', 'CARDINAL:200', 'PERSON:218', 'PERSON:226', 'PERSON:232', 'PERSON:248', 'GPE:251', 'PERSON:256']"
+/content/drive/MyDrive/ProjectData/s10/txt/p1.txt,"Hearing the news from the bird
+",,[]
+/content/drive/MyDrive/ProjectData/s10/txt/p2.txt,"A grief-stricken Ram collapsed under a tree. 
+“We are bereft of our parents
+“And ordained by destiny, Sita has been abducted from the forest.”
+ Ram lamented in silence
+While his beloved (brother) Lakshman comforted him, stroking his hair. 
+","Sita(PERSON), Lakshman(PERSON)","['PERSON:25', 'PERSON:46']"
+/content/drive/MyDrive/ProjectData/s10/txt/p3.txt,"The monkeys rushed hither and thither, gathering boulders
+Helping the brothers Neel and Nal erect a bridge across the ocean. 
+With trees and boulders, the brave brothers built the bridge.
+Angad (then) declared that they were ready for battle. 
+Gathering all the fragrant flowers from the forest
+The monkeys wove them into a garland for Angad.
+
+Shuk and Sharon were told at the sea-shore (by Ravana) 
+“The monkeys emit a mighty roar.
+“But that is just the sound of wild animals, not to be feared.
+
+“There is only one I dread - let him not return to burn our homes. 
+“He can reduce Lanka to ashes in the blink of an eye.
+“If that wretch were to return, we are doomed.”
+While king Ravana pondered grimly over these matters
+
+The monkey warrior Angad arrived (at his kingdom), to speak to him.
+Angad was massive - fifty yojanas wide.
+ His gigantic tail touched the sky.
+(Seeing him), the guards at the gate took flight.
+A powerful kick brought the gate down and Angad entered the fort.","Neel(PERSON), Nal(PERSON), Angad(PERSON), Angad(PERSON), Shuk(PERSON), Sharon(PERSON), Ravana(PERSON), Lanka(GPE), Ravana(PERSON), Angad(PERSON), Angad(PERSON), fifty(CARDINAL), Angad(PERSON)","['PERSON:13', 'PERSON:15', 'PERSON:37', 'PERSON:67', 'PERSON:70', 'PERSON:72', 'PERSON:82', 'GPE:133', 'PERSON:160', 'PERSON:170', 'PERSON:184', 'CARDINAL:188', 'PERSON:223']"
+/content/drive/MyDrive/ProjectData/s10/txt/p4.txt,"Seeing Angad, Ravana resorted to illusion:
+The court suddenly filled with hundreds of Ravanas.
+It was only Indrajit (Ravana’s son) who stood as himself
+For it would be shameful for a son to assume his father’s guise.
+Seating himself on his coiled tail, Angad faced the assembly
+And addressed Indrajit.
+“All these Ravanas everywhere, are they all your father?
+“Then, bravo, Queen Mandodari! I marvel at your (Indrajit’s) mother
+“For, how can one young woman deal with a hundred husbands?
+“Who among these is the father who shared a maid- servant’s meal in the netherworld?
+“Who among these was bound by my father and still bears the mark of a tail around his neck?
+“I have recounted, one by one, the misdeeds of all these ‘fathers’
+“But I have no need of them, point out to me your true ‘yogi’ father
+“Who disguised as an ascetic, stole Sita.
+“And we shall see how you retain your golden Lanka, (Ravana)!”
+As the tirade progressed, the atmosphere grew tense. 
+","Angad(PERSON), Ravana(PERSON), hundreds(CARDINAL), Ravanas(ORG), Indrajit(PERSON), Ravana(PERSON), Angad(PERSON), Indrajit(PERSON), Ravanas(ORG), Mandodari(PERSON), Indrajit(ORG), one(CARDINAL), a hundred(CARDINAL), one(CARDINAL), one(CARDINAL), Sita(PERSON), Lanka(GPE), Ravana(PERSON)","['PERSON:1', 'PERSON:3', 'CARDINAL:14', 'ORG:16', 'PERSON:22', 'PERSON:24', 'PERSON:56', 'PERSON:63', 'ORG:69', 'PERSON:85', 'ORG:92', 'CARDINAL:102', 'CARDINAL:107', 'CARDINAL:158', 'CARDINAL:160', 'PERSON:199', 'GPE:212', 'PERSON:215']"
+/content/drive/MyDrive/ProjectData/s10/txt/p5.txt,"Angad then slapped Ravana and grabbed his crown
+And delivered it to Ram’s camp.
+
+And then began the combat between Ram and Ravana in the city of Lanka. ","Angad(PERSON), Ravana(PERSON), Ram(PERSON), Ram(PERSON), Ravana(PERSON), Lanka(GPE)","['PERSON:0', 'PERSON:3', 'PERSON:13', 'PERSON:24', 'PERSON:26', 'GPE:31']"
+/content/drive/MyDrive/ProjectData/s11/txt/p1.txt,"Angad then slapped Ravana and grabbed his crown
+And delivered it to Ram’s camp.
+
+And then began the combat between Ram and Ravana in the city of Lanka. ","Angad(PERSON), Ravana(PERSON), Ram(PERSON), Ram(PERSON), Ravana(PERSON), Lanka(GPE)","['PERSON:0', 'PERSON:3', 'PERSON:13', 'PERSON:24', 'PERSON:26', 'GPE:31']"
+/content/drive/MyDrive/ProjectData/s11/txt/p2.txt,"Ram released hundreds of arrows at a time.
+Volleys of arrows from both warriors tore across the sky. 
+Both shot their arrows with all the prowess at their command
+Seeing his own (charmed) arrows aimed at himself, Ravana was terrified.
+Ram, confident of Ravana’s destruction
+Chanted a sacred mantra and released the (divine) arrows 
+Two of which pierced Ravana’s heart.
+Ravana fell to the ground, writhing in pain","hundreds(CARDINAL), Ravana(PERSON), Ravana(PERSON), Chanted(ORG), Two(CARDINAL), Ravana(PERSON), Ravana(PERSON)","['CARDINAL:2', 'PERSON:45', 'PERSON:54', 'ORG:58', 'CARDINAL:70', 'PERSON:74', 'PERSON:79']"
+/content/drive/MyDrive/ProjectData/s11/txt/p3.txt,"(As) Brahma and all the other gods in the heavens (looked on).
+Of Ravana’s one hundred thousand sons and ten million grandsons
+Not one remained to continue his lineage.
+His fourteen thousand wives wailed around his fallen body
+“Who is left to rule the golden kingdom of Lanka now?”
+“Oh, my husband,” wept Mandodori, “though you worshipped Shiva
+“He deserted you when you were dying!”
+Touching each of the ten faces with a torch, Bibhishan lit the pyre.
+And plumes of smoke rose from Ravana’s burning pyre. ","Ravana(PERSON), one hundred thousand(CARDINAL), ten million(CARDINAL), fourteen thousand(CARDINAL), Lanka(GPE), Mandodori(PERSON), ten(CARDINAL), Ravana(PERSON)","['PERSON:19', 'CARDINAL:21', 'CARDINAL:26', 'CARDINAL:40', 'GPE:59', 'PERSON:72', 'CARDINAL:95', 'PERSON:113']"
+/content/drive/MyDrive/ProjectData/s11/txt/p4.txt,"From the Ramayan composed by the poet, Pandit Krittibash 
+I end my recitation here.
+The name of the author is Bahar Chitrakar of Medinipur. 
+Ah, Medinipur is the address.
+","Ramayan(PERSON), Pandit Krittibash(PERSON), Bahar Chitrakar(PERSON), Medinipur(GPE), Medinipur(PERSON)","['PERSON:2', 'PERSON:8', 'PERSON:24', 'GPE:27', 'PERSON:32']"
+/content/drive/MyDrive/ProjectData/s12/txt/p1.txt,"The marriage of Ramachandra took place and all the rituals were completed.   
+But to uphold his father’s promise, Rama went to live in the forest. 
+Rama led the way, followed by Janaki  
+Lakshmana the archer, brought up the rear. 
+With the scorching sun above, and the burning sand beneath their feet 
+Sita, delicate as a butter-doll, could barely walk. 
+Breaking a (leafy) branch from a tree, Lakshmana held it over her head. 
+“Walk slowly, under its shade, Lakshmi.”  
+","Ramachandra(PERSON), Rama(PERSON), Janaki(PERSON), Lakshmana(PERSON), Lakshmana(PERSON), Lakshmi(PERSON)","['PERSON:3', 'PERSON:22', 'PERSON:38', 'PERSON:40', 'PERSON:88', 'PERSON:104']"
+/content/drive/MyDrive/ProjectData/s12/txt/p2.txt,"They arrived at the Panchabati forest 
+Where Rama and Lakshmana set up a thatched hut. 
+The two brothers set up the hut. 
+While Rama and Sita sat and played a game, Lakshmana stood guard. 
+
+Just then, Surpanakha arrived, looking for flowers. 
+Lakshmana caught her and cut off her nose. 
+Clutching her severed nose in her hand, she tore back to Lanka 
+And fell at her brother Ravana’s feet.  
+","Panchabati(ORG), Rama(PERSON), Lakshmana(PERSON), two(CARDINAL), Rama(PERSON), Sita(PERSON), Lakshmana(PERSON), Surpanakha(PERSON), Lakshmana(PERSON), Lanka(GPE), Ravana(PERSON)","['ORG:4', 'PERSON:8', 'PERSON:10', 'CARDINAL:19', 'PERSON:28', 'PERSON:30', 'PERSON:37', 'PERSON:45', 'PERSON:53', 'GPE:75', 'PERSON:82']"
+/content/drive/MyDrive/ProjectData/s12/txt/p3.txt,"The shrewd king Dashanana  came up with such a clever plan. 
+Consumed with rage at his sister’s plight 
+His whole body seemed to be on fire. 
+Summoning Maricha, Ravana laid out his plan. 
+“Go, Maricha to that Panchabati forest 
+“You will find Rama, Lakshmana and Sita there 
+“When Rama tries to catch you 
+“You will cry out ‘my dear brother’ 
+Thus, Ravana carefully tutored Maricha. 
+Maricha, the sorcerer then assumed the form of a deer. 
+How beautiful the deer looked as it danced in myriad ways.   
+Chandramukhi called out to her husband, Raghuvar (Rama) 
+And pleaded with him. 
+Do catch that deer for me and make me happy. 
+Then, the both of us, sitting in this forest 
+Could forget our sorrows, watching the deer. 
+“Come here, brother Lakshmana, I cannot bear (her pain).   
+“I am off to catch the deer at Sita’s behest. 
+“Until I return to this hut 
+“Keep a careful watch over Sita, my brother.” 
+With a lusty yell, Rama gave chase to the deer.  
+But the deer, (swift as) a golden bee, flew off. 
+Catching up with the deer, Rama killed it. 
+The deer shrieked out loud  
+“I am dying at the hands of a demon, dear brother!  
+“Come and save me from my distress!” 
+The cries reached Sita’s ears. 
+“Come here, brother-in-law Lakshmana, have a betel leaf. 
+“You must go search the Dandaka forest for your elder brother.” 
+“My brother has ordered me to guard you Lakshmi (Sita). 
+“Why do you ask me to leave?” 
+“Oh, I understand, Lakshmana, I understand your intentions only too well  
+“When my lord (Prabhu) dies, you wish to become my consort.” 
+Covering his ears in shame, Lakshmana took Lord Vishnu’s name.  
+“You are like my mother, Sumitra and Raghunath, my father! 
+“Promise me, O sage’s daughter  
+“(That you will stay within) the line I am drawing around the hut.” 
+","Dashanana(ORG), Maricha(PERSON), Ravana(PERSON), Maricha(PERSON), Panchabati(ORG), Rama(PERSON), Lakshmana(PERSON), Sita(PERSON), Rama(PERSON), Ravana(PERSON), Maricha(PERSON), Maricha(PERSON), Chandramukhi(PERSON), Lakshmana(PERSON), Sita(PERSON), Sita(PERSON), Rama(PERSON), Rama(PERSON), Come(WORK_OF_ART), Sita(PERSON), Lakshmana(PERSON), Dandaka(PERSON), Lakshmi(PERSON), Sita(PERSON), Lakshmana(PERSON), Prabhu(PERSON), Lakshmana(PERSON), Vishnu(PERSON), Sumitra(ORG), Raghunath(PERSON)","['ORG:3', 'PERSON:34', 'PERSON:36', 'PERSON:46', 'ORG:49', 'PERSON:56', 'PERSON:58', 'PERSON:60', 'PERSON:65', 'PERSON:84', 'PERSON:87', 'PERSON:90', 'PERSON:116', 'PERSON:173', 'PERSON:194', 'PERSON:213', 'PERSON:225', 'PERSON:255', 'WORK_OF_ART:282', 'PERSON:295', 'PERSON:309', 'PERSON:323', 'PERSON:341', 'PERSON:343', 'PERSON:364', 'PERSON:379', 'PERSON:398', 'PERSON:401', 'ORG:413', 'PERSON:415']"
+/content/drive/MyDrive/ProjectData/s12/txt/p4.txt,"Having marked a boundary, Lakshmana departed. 
+From under the shade of a banyan tree, Ravana then appeared   
+Little boy-mendicants attired in red 
+Went from home to home, rattling their damaru drums and begging for alms. 
+“Please give me alms, Ma Janaki, give me alms (quickly). 
+“For I am afraid of your husband. 
+“From your jewelled plate, full of gold coins 
+“Please give alms on a (poor) ascetic’s plate, O daughter of Janaka.” 
+Receiving the alms, Ravana glanced around (covertly), anticipating danger","Lakshmana(PERSON), Ravana(PERSON), red 
+Went(EVENT), Ma Janaki(PERSON), Janaka(PERSON), Ravana(PERSON)","['PERSON:5', 'PERSON:18', 'EVENT:28', 'PERSON:52', 'PERSON:100', 'PERSON:108']"
+/content/drive/MyDrive/ProjectData/s12/txt/p5.txt,"And grabbing Sita’s hand, he pulled her on to his chariot. 
+Sobbing piteously, Sita’s face was tear-streaked.  
+“Come and save me from this plight, O brother-in-law Lakshmana!” 
+Up and away the chariot flew 
+(Till) Jatayu, Dasharatha’s friend, came into view.  
+Thinking it was an enemy chariot, Jatayu swallowed it whole.  
+“Take heed, Jatayu, take heed” Ravana warned. 
+“For your friend’s daughter-in-law is in the chariot. 
+Ashamed, Jatayu disgorged the chariot.  
+With the arrow of Brahma, Ravana struck Jatayu. 
+With a cry of pain, Jatayu fell to the ground, dying 
+While Sita wept bitterly. 
+The song of Ramayan was written by Krittibas. 
+Here I end my poetic offering. 
+My name is Seramuddin 
+My address, Medinipur.  ","Sita(PERSON), Sita(PERSON), Come(WORK_OF_ART), Lakshmana(PERSON), Jatayu(PERSON), Dasharatha(PERSON), Jatayu(PERSON), Jatayu(PERSON), Ravana(PERSON), Jatayu(PERSON), Ravana(PERSON), Jatayu(PERSON), Jatayu(PERSON), Sita(PERSON), Ramayan(PERSON), Krittibas(PERSON), Seramuddin(PERSON), Medinipur(PERSON)","['PERSON:2', 'PERSON:18', 'WORK_OF_ART:28', 'PERSON:42', 'PERSON:56', 'PERSON:58', 'PERSON:74', 'PERSON:84', 'PERSON:89', 'PERSON:111', 'PERSON:123', 'PERSON:125', 'PERSON:134', 'PERSON:143', 'PERSON:151', 'PERSON:155', 'PERSON:169', 'PERSON:174']"
+/content/drive/MyDrive/ProjectData/s13/txt/p1.txt,"The marriage of Ramachandra took place and all the rituals were completed. 
+But to uphold his father’s promise, Rama went to live in the forest.
+Rama led the way, followed by Janaki
+Lakshmana the archer, brought up the rear.
+With the scorching sun above, and the burning sand beneath their feet
+Sita, delicate as a butter-doll, could barely walk.
+Breaking a (leafy) branch from a tree, Lakshmana held it over her head.
+“Walk slowly, under its shade, Lakshmi.”
+","Ramachandra(PERSON), Rama(PERSON), Janaki(NORP), Lakshmana(PERSON), Lakshmana(PERSON), Lakshmi(PERSON)","['PERSON:3', 'PERSON:22', 'NORP:38', 'PERSON:40', 'PERSON:88', 'PERSON:104']"
+/content/drive/MyDrive/ProjectData/s13/txt/p2.txt,"In the Panchabati forest, Rama established a home.
+Rama and Sita were seated (in their hut) while Lakshmana stood guard. 
+One day Surpanakha arrived at the Panchabati forest
+And Lakshmana chopped off her nose and ears.
+With her nose in her hand, the widow rushed to the city of Lanka 
+And fell at her elder brother Ravana’s feet.","Panchabati(ORG), Rama(PERSON), Sita(PERSON), Lakshmana(PERSON), One day Surpanakha(DATE), Panchabati(ORG), Lakshmana(PERSON), Lanka(GPE), Ravana(PERSON)","['ORG:2', 'PERSON:5', 'PERSON:13', 'PERSON:22', 'DATE:27', 'ORG:33', 'PERSON:37', 'GPE:60', 'PERSON:68']"
+/content/drive/MyDrive/ProjectData/s13/txt/p3.txt,"The shrewd king Dashanana came up with such a clever plan.
+ Consumed with rage at his sister’s plight
+His whole body seemed to be on fire.
+Summoning Maricha, Ravana had him change into a deer.","Dashanana(PERSON), Maricha(PERSON), Ravana(PERSON)","['PERSON:3', 'PERSON:33', 'PERSON:35']"
+/content/drive/MyDrive/ProjectData/s13/txt/p4.txt,"How beautiful the deer looked as it danced in myriad ways. 
+Janaki pleaded with her husband, “O, Raghuvar (Rama)
+“Do catch that deer for me - make me happy. 
+“It will ease my sorrow, looking at the deer.”
+“Come here, dear brother Lakshmana, I cannot bear (her pain). 
+“I shall go catch the deer at Sita’s behest.
+“Until I return to this hut
+Keep a careful watch over Sita, my brother.” 
+With a lusty yell, Rama chased the deer.
+But the deer, (swift as) a golden bee, flew off. 
+Catching up with the deer, Rama killed it.
+","O, Raghuvar (Rama(WORK_OF_ART), Lakshmana(PERSON), Sita(PERSON), Sita(PERSON), Rama(PERSON), Rama(PERSON)","['WORK_OF_ART:20', 'PERSON:60', 'PERSON:80', 'PERSON:98', 'PERSON:110', 'PERSON:138']"
+/content/drive/MyDrive/ProjectData/s13/txt/p5.txt,"The (dying) deer then began to cry out loud 
+“Where are you dear Lakshmana? Come to me.
+“Save me from this danger!”
+When this heart-rending cry reached Sita’s ears 
+She summoned Lakshmana and told him
+“Come quickly, brother-in-law Lakshmana, have this betel leaf. 
+“You must go find your elder brother in the Dandaka forest.”
+“My brother has left me here to guard you, Lakshmi (Sita) 
+“And you now ask me to go seek him?”
+“Oh, I understand your intentions, brother-in-law Lakshmana, only too well! 
+“When Ramachandra dies, you wish to become my consort.”
+Covering his ears in shame, Lakshmana took Lord Vishnu’s name. 
+“You are like my mother, Sumitra and Raghunath, my father!
+“First give me your word, O sage’s daughter. 
+“I shall draw a line around the hut
+“(But) the face you see, should you cross the line
+(Will cause) chaos in the three worlds and great misery will be yours.”
+Having marked a boundary, Lakshmana departed.
+","Lakshmana(PERSON), Sita(PERSON), Lakshmana(PERSON), Lakshmana(PERSON), Dandaka(PERSON), Lakshmi(PERSON), Lakshmana(PERSON), Ramachandra(PERSON), Lakshmana(PERSON), Vishnu(PERSON), Sumitra(ORG), Raghunath(PERSON), First(ORDINAL), three(CARDINAL), Lakshmana(PERSON)","['PERSON:17', 'PERSON:40', 'PERSON:46', 'PERSON:60', 'PERSON:78', 'PERSON:94', 'PERSON:125', 'PERSON:134', 'PERSON:152', 'PERSON:155', 'ORG:167', 'PERSON:169', 'ORDINAL:176', 'CARDINAL:220', 'PERSON:236']"
+/content/drive/MyDrive/ProjectData/s13/txt/p6.txt,"From under the shade of a banyan tree, Ravana then appeared. 
+“Give me alms, Ma Janaki so that I can return home
+“For I am afraid of your husband’s arrows.”
+If he did not receive alms, the hermit (claimed that he) would die. 
+Killing a man being a great sin, Sita was scared.
+From a golden platter heaped with gems and cowries
+The daughter of Janaka poured alms on t the ascetic’s plate.
+She stepped across the line to give the alms
+And grabbing Sita’s hand, (Ravana) pulle her on to his chariot. 
+Up and away the chariot flew
+(Till) Jatayu, Dasharatha’s friend, came into view.
+(Opening his mouth wide), Jatayu swallowed Ravana’s chariot whole 
+And then began a fierce battle between Ravana and Jatayu.
+“Take heed, Jatayu, take heed” (Ravana warned) 
+“Your friend’s daughter-in-law is in the chariot.
+Hearing about his friend’s daughter-in- law, Jatayu was ashamed","Ravana(PERSON), Ma Janaki(PERSON), Sita(PERSON), Janaka(PERSON), Sita(PERSON), Ravana(PERSON), Jatayu(PERSON), Dasharatha(PERSON), Jatayu(PERSON), Ravana(PERSON), Ravana(PERSON), Jatayu(PERSON), Jatayu(PERSON), Ravana(PERSON), Jatayu(PERSON)","['PERSON:9', 'PERSON:19', 'PERSON:67', 'PERSON:85', 'PERSON:108', 'PERSON:113', 'PERSON:133', 'PERSON:135', 'PERSON:151', 'PERSON:153', 'PERSON:165', 'PERSON:167', 'PERSON:174', 'PERSON:180', 'PERSON:209']"
+/content/drive/MyDrive/ProjectData/s13/txt/p7.txt,"And disgorged the chariot he had swallowed.
+With the Brahmashel arrow, Ravana struck Jatayu’s head. 
+Jatayu fell, lying sprawled across ten kathas of land
+","Ravana(PERSON), Jatayu(PERSON), Jatayu(PERSON), ten(CARDINAL)","['PERSON:14', 'PERSON:16', 'PERSON:21', 'CARDINAL:27']"
+/content/drive/MyDrive/ProjectData/s13/txt/p8.txt,"Speaking tenderly, Ramachandra looked at the (dying) bird
+And gazed (tearfully) into his precious eyes. 
+“Having mortally wounded me, he has taken your wife, Rama 
+“Go rescue Sita first, Rama, gem of the Raghus.”
+
+Having heard the news (of Sita’s abduction) from the bird 
+Rama lay grief-stricken under a tree.
+“We have left our mother behind at home and our father died there. “
+As destined by fate, Sita was stolen from the forest.”
+Saying this, Ramachandra grieved silently.
+Ravana carried off Sita and kept her in the Ashoka grove. 
+Habichak, under Chandipur thana is where I live
+And singing the Sitaharan pata song for you, I am Jharna Chitrakar.
+","Ramachandra(PERSON), Rama(PERSON), Rama(PERSON), Raghus(NORP), Sita(PERSON), Sita(PERSON), Ramachandra(PERSON), Ravana(PERSON), Sita(PERSON), Ashoka(LOC), Chandipur(ORG), Sitaharan(NORP), Jharna Chitrakar(PERSON)","['PERSON:3', 'PERSON:35', 'PERSON:43', 'NORP:48', 'PERSON:58', 'PERSON:98', 'PERSON:110', 'PERSON:115', 'PERSON:118', 'LOC:124', 'ORG:131', 'NORP:141', 'PERSON:149']"
