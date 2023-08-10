@@ -3,6 +3,10 @@
 
 <img src="https://user-images.githubusercontent.com/1102651/236267695-f170b9fa-6470-4d2a-a225-7b30d9d13864.jpeg" width=1000 height="600">
 
+<a href="#ProjDesc">Project Description</a> | Participants | Funding | Presentations | <a href="resources.html>Resources</a> |
+
+<div id="ProjDesc">
+<h3>Project Description</h3>
 There is an urgent need to document the performing art of a class of itinerant singing painters from rural West Bengal, India who sing about moral and mythological stories painted on scrolls playing the dual role of performers and social entertainers. These scroll painters (also called Patuas, Chitrakars, Patidars or Patikars) walk from village to village unfurling their scrolls to sing their songs, the lyrics and tunes of which are composed by themselves or passed down by oral tradition for generations. They paint on small rectangular pieces of paper (called "chauko pata") or long vertical sheets of paper glued together (called "jorano pata") which can sometimes be as long as 5-10 meters. The songs are usually written in Bengali with some infiltration of words from the local dialect. This folk art of rural Bengal has been around for a long time (at least since the late 13th century) and the patuas were the chief source of entertainment in the villages -- their art being a combination of story telling, singing and painting. 
 
 However, the increasing popularity of modern methods of entertainment (such as the television and electronic devices (Korom_17a) has been the primary cause of gradual decline of this art form, so that currently there are probably about 800 practicing patuas in the East and West Medinipur, Birbhum, Purulia, and Bankura divisions of West Bengal and its adjoining states including Bihar, Orissa, and Jharkhand, not all of whom adhere to the age old traditional art forms that have come down from generations and may/may not speak the language of their fore-fathers. Furthermore, to overcome poverty and severe economic hardships, the patuas have begun to supplement their income by making dolls and idols of deities or simply selling their painted scrolls (without the associated performance including story-telling and singing) to the urban elite. This transition from a primarily performing art to a visual one, though gradual, appears to blow the death knell for this art form. While some efforts have been made to conserve it, the emphasis has only been on the visual art (for e.g. selling scrolls to museums) thereby ensuring that the lyrics, melody, language of composition are sometimes lost forever.  The objectives of this research are:
@@ -17,8 +21,12 @@ This work has been supported by a joint fellowship from the National Endowment o
     <img src="neh.png" alt="neh" style="width:50%" align="left">
   </div>
   <div class="column">
+
+    
     <img src="aiis.png" alt="aiis" style="width:30%" align="right">
   </div>
+</div>
+
 </div>
 
 
