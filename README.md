@@ -21,8 +21,6 @@ This work has been supported by a joint fellowship from the National Endowment o
     <img src="neh.png" alt="neh" style="width:50%" align="left">
   </div>
   <div class="column">
-
-    
     <img src="aiis.png" alt="aiis" style="width:30%" align="right">
   </div>
 </div>
