@@ -3,7 +3,7 @@
 
 <img src="https://user-images.githubusercontent.com/1102651/236267695-f170b9fa-6470-4d2a-a225-7b30d9d13864.jpeg" width=1000 height="600">
 
-<a href="#ProjDesc">Project Description</a> | <a href="participants.html">Participants</a> | <a href="funding.html">Funding</a> | <a href="presentations.html">Presentations</a> | <a href="resources.html">Resources</a> | <a href="development.html">Development</a> 
+<a href="#ProjDesc">Project Description</a> | <a href="participants.html">Participants</a> | <a href="funding.html">Funding</a> | <a href="presentations.html">Presentations</a> | <a href="resources.html">Resources</a> | <a href="development.html">Software Development Resources</a> |  <a href="pubs.html">Publications</a> 
 
 <div id="ProjDesc">
 <h3>Project Description</h3>
