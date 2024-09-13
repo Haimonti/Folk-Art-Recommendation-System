@@ -22,7 +22,6 @@ body {
   display: grid;
   justify-items: center;
   align-items: center;
-  background-color: white;
   border-radius: 7px;
   box-shadow: 0px 0px 5px 2px black;
 }
@@ -99,9 +98,7 @@ main grid */
   padding: 7px;
   border: none;
   border-radius: 5px;
-  color: white;
   font-weight: bold;
-  background-color: #3a3a3a;
   cursor: pointer;
   outline: none;
 }
