@@ -6,16 +6,23 @@
   <script defer src="login-page.js"></script>
 </head>
 
-<h4>|| UP-FAR: User Preferences for Folk Art Recommendation ||</h4>
+<body> 
 
-<form name='login' onSubmit="return formValidation();">
+  <h4>|| UP-FAR: User Preferences for Folk Art Recommendation ||</h4>
+    
+  <div id="login-error-msg-holder">
+      <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+  </div>
+
+  
+<form id="login-form">
 <table>
 <tr>
   <td>
-    <label for="txtUserId">User id</label> 
+    <label for="username">Username</label> 
   </td>
   <td>
-    <input type="text" name="txtUserId" id="userid" size="20">
+    <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username" size="20">
   </td>
 </tr>
 <tr>
@@ -23,18 +30,18 @@
     <label for="pwd">Password</label>
   </td>
   <td>
-  <input type="password" name="pwd" id="passwd" size="20"><br>
+  <input type="password" name="pwd" id="passwd" id="password-field" class="login-form-field" placeholder="Password" size="20"><br>
   </td>
 </tr> 
   <tr>
     <td>
-      <button type="button" onclick="login()">Login </button> | <a href="reg.html">New User Registration</a>
+      <input type="submit" value="Login" id="login-form-submit"> | <a href="reg.html">New User Registration</a>
     </td>
   </tr>
 </table>
-
-  
 </form>
 
+  
+</body> 
 </html>  
 
