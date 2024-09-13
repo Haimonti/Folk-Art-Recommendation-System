@@ -1,20 +1,30 @@
 || UP-FAR: User Preferences for Folk Art Recommendation ||
 
 <form name='login' onSubmit="return formValidation();">
-<ul style="list-style:none;">
-<li> 
-  <label for="userid">User id   </label>  
-  <input type="text" id="userid" name="userid" size="12" />
-</li>
-<li></li>  
-<li>
-  <label for="passid">Password</label>
-  <input type="password" id="password" name="passid" size="12" />
-</li>
-<li>
-  <button type="button" onclick="login()">Login </button> | <a href="reg.html">New User Registration</a>
- </li> 
+<table>
+<tr>
+  <td>
+    <label for="txtUserId">User id</label> 
+  </td>
+  <td>
+    <input type="text" name="txtUserId" id="userid" size="20">
+  </td>
+</tr>
+<tr>
+  <td>
+    <label for="pwd">Password</label>
+  </td>
+  <td>
+  <input type="text" name="pwd" id="passwd" size="20"><br>
+  </td>
+</tr> 
+  <tr>
+    <td>
+      <button type="button" onclick="login()">Login </button> | <a href="reg.html">New User Registration</a>
+    </td>
+  </tr>
+</table>
+
   
-</ul>
 </form>
 
