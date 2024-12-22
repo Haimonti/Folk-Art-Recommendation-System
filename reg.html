@@ -7,7 +7,7 @@
 </head>
 <body>
 <h2>User Registration Form</h2>
-<form action="/submit_registration" method="post">
+<form action="/submit_registration" method="post" onsubmit="submitForm(event)">
     <!-- Full Name -->
     <label for="fullName">Full Name:</label>
     <input type="text" id="fullName" name="fullName" required><br><br>
@@ -73,5 +73,6 @@
     <!-- Submit Button -->
     <button type="submit">Register</button>
 </form>
+<script src="reg.js"></script>
 </body>
 </html>
