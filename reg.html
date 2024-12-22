@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+</head>
+<body>
+<h2>User Registration Form</h2>
+<form action="/submit_registration" method="post">
+    <!-- Full Name -->
+    <label for="fullName">Full Name:</label>
+    <input type="text" id="fullName" name="fullName" required><br><br>
 
+    <!-- Username -->
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required><br><br>
+
+    <!-- Password -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <!-- Email Address -->
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <!-- City -->
+    <label for="city">City:</label>
+    <input type="text" id="city" name="city" required><br><br>
+
+    <!-- District -->
+    <label for="district">District:</label>
+    <input type="text" id="district" name="district"><br><br>
+
+    <!-- Address -->
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address"><br><br>
+
+    <!-- State -->
+    <label for="state">State:</label>
+    <input type="text" id="state" name="state" required><br><br>
+
+    <!-- Country -->
+    <label for="country">Country:</label>
+    <input type="text" id="country" name="country" required><br><br>
+
+    <!-- Phone Number -->
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone"><br><br>
+
+    <!-- Date of Birth -->
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <!-- Gender -->
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+        <option value="">Select Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select><br><br>
+
+    <!-- Preferred Language -->
+    <label for="language">Preferred Language:</label>
+    <select id="language" name="language" required>
+        <option value="english">English</option>
+        <option value="hindi">Hindi</option>
+        <option value="bengali">Bengali</option>
+        <option value="other">Other Indian Languages</option>
+    </select><br><br>
+
+    <!-- Submit Button -->
+    <button type="submit">Register</button>
+</form>
+</body>
+</html>
