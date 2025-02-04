@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Narrative Scroll Painting Preferences</title>
+  <link rel="stylesheet" href="user-artStyle-preferences.css">
+</head>
+<body>
+<div class="container">
+  <h1>Narrative Scroll Painting Preferences</h1>
+
+  <form id="preferenceForm">
+    <fieldset>
+      <legend>Art Style Information</legend>
+      <label for="artists">Names of artists who inspire you:</label>
+      <input type="text" id="artists" name="artists"><br><br>
+
+      <label for="ruralArt">Degree of interest in Rural/Folk Art Origins:</label>
+      <input type="text" id="ruralArt" name="ruralArt"><br><br>
+
+      <label>Familiarity with Mythology:</label>
+      <div>
+        <label for="south-asian">South Asian</label>
+        <select id="south-asian" name="familiarity">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select><br>
+
+        <label for="south-american">South American</label>
+        <select id="south-american" name="familiarity">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select><br>
+
+        <label for="greek">Greek</label>
+        <select id="greek" name="familiarity">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select><br>
+
+        <label for="roman">Roman</label>
+        <select id="roman" name="familiarity">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select><br>
+
+        <label for="australian">Australian</label>
+        <select id="australian" name="familiarity">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select><br>
+
+        <label for="african">African</label>
+        <select id="african" name="familiarity">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select><br>
+      </div><br><br>
+
+      <label for="familiarity-with-indian-scroll-painting-technique">Familiarity with Narrative Scroll Painting Techniques from Indian States:</label>
+      <select id="familiarity-with-indian-scroll-painting-technique" name="familiarity">
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+        <option value="expert">Expert</option>
+      </select><br><br>
+
+      <label for="familiarity-with-foreign-art">Familiarity with Foreign Artistic Influence:</label>
+      <select id="familiarity-with-foreign-art" name="familiarity">
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+        <option value="expert">Expert</option>
+      </select><br><br>
+
+      <label for="scrollLength">Do you like long (>5 panels) or short (single panel) scrolls?</label>
+      <select id="scrollLength" name="scrollLength">
+        <option value="long">Long</option>
+        <option value="short">Short</option>
+      </select><br><br>
+
+      <label for="artBooks">How frequently do you read books on art?</label>
+      <input type="text" id="artBooks" name="artBooks"><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Song Preference Information</legend>
+      <label for="familiarity-with-south-asian-music">Familiarity with South Asian music genres:</label>
+      <select id="familiarity-with-south-asian-music" name="familiarity">
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+        <option value="expert">Expert</option>
+      </select><br><br>
+
+      <label for="familiarity-with-epics">Familiarity with epics:</label>
+      <select id="familiarity-with-epics" name="familiarity">
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+        <option value="expert">Expert</option>
+      </select><br><br>
+
+      <label for="familiarity-with-folkTales">Familiarity with local folk tales from your state:</label>
+      <select id="familiarity-with-folkTales" name="familiarity">
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+        <option value="expert">Expert</option>
+      </select><br><br>
+
+      <label for="familiarity-with-sanskritTexts">Familiarity with Sanskrit scriptures and texts:</label>
+      <select id="familiarity-with-sanskritTexts" name="familiarity">
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+        <option value="expert">Expert</option>
+      </select><br><br>
+
+      <label for="familiarity-with-religiousLiterature">Familiarity with religious literature:</label>
+      <select id="familiarity-with-religiousLiterature" name="familiarity">
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+        <option value="expert">Expert</option>
+      </select><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Performance Preferences</legend>
+      <label for="watchedPerformance">Have you watched narrative scroll painting performances before?</label>
+      <select id="watchedPerformance" name="watchedPerformance">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select><br><br>
+
+      <label for="visitedMuseum">Have you visited a museum to see narrative scroll paintings?</label>
+      <select id="visitedMuseum" name="visitedMuseum">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select><br><br>
+
+      <label for="ownArtwork">Do you own artwork yourself?</label>
+      <select id="ownArtwork" name="ownArtwork">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select><br><br>
+
+      <label for="supportArtists">Have you supported performing artists who work with narrative scroll paintings?</label>
+      <select id="supportArtists" name="supportArtists">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select><br><br>
+    </fieldset>
+
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+<script src="user-artStyle-preferences.js"></script>
+</body>
+</html>
