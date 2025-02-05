@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.scroll, .panel-wrapper {
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.collapsible, .panel-collapsible {
+  background-color: #f1f1f1;
+  color: #333;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.panel, .panel-container {
+  padding: 10px;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.panel {
+  margin-top: 5px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.stars input[type="radio"] {
+    display: none;
+}
+
+.stars label {
+    font-size: 30px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.stars input[type="radio"]:checked ~ label {
+    color: #f5a623;
+}
+
+.stars label:hover,
+.stars label:hover ~ label {
+    color: #f5a623;
+}
+
+textarea {
+    width: 100%;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
