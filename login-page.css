@@ -14,16 +14,19 @@ body {
   
 }
 
+h1 {
+  text-align: center;
+}
+
 /* White rectangle in the middle of the screen */
 
-#main-holder {
+.container{
   width: 50%;
-  height: 70%;
+  height: 80%;
   display: grid;
   justify-items: center;
   align-items: center;
-  border-radius: 7px;
-  box-shadow: 0px 0px 5px 2px black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* -------------------------------------------------------------- */
@@ -88,7 +91,7 @@ main grid */
   margin-bottom: 10px;
   border-radius: 3px;
   outline: none;
-  padding: 0px 0px 5px 5px;
+  padding: 0 0 5px 5px;
 }
 
 /* Style the login button */
