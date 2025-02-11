@@ -84,6 +84,17 @@ class UserArtPreferences(db.Model):
     supported_artists = db.Column(db.Integer, nullable=True)  # Converted from yes/no
 
 
+class UserScrollPreferences(db.Model):
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    user_id = db.Column(db.Integer, nullable=False)
+    phase_id = db.Column(db.Integer, nullable=False)
+    scroll_id = db.Column(db.Integer, nullable=False)
+    panel_id = db.Column(db.Integer, nullable=False)
+    image_id = db.Column(db.Integer, nullable=False)
+    rating = db.Column(db.Integer, nullable=False)
+    review = db.Column(db.String(255), nullable=True)
+
+
 # Create the database
 with app.app_context():
     db.create_all()
@@ -187,6 +198,31 @@ def add_user_art_preferences():
         return jsonify({
             'message': 'User Art Preferences created successfully',
             'userArtPreferencesId': new_user_art_preferences.id
+        }), 201
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/userScrollPreferences', methods=['POST'])
+def add_user_scroll_preferences():
+    data = request.get_json()
+    new_user_scroll_preferences = UserScrollPreferences(
+        user_id=data['userId'],
+        phase_id=data['phaseId'],
+        scroll_id=data['scrollId'],
+        panel_id=data['panelId'],
+        image_id=data['imageId'],
+        rating=data['rating'],
+        review=data['review']
+    )
+    try:
+        db.session.add(new_user_scroll_preferences)
+        db.session.commit()
+
+        return jsonify({
+            'message': 'User Scroll Preferences created successfully',
+            'userScrollPreferencesId': new_user_scroll_preferences.id
         }), 201
     except Exception as e:
         db.session.rollback()
