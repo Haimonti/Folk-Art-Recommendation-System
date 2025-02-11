@@ -1,88 +1,118 @@
 // Check if the user is logged in
-if (!localStorage.getItem('userLoggedIn')) {
-    window.location.href = 'login.html';
-} else {
-    document.getElementById('usernameDisplay').textContent = localStorage.getItem('username');
+// if (!localStorage.getItem('userLoggedIn')) {
+//     window.location.href = 'login.html';
+// } else {
+//     document.getElementById('usernameDisplay').textContent = localStorage.getItem('username');
 
-    const numScrolls = 3; // Number of scrolls
-    const numPanels = 5; // Number of panels per scroll
-
-    function generateScrolls() {
+    document.addEventListener("DOMContentLoaded", function () {
         const container = document.getElementById('scrollContainer');
 
-        for (let scrollIndex = 0; scrollIndex < numScrolls; scrollIndex++) {
-            const scroll = document.createElement('div');
-            scroll.classList.add('scroll');
+        async function fetchHTML(url) {
+            const response = await fetch(url);
+            return response.text();
+        }
 
-            // Create collapsible button for the scroll
-            const scrollHeader = document.createElement('button');
-            scrollHeader.classList.add('collapsible');
-            scrollHeader.textContent = `Scroll ${scrollIndex + 1}`;
-            scroll.appendChild(scrollHeader);
+        async function generateScrolls() {
+            const html = await fetchHTML('scrolls/');
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, 'text/html');
+            const scrollDirs = [...doc.querySelectorAll('a')]
+                .map(a => a.textContent)
+                .filter(name => name.startsWith('s'));
 
-            // Scroll Content (Initially Hidden)
-            const panelContainer = document.createElement('div');
-            panelContainer.classList.add('panel-container');
-            panelContainer.style.display = 'none';
+            for (const scrollName of scrollDirs) {
+                const scrollDiv = document.createElement('div');
+                scrollDiv.classList.add('scroll');
 
-            for (let panelIndex = 0; panelIndex < numPanels; panelIndex++) {
-                const panelWrapper = document.createElement('div');
-                panelWrapper.classList.add('panel-wrapper');
+                // Scroll Collapsible Button
+                const scrollHeader = document.createElement('button');
+                scrollHeader.classList.add('collapsible');
+                scrollHeader.textContent = scrollName;
+                scrollDiv.appendChild(scrollHeader);
 
-                // Create collapsible button for each panel
-                const panelHeader = document.createElement('button');
-                panelHeader.classList.add('panel-collapsible');
-                panelHeader.textContent = `Panel ${panelIndex + 1}`;
-                panelWrapper.appendChild(panelHeader);
+                // Scroll Content (Initially Hidden)
+                const panelContainer = document.createElement('div');
+                panelContainer.classList.add('panel-container');
+                panelContainer.style.display = 'none';
 
-                // Panel Content (Initially Hidden)
-                const panel = document.createElement('div');
-                panel.classList.add('panel');
-                panel.style.display = 'none';
+                const imgHtml = await fetchHTML(`scrolls/${scrollName}/img/`);
+                const imgDoc = parser.parseFromString(imgHtml, 'text/html');
+                const images = [...imgDoc.querySelectorAll('a')]
+                    .map(a => a.textContent)
+                    .filter(name => name.endsWith('.jpg'));
 
-                panel.innerHTML = `
-          <div class="section">
-            <img src="scrolls/s1/img/s${scrollIndex + 1}.jpg" alt="Frame Image" style="display: block; margin: auto;" height="100" width="100">
-            <p style="text-align: center; margin-top: 10px;">Description for Panel ${panelIndex + 1} in Scroll ${scrollIndex + 1}</p>
-          </div>
-          <div class="section">
-            <label>Overall Rating:</label>
-            <div class="stars">
-              <input type="radio" id="star5-${scrollIndex}-${panelIndex}" name="rating-${panelIndex}" value="5"><label for="star5-${scrollIndex}-${panelIndex}">&#9733;</label>
-              <input type="radio" id="star4-${scrollIndex}-${panelIndex}" name="rating-${panelIndex}" value="4"><label for="star4-${scrollIndex}-${panelIndex}">&#9733;</label>
-              <input type="radio" id="star3-${scrollIndex}-${panelIndex}" name="rating-${panelIndex}" value="3"><label for="star3-${scrollIndex}-${panelIndex}">&#9733;</label>
-              <input type="radio" id="star2-${scrollIndex}-${panelIndex}" name="rating-${panelIndex}" value="2"><label for="star2-${scrollIndex}-${panelIndex}">&#9733;</label>
-              <input type="radio" id="star1-${scrollIndex}-${panelIndex}" name="rating-${panelIndex}" value="1" required><label for="star1-${scrollIndex}-${panelIndex}">&#9733;</label>
-            </div>
-          </div>
-          <div class="section">
-            <label for="review-${scrollIndex}-${panelIndex}">Write Your Review:</label>
-            <textarea id="review-${scrollIndex}-${panelIndex}" name="review-${panelIndex}" rows="4" style="width: 100%;" placeholder="What did you like or dislike?" required></textarea>
-          </div>
-          <div class="section">
-            <button type="submit" id="submit-${scrollIndex}-${panelIndex}">Submit</button>
-          </div>
-        `;
+                images.forEach((imgFile, index) => {
+                    const panelWrapper = document.createElement('div');
+                    panelWrapper.classList.add('panel-wrapper');
 
-                panelWrapper.appendChild(panel);
-                panelContainer.appendChild(panelWrapper);
+                    // Panel Collapsible Button
+                    const panelHeader = document.createElement('button');
+                    panelHeader.classList.add('panel-collapsible');
+                    panelHeader.textContent = `Panel ${index + 1}`;
+                    panelWrapper.appendChild(panelHeader);
 
-                // Toggle visibility for panels inside the scroll
-                panelHeader.addEventListener('click', function () {
-                    panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
+                    // Panel Content (Initially Hidden)
+                    const panelContent = document.createElement('div');
+                    panelContent.classList.add('panel');
+                    panelContent.style.display = 'none';
+
+                    panelContent.innerHTML = `
+                    <div class="section">
+                        <img src="scrolls/${scrollName}/img/${imgFile}" alt="Frame Image" style="max-width: 100%; max-height: 400px; display: block; margin: 0 auto; object-fit: contain;">
+                        <p style="text-align: center; margin-top: 10px;">Description for Panel ${index + 1} in Scroll ${scrollName}</p>
+                    </div>
+                    <div class="section">
+                        <label>Overall Rating:</label>
+                        <div class="stars">
+                            <input type="radio" id="star5-${scrollName}-${index}" name="rating-${index}" value="5">
+                            <label for="star5-${scrollName}-${index}">&#9733;</label>
+                            <input type="radio" id="star4-${scrollName}-${index}" name="rating-${index}" value="4">
+                            <label for="star4-${scrollName}-${index}">&#9733;</label>
+                            <input type="radio" id="star3-${scrollName}-${index}" name="rating-${index}" value="3">
+                            <label for="star3-${scrollName}-${index}">&#9733;</label>
+                            <input type="radio" id="star2-${scrollName}-${index}" name="rating-${index}" value="2">
+                            <label for="star2-${scrollName}-${index}">&#9733;</label>
+                            <input type="radio" id="star1-${scrollName}-${index}" name="rating-${index}" value="1" required>
+                            <label for="star1-${scrollName}-${index}">&#9733;</label>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <label for="review-${scrollName}-${index}">Write Your Review:</label>
+                        <textarea id="review-${scrollName}-${index}" name="review-${index}" rows="4" placeholder="What did you like or dislike?" required></textarea>
+                    </div>
+                    <div class="section">
+                        <button type="submit" id="submit-${scrollName}-${index}">Submit</button>
+                    </div>
+                `;
+
+                    panelWrapper.appendChild(panelContent);
+                    panelContainer.appendChild(panelWrapper);
                 });
+
+                scrollDiv.appendChild(panelContainer);
+                container.appendChild(scrollDiv);
             }
 
-            scroll.appendChild(panelContainer);
+            // Attach event listeners after elements are added
+            addCollapsibleListeners();
+        }
 
-            // Toggle visibility for entire scroll
-            scrollHeader.addEventListener('click', function () {
-                panelContainer.style.display = panelContainer.style.display === 'none' ? 'block' : 'none';
+        function addCollapsibleListeners() {
+            document.querySelectorAll('.collapsible').forEach(button => {
+                button.addEventListener('click', function () {
+                    this.nextElementSibling.style.display =
+                        this.nextElementSibling.style.display === 'none' ? 'block' : 'none';
+                });
             });
 
-            container.appendChild(scroll);
+            document.querySelectorAll('.panel-collapsible').forEach(button => {
+                button.addEventListener('click', function () {
+                    this.nextElementSibling.style.display =
+                        this.nextElementSibling.style.display === 'none' ? 'block' : 'none';
+                });
+            });
         }
-    }
 
-    window.onload = generateScrolls;
-}
+        generateScrolls();
+    });
+// }
