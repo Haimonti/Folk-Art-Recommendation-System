@@ -19,6 +19,7 @@
             const scrollDirs = [...doc.querySelectorAll('a')]
                 .map(a => a.textContent)
                 .filter(name => name.startsWith('s'));
+            let imageCount = 0;
 
             for (const scrollName of scrollDirs) {
                 const scrollDiv = document.createElement('div');
@@ -42,6 +43,7 @@
                     .filter(name => name.endsWith('.jpg'));
 
                 images.forEach((imgFile, index) => {
+                    imageCount = imageCount + 1;
                     const panelWrapper = document.createElement('div');
                     panelWrapper.classList.add('panel-wrapper');
 
@@ -58,8 +60,8 @@
 
                     panelContent.innerHTML = `
                     <div class="section">
-                        <img src="scrolls/${scrollName}/img/${imgFile}" alt="Frame Image" style="max-width: 100%; max-height: 400px; display: block; margin: 0 auto; object-fit: contain;">
-                        <p style="text-align: center; margin-top: 10px;">Description for Panel ${index + 1} in Scroll ${scrollName}</p>
+                        <img id="${imageCount}" src="scrolls/${scrollName}/img/${imgFile}" alt="Frame Image" style="max-width: 100%; max-height: 400px; display: block; margin: 0 auto; object-fit: contain;">
+                        <p style="text-align: center; margin-top: 10px;">Image ${imageCount} in Panel ${index + 1} in Scroll ${scrollName}</p>
                     </div>
                     <div class="section">
                         <label>Overall Rating:</label>
