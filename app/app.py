@@ -35,6 +35,55 @@ class User(db.Model):
     communication_channel = db.Column(db.String(50), nullable=True)
 
 
+class UserArtPreferences(db.Model):
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    user_id = db.Column(db.Integer, nullable=False)
+
+    artists = db.Column(db.String(255), nullable=True)
+    rural_art_interest_degree = db.Column(db.Integer, nullable=True)  # Converted from low/medium/high
+    south_asian_mythology_familiarity = db.Column(db.Integer, nullable=True)
+    south_american_mythology_familiarity = db.Column(db.Integer, nullable=True)
+    greek_mythology_familiarity = db.Column(db.Integer, nullable=True)
+    roman_mythology_familiarity = db.Column(db.Integer, nullable=True)
+    australian_mythology_familiarity = db.Column(db.Integer, nullable=True)
+    african_mythology_familiarity = db.Column(db.Integer, nullable=True)
+
+    rajasthan_familiarity = db.Column(db.Integer, nullable=True)
+    west_bengal_familiarity = db.Column(db.Integer, nullable=True)
+    andra_pradesh_familiarity = db.Column(db.Integer, nullable=True)
+    chattisgarh_familiarity = db.Column(db.Integer, nullable=True)
+    maharashtra_familiarity = db.Column(db.Integer, nullable=True)
+    gujrat_familiarity = db.Column(db.Integer, nullable=True)
+    karnataka_familiarity = db.Column(db.Integer, nullable=True)
+    tamil_nadu_familiarity = db.Column(db.Integer, nullable=True)
+
+    indonesia_familiarity = db.Column(db.Integer, nullable=True)
+    bali_java_borneo_familiarity = db.Column(db.Integer, nullable=True)
+    chinese_familiarity = db.Column(db.Integer, nullable=True)
+    persian_familiarity = db.Column(db.Integer, nullable=True)
+    tibetan_familiarity = db.Column(db.Integer, nullable=True)
+    srilankan_familiarity = db.Column(db.Integer, nullable=True)
+
+    scroll_length_preference = db.Column(db.Integer, nullable=True)  # 'long' or 'short'
+    art_books_reading_frequency = db.Column(db.Integer, nullable=True)  # 'monthly', 'annually', etc.
+
+    classical_familiarity = db.Column(db.Integer, nullable=True)
+    sanskrit_chants_familiarity = db.Column(db.Integer, nullable=True)
+    folk_music_familiarity = db.Column(db.Integer, nullable=True)
+    rock_familiarity = db.Column(db.Integer, nullable=True)
+    hip_hop_familiarity = db.Column(db.Integer, nullable=True)
+    bhajans_familiarity = db.Column(db.Integer, nullable=True)
+    epic_familiarity = db.Column(db.Integer, nullable=True)
+    folk_tales_familiarity = db.Column(db.Integer, nullable=True)
+    sanskrit_texts_familiarity = db.Column(db.Integer, nullable=True)
+    religious_literature_familiarity = db.Column(db.Integer, nullable=True)
+
+    watched_performances = db.Column(db.Integer, nullable=True)  # Converted from yes/no
+    visited_museum = db.Column(db.Integer, nullable=True)  # Converted from yes/no
+    own_artwork = db.Column(db.Integer, nullable=True)  # Converted from yes/no
+    supported_artists = db.Column(db.Integer, nullable=True)  # Converted from yes/no
+
+
 # Create the database
 with app.app_context():
     db.create_all()
@@ -80,6 +129,64 @@ def add_user():
         return jsonify({
             'message': 'User created successfully',
             'userId': new_user.id  # Include the userId in the response
+        }), 201
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/userArtPreferences', methods=['POST'])
+def add_user_art_preferences():
+    data = request.get_json()
+
+    new_user_art_preferences = UserArtPreferences(
+        user_id=data['userId'],
+        artists=data['artists'],
+        rural_art_interest_degree=data['ruralArtInterestDegree'],
+        south_asian_mythology_familiarity=data['southAsianMythologyFamiliarity'],
+        south_american_mythology_familiarity=data['southAmericanMythologyFamiliarity'],
+        greek_mythology_familiarity=data['greekMythologyFamiliarity'],
+        roman_mythology_familiarity=data['romanMythologyFamiliarity'],
+        australian_mythology_familiarity=data['australianMythologyFamiliarity'],
+        african_mythology_familiarity=data['africanMythologyFamiliarity'],
+        rajasthan_familiarity=data['rajasthanFamiliarity'],
+        west_bengal_familiarity=data['westBengalFamiliarity'],
+        andra_pradesh_familiarity=data['andraPradeshFamiliarity'],
+        chattisgarh_familiarity=data['chattisgarhFamiliarity'],
+        maharashtra_familiarity=data['maharashtraFamiliarity'],
+        gujrat_familiarity=data['gujratFamiliarity'],
+        karnataka_familiarity=data['karnatakaFamiliarity'],
+        tamil_nadu_familiarity=data['tamilNaduFamiliarity'],
+        indonesia_familiarity=data['indonesiaFamiliarity'],
+        bali_java_borneo_familiarity=data['baliJavaBorneoFamiliarity'],
+        chinese_familiarity=data['chineseFamiliarity'],
+        persian_familiarity=data['persianFamiliarity'],
+        tibetan_familiarity=data['tibetanFamiliarity'],
+        srilankan_familiarity=data['srilankanFamiliarity'],
+        scroll_length_preference=data['scrollLengthPreference'],
+        art_books_reading_frequency=data['artBooksReadingFrequency'],
+        classical_familiarity=data['classicalFamiliarity'],
+        sanskrit_chants_familiarity=data['sanskritChantsFamiliarity'],
+        folk_music_familiarity=data['folkMusicFamiliarity'],
+        rock_familiarity=data['rockFamiliarity'],
+        hip_hop_familiarity=data['hipHopFamiliarity'],
+        bhajans_familiarity=data['bhajansFamiliarity'],
+        epic_familiarity=data['epicFamiliarity'],
+        folk_tales_familiarity=data['folkTalesFamiliarity'],
+        sanskrit_texts_familiarity=data['sanskritTextsFamiliarity'],
+        religious_literature_familiarity=data['religiousLiteratureFamiliarity'],
+        watched_performances=data['watchedPerformances'],
+        visited_museum=data['visitedMuseum'],
+        own_artwork=data['ownArtwork'],
+        supported_artists=data['supportedArtists']
+    )
+    try:
+        db.session.add(new_user_art_preferences)
+        db.session.commit()
+
+        return jsonify({
+            'message': 'User Art Preferences created successfully',
+            'userArtPreferencesId': new_user_art_preferences.id
         }), 201
     except Exception as e:
         db.session.rollback()
