@@ -23,7 +23,7 @@ async function submitForm(event) {
             const result = await response.json();
             alert('Registration successful: ' + result.message);
             form.reset();
-            window.location.href = `user-artStyle-preferences.html?userId=${result.userId}`;
+            window.location.replace(`user-artStyle-preferences.html?userId=${result.userId}`);
         } else {
             const error = await response.json();
             alert('Error: ' + (error.error || 'Something went wrong'));
