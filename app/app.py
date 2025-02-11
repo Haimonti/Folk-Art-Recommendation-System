@@ -32,7 +32,7 @@ class User(db.Model):
     language = db.Column(db.String(50), nullable=True)
     interest_level = db.Column(db.String(50), nullable=True)
     occupation = db.Column(db.String(50), nullable=True)
-    communication_chanel = db.Column(db.String(50), nullable=True)
+    communication_channel = db.Column(db.String(50), nullable=True)
 
 
 # Create the database
@@ -68,9 +68,9 @@ def add_user():
         dob=data.get('dob'),
         gender=data.get('gender'),
         language=data.get('language'),
-        interest_level=data.get('interest_level'),
+        interest_level=data['interestLevel'],
         occupation=data.get('occupation'),
-        communication_chanel=data.get('communication_chanel')
+        communication_channel=data['communicationChannel']
     )
 
     try:
