@@ -30,6 +30,9 @@ class User(db.Model):
     dob = db.Column(db.String(10), nullable=True)  # Date of birth as string (YYYY-MM-DD)
     gender = db.Column(db.String(10), nullable=True)
     language = db.Column(db.String(50), nullable=True)
+    interest_level = db.Column(db.String(50), nullable=True)
+    occupation = db.Column(db.String(50), nullable=True)
+    communication_chanel = db.Column(db.String(50), nullable=True)
 
 
 # Create the database
@@ -64,13 +67,20 @@ def add_user():
         phone=data.get('phone'),
         dob=data.get('dob'),
         gender=data.get('gender'),
-        language=data.get('language')
+        language=data.get('language'),
+        interest_level=data.get('interest_level'),
+        occupation=data.get('occupation'),
+        communication_chanel=data.get('communication_chanel')
     )
 
     try:
         db.session.add(new_user)
         db.session.commit()
-        return jsonify({'message': 'User created successfully'}), 201
+
+        return jsonify({
+            'message': 'User created successfully',
+            'userId': new_user.id  # Include the userId in the response
+        }), 201
     except Exception as e:
         db.session.rollback()
         return jsonify({'error': str(e)}), 500
