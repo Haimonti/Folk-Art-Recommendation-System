@@ -25,7 +25,7 @@ loginButton.addEventListener("click", async (e) => {
         if (response.ok) {
             const result = await response.json();
             alert('Registration successful: ' + result.message);
-            window.location.href = 'user-preferences.html';
+            window.location.href = 'user-scroll-preferences.html';
         } else {
             const error = await response.json();
             // Otherwise, make the login error message show (change its oppacity)

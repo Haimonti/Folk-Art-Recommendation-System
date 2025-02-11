@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (response.ok) {
                 const result = await response.json();
                 alert('Preferences saved successfully: ' + result.message);
-                window.location.href = 'user-preferences.html'; // Redirect to another page
+                window.location.href = 'user-scroll-preferences.html';
             } else {
                 const error = await response.json();
                 alert('Error: ' + (error.error || 'Something went wrong'));
