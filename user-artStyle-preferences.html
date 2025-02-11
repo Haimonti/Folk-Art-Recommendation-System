@@ -10,19 +10,24 @@
 <div class="container">
   <h1>Narrative Scroll Painting Preferences</h1>
 
-  <form id="preferenceForm">
+  <form action="/submit-registration" id="preferenceForm" method="post" >
     <fieldset>
       <legend>Art Style Information</legend>
       <label for="artists">Names of artists who inspire you:</label>
       <input type="text" id="artists" name="artists"><br><br>
 
       <label for="ruralArt">Degree of interest in Rural/Folk Art Origins:</label>
-      <input type="text" id="ruralArt" name="ruralArt"><br><br>
+      <select id="ruralArt" name="ruralArtInterestDegree">
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+        <option value="very-high">Very High</option>
+      </select><br><br>
 
       <label>Familiarity with Mythology:</label>
       <div>
         <label for="south-asian">South Asian</label>
-        <select id="south-asian" name="familiarity">
+        <select id="south-asian" name="southAsianMythologyFamiliarity">
           <option value="beginner">Beginner</option>
           <option value="intermediate">Intermediate</option>
           <option value="advanced">Advanced</option>
@@ -30,7 +35,7 @@
         </select><br>
 
         <label for="south-american">South American</label>
-        <select id="south-american" name="familiarity">
+        <select id="south-american" name="southAmericanMythologyFamiliarity">
           <option value="beginner">Beginner</option>
           <option value="intermediate">Intermediate</option>
           <option value="advanced">Advanced</option>
@@ -38,7 +43,7 @@
         </select><br>
 
         <label for="greek">Greek</label>
-        <select id="greek" name="familiarity">
+        <select id="greek" name="greekMythologyFamiliarity">
           <option value="beginner">Beginner</option>
           <option value="intermediate">Intermediate</option>
           <option value="advanced">Advanced</option>
@@ -46,7 +51,7 @@
         </select><br>
 
         <label for="roman">Roman</label>
-        <select id="roman" name="familiarity">
+        <select id="roman" name="romanMythologyFamiliarity">
           <option value="beginner">Beginner</option>
           <option value="intermediate">Intermediate</option>
           <option value="advanced">Advanced</option>
@@ -54,7 +59,7 @@
         </select><br>
 
         <label for="australian">Australian</label>
-        <select id="australian" name="familiarity">
+        <select id="australian" name="australianMythologyFamiliarity">
           <option value="beginner">Beginner</option>
           <option value="intermediate">Intermediate</option>
           <option value="advanced">Advanced</option>
@@ -62,7 +67,7 @@
         </select><br>
 
         <label for="african">African</label>
-        <select id="african" name="familiarity">
+        <select id="african" name="africanMythologyFamiliarity">
           <option value="beginner">Beginner</option>
           <option value="intermediate">Intermediate</option>
           <option value="advanced">Advanced</option>
@@ -70,44 +75,196 @@
         </select><br>
       </div><br><br>
 
-      <label for="familiarity-with-indian-scroll-painting-technique">Familiarity with Narrative Scroll Painting Techniques from Indian States:</label>
-      <select id="familiarity-with-indian-scroll-painting-technique" name="familiarity">
-        <option value="beginner">Beginner</option>
-        <option value="intermediate">Intermediate</option>
-        <option value="advanced">Advanced</option>
-        <option value="expert">Expert</option>
-      </select><br><br>
+      <label>Familiarity with Narrative Scroll Painting Techniques from Indian States:</label>
+      <div>
+        <label for="rajasthan">Rajasthan: Phads of Pabuji and Dev Narayan; Bhopas</label>
+        <select id="rajasthan" name="rajasthanFamiliarity">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select><br>
 
-      <label for="familiarity-with-foreign-art">Familiarity with Foreign Artistic Influence:</label>
-      <select id="familiarity-with-foreign-art" name="familiarity">
-        <option value="beginner">Beginner</option>
-        <option value="intermediate">Intermediate</option>
-        <option value="advanced">Advanced</option>
-        <option value="expert">Expert</option>
-      </select><br><br>
+        <label for="west-bengal">West Bengal, Orissa, Assam: Patachitra</label>
+        <select id="west-bengal" name="westBengalFamiliarity">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select><br>
+
+        <label for="andra-pradesh">Andra Pradesh: Kalamkari and Vijaynagar styles; Mandaheccu story-tellers</label>
+        <select id="andra-pradesh" name="andraPradeshFamiliarity">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select><br>
+
+        <label for="chattisgarh">Chattisgarh, Bihar: Jadu patas, Santhal patas</label>
+        <select id="chattisgarh" name="chattisgarhFamiliarity">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select><br>
+
+        <label for="maharashtra">Maharastra: Paithan paintings; Chitrakathis; Pinguli pothis</label>
+        <select id="maharashtra" name="maharashtraFamiliarity">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select><br>
+
+        <label for="gujrat"> Gujrat: Garoda picture showmen</label>
+        <select id="gujrat" name="gujratFamiliarity">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select><br>
+
+        <label for="karnataka">Karnataka: Killekyāta (also called Killikiater, Killiketar, Kiliket, Katabu, Katbu, and numerous other variants)</label>
+        <select id="karnataka" name="karnatakaFamiliarity">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select><br>
+
+        <label for="tamil-nadu">Tamil Nadu: Terukkuttu (street drama)</label>
+        <select id="tamil-nadu" name="tamilNaduFamiliarity">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select><br>
+      </div><br><br>
+
+      <label>Familiarity with Foreign Artistic Influence:</label>
+      <div>
+        <label for="indonesia">Indonesia</label>
+        <select id="indonesia" name="indonesiaFamiliarity">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select><br>
+
+        <label for="bali-java-borneo">Bali, Java, and Borneo</label>
+        <select id="bali-java-borneo" name="baliJavaBorneoFamiliarity">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select><br>
+
+        <label for="chinese">Chinese</label>
+        <select id="chinese" name="chineseFamiliarity">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select><br>
+
+        <label for="persian">Persian</label>
+        <select id="persian" name="persianFamiliarity">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select><br>
+
+        <label for="tibetan">Tibetan</label>
+        <select id="tibetan" name="tibetanFamiliarity">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select><br>
+
+        <label for="srilankan">Sri Lankan</label>
+        <select id="srilankan" name="srilankanFamiliarity">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select><br>
+      </div><br><br>
+
 
       <label for="scrollLength">Do you like long (>5 panels) or short (single panel) scrolls?</label>
-      <select id="scrollLength" name="scrollLength">
+      <select id="scrollLength" name="scrollLengthPreference">
         <option value="long">Long</option>
         <option value="short">Short</option>
       </select><br><br>
 
       <label for="artBooks">How frequently do you read books on art?</label>
-      <input type="text" id="artBooks" name="artBooks"><br><br>
+      <select id="artBooks" name="artBooksReadingFrequency">
+        <option value="monthly">Once a month</option>
+        <option value="sixMonths">Once every six months</option>
+        <option value="annually">Annually</option>
+        <option value="never">Never</option>
+      </select><br><br>
     </fieldset><br>
 
     <fieldset>
       <legend>Song Preference Information</legend>
-      <label for="familiarity-with-south-asian-music">Familiarity with South Asian music genres:</label>
-      <select id="familiarity-with-south-asian-music" name="familiarity">
-        <option value="beginner">Beginner</option>
-        <option value="intermediate">Intermediate</option>
-        <option value="advanced">Advanced</option>
-        <option value="expert">Expert</option>
-      </select><br><br>
+      <label>Familiarity with South Asian music genres:</label>
+      <div>
+        <label for="classical">Classical</label>
+        <select id="classical" name="classicalFamiliarity">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select><br>
+
+        <label for="sanskrit-chants">Sanskrit Chants</label>
+        <select id="sanskrit-chants" name="sanskritChantsFamiliarity">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select><br>
+
+        <label for="folk-music">Folk Music</label>
+        <select id="folk-music" name="folkMusicFamiliarity">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select><br>
+
+        <label for="rock">Rock</label>
+        <select id="rock" name="rockFamiliarity">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select><br>
+
+        <label for="hip-hop">Hip-Hop</label>
+        <select id="hip-hop" name="hipHopFamiliarity">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select><br>
+
+        <label for="bhajans">Religious Bhajans</label>
+        <select id="bhajans" name="bhajansFamiliarity">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select><br>
+
+      </div><br><br>
 
       <label for="familiarity-with-epics">Familiarity with epics:</label>
-      <select id="familiarity-with-epics" name="familiarity">
+      <select id="familiarity-with-epics" name="epicFamiliarity">
         <option value="beginner">Beginner</option>
         <option value="intermediate">Intermediate</option>
         <option value="advanced">Advanced</option>
@@ -115,7 +272,7 @@
       </select><br><br>
 
       <label for="familiarity-with-folkTales">Familiarity with local folk tales from your state:</label>
-      <select id="familiarity-with-folkTales" name="familiarity">
+      <select id="familiarity-with-folkTales" name="folkTalesFamiliarity">
         <option value="beginner">Beginner</option>
         <option value="intermediate">Intermediate</option>
         <option value="advanced">Advanced</option>
@@ -123,7 +280,7 @@
       </select><br><br>
 
       <label for="familiarity-with-sanskritTexts">Familiarity with Sanskrit scriptures and texts:</label>
-      <select id="familiarity-with-sanskritTexts" name="familiarity">
+      <select id="familiarity-with-sanskritTexts" name="sanskritTextsFamiliarity">
         <option value="beginner">Beginner</option>
         <option value="intermediate">Intermediate</option>
         <option value="advanced">Advanced</option>
@@ -131,7 +288,7 @@
       </select><br><br>
 
       <label for="familiarity-with-religiousLiterature">Familiarity with religious literature:</label>
-      <select id="familiarity-with-religiousLiterature" name="familiarity">
+      <select id="familiarity-with-religiousLiterature" name="religiousLiteratureFamiliarity">
         <option value="beginner">Beginner</option>
         <option value="intermediate">Intermediate</option>
         <option value="advanced">Advanced</option>
@@ -141,8 +298,8 @@
 
     <fieldset>
       <legend>Performance Preferences</legend>
-      <label for="watchedPerformance">Have you watched narrative scroll painting performances before?</label>
-      <select id="watchedPerformance" name="watchedPerformance">
+      <label for="watchedPerformances">Have you watched narrative scroll painting performances before?</label>
+      <select id="watchedPerformances" name="watchedPerformances">
         <option value="yes">Yes</option>
         <option value="no">No</option>
       </select><br><br>
@@ -159,8 +316,8 @@
         <option value="no">No</option>
       </select><br><br>
 
-      <label for="supportArtists">Have you supported performing artists who work with narrative scroll paintings?</label>
-      <select id="supportArtists" name="supportArtists">
+      <label for="supportedArtists">Have you supported performing artists who work with narrative scroll paintings?</label>
+      <select id="supportedArtists" name="supportedArtists">
         <option value="yes">Yes</option>
         <option value="no">No</option>
       </select><br><br>
