@@ -64,7 +64,11 @@ button {
 .stars label:hover ~ label {
     color: #f5a623;
 }
-
+.stars input[type="radio"]:disabled ~ label {
+    cursor: default;
+    color: gray !important; /* Grey out the stars */
+    pointer-events: none; /* Prevent hover effect */
+}
 textarea {
     width: 100%;
 }
