@@ -33,3 +33,7 @@ async function submitForm(event) {
         alert('Error: Could not connect to the server.');
     }
 }
+
+// Need a landing Page where need to show 2 Phases
+
+// id(unique & primary Id) | userId | phaseId | scrollId | panelId | imageId | rating | review |

@@ -172,7 +172,7 @@
                     console.log("Submitting Data:", requestData); // Debugging
 
                     try {
-                        const response = await fetch("http://127.0.0.1:5000/userScrollPreferences", {
+                        const response = await fetch("/userScrollPreferences", {
                             method: "POST",
                             headers: {
                                 "Content-Type": "application/json"
