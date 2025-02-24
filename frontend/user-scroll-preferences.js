@@ -4,6 +4,10 @@
 // } else {
 //     document.getElementById('usernameDisplay').textContent = localStorage.getItem('username');
 
+import {CONFIG} from "./config";
+
+const DOMAIN = CONFIG.DOMAIN;
+
     document.addEventListener("DOMContentLoaded", function () {
         const urlParams = new URLSearchParams(window.location.search);
         const userId = urlParams.get('userId');
@@ -169,10 +173,10 @@
                         review
                     };
 
-                    console.log("Submitting Data:", requestData); // Debugging
+                    const url = `${DOMAIN}/userScrollPreferences`;
 
                     try {
-                        const response = await fetch("/userScrollPreferences", {
+                        const response = await fetch(url, {
                             method: "POST",
                             headers: {
                                 "Content-Type": "application/json"

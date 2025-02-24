@@ -1,6 +1,9 @@
+import {CONFIG} from "./config";
+
 const loginForm = document.getElementById("login-form");
 const loginButton = document.getElementById("login-form-submit");
 const loginErrorMsg = document.getElementById("login-error-msg");
+const DOMAIN = CONFIG.DOMAIN;
 
 // When the login button is clicked, the following code is executed
 loginButton.addEventListener("click", async (e) => {
@@ -9,12 +12,13 @@ loginButton.addEventListener("click", async (e) => {
     // Get the values input by the user in the form fields
     const username = loginForm.username.value;
     const password = loginForm.password.value;
+    const url = `${DOMAIN}/login`;
 
     try {
         const data = {};
         data['username'] = username;
         data['password'] = password;
-        const response = await fetch('http://127.0.0.1:5000/login', {
+        const response = await fetch(url, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

@@ -1,3 +1,7 @@
+import {CONFIG} from "./config";
+
+const DOMAIN = CONFIG.DOMAIN;
+
 document.addEventListener('DOMContentLoaded', function () {
     // Extract userId from the URL query parameters
     const urlParams = new URLSearchParams(window.location.search);
@@ -19,9 +23,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Add userId to the form data
         data.userId = userId;
+        const url = `${DOMAIN}/userArtPreferences`;
 
         try {
-            const response = await fetch('/userArtPreferences', {
+            const response = await fetch(url, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

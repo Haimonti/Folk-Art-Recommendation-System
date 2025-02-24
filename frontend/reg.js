@@ -1,3 +1,7 @@
+import {CONFIG} from "./config";
+
+const DOMAIN = CONFIG.DOMAIN;
+
 async function submitForm(event) {
     event.preventDefault();
 
@@ -9,9 +13,10 @@ async function submitForm(event) {
     formData.forEach((value, key) => {
         data[key] = value;
     });
+    const url = `${DOMAIN}/users`;
 
     try {
-        const response = await fetch('/users', {
+        const response = await fetch(url, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
