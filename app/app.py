@@ -154,43 +154,43 @@ def add_user_art_preferences():
     new_user_art_preferences = UserArtPreferences(
         user_id=data['userId'],
         artists=data['artists'],
-        rural_art_interest_degree=data['ruralArtInterestDegree'],
-        south_asian_mythology_familiarity=data['southAsianMythologyFamiliarity'],
-        south_american_mythology_familiarity=data['southAmericanMythologyFamiliarity'],
-        greek_mythology_familiarity=data['greekMythologyFamiliarity'],
-        roman_mythology_familiarity=data['romanMythologyFamiliarity'],
-        australian_mythology_familiarity=data['australianMythologyFamiliarity'],
-        african_mythology_familiarity=data['africanMythologyFamiliarity'],
-        rajasthan_familiarity=data['rajasthanFamiliarity'],
-        west_bengal_familiarity=data['westBengalFamiliarity'],
-        andra_pradesh_familiarity=data['andraPradeshFamiliarity'],
-        chattisgarh_familiarity=data['chattisgarhFamiliarity'],
-        maharashtra_familiarity=data['maharashtraFamiliarity'],
-        gujrat_familiarity=data['gujratFamiliarity'],
-        karnataka_familiarity=data['karnatakaFamiliarity'],
-        tamil_nadu_familiarity=data['tamilNaduFamiliarity'],
-        indonesia_familiarity=data['indonesiaFamiliarity'],
-        bali_java_borneo_familiarity=data['baliJavaBorneoFamiliarity'],
-        chinese_familiarity=data['chineseFamiliarity'],
-        persian_familiarity=data['persianFamiliarity'],
-        tibetan_familiarity=data['tibetanFamiliarity'],
-        srilankan_familiarity=data['srilankanFamiliarity'],
-        scroll_length_preference=data['scrollLengthPreference'],
-        art_books_reading_frequency=data['artBooksReadingFrequency'],
-        classical_familiarity=data['classicalFamiliarity'],
-        sanskrit_chants_familiarity=data['sanskritChantsFamiliarity'],
-        folk_music_familiarity=data['folkMusicFamiliarity'],
-        rock_familiarity=data['rockFamiliarity'],
-        hip_hop_familiarity=data['hipHopFamiliarity'],
-        bhajans_familiarity=data['bhajansFamiliarity'],
-        epic_familiarity=data['epicFamiliarity'],
-        folk_tales_familiarity=data['folkTalesFamiliarity'],
-        sanskrit_texts_familiarity=data['sanskritTextsFamiliarity'],
-        religious_literature_familiarity=data['religiousLiteratureFamiliarity'],
-        watched_performances=data['watchedPerformances'],
-        visited_museum=data['visitedMuseum'],
-        own_artwork=data['ownArtwork'],
-        supported_artists=data['supportedArtists']
+        rural_art_interest_degree=map_degree_level(data['ruralArtInterestDegree']),
+        south_asian_mythology_familiarity=map_familiarity_level(data['southAsianMythologyFamiliarity']),
+        south_american_mythology_familiarity=map_familiarity_level(data['southAmericanMythologyFamiliarity']),
+        greek_mythology_familiarity=map_familiarity_level(data['greekMythologyFamiliarity']),
+        roman_mythology_familiarity=map_familiarity_level(data['romanMythologyFamiliarity']),
+        australian_mythology_familiarity=map_familiarity_level(data['australianMythologyFamiliarity']),
+        african_mythology_familiarity=map_familiarity_level(data['africanMythologyFamiliarity']),
+        rajasthan_familiarity=map_familiarity_level(data['rajasthanFamiliarity']),
+        west_bengal_familiarity=map_familiarity_level(data['westBengalFamiliarity']),
+        andra_pradesh_familiarity=map_familiarity_level(data['andraPradeshFamiliarity']),
+        chattisgarh_familiarity=map_familiarity_level(data['chattisgarhFamiliarity']),
+        maharashtra_familiarity=map_familiarity_level(data['maharashtraFamiliarity']),
+        gujrat_familiarity=map_familiarity_level(data['gujratFamiliarity']),
+        karnataka_familiarity=map_familiarity_level(data['karnatakaFamiliarity']),
+        tamil_nadu_familiarity=map_familiarity_level(data['tamilNaduFamiliarity']),
+        indonesia_familiarity=map_familiarity_level(data['indonesiaFamiliarity']),
+        bali_java_borneo_familiarity=map_familiarity_level(data['baliJavaBorneoFamiliarity']),
+        chinese_familiarity=map_familiarity_level(data['chineseFamiliarity']),
+        persian_familiarity=map_familiarity_level(data['persianFamiliarity']),
+        tibetan_familiarity=map_familiarity_level(data['tibetanFamiliarity']),
+        srilankan_familiarity=map_familiarity_level(data['srilankanFamiliarity']),
+        scroll_length_preference=map_scroll_length(data['scrollLengthPreference']),
+        art_books_reading_frequency=map_reading_frequency(data['artBooksReadingFrequency']),
+        classical_familiarity=map_familiarity_level(data['classicalFamiliarity']),
+        sanskrit_chants_familiarity=map_familiarity_level(data['sanskritChantsFamiliarity']),
+        folk_music_familiarity=map_familiarity_level(data['folkMusicFamiliarity']),
+        rock_familiarity=map_familiarity_level(data['rockFamiliarity']),
+        hip_hop_familiarity=map_familiarity_level(data['hipHopFamiliarity']),
+        bhajans_familiarity=map_familiarity_level(data['bhajansFamiliarity']),
+        epic_familiarity=map_familiarity_level(data['epicFamiliarity']),
+        folk_tales_familiarity=map_familiarity_level(data['folkTalesFamiliarity']),
+        sanskrit_texts_familiarity=map_familiarity_level(data['sanskritTextsFamiliarity']),
+        religious_literature_familiarity=map_familiarity_level(data['religiousLiteratureFamiliarity']),
+        watched_performances=map_boolean_to_int(data['watchedPerformances']),
+        visited_museum=map_boolean_to_int(data['visitedMuseum']),
+        own_artwork=map_boolean_to_int(data['ownArtwork']),
+        supported_artists=map_boolean_to_int(data['supportedArtists'])
     )
     try:
         db.session.add(new_user_art_preferences)
@@ -203,6 +203,53 @@ def add_user_art_preferences():
     except Exception as e:
         db.session.rollback()
         return jsonify({'error': str(e)}), 500
+
+
+def map_familiarity_level(level: str) -> int:
+    levels = {
+        "beginner": 1,
+        "intermediate": 2,
+        "advanced": 3,
+        "expert": 4
+    }
+    return levels.get(level.lower(), None)
+
+
+def map_scroll_length(length: str) -> int:
+    scrolls = {
+        "short": 1,
+        "long": 2
+    }
+    return scrolls.get(length.lower(), None)
+
+
+def map_boolean_to_int(answer: str) -> int:
+    answers = {
+        "yes": 1,
+        "no": 0
+    }
+    return answers.get(answer.lower(), None)
+
+
+def map_degree_level(level: str) -> int:
+    levels = {
+        "low": 1,
+        "medium": 2,
+        "high": 3,
+        "very-high": 4
+    }
+
+    return levels.get(level.lower(), None)
+
+
+def map_reading_frequency(level: str) -> int:
+    levels = {
+        "monthly": 1,
+        "sixMonths": 2,
+        "annually": 3,
+        "never": 0
+    }
+    return levels.get(level.lower(), None)
 
 
 @app.route('/userScrollPreferences', methods=['POST'])
