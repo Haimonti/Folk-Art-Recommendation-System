@@ -1,3 +1,3 @@
-export const CONFIG = {
+window.CONFIG = {
     DOMAIN: "__DOMAIN__"
 };

@@ -1,6 +1,4 @@
-import {CONFIG} from "./config";
-
-const DOMAIN = CONFIG.DOMAIN;
+const DOMAIN = window.CONFIG.DOMAIN;
 
 async function submitForm(event) {
     event.preventDefault();

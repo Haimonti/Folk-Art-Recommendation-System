@@ -1,6 +1,4 @@
-import {CONFIG} from "./config";
-
-const DOMAIN = CONFIG.DOMAIN;
+const DOMAIN = window.CONFIG.DOMAIN;
 
 document.addEventListener('DOMContentLoaded', function () {
     // Extract userId from the URL query parameters

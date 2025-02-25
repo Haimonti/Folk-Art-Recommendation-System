@@ -4,9 +4,7 @@
 // } else {
 //     document.getElementById('usernameDisplay').textContent = localStorage.getItem('username');
 
-import {CONFIG} from "./config";
-
-const DOMAIN = CONFIG.DOMAIN;
+const DOMAIN = window.CONFIG.DOMAIN;
 
     document.addEventListener("DOMContentLoaded", function () {
         const urlParams = new URLSearchParams(window.location.search);

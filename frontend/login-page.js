@@ -1,9 +1,7 @@
-import {CONFIG} from "./config";
-
 const loginForm = document.getElementById("login-form");
 const loginButton = document.getElementById("login-form-submit");
 const loginErrorMsg = document.getElementById("login-error-msg");
-const DOMAIN = CONFIG.DOMAIN;
+const DOMAIN = window.CONFIG.DOMAIN;
 
 // When the login button is clicked, the following code is executed
 loginButton.addEventListener("click", async (e) => {
