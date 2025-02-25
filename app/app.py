@@ -286,7 +286,7 @@ def login_user():
 
     user = User.query.filter_by(username=username).first()
     if user and bcrypt.checkpw(password.encode('utf-8'), user.password.encode('utf-8')):
-        return jsonify({'message': 'Login successful'})
+        return jsonify({'message': 'Login successful', 'userId': user.id})
     return jsonify({'error': 'Invalid username or password'}), 401
 
 
