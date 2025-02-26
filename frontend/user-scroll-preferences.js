@@ -23,7 +23,7 @@ const DOMAIN = window.CONFIG.DOMAIN;
         }
 
         async function generateScrolls() {
-            const html = await fetchHTML('/scrolls');
+            const html = await fetchHTML('/scrolls/');
             const parser = new DOMParser();
             const doc = parser.parseFromString(html, 'text/html');
             const scrollDirs = [...doc.querySelectorAll('a')]
