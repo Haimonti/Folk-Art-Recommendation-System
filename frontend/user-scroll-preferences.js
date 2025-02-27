@@ -17,20 +17,15 @@ const DOMAIN = window.CONFIG.DOMAIN;
         const container = document.getElementById('scrollContainer');
         let imageCount = 0;
 
-        async function fetchHTML(url) {
-            const response = await fetch(url);
-            return response.text();
-        }
-
         async function generateScrolls() {
-            const html = await fetchHTML('scrolls/');
-            const parser = new DOMParser();
-            const doc = parser.parseFromString(html, 'text/html');
-            const scrollDirs = [...doc.querySelectorAll('a')]
-                .map(a => a.textContent)
-                .filter(name => name.startsWith('s'));
+            const response =  await fetch("/scrolls.json");
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            const data =  await response.json();
 
-            for (const [scrollIndex, scrollName] of scrollDirs.entries()) {
+            data.scrolls.map(async (scroll, scrollIndex) => {
+                const [scrollName, content] = Object.entries(scroll)[0];
                 const scrollDiv = document.createElement('div');
                 scrollDiv.classList.add('scroll');
 
@@ -45,13 +40,7 @@ const DOMAIN = window.CONFIG.DOMAIN;
                 panelContainer.classList.add('panel-container');
                 panelContainer.style.display = 'none';
 
-                const imgHtml = await fetchHTML(`scrolls/${scrollName}/img/`);
-                const imgDoc = parser.parseFromString(imgHtml, 'text/html');
-                const images = [...imgDoc.querySelectorAll('a')]
-                    .map(a => a.textContent)
-                    .filter(name => name.endsWith('.jpg'));
-
-                images.forEach((imgFile, panelIndex) => {
+                content.img.map((img, panelIndex) => {
                     imageCount++;
                     const imageId = imageCount;
                     const panelWrapper = document.createElement('div');
@@ -104,7 +93,7 @@ const DOMAIN = window.CONFIG.DOMAIN;
 
                 scrollDiv.appendChild(panelContainer);
                 container.appendChild(scrollDiv);
-            }
+            });
 
         // Attach event listeners after elements are added
         addCollapsibleListeners();
