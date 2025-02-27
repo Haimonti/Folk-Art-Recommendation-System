@@ -59,7 +59,7 @@ const DOMAIN = window.CONFIG.DOMAIN;
 
                     panelContent.innerHTML = `
                         <div class="section">
-                            <img id="image-${imageId}" src="scrolls/${scrollName}/img/${imgFile}" alt="Frame Image" style="max-width: 100%; max-height: 400px; display: block; margin: 0 auto; object-fit: contain;">
+                            <img id="image-${imageId}" src="scrolls/${scrollName}/img/${img}" alt="Frame Image" style="max-width: 100%; max-height: 400px; display: block; margin: 0 auto; object-fit: contain;">
                             <p style="text-align: center; margin-top: 10px;">Image ${imageId} in Panel ${panelIndex + 1} in Scroll ${scrollIndex + 1}</p>
                         </div>
                         <div class="section">
