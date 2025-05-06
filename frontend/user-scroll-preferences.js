@@ -88,7 +88,6 @@ const DOMAIN = window.CONFIG.DOMAIN;
 
                     panelWrapper.appendChild(panelContent);
                     panelContainer.appendChild(panelWrapper);
-                    imageCount++;
                 });
 
                 scrollDiv.appendChild(panelContainer);
