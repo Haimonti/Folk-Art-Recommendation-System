@@ -1,0 +1,7 @@
+# Ignore folder
+Newdata/
+venv/
+
+.ipynb_checkpoints
+MovieLens_all_neg
+MovieLens_100k_neg
