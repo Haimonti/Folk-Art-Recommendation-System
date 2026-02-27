@@ -1,0 +1,2047 @@
+id,user_id,phase_id,scroll_id,panel_id,image_id,rating,review
+1,0,1,1,1,1,3,Beautiful colors. Represents popular theme of Durga worshipped in Bengal.
+2,0,1,1,10,19,2,bright blue color. king is well depicted.
+3,0,1,9,6,135,1,Stylisation of dress unique. Bright colors are fascinating.
+4,0,1,1,5,9,1,Large musical instrument. Warriors with shields very unique theme.
+5,0,1,1,8,15,1,Panel depicts sacrifice. Useful as a religious motif.
+6,0,1,5,5,61,2,Popular theme from an epic. Motifs used with emphasis of lines is unique.
+7,0,1,1,3,5,1,Depicts a traditional wedding scene. The bride and bridegroom and dressed elaborately.
+8,0,1,2,2,27,2,Very unusual use of colors. Depiction of folds of clothing elaborate. Scene from a popular epic.
+9,0,1,2,4,31,1,The color contrast is exquisite.
+10,0,1,6,4,75,1,Minimalistic use of color. 
+11,7,1,1,1,1,3,""
+12,7,1,1,2,3,3,""
+13,7,1,1,3,5,2,""
+14,7,1,1,4,7,4,""
+15,7,1,1,5,9,3,""
+16,7,1,1,6,11,4,""
+17,7,1,1,7,13,4,""
+18,7,1,1,8,15,2,""
+19,7,1,1,9,17,4,""
+20,7,1,1,10,19,3,""
+21,7,1,1,11,21,4,""
+22,7,1,1,12,23,2,""
+23,7,1,2,1,25,2,""
+24,7,1,2,2,27,2,""
+25,7,1,2,3,29,3,""
+26,7,1,2,4,31,2,""
+27,7,1,2,5,33,3,""
+28,7,1,3,2,37,2,""
+29,7,1,3,3,39,2,""
+30,7,1,3,4,41,2,""
+31,7,1,4,1,43,2,""
+32,7,1,4,2,45,2,""
+33,7,1,4,3,47,2,""
+34,7,1,4,4,49,3,""
+35,7,1,4,5,51,3,""
+36,7,1,5,1,53,2,""
+37,7,1,5,2,55,2,""
+38,7,1,5,3,57,2,""
+39,7,1,5,6,63,1,""
+40,7,1,5,7,65,1,""
+41,7,1,5,8,67,2,""
+42,7,1,6,1,69,4,""
+43,7,1,6,2,71,3,""
+44,7,1,6,3,73,3,""
+45,7,1,6,4,75,3,""
+46,7,1,6,5,77,3,""
+47,7,1,6,6,79,3,""
+48,7,1,7,1,81,4,""
+49,7,1,7,11,101,2,""
+50,7,1,7,15,109,3,""
+51,7,1,8,4,117,3,""
+52,7,1,8,5,119,3,""
+53,7,1,8,6,121,3,""
+54,7,1,8,7,123,2,""
+55,7,1,9,1,125,3,""
+56,7,1,9,2,127,3,""
+57,7,1,9,3,129,3,""
+58,7,1,9,4,131,2,""
+59,7,1,9,5,133,3,""
+60,7,1,9,6,135,2,""
+61,7,1,9,7,137,2,""
+62,7,1,9,8,139,3,""
+63,7,1,9,9,141,3,""
+64,7,1,10,1,143,3,""
+65,7,1,10,2,145,2,""
+66,7,1,10,3,147,3,""
+67,7,1,10,4,149,2,""
+68,7,1,10,5,151,3,""
+69,7,1,10,6,153,2,""
+70,7,1,10,7,155,3,""
+71,7,1,11,1,159,2,""
+72,7,1,10,8,157,3,""
+73,7,1,11,4,165,2,""
+74,7,1,11,6,169,2,""
+75,7,1,12,2,173,3,""
+76,7,1,12,1,171,3,""
+77,7,1,12,3,175,2,""
+78,7,1,12,5,179,3,""
+79,7,1,12,6,181,2,""
+80,7,1,12,7,183,2,""
+81,7,1,12,8,185,2,""
+82,7,1,12,9,187,2,""
+83,7,1,12,10,189,2,""
+84,7,1,12,11,191,3,""
+85,7,1,12,12,193,3,""
+86,7,1,12,13,195,3,""
+87,7,1,12,14,197,3,""
+88,7,1,13,3,203,3,""
+89,7,1,13,2,201,2,""
+90,7,1,13,1,199,3,""
+91,7,1,13,4,205,4,""
+92,7,1,13,5,207,3,""
+93,7,1,13,6,209,3,""
+94,7,1,13,7,211,3,""
+95,0,1,1,1,1,5,""
+96,0,1,1,2,3,5,I like the way it shows a woman feeding cows.
+97,0,1,1,3,5,5,I like how it displays details in each character's outfit.
+98,0,1,1,4,7,5,The Storytelling in this painting is compelling.
+99,0,1,1,5,9,5,I like the use of colors and the essence of fighter traditions it captures.
+100,0,1,1,1,1,5,I liked how all the gods are displayed in this scroll and how goddess Durga is shown in the middle showcasing the importance of feminine energy amongst all gods.
+101,0,1,1,2,3,5,I can see goddess Krishna and Radha although I am not quite sure that they are them only. I can also see three houses and a women feeding grass to cows.
+102,0,1,1,3,5,5,I like the colour scheme in this scheme and how all of them are having a discussion about something. I am not quite sure of who they are but because of the snake I am assuming that there is Lord Shiva in this scroll
+103,0,1,1,4,7,5,What I liked in this scroll is that there are few ppl in the boat praising and bestowing worship to a women who I am assuming is Goddess Saraswati because Goddess Saraswati resides in a huge lotus.
+104,0,1,1,5,9,4,I can see two people or worriors fighting in this image showing how brave they are and a person playing dhol to give a background music.
+156,0,1,1,5,9,2,What I liked about this panel is that two people are fighting and a person is playing background music.
+441,0,1,5,2,55,1,""
+105,0,1,1,6,11,4,I am seeing that lots of people are doing their daily chores like there is a school and two teachers are teaching a few students there are few women below a tree worshiping a god and a mother with her child.
+106,0,1,1,7,13,4,This scroll shows a very important belief which is good wins over evil in a story that most of the people in India believe that Goddess Durga killed an evil calles Mahishasura and brought peace among the people.
+107,0,1,1,8,15,1,"I did not like this scroll, it shows the doings of sati as in what happens to a women after her husband is dead, she has to leave everything even all of her hair which is bad and injustice to women back then."
+108,0,1,1,9,17,5,What I liked in this scroll is that there are few ppl in the boat praising and bestowing worship to a women who I am assuming is Goddess Saraswati because Goddess Saraswati resides in a huge lotus.
+109,0,1,1,10,19,3,The image is about a king I assume and people are at his service.
+110,0,1,1,11,21,3,I can see people worshiping Goddess Durga showing that females are worth worshiping.
+111,0,1,1,12,23,4,I assume that this scroll image is about a marriage and few people are part of this marriage and are blessing the new couple by cheering them and playing shankh.
+112,0,1,2,1,25,3,I am assuming that this image is from Ramayan and Lord Ram and Lakshan are having a quick chat with Lord Garuda.
+113,0,1,2,2,27,4,what I like in this image is teamwork as it is taken from the famous story of Ramayan.
+114,0,1,2,4,31,4,What I like from this image is that Lord Hanuman wants to help Lord Ram to make sure Lashsman is OK.
+115,0,1,1,1,1,4,What I like in this panel is that there are all gods and in the middle is goddess Durga which shows the importance of feminine energy. 
+116,0,1,1,1,1,4,What I like in this panel is that there are all gods and in the middle is goddess Durga which shows the importance of feminine energy.
+117,0,1,1,1,1,4,What I like in this panel is that there are all gods and in the middle is goddess Durga which shows the importance of feminine energy.
+118,0,1,1,1,1,4,What I like in this panel is that there are all gods and in the middle is goddess Durga which shows the importance of feminine energy.
+119,0,1,1,1,1,4,What I like in this panel is that there are all gods and in the middle is goddess Durga which shows the importance of feminine energy.
+120,0,1,1,1,1,4,What I like in this panel is that there are all gods and in the middle is goddess Durga which shows the importance of feminine energy. 
+121,0,1,1,2,3,5,What I like in this panel is that a women is feeding cattle. 
+122,0,1,1,2,3,4,What I like in this panel is that a women is feeding cattle
+123,0,1,1,2,3,5,What I like in this panel is that a women is feeding cattle
+124,0,1,1,2,3,5,What I like in this panel is that a women is feeding cattle. 
+125,0,1,1,2,3,4,What I like in this panel is that a women is feeding cattle
+126,0,1,1,2,3,4,What I like in this panel is that a women is feeding cattle
+127,0,1,1,2,3,5,What I like in this panel is that a women is feeding cattle. 
+128,0,1,1,2,3,4,What I like in this panel is that a women is feeding cattle
+129,0,1,1,1,1,4,what I liked in this panel is that there are all gods and the the middle is a female goddess Durga showing feminine energy.
+130,0,1,1,2,3,4,What I liked about this panel is a women feeding cattles.
+131,0,1,1,1,1,4,what I liked in this panel is that there are all gods and the the middle is a female goddess Durga showing feminine energy.
+132,0,1,1,2,3,4,What I liked about this panel is a women feeding cattles.
+133,0,1,1,1,1,4,what I liked in this panel is that there are all gods and the the middle is a female goddess Durga showing feminine energy.
+134,0,1,1,3,5,4,What I like about this panel is people chit chatting.
+135,0,1,1,3,5,4,What I like about this panel is people chit chatting.
+136,0,1,1,3,5,4,What I like about this panel is people chit chatting.
+137,0,1,1,2,3,4,What I liked about this panel is a women feeding cattles.
+138,0,1,1,3,5,4,What I like about this panel is people chit chatting.
+139,0,1,1,3,5,4,What I like about this panel is people chit chatting.
+140,0,1,1,3,5,4,What I like about this panel is people chit chatting.
+141,0,1,1,3,5,4,What I like about this panel is people chit chatting.
+142,0,1,1,3,5,4,What I like about this panel is people chit chatting.
+143,0,1,1,3,5,4,What I like about this panel is people chit chatting.
+144,0,1,1,1,1,4,what I liked in this panel is that there are all gods and the the middle is a female goddess Durga showing feminine energy.
+145,0,1,1,4,7,5,What I liked about this panel is that people are worshiping a goddess that to goddess of knowledge.
+146,0,1,1,3,5,4,What I like about this panel is people chit chatting.
+147,0,1,1,4,7,5,What I liked about this panel is that people are worshiping a goddess that to goddess of knowledge.
+148,0,1,1,5,9,2,What I liked about this panel is that two people are fighting and a person is playing background music.
+149,0,1,1,5,9,2,What I liked about this panel is that two people are fighting and a person is playing background music.
+150,0,1,1,5,9,2,What I liked about this panel is that two people are fighting and a person is playing background music.
+151,0,1,1,5,9,2,What I liked about this panel is that two people are fighting and a person is playing background music.
+152,0,1,1,5,9,2,What I liked about this panel is that two people are fighting and a person is playing background music.
+153,0,1,1,5,9,2,What I liked about this panel is that two people are fighting and a person is playing background music.
+154,0,1,1,5,9,2,What I liked about this panel is that two people are fighting and a person is playing background music.
+155,0,1,1,5,9,2,What I liked about this panel is that two people are fighting and a person is playing background music.
+213,0,1,1,12,23,5,What I like about this panel is that there is a marriage taking place.
+157,0,1,1,5,9,2,What I liked about this panel is that two people are fighting and a person is playing background music.
+158,0,1,1,4,7,5,What I liked about this panel is that people are worshiping a goddess that to goddess of knowledge.
+159,0,1,1,4,7,5,What I liked about this panel is that people are worshiping a goddess that to goddess of knowledge.
+160,0,1,1,5,9,2,What I liked about this panel is that two people are fighting and a person is playing background music.
+161,0,1,1,4,7,5,What I liked about this panel is that people are worshiping a goddess that to goddess of knowledge.
+162,0,1,1,5,9,2,What I liked about this panel is that two people are fighting and a person is playing background music.
+163,0,1,1,5,9,2,What I liked about this panel is that two people are fighting and a person is playing background music.
+164,0,1,1,5,9,2,What I liked about this panel is that two people are fighting and a person is playing background music.
+165,0,1,1,5,9,2,What I liked about this panel is that two people are fighting and a person is playing background music.
+166,0,1,1,5,9,2,What I liked about this panel is that two people are fighting and a person is playing background music.
+167,0,1,1,6,11,3,What I liked in this panel is that people even though they are busy in their chores they have time for worshiping god.
+168,0,1,1,5,9,2,What I liked about this panel is that two people are fighting and a person is playing background music.
+169,0,1,1,4,7,5,What I liked about this panel is that people are worshiping a goddess that to goddess of knowledge.
+170,0,1,1,5,9,2,What I liked about this panel is that two people are fighting and a person is playing background music.
+171,0,1,1,5,9,2,What I liked about this panel is that two people are fighting and a person is playing background music.
+172,0,1,1,5,9,2,What I liked about this panel is that two people are fighting and a person is playing background music.
+173,0,1,1,6,11,3,What I liked in this panel is that people even though they are busy in their chores they have time for worshiping god.
+174,0,1,1,5,9,2,What I liked about this panel is that two people are fighting and a person is playing background music.
+175,0,1,1,5,9,2,What I liked about this panel is that two people are fighting and a person is playing background music.
+176,0,1,1,7,13,4,What I liked in panel is that everyone is worshiping goddess Durga.
+177,0,1,1,6,11,3,What I liked in this panel is that people even though they are busy in their chores they have time for worshiping god.
+178,0,1,1,8,15,1,I did not like this panel as it is showing the practice of Sati.
+179,0,1,1,9,17,5,What I liked about this panel is that people are worshiping a goddess that to goddess of knowledge.
+180,0,1,1,8,15,1,I did not like this panel as it is showing the practice of Sati.
+181,0,1,1,8,15,1,I did not like this panel as it is showing the practice of Sati.
+182,0,1,1,8,15,1,I did not like this panel as it is showing the practice of Sati.
+183,0,1,1,7,13,4,What I liked in panel is that everyone is worshiping goddess Durga.
+184,0,1,1,6,11,3,What I liked in this panel is that people even though they are busy in their chores they have time for worshiping god.
+185,0,1,1,10,19,3,What I like in this panel is that people are at the service of a king I assume.
+186,0,1,1,10,19,3,What I like in this panel is that people are at the service of a king I assume.
+187,0,1,1,10,19,3,What I like in this panel is that people are at the service of a king I assume.
+188,0,1,1,11,21,3,What I liked in panel is that everyone is worshiping goddess Durga.
+189,0,1,1,11,21,3,What I liked in panel is that everyone is worshiping goddess Durga.
+190,0,1,1,11,21,3,What I liked in panel is that everyone is worshiping goddess Durga.
+191,0,1,1,12,23,5,What I like about this panel is that there is a marriage taking place.
+192,0,1,1,12,23,5,What I like about this panel is that there is a marriage taking place.
+193,0,1,1,12,23,5,What I like about this panel is that there is a marriage taking place.
+194,0,1,1,12,23,5,What I like about this panel is that there is a marriage taking place.
+195,0,1,1,12,23,5,What I like about this panel is that there is a marriage taking place.
+196,0,1,1,12,23,5,What I like about this panel is that there is a marriage taking place.
+197,0,1,1,12,23,5,What I like about this panel is that there is a marriage taking place.
+198,0,1,1,12,23,5,What I like about this panel is that there is a marriage taking place.
+199,0,1,1,12,23,5,What I like about this panel is that there is a marriage taking place.
+200,0,1,1,12,23,5,What I like about this panel is that there is a marriage taking place.
+201,0,1,1,12,23,5,What I like about this panel is that there is a marriage taking place.
+202,0,1,1,12,23,5,What I like about this panel is that there is a marriage taking place.
+203,0,1,2,1,25,4,What I like about this panel is that Lord Ram and Lakshman are having a small chat with Lord Garuda
+204,0,1,1,12,23,5,What I like about this panel is that there is a marriage taking place.
+205,0,1,1,12,23,5,What I like about this panel is that there is a marriage taking place.
+206,0,1,1,12,23,5,What I like about this panel is that there is a marriage taking place.
+207,0,1,1,12,23,5,What I like about this panel is that there is a marriage taking place.
+208,0,1,2,2,27,5,I liked the teamspirit in this panel.
+209,0,1,1,12,23,5,What I like about this panel is that there is a marriage taking place.
+210,0,1,1,12,23,5,What I like about this panel is that there is a marriage taking place.
+211,0,1,1,12,23,5,What I like about this panel is that there is a marriage taking place.
+212,0,1,1,12,23,5,What I like about this panel is that there is a marriage taking place.
+442,0,1,5,3,57,1,Great visualization of Ramayana
+214,0,1,1,12,23,5,What I like about this panel is that there is a marriage taking place.
+215,0,1,1,12,23,5,What I like about this panel is that there is a marriage taking place.
+216,0,1,1,12,23,5,What I like about this panel is that there is a marriage taking place.
+217,0,1,1,12,23,5,What I like about this panel is that there is a marriage taking place.
+218,0,1,2,1,25,4,What I like about this panel is that Lord Ram and Lakshman are having a small chat with Lord Garuda
+219,0,1,2,3,29,5,I disliked this panel because the good god Lord Hanuman is taken into custody by Ravana.
+220,0,1,2,3,29,5,I disliked this panel because the good god Lord Hanuman is taken into custody by Ravana.
+221,0,1,2,3,29,5,I disliked this panel because the good god Lord Hanuman is taken into custody by Ravana.
+222,0,1,2,3,29,5,I disliked this panel because the good god Lord Hanuman is taken into custody by Ravana.
+223,0,1,2,4,31,5,What I liked about this panel is that Lord Hanuman wants too save Lakshman.
+224,0,1,2,3,29,5,I disliked this panel because the good god Lord Hanuman is taken into custody by Ravana.
+225,0,1,2,3,29,5,I disliked this panel because the good god Lord Hanuman is taken into custody by Ravana.
+226,0,1,2,3,29,5,I disliked this panel because the good god Lord Hanuman is taken into custody by Ravana.
+227,0,1,2,3,29,5,I disliked this panel because the good god Lord Hanuman is taken into custody by Ravana.
+228,0,1,2,3,29,5,I disliked this panel because the good god Lord Hanuman is taken into custody by Ravana.
+229,0,1,2,3,29,5,I disliked this panel because the good god Lord Hanuman is taken into custody by Ravana.
+230,0,1,2,3,29,5,I disliked this panel because the good god Lord Hanuman is taken into custody by Ravana.
+231,0,1,2,3,29,5,I disliked this panel because the good god Lord Hanuman is taken into custody by Ravana.
+232,0,1,2,4,31,5,What I liked about this panel is that Lord Hanuman wants too save Lakshman.
+233,0,1,2,4,31,5,What I liked about this panel is that Lord Hanuman wants too save Lakshman.
+234,0,1,2,4,31,5,What I liked about this panel is that Lord Hanuman wants too save Lakshman.
+235,0,1,2,4,31,5,What I liked about this panel is that Lord Hanuman wants too save Lakshman.
+236,0,1,2,4,31,5,What I liked about this panel is that Lord Hanuman wants too save Lakshman.
+237,0,1,2,4,31,5,What I liked about this panel is that Lord Hanuman wants too save Lakshman.
+238,0,1,2,3,29,5,I disliked this panel because the good god Lord Hanuman is taken into custody by Ravana.
+239,0,1,2,3,29,5,I disliked this panel because the good god Lord Hanuman is taken into custody by Ravana.
+240,0,1,2,5,33,1,What I disliked about this panel is that these people are having a conversation rather than saving goddess Sita.
+241,0,1,2,5,33,1,What I disliked about this panel is that these people are having a conversation rather than saving goddess Sita.
+242,0,1,3,1,35,5,What I liked in this panel is they voted a new king and are crowning him.
+243,0,1,3,2,37,1,I didn't quite understand the meaning of the panel.
+244,0,1,3,3,39,3,"What I liked about this panel is that Ravana is dead, as in good wins over evil."
+245,0,1,3,4,41,3,What I liked about this panel is that These people are having a fight which is quite brave to save Goddess Sita.
+246,0,1,3,4,41,3,What I liked about this panel is that These people are having a fight which is quite brave to save Goddess Sita.
+247,0,1,4,1,43,5,What I liked in this panel is that Lord Ram and Lakshman finally saved Goddess Sita.
+248,0,1,4,1,43,5,What I liked in this panel is that Lord Ram and Lakshman finally saved Goddess Sita.
+249,0,1,4,2,45,1,I disliked this panel because Lord ravana is planning on something.
+250,0,1,4,2,45,1,I disliked this panel because Lord ravana is planning on something.
+251,0,1,4,3,47,4,What I liked in this panel is that Lord Ram and Lakshman finally saved Goddess Sita.
+252,0,1,4,4,49,5,What I liked in this panel is that Lord Ram and Lakshman finally saved Goddess Sita.
+253,0,1,4,5,51,1,I didn't quite understand the meaning of the panel.
+254,0,1,5,1,53,4,What I liked in this panel is that Lord Ram and Lakshman finally saved Goddess Sita.
+255,0,1,5,1,53,4,What I liked in this panel is that Lord Ram and Lakshman finally saved Goddess Sita.
+256,0,1,5,2,55,1,I disliked this panel because Lord ravana is planning on something.
+257,0,1,5,3,57,3,What I liked in this panel is that Lord Ram and Lakshman and Goddess Sita are altogether.
+258,0,1,5,3,57,3,What I liked in this panel is that Lord Ram and Lakshman and Goddess Sita are altogether.
+259,0,1,5,4,59,3,What I liked in this panel is that Lord Ram and Lakshman and Goddess Sita are altogether.
+260,0,1,5,6,63,1,I disliked this panel because Lord ravana is planning on kiddnapping Goddess Sita.
+261,0,1,5,6,63,1,I disliked this panel because Lord ravana is planning on kiddnapping Goddess Sita.
+262,0,1,1,1,1,5,I like the intricate details and colors in the painting.
+263,0,1,1,1,1,5,This painting gives the essence of Goddess Durga in a folk art style which shows a lot of details and bright colors but the painting area seems congested and does not let the artist give equal attention to every part of it.
+264,0,1,1,2,3,5,"It look so rural with its natural colors and the dotes of traditional costumes that were used on the people; however, the facial expressions could have been given more details so the feelings of the characters could be clearly seen.
+"
+265,0,1,1,3,5,5,"The painting is in general complete with folk art style, bright clothes colours and the mise-en-scène, but the faces are similar to each other."
+266,0,1,1,4,7,5,"The painting depicts a divine scene on water and the use of color is rather fair, however the facial and body language should be more detailed to capture the events."
+318,66,1,1,1,1,4,The displayed image is pretty good. All the Hindu gods are displayed in a beautiful way.
+267,0,1,1,5,9,4,"It depicts a moment of fighting and dancing with a realistic brutish folk-art taste, though the positions of the fighters could be chosen more appropriate to convey an effect of the battle."
+268,0,1,1,6,11,5,"The painting is quite rich in different aspects of rural life and spirituality, symbolism; however, the composition looks a bit cluttered, and, therefore, it is challenging to pay attention to some details."
+269,0,1,1,7,13,5,"The painting provides an excellent representation of Goddess Durga slaying the demon, with most details and colors being as vibrant as possible, but a degree of clutter detracts from the overall scenery."
+270,0,1,1,8,15,4,"The dramatic and ritualistic tension in the first painting create interest, though the faces must be more expressive."
+271,0,1,1,9,17,5,"The serene picture of the divine from a lotus is pleasing to the eye, but the faces must be more detailed for more depth."
+272,0,1,1,10,19,5,The royal figure within the palace is nicely composed with rich color but additional pose variation would generate dynamism.
+273,0,1,1,11,21,5,"The goddess's powerful stance and symbolic imagery are effective, but the environment is somewhat sparse."
+274,0,1,1,12,23,4,"The ritual gathering is full of life and color, though the subjects are somewhat redundant in pose."
+275,0,1,5,1,53,4,"The dynamic movement and rich color contrast in the first painting make it a fascinating view, though the faces are not expressive enough."
+276,0,1,5,2,55,3,"The heavenly figure and royal background in the second painting are well done, but facial expressions are a bit rigid."
+277,0,1,5,3,57,5,"The natural background in the third painting nicely illustrates rural life, though the characters' poses are not as varied."
+278,0,1,5,4,59,4,"The fourth one has a lively village scene with active body language, but the repeated postures make it less energetic."
+279,0,1,5,5,61,3,"The novel viewpoint in the fifth one, with a big animal, introduces curiosity, but the composition is slightly off-balance."
+280,0,1,5,6,63,3," The close-up village interaction in the sixth one is rich visually, though the background features are not so fine."
+281,0,1,5,7,65,4,"The story in the seventh painting, which includes nature and human interaction, is intriguing, but the floating face appears unnatural."
+282,0,1,5,8,67,4,"The enchanting depiction in the eighth painting, with an overgrown bird, is a captivating story, though the size appears exaggerated."
+283,0,1,13,1,199,5,"The eerie contrast between the human-like figures and the creatures from a dream provides the piece with a haunting atmosphere, though some elements seem excessive."
+284,0,1,13,2,201,4,"The dark, single-color tone does an excellent job of evoking mystery and suspense in the piece, though the single face makes the figures seem uniform"
+285,0,1,13,3,203,4,"The multiple heads provide the piece with a mythological aura, though the symmetry makes it seem slightly rigid."
+286,0,1,13,4,205,4,"The earth-toned and black color scheme is eye-catching, but the same pose for the characters reduces the sense of action.
+"
+287,0,1,13,5,207,5,"The fight is intense and dramatic, with flying arrows adding energy, though more variety in facial expressions would introduce emotion."
+288,0,1,13,6,209,5,"Floating heads and seated characters create a visually appealing composition, but the perspective appears somewhat flattened.
+"
+289,0,1,13,7,211,5,"The animal-human hybrid is a curious visual element, but the simplicity of the background makes it appear disconnected from the rest of the work"
+290,0,1,1,1,1,5,The painting depicts a powerful central figure.
+291,0,1,1,2,3,5,I like the vibrant colors in this painting.
+292,0,1,1,3,5,5,I like the variety of expressions on faces of each character
+293,0,1,1,4,7,5,I like the flow of water in this painting but the feel of a boat could be better.
+294,0,1,1,5,9,5,I like the detailed pattern on the drum and the characters' clothes.
+295,0,1,1,6,11,5,I like how it includes multiple scenes in single painting.
+296,0,1,1,7,13,5,I love the detailed patterns on the clothing of the central figure and overall composition of the painting.
+297,0,1,1,8,15,5,I like the use of soft colors and the poses of the characters in the painting.
+298,0,1,1,9,17,5,I like the composition of the people in the boat and the woman in the lotus flower.
+299,0,1,1,10,19,5,I like the yellow color in the background which makes the central character more prominent.
+300,0,1,1,11,21,5,I like the central figure which has a dynamic composition.
+301,0,1,1,12,23,5,I like how each figure is posed differently and the detailing on the pot in the center.
+302,0,1,2,1,25,5,I like the vibrant colors used for the bird.
+303,0,1,2,2,27,3,I find the writing on the painting distractive.
+304,0,1,2,3,29,5,I like the clothing of each figure and it's uniqueness
+305,0,1,2,4,31,5,I like the contrasting colors in the painting.
+306,0,1,2,5,33,5,I like how the multiple faces of central figure is drawn.
+307,0,1,3,1,35,5,The overall style of painting includes bright and contrasting colors.
+308,0,1,3,2,37,5,I like the use of repeating patterns in the clothing of figures.
+309,0,1,3,3,39,5,I like the contrast between the blue faces and the orange background.
+310,0,1,3,4,41,5,I like the color palette in this painting.
+311,0,1,4,1,43,5,I love the way leaves on the tree depicted in this painting.
+312,0,1,4,2,45,5,I like the unique pattern border around the painting.
+313,0,1,4,3,47,5,The color palettes give a unique appeal to this painting.
+314,0,1,4,4,49,5,The unique green color gives the painting a striking appearance.
+315,0,1,4,5,51,5,I like how the bird is holding something in its beak.
+316,0,1,5,1,53,5,The figures in the painting look lively
+317,49,1,1,1,1,5,"This painting beautifully depicts the divine character of Goddess Durga in a traditional folk art design, with colorful tones and intricate ornamentation, though the artwork appears a bit cluttered, so it is harder to emphasize each detail."
+319,66,1,1,2,3,4,"In this image, villages are portrayed in a breathtaking way."
+320,66,1,1,3,5,3,The images vibrantly portrays traditional figures
+321,66,1,1,4,7,3,The artwork beautifully illustrates a traditional and mythological theme.
+322,0,1,1,1,1,5,liked it
+323,0,1,1,2,3,5,liked it
+324,0,1,1,3,5,5,"There is no background scenary
+"
+325,66,1,1,5,9,4,In this artwork vividly portrays traditional sword fight.
+326,0,1,1,4,7,5,liked the concept
+327,18,1,1,1,1,5,this is good
+328,0,1,1,5,9,3,The leg looks incomplete
+329,66,1,1,6,11,4,This artwork is a vibrant traditional painting with rich cultural storytelling.
+330,0,1,1,6,11,5,"looks good and colourfull
+"
+331,0,1,1,7,13,5,good adaptation of festival
+332,66,1,1,7,13,3,This artwork beautifully displays celebration of Hindu festival called durga puja.
+333,0,1,1,8,15,3,""
+334,0,1,1,9,17,2,looks incomplete
+335,0,1,1,10,19,2,"size of characters are inconsistant
+"
+336,0,1,1,11,21,5,"looks good
+"
+337,18,1,1,2,3,4,this piece beautifully captures a rural scene with traditional folk art style.The expressions and postures of the figures suggest a moment of conversation or a significant event.The background makes me feel grounded in traditional and cultural narrative.
+338,66,1,1,8,15,4,"The art depicts cultural symbolism, portraying a dramatic and intense narrative."
+339,0,1,1,12,23,5,looks good
+340,0,1,2,1,25,5,looks good - design on bird
+341,0,1,2,2,27,3,""
+342,0,1,2,3,29,5,loiked the pattern
+343,66,1,1,10,19,4,The art vividly shows a courtroom in a kings palace
+344,0,1,2,4,31,5,"looks good
+"
+345,0,1,2,5,33,5,liked the pattern
+346,66,1,1,9,17,3,The art piece contains bold colors and mythological symbolism
+347,0,1,3,1,35,5,liked the design and pattern
+348,0,1,3,2,37,5,"liked the concept and designs
+"
+349,66,1,1,11,21,4,The artwork beautifully depicts the act of preaching to an idol.
+350,0,1,3,3,39,5,liked the orange pattern
+351,0,1,3,4,41,5,"liked the detailing
+"
+352,0,1,4,1,43,5,liked tree pattern
+353,66,1,1,12,23,4,In this art a traditional event is shown in vibrant colours
+354,0,1,4,2,45,3,looks good
+355,0,1,4,3,47,3,"eyes looks incomplete
+"
+356,0,1,4,4,49,3,size is inconsistant
+357,66,1,2,1,25,4,"This image depictios mythology, blending patterns with bold character expressions."
+358,0,1,4,5,51,5,"liked bird design
+"
+359,0,1,5,1,53,2,face looks inconsistant
+360,0,1,5,2,55,2,looks inconsistant
+361,0,1,5,3,57,3,looks inconsistant
+362,0,1,5,4,59,2,looks inconsistant
+363,0,1,5,5,61,2,looks inconsistant
+364,66,1,2,2,27,4,"A captivating and symbolic folk-art portrayal, with bold expressions."
+365,0,1,5,6,63,3,tree looks good
+366,0,1,5,7,65,2,animal with human face 
+367,0,1,5,8,67,3,"bird head looks inconsistant
+"
+368,66,1,2,3,29,4,A folk-art that containsintricate detailing and symbolizing mythology
+369,66,1,2,4,31,3,"The image vividly portrays Hindu gods Ram, lakshman and hanuman."
+370,0,1,6,1,69,5,liked colour choice
+371,66,1,2,5,33,4,"This artwork portrays mythological characters Ram, Lakshman in Ravan courtroom with vibrant colours"
+372,0,1,6,2,71,5,liked colour choice and bird design
+373,66,1,3,1,35,3,""
+374,0,1,6,3,73,5,liked colour choice and characters detail
+375,0,1,6,4,75,5,liked colour choice and characters detail
+376,0,1,6,5,77,5,liked colour choice and characters detail
+377,0,1,6,6,79,5,liked colour choice and characters detail
+378,66,1,3,2,37,4,This images shows a mythological characters with bold colours
+379,66,1,3,3,39,3,In this mythological character ravan is shown in vibrant colours
+380,0,1,7,1,81,3,color is good but character details are inconsitant
+381,0,1,7,2,83,2,color is good but character details are inconsitant
+382,66,1,3,4,41,4,This art beautifully portrays war scene in ramayan in a breathtaking way.
+383,0,1,7,3,85,2,color is good but character details are inconsitant
+384,0,1,7,4,87,3,color is good but character details are inconsitant
+385,0,1,7,5,89,2,character details are inconsitant
+386,0,1,7,6,91,5,looks good 
+387,0,1,7,7,93,3,color is good but character details are inconsitant
+388,66,1,4,1,43,4,The image beautifully portrays mythological characters
+389,0,1,7,8,95,3,color is good but character details are inconsitant
+390,0,1,7,9,97,3,color is good but character details are inconsitant
+391,0,1,7,10,99,4,color is good but character details are inconsitant
+392,0,1,7,11,101,3,2D does not look good
+393,66,1,4,2,45,4,The artwork displays mythological character Ravan in his court room with vibrant colours.
+394,0,1,7,12,103,3,2D does not look good
+395,0,1,7,13,105,4,"Character details are inconsistant
+"
+396,66,1,4,3,47,4,The art beautifully displays mythological characters from Ramayan.
+397,0,1,7,14,107,3,Character details are inconsistant
+398,0,1,7,15,109,4,Character details are inconsistant
+399,66,1,4,4,49,4,The image beautifully displays mythological characteres with vibrant colours
+400,66,1,4,5,51,4,"A visually stunning folk-art illustration that masterfully intertwines mythology, symbolism, and intricate detailing."
+401,66,1,11,1,159,3,A stunning monochrome folk-art piece with intricate detailing and a graceful portrayal of divine and royal figures.
+402,66,1,11,2,161,4,"An elegant and finely detailed folk-art composition, featuring graceful figures and a harmonious monochrome palette with subtle red highlights."
+403,66,1,11,3,163,4,The folk-art is a composition of mythology with intricate patterns
+404,66,1,11,4,165,4,A folk-art piece showcasing graceful figures that enhanced by a monochrome palette.
+405,66,1,11,5,167,3,Aolk-art piece featuring regal figures and a harmonious composition.
+406,66,1,11,6,169,4,A captivating folk-art portraying a mythological narrative with a balanced monochrome aesthetic.
+407,0,1,8,1,111,3,eyes look inconsistant
+408,0,1,8,2,113,3,eyes look inconsistant
+409,0,1,8,3,115,2,eyes look inconsistant
+410,0,1,8,4,117,4,eyes look inconsistant
+411,0,1,8,5,119,4,liked pattern
+412,0,1,8,6,121,3,eyes look inconsistant
+413,0,1,8,7,123,3,eyes look inconsistant
+414,0,1,1,1,1,4,"The central figure is Goddess Durga, depicted with multiple arms holding various weapons and symbols, emphasizing her divine power."
+415,0,1,1,2,3,3,"Beautiful painting vibrant folk art piece, likely belonging to the Madhubani or Pattachitra tradition, which is known for its distinct use of bold lines, bright colors, and stylized human figures."
+416,0,1,1,3,5,3,"beautiful painting and great detailing about traditional Indian folk art piece, likely influenced by the Madhubani or Pattachitra styles, which are known for their bold outlines, vibrant colors, and intricate patterns."
+417,0,1,1,4,7,3,"beautiful painting and great detailing about mesmerizing depiction of divinity and devotion, where a goddess seated on a blooming lotus is approached by a boat of worshippers, symbolizing spiritual pursuit."
+418,0,1,1,5,9,3,"beautiful painting and great detailing about energetic composition captures the essence of traditional warrior training, with two combatants engaged in a duel while a drummer sets the rhythm of battle."
+419,0,1,1,6,11,3,"beautiful painting and great detailing about rich portrayal of village life interwoven with spirituality, showcasing daily routines alongside religious reverence and offerings to a deity."
+420,0,1,1,7,13,4,"beautiful painting and great detailing about striking and dynamic representation of Goddess Durga’s power, where her divine form triumphs over evil while devotees offer prayers in a sacred setting."
+421,0,1,1,8,15,2,"beautiful painting and great detailing about dramatic scene depicting an intense ritual, where a woman is bound for sacrifice, evoking themes of fate, tradition, and supernatural intervention."
+422,0,1,1,9,17,2,"beautiful painting and great detailing about serene yet mystical portrayal of divine revelation, where travelers on a sacred journey encounter a goddess emerging from a lotus in the waters."
+423,0,1,1,10,19,2,"beautiful painting and great detailing about regal composition capturing the grandeur of a royal figure in an ornate palace, attended by courtiers and symbolic motifs of power and devotion."
+424,0,1,1,11,21,3,"beautiful painting and great detailing about vibrant and powerful illustration of a multi-armed goddess bestowing blessings upon a devoted follower, embodying divine protection and grace."
+425,0,1,1,12,23,3,"beautiful painting and beautifully detailed ceremonial scene where figures gather around a sacred pot, symbolizing prosperity, blessings, and divine rituals."
+426,0,1,2,1,25,3,"A stunning representation of a mythical encounter, where a beautifully detailed bird which is jatayu with intricate patterns faces two figures which is Rama and lakshmana, hinting at a story of divine or legendary significance which is Ramayana."
+427,0,1,2,2,27,2,"A strikingly stylized depiction of devotion, where multiple figures chant the name of Lord Rama, evoking themes of faith and spiritual surrender."
+428,0,1,2,3,29,3,"A mesmerizing portrayal of a legendary moment which is burn of Lanka in the hands of hanuman, featuring a sage and multiple-headed characters, symbolizing wisdom, power, and celestial interactions."
+429,0,1,2,4,31,2,"A solemn and emotional scene that captures a crucial moment in the Ramayana, possibly depicting Lakshmana's injury and Hanuman's devotion."
+430,0,1,2,5,33,3,"A bold and vivid retelling of the epic battle between Lord Rama and Ravana, encapsulating the confrontation between dharma (righteousness) and adharma (evil)."
+431,0,1,3,1,35,3,"A visually compelling depiction of an intense exchange, possibly symbolizing a divine or mythological moment of challenge, judgment, or decision-making."
+432,0,1,3,2,37,3,"A deeply emotive portrayal of Ravana’s death, with mourners encircling his lifeless form, capturing the solemn aftermath of his legendary battle."
+433,0,1,3,3,39,4,"A strikingly dramatic representation of Ravana’s final rites, where the vibrant flames and patterned detailing evoke a powerful sense of closure and transformation."
+434,0,1,3,4,41,2,"An intense and dynamic battle scene, where the multi-headed Ravana faces a storm of arrows, symbolizing the climactic confrontation between good and evil."
+435,0,1,4,1,43,3,"A beautifully composed depiction of exile, where Rama, Sita, and Lakshmana traverse the forest, symbolizing resilience, devotion, and the journey of dharma."
+436,0,1,4,2,45,2,"A regal portrayal of Ravana in his palace, surrounded by his wives, exuding a sense of power, pride, and the grandeur of Lanka."
+437,0,1,4,3,47,3,"A touching illustration of the trio’s journey, possibly depicting an encounter with a hermit or devotee, reflecting the blend of spiritual and earthly connections."
+438,0,1,4,4,49,3,"A vivid moment of tension or guidance, where Rama and Lakshmana engage with villagers, emphasizing themes of justice and leadership."
+439,0,1,4,5,51,3,"An awe-inspiring depiction of mythological grandeur, as the celestial Garuda carries a divine chariot, marking a moment of supernatural power and celestial intervention.
+"
+440,0,1,5,1,53,3,"This vibrant and dynamic folk painting portrays Rama, Sita, and Lakshmana crossing rugged terrain, symbolizing endurance and divine purpose, while the intricate detailing and bold colors bring their legendary journey to life."
+443,0,1,5,4,59,2,Scene of surpananak is well portrayed
+444,0,1,5,5,61,2,Great of battle of jatayu is well shown
+445,0,1,5,6,63,2,Bright colors and patterns
+446,0,1,5,7,65,3,Well shown of two moments in the same painting
+447,0,1,5,8,67,3,Death of Jatayu is well visualized
+448,0,1,1,2,3,4,"This artwork captures a rural scene with traditional scene gives characters,dressed in traditional attire,along with the background of thatched-roof houses,gives an authentic feel to village life"
+449,0,1,1,1,1,5,"i would like,This artwork is divine figure,likely inspired by Hindu mythology."
+450,0,1,1,2,3,4,"i would like,artwork captures a rural scene,the depiction of the characters,dressed in traditional,along with the background of thatched-roof houses,gives an authentic feel to village life."
+451,0,1,1,3,5,4,"i would dislike,painting presents a striking and traditional depiction of figures, likely represents a mythological scene.One area for improvement in facial expressions."
+452,0,1,1,4,7,5,"i would like,beautifully portrays a divine encounter,mythology and spirituality in a striking manner.The composition is visually captivating,with a regal goddess figure seated on a blooming lotus with purity and divinity"
+453,0,1,1,5,9,4,"i would like,artwork effectively captures an martial training with two warriors engaged in swordplay while a musician plays a large drum."
+454,0,1,1,7,13,4,"i would like,artwork effectively captures hindu mythology"
+455,0,1,1,8,15,3,"i would dislike,pannel presents a fascinating scene filled with symbolism and dynamic action"
+456,0,1,1,9,17,4,"i would like,artwork beautifully captures a divine encounter on water,featuring a regal goddess figure seated on a blooming lotus and a boat of figures approaching."
+457,0,1,1,10,19,4,"i would like,panel beautifully captures a regal and divine setting, possibly depicting a royal or celestial figure seated in a palace."
+458,0,1,1,11,21,5,"i would like,This panel presents a striking depiction of a powerful divine figure,possibly a goddess,with multiple arms holding various symbolic items."
+459,0,1,1,12,23,4,"i would like,beautifully portrays a ceremonial or devotional scene, with a group of elegantly dressed figures gathered around a sacred pot adorned with symbolic elements with goddess on middle of the portray."
+460,0,1,2,1,25,4,"i would like,artwork presents a mesmerizing and mythical scene,likely inspired by folklore or religious themes"
+461,0,1,2,2,27,3,"i would dislike, i couldn't understand"
+462,0,1,2,3,29,5,"i would like,The most captivating aspect is the depiction of figures with multiple heads,a powerful visual motif often found in mythology and religious narratives."
+463,0,1,2,4,31,4,"i would like,panel conveys a deeply emotional and dramatic scene,likely depicting a moment of grief, devotion,or divine rest."
+464,0,1,2,5,33,4,"i would like, the presence of multiple heads,a common motif in mythological depictions, suggests divinity,wisdom and power"
+465,0,1,3,1,35,5,"i would like,panel presents a beautifully detailed and vibrant composition that captures an important moment,possibly from a mythological or religious narrative."
+466,0,1,3,2,37,4,"I would like,presents a powerful and visually intricate composition,possibly depicting a moment of mourning,divine rest,or transcendence."
+467,0,1,3,3,39,5,"i would like,panel is a visually striking and emotionally powerful depiction of a significant mythological or spiritual moment."
+468,0,1,3,4,41,4,"i would like,panel gives details of battle or divine confrontation"
+469,0,1,4,1,43,4,"i would like,panel beautifully captures a serene and possibly symbolic moment,featuring three figures standing under lush green trees."
+470,0,1,4,2,45,5,"i would like,panel is a magnificent portrayal of a regal and divine figure,likely inspired by mythology."
+471,0,1,4,3,47,5,"i would like,panel presents a serene and thoughtful composition,likely depicting a significant moment from mythology."
+472,0,1,4,4,49,4,"i would like,panel is a compelling depiction of an important moment,from a folk tale."
+473,0,1,4,5,51,4,"i would like,panel is an extraordinary display of vibrant storytelling,features a grand mythical bird interacting with divine or royal figures"
+474,0,1,5,1,53,5,"i would like,panel is a beautifully dynamic representation of movement and perseverance, possibly depicting an important crossing."
+475,0,1,5,2,55,4,"i would like,panel beautifully captures a moment of divine or royal significance,with the central blue-skinned figure seated in a position of authority"
+476,0,1,5,3,57,4,"i would like,panel is a vibrant and engaging depiction of daily life or a significant moment in a narrative"
+477,0,1,5,4,59,5,"i would like,panel captures a moment of conversation or interaction in a traditional setting,possibly depicting a scene from daily life or a significant event"
+478,0,1,5,5,61,4,"i would like,panel is a visually striking depiction of an intense or divine encounter"
+479,0,1,5,6,63,4,"i would like,panel is beautifully composed with a striking balance of color and detail"
+480,0,1,5,7,65,4,"i qould like,this panel is visually dynamic, with a split composition that presents two distinct yet interconnected scenes"
+481,0,1,5,8,67,4,"i would like,panel presents a compelling and visually rich composition,featuring a large, stylized bird with an elongated beak dominating the left side"
+482,0,1,6,1,69,4,"i would like,panel is visually striking due to its monochromatic red and black color scheme, which creates a sense of elegance and uniformity"
+483,0,1,6,2,71,4,"i would like,panel presents a stunning depiction of a royal or divine procession,featuring a group of elegantly dressed figures accompanying a large,intricately patterned bird-like creature"
+484,0,1,6,3,73,4,"panel exhibits a regal and structured composition, with a central figure seated on a throne, possibly a king or deity, flanked by attendants and guards"
+485,0,1,6,4,75,4,"i would like,panel portrays a serene and domestic scene,possibly depicting a moment from daily life,where women are engaged in household or communal activities."
+486,0,1,6,5,77,4,"i would like,panel is an exquisite example of traditional artistry,depicting a regal and divine assembly"
+637,0,1,1,2,3,4,""
+487,0,1,6,6,79,4,"i would like,panel is a visually striking representation of divine grace and celestial beauty."
+488,0,1,1,6,11,5,"i would like,panel presents a vivid depiction of daily life,traditions and spirituality in a rural setting."
+489,0,1,13,1,199,4,"i wouldlike,panel is visually compelling,with bold contrasts and a striking composition"
+490,0,1,13,2,201,4,"i would dislike,i couldn't understand anything
+"
+491,0,1,13,3,203,4,"i would like, they are taking a divine blessing from that portray."
+492,0,1,13,4,205,2,"i would dislike,panel presents a striking visual composition with a central blue water element surrounded by humanoid monkey-like figures"
+493,0,1,13,5,207,4,"i would like,in portray it shows some wars is going on it."
+494,0,1,13,6,209,4,"i would like,panel is visually intriguing,showcasing a surreal and mythological composition"
+495,0,1,13,7,211,3,"i would dislike,panel presents a surreal and thought-provoking composition featuring a hybrid creature with a human-like face and an animal’s body"
+496,83,1,1,1,1,4,"i would like,artwork is a vibrant and detailed depiction of a divine figure, likely inspired by Hindu mythology."
+497,83,1,1,2,3,4,"i would like,artwork captures a rural scene with a sense of warmth and tradition"
+498,83,1,1,3,5,4,"i would like,painting presents a striking and traditional depiction of figures, likely representing a cultural or mythological scene"
+499,83,1,1,4,7,5,"i would like,artwork beautifully portrays a divine encounter, blending mythology and spirituality in a striking manner"
+500,83,1,1,5,9,4,"i would like,artwork effectively captures an engaging scene of martial training or combat, with two warriors engaged in swordplay while a musician plays a large drum"
+501,83,1,1,6,11,4,"i would like,panel presents a vivid depiction of daily life, traditions, and spirituality in a rural setting."
+502,83,1,1,7,13,4,"i would like,panel presents a fascinating scene filled with symbolism and dynamic action."
+503,83,1,1,8,15,4,"i would like,panel presents a fascinating scene filled with symbolism and dynamic action"
+504,83,1,1,9,17,5,"i would like,artwork beautifully captures a divine encounter on water, featuring a regal goddess figure seated on a blooming lotus and a boat of figures approaching in reverence"
+505,83,1,1,10,19,4,"i would like,panel beautifully captures a regal and divine setting, possibly depicting a royal or celestial figure seated in a palace."
+506,83,1,1,11,21,5,"i would like,panel presents a striking depiction of a powerful divine figure, possibly a goddess, with multiple arms holding various symbolic items."
+507,83,1,1,12,23,4,"i would like,panel beautifully portrays a ceremonial or devotional scene, with a group of elegantly dressed figures gathered around a sacred pot adorned with symbolic elements"
+508,83,1,2,1,25,4,"i would like,artwork presents a mesmerizing and mythical scene, likely inspired by folklore or religious themes."
+509,83,1,2,2,27,2,"i would dislike,i couldn't understand."
+510,83,1,2,3,29,4,"i would like,panel presents a visually striking and complex composition, rich in symbolism and traditional artistic elements"
+511,83,1,2,4,31,4,"i would like,panel conveys a deeply emotional and dramatic scene, likely depicting a moment of grief, devotion."
+512,83,1,2,5,33,4,"i would like,panel presents a visually striking scene with a multi-headed, blue-skinned figure adorned with a golden crown and regal attire."
+513,83,1,3,1,35,4,"i would like,panel presents a beautifully detailed and vibrant composition that captures an important moment, possibly from a mythological or religious narrative"
+514,83,1,3,2,37,4,"i would like,panel presents a powerful and visually intricate composition, possibly depicting a moment of mourning, divine rest, or transcendence"
+515,83,1,3,3,39,4,"i would like,panel is a visually striking and emotionally powerful depiction of a significant mythological or spiritual moment"
+516,83,1,3,4,41,4,"i would like, panel is a dynamic and intense depiction of a battle or divine confrontation. "
+517,83,1,4,1,43,4,"i would like,panel beautifully captures a serene and possibly symbolic moment, featuring three figures standing under lush green trees"
+518,83,1,4,2,45,4,"i would like,panel is a magnificent portrayal of a regal and divine figure, likely inspired by mythology"
+519,83,1,4,3,47,4,"i would like,panel presents a serene and thoughtful composition, likely depicting a significant moment from mythology."
+520,83,1,4,4,49,4,"i would like,panel is a compelling depiction of an important moment, possibly from a mythological."
+521,83,1,4,5,51,4,"i would like,panel is an extraordinary display of vibrant storytelling, featuring a grand mythical bird interacting with divine or royal figures."
+522,83,1,5,1,53,4,"i would like,panel is a beautifully dynamic representation of movement and perseverance, possibly depicting an important journey or symbolic crossing"
+523,83,1,5,2,55,4,"i would like,panel beautifully captures a moment of divine or royal significance, with the central blue-skinned figure seated in a position of authority"
+524,83,1,5,3,57,4,"i would like,panel is a vibrant and engaging depiction of daily life or a significant moment in a narrative."
+525,83,1,5,4,59,4,"i would like,panel captures a moment of conversation or interaction in a traditional setting, possibly depicting a scene from daily life or a significant event."
+526,83,1,5,5,61,4,"i would like,panel is a visually striking depiction of an intense or divine encounter."
+527,83,1,5,6,63,4,"i would like,panel is beautifully composed with a striking balance of color and detail"
+528,83,1,5,7,65,4,"i would like,panel is visually dynamic, with a split composition that presents two distinct yet interconnected scenes."
+529,83,1,5,8,67,4,"i would like,panel presents a compelling and visually rich composition, featuring a large, stylized bird with an elongated beak dominating the left side."
+530,83,1,6,1,69,4,"i would like,panel is visually striking due to its monochromatic red and black color scheme, which creates a sense of elegance and uniformity."
+531,83,1,6,2,71,4,"i would like,panel presents a stunning depiction of a royal or divine procession, featuring a group of elegantly dressed figures accompanying a large, intricately patterned bird-like creature"
+532,83,1,6,3,73,4,"i would like,panel exhibits a regal and structured composition, with a central figure seated on a throne, possibly a king or deity, flanked by attendants and guards. "
+533,83,1,6,4,75,4,"i would like,panel portrays a serene and domestic scene, possibly depicting a moment from daily life, where women are engaged in household or communal activities."
+534,83,1,6,5,77,4,"i would like,panel is an exquisite example of traditional artistry, depicting a regal and divine assembly. "
+535,83,1,6,6,79,4,"i would like,panel is a visually striking representation of divine grace and celestial beauty."
+536,83,1,13,1,199,4,"i would like,panel is visually compelling, with bold contrasts and a striking composition. "
+537,83,1,13,2,201,2,"i would dislike,coudn't understand anything"
+538,83,1,13,3,203,4,"i would like, taking blessings from from king or god."
+539,83,1,13,4,205,3,"i would like,panel presents a striking visual composition with a central blue water element surrounded by humanoid monkey-like figures. "
+540,83,1,13,5,207,4,"i would like,is war happening in the portray "
+541,83,1,13,6,209,4,"i would like,panel is visually intriguing, showcasing a surreal and mythological composition."
+542,83,1,13,7,211,2,"i would dislike,panel presents a surreal and thought-provoking composition featuring a hybrid creature with a human-like face and an animal’s body."
+543,83,1,1,1,1,5,"i would like, artwork is a vibrant and detailed depiction of a divine figure, likely inspired by Hindu mythology."
+544,83,1,1,2,3,4,"i would like,artwork captures a rural scene with a sense of warmth and tradition."
+545,83,1,1,3,5,4,"i would like,painting presents a striking and traditional depiction of figures, likely representing a cultural or mythological scene. "
+546,83,1,1,4,7,5,"i would like,artwork beautifully portrays a divine encounter, blending mythology and spirituality in a striking manner"
+547,83,1,1,5,9,4,"i would like,artwork effectively captures an engaging scene of martial training or combat, with two warriors engaged in swordplay while a musician plays a large drum."
+548,83,1,1,6,11,4,"i would like,panel presents a vivid depiction of daily life, traditions, and spirituality in a rural setting."
+549,83,1,1,7,13,4,"i would like,panel presents a fascinating scene filled with symbolism."
+550,83,1,1,8,15,4,"i would like,panel presents a fascinating scene filled with symbolism and dynamic action."
+551,83,1,1,9,17,5,"i would like,artwork beautifully captures a divine encounter on water, featuring a regal goddess figure seated on a blooming lotus and a boat of figures approaching in reverence. "
+552,83,1,1,10,19,4,"i would like,panel beautifully captures a regal and divine setting, possibly depicting a royal or celestial figure seated in a palace or temple."
+553,83,1,1,11,21,4,"i would like,panel presents a striking depiction of a powerful divine figure, possibly a goddess, with multiple arms holding various symbolic items."
+554,83,1,1,12,23,4,"i would like,panel beautifully portrays a ceremonial or devotional scene, with a group of elegantly dressed figures gathered around a sacred pot adorned with symbolic elements. "
+555,83,1,2,1,25,4,"i would like,This artwork presents a mesmerizing and mythical scene, likely inspired by folklore or religious themes."
+556,83,1,2,2,27,2,"i would dislike,i couldn't understand"
+557,83,1,2,3,29,4,"i would like,panel presents a visually striking and complex composition, rich in symbolism and traditional artistic elements. "
+558,83,1,2,4,31,4,"i would like,panel conveys a deeply emotional and dramatic scene, likely depicting a moment of grief, devotion, or divine rest. "
+559,83,1,2,5,33,4,"i would like,panel presents a visually striking scene with a multi-headed, blue-skinned figure adorned with a golden crown and regal attire"
+560,83,1,3,1,35,4,"i would like,panel presents a beautifully detailed and vibrant composition that captures an important moment, possibly from a mythological or religious narrative."
+561,83,1,3,2,37,4,"i would like,panel presents a powerful and visually intricate composition, possibly depicting a moment of mourning, divine rest, or transcendence. "
+562,83,1,3,3,39,4,"i would like,panel is a visually striking and emotionally powerful depiction of a significant mythological or spiritual moment. "
+563,83,1,3,4,41,4,"i would like,panel is a dynamic and intense depiction of a battle or divine confrontation. "
+564,83,1,4,1,43,4,"i would like,panel beautifully captures a serene and possibly symbolic moment, featuring three figures standing under lush green trees."
+565,83,1,4,2,45,4,"panel is a magnificent portrayal of a regal and divine figure, likely inspired by mythology."
+566,83,1,4,3,47,4,"i would like,panel presents a serene and thoughtful composition, likely depicting a significant moment from mythology."
+567,83,1,4,4,49,4,"i would like,panel is a compelling depiction of an important moment, possibly from a mythological."
+568,83,1,4,5,51,4,"i would like,panel is an extraordinary display of vibrant storytelling, featuring a grand mythical bird interacting with divine or royal figures."
+569,83,1,5,1,53,4,"panel is a beautifully dynamic representation of movement and perseverance, possibly depicting an important journey or symbolic crossing."
+570,83,1,5,2,55,4,"panel beautifully captures a moment of divine or royal significance, with the central blue-skinned figure seated in a position of authority"
+571,83,1,5,3,57,4,panel is a vibrant and engaging depiction of daily life or a significant moment in a narrative.
+572,83,1,5,4,59,4," panel captures a moment of conversation or interaction in a traditional setting, possibly depicting a scene from daily life or a significant event."
+573,83,1,5,5,61,4, panel is a visually striking depiction of an intense or divine encounter. 
+574,83,1,5,6,63,4,panel is beautifully composed with a striking balance of color and detail. 
+575,83,1,5,7,65,4," panel is visually dynamic, with a split composition that presents two distinct yet interconnected scenes. "
+576,83,1,5,8,67,4,"This panel presents a compelling and visually rich composition, featuring a large, stylized bird with an elongated beak dominating the left side. "
+638,0,1,1,3,5,4,""
+639,0,1,1,4,7,3,""
+577,83,1,6,1,69,4,"panel is visually striking due to its monochromatic red and black color scheme, which creates a sense of elegance and uniformity."
+578,83,1,6,2,71,4,"panel presents a stunning depiction of a royal or divine procession, featuring a group of elegantly dressed figures accompanying a large, intricately patterned bird-like creature."
+579,83,1,6,3,73,4,"panel exhibits a regal and structured composition, with a central figure seated on a throne, possibly a king or deity, flanked by attendants and guards."
+580,83,1,6,4,75,4,"panel portrays a serene and domestic scene, possibly depicting a moment from daily life, where women are engaged in household or communal activities. "
+581,83,1,6,5,77,4,"panel is an exquisite example of traditional artistry, depicting a regal and divine assembly"
+582,83,1,6,6,79,4,panel is a visually striking representation of divine grace and celestial beauty. 
+583,83,1,13,1,199,4,"This panel is visually compelling, with bold contrasts and a striking composition"
+584,83,1,13,2,201,2,"i would dislike,i coudn't understand"
+585,83,1,13,3,203,4,"i would like,it giving blessing."
+586,83,1,13,4,205,4,panel presents a striking visual composition with a central blue water element surrounded by humanoid monkey-like figures
+587,83,1,13,5,207,4,"i would like, it shows some war in this picture."
+588,83,1,13,6,209,4,"panel is visually intriguing, showcasing a surreal and mythological composition."
+589,83,1,13,7,211,2,"i would dislike,panel presents a surreal and thought-provoking composition featuring a hybrid creature with a human-like face and an animal’s body."
+590,83,1,1,1,1,5,"i would like,artwork is a vibrant and detailed depiction of a divine figure, likely inspired by Hindu mythology."
+591,83,1,1,1,1,4,In this it shows that some hindu mythology.
+592,83,1,1,2,3,4,"i would like,simple yet engaging village scene with a storytelling aspect. "
+593,83,1,1,1,1,1,a vibrant and dynamic depiction of mythological scene
+594,83,1,1,1,1,5,a vibrant and dynamic depiction of mythological scene
+595,83,1,1,2,3,4,a simple yet engaging village scene with storytelling
+596,83,1,1,3,5,4,a beautiful composed scene with distinct character expressions and gestures
+597,83,1,1,4,7,5,a striking composition with mystical and serene atmosphere
+598,83,1,1,5,9,5,this scene effectively capture a sense of movement and cultural tradition particulary two warriors
+599,83,1,1,6,11,4,panels beautiful portrays a rich lively village of all aspects
+600,83,1,1,7,13,5,"a stunning gathering,rich in symbolism and detail."
+601,83,1,1,8,15,4,panel presents a captivating and mythological ritual scene.
+602,83,1,1,9,17,5,a visually depiction of divine or spirtual journey
+603,83,1,1,10,19,4,panel presents a regal and divine atmosphere in central figure.
+604,83,1,1,11,21,4,"a poweful striking of divine figure,like goddess, showing multiple arms."
+605,83,1,1,12,23,4,pannel beautifully captures ceremonial or ritualistic with a well balanced composition and detailed expression
+606,83,1,2,1,25,4,a stunning and unique paterns and bold colors
+607,83,1,2,2,27,4,i striking and bold visual composition with its repetitive figures.
+608,83,1,2,3,29,4,panel visually mesmerizing and highly symbolic piece with intricate patterns
+609,83,1,2,4,31,4,panel captures emotional and significantly moment possible from mythological
+610,83,1,2,5,33,4,panel is amasterful depiction mythological grandeur with multiheaded figure 
+611,83,1,3,1,35,4,it shows that in cental figure having some authority
+612,83,1,3,2,37,4,panel exceptional significant event possibly divine with beautiful composition
+613,83,1,3,3,39,4,"panel visually striking and emotionally intense representation, likely depicting mythology"
+614,83,1,3,4,41,4,panel masterfully captures intense battle scene
+615,83,1,4,1,43,4,"panel reprents a scerene and harmonious moment,possibly important journey"
+616,83,1,4,2,45,4,"panel beautifully showcases a regal and divine with multiheaded in cental figure.
+"
+617,83,1,4,3,47,4,"captures a moment of significane,possibly on important meeting."
+618,83,1,4,4,49,5,"panel presents lively engaging scene,with multiple figures interacting traditional hurt."
+619,83,1,4,5,51,4,"this panel is visually strinking and full details, featuring a grand mythical bird adds a majestic presence composition."
+620,83,1,5,1,53,4,"panel captures a sense of movement and determintion,likely representing journey."
+621,83,1,5,2,55,5,"panel stuning representation of a regal setting, with central blue skinned figure excude authority."
+622,83,1,5,3,57,4,this panel effectively peaceful village scene.
+623,83,1,5,4,59,4,panel captures a moment of interaction posibbly a discussion
+624,83,1,5,5,61,4,panel presents a captivating and dynamic scene depicting mythical.
+625,83,1,5,6,63,4,panel presents a beautifully village with rich colors and intricate detials.
+626,83,1,5,7,65,4,panel effectively create dynamic and multi-layered composition with activities both in foreground and background
+627,83,1,5,8,67,4,panel visually striking with beautiful detialed and textured bird dominating
+628,83,1,6,1,69,5,"panel is a masterpiece of traditional artistry, featuring a detailed and balanced composition figures."
+629,83,1,6,2,71,4,panel exhibits stunning traditional aesthitic with balanced composition and intricate detailing
+630,83,1,6,3,73,4,artwork is beautifully detailed with elagant composition.
+631,83,1,6,4,75,4,a well balanced depiction of divine procession
+632,83,1,6,5,77,4,a grand representation of royalty and devotion.
+633,83,1,6,6,79,5,a divine and majestic composition with floral and peacock motifs adding ethereal quality
+634,0,1,1,1,1,4,""
+635,0,1,1,1,1,4,""
+636,0,1,1,1,1,2,""
+640,0,1,1,5,9,3,""
+641,0,1,1,6,11,3,""
+642,0,1,1,7,13,3,""
+643,0,1,1,8,15,4,""
+644,0,1,1,9,17,4,""
+645,0,1,1,10,19,3,""
+646,0,1,1,11,21,3,""
+647,0,1,1,12,23,4,""
+648,0,1,2,1,25,5,""
+649,0,1,2,2,27,5,""
+650,0,1,2,3,29,5,""
+651,0,1,2,4,31,5,""
+652,0,1,2,5,33,5,""
+653,0,1,3,1,35,4,""
+654,0,1,3,2,37,4,""
+655,0,1,3,3,39,5,""
+656,0,1,3,4,41,4,""
+657,0,1,4,1,43,5,""
+658,0,1,4,2,45,5,""
+659,0,1,4,3,47,5,""
+660,0,1,4,4,49,5,""
+661,0,1,4,5,51,4,""
+662,0,1,5,1,53,5,""
+663,0,1,5,2,55,5,""
+664,0,1,5,3,57,5,""
+665,0,1,5,4,59,4,""
+666,0,1,5,5,61,5,""
+667,0,1,5,6,63,5,""
+668,0,1,5,7,65,4,""
+669,0,1,5,8,67,5,""
+670,0,1,1,1,1,5,"I like the painting and it shows similarities of Kalika Devi. And also it shows different gods like load krishna, Bramha, Lord siva, Vinayaka, etc."
+671,0,1,1,2,3,3,painting shows that people are wearing olden days costumes. The surroundings shows its like a village due to huts and lady with goats.
+672,0,1,1,3,5,3,painting shows that people are wearing olden days costumes. But i didn't understand message behind the painting.
+673,0,1,1,4,7,4,I like the painting that shows lord Vinayaka with goddesses and some people are worshipping from the boat.
+674,0,1,1,5,9,4,The painting shows that two people are participating in traditional fight whereas one more person is playing the tabala.
+675,0,1,1,6,11,4,"In this painting, I have observed that two women are worshiping goddesses. Whereas one lady is with a baby on her womb. Some people are watching movie. And also the painting shows one ladies trying to buy parts from the seller. "
+676,0,1,1,7,13,5,"In the spending, I have absorbed that Dhurga Devi on a lion with the devil under her foot. Whereas the rest of the image shows that people are worshiping the Dhurga Devi. And also the image contain Lord Vinayaka and Saraswati Devi."
+677,0,1,1,8,15,4,"From this image, I observed that two devils are trying to kill a person whereas one lady is trying to stop the devils."
+678,0,1,1,9,17,4,"This painting shows that the lotus contains goddesses in it, and it was observed by the people who are in the boat."
+679,0,1,1,10,19,4,The pending shows that King is sitting in the chair and ordering to the person who is standing in front of him. And also a servant was working beside the king.
+680,0,1,1,11,21,4,"The image shows that Kalika Devi with 18 hands. Whereas one person in front of Kalika Devi is standing, and two persons are worshiping the Kalika Devi."
+681,0,1,1,12,23,4,"This painting shows that a wedding is happening in a traditional way with a crowd, and also the image contain a pot and a coconut on it."
+682,0,1,2,1,25,2,The painting shows that two saints are in front of swan whereas Swan has opened its mouth widely.
+683,0,1,2,2,27,4,"the painting shows dipicting five human like figures with a black painted face and exaggregated white eyes. They are wearing traditional clothes. And also, it has a name Raja in the bubbles. "
+684,0,1,2,3,29,4,"the painting appears to be traditional folk painting, likely inspired by the Patachitra or kalighat art. The central figure include a character with multiple heads possible representing Ravana from Ramayana."
+685,0,1,2,4,31,5,"depending appears to be a traditional folk painting, inspired by the Ramayana. The pending shows Lord Rama sleeping on Lakshmana and Hanuman near the foot of Lord rama."
+686,0,1,2,5,33,4,"The painting shows that the central figure with multiple heads and blue skin, wearing a crown, resembles Ravana from the Ramayana, depicted in conversation with two figures of distinct colors, possibly symbolizing divine or heroic characters. "
+687,0,1,3,1,35,3,"This image depicts a blue-skinned, crowned figure—possibly Rama—engaging with other characters, including a monkey-like figure, likely Hanuman. The vibrant colors and symbolic representation suggest a scene from the Ramayana."
+688,0,1,3,2,37,4,"This image appears to depict the death of Ravana, the ten-headed demon king from the Ramayana, lying on the ground surrounded by various figures, likely mourning or witnessing the scene."
+689,0,1,3,3,39,4,"This image portrays the funeral or cremation of Ravana, the ten-headed demon king from the Ramayana, as flames rise around his lifeless blue-skinned body. "
+690,0,1,3,4,41,5,"This image depicts Ravana being struck by arrows, likely symbolizing his defeat by Rama in the Ramayana. the image contain Ravana, Lord Rama, Lakshmana and one more character."
+691,0,1,4,1,43,5,"This image portrays three figures under a tree, possibly Sita, Rama, and Lakshmana, in a moment of rest or discussion. The folk-art style highlights nature and symbolism, emphasizing their exile in the Ramayana"
+692,0,1,4,2,45,3,"This image shows Ravana sitting with his multiple heads, wearing a crown, and talking to others. The bright colors and patterns make the scene look important, possibly showing a moment before a big event in the Ramayana."
+693,0,1,4,3,47,3,"This image shows Rama, with blue skin, standing with two others near a small hut where a woman is sitting. It likely represents the moment when Rama meets Sita after rescuing her from Lanka in the Ramayana."
+694,0,1,4,4,49,4,"This image shows a group of people gathered around a small hut, possibly depicting an important meeting or reunion. The vibrant folk-art style suggests a scene from the Ramayana, likely involving Sita after her rescue."
+695,0,1,4,5,51,2,"This image depicts a large mythical bird carrying Ravana, with Rama watching from the side. It likely represents Jatayu’s attempt to rescue Sita from Ravana in the Ramayana."
+696,0,1,5,1,53,3,"This image shows three figures walking on rough terrain, possibly symbolizing a journey. The green-skinned figure suggest a scene from the Ramayana, likely featuring Rama, Sita, and Lakshmana during their time in the forest."
+697,0,1,5,2,55,2,"This image depicts a blue-skinned figure, possibly Rama, sitting on a throne-like seat while a woman, likely Sita, sits on the floor, looking distressed. The scene suggests an important moment from the Ramayana, possibly Sita’s trial or exile."
+698,0,1,5,3,57,2,"This image shows three figures near a hut, with likely during Rama, Sita, and Lakshmana The presence of trees, a small animal like deer where sita asks for deer to rama in forest."
+699,0,1,5,4,59,2,"This image shows four figures outside a hut, with two sitting and two standing, possibly in conversation. The scene likely represents a moment from the Ramayana, featuring Sita, Rama, Lakshmana, and another character during their exile."
+700,0,1,5,5,61,1,"This image shows a blue-skinned figure, likely Rama, interacting with a large bird, possibly Jatayu. It represents the moment in the Ramayana when Jatayu, wounded after trying to save Sita from Ravana, informs Rama about her abduction."
+701,0,1,5,6,63,4,This image shows that Ravana came as saint to kidnap Sita during rama sita vanavasa.
+702,0,1,5,7,65,3,"The top section shows a green-skinned figure shaking a tree while another character with a deer watches, possibly representing Rama and Maricha. Another section shows a Sita and Lakshmana near a hut."
+703,0,1,5,8,67,4,"This image depicts a large bird, likely Jatayu, speaking to two figures, possibly Rama and Lakshmana. It represents the moment in the Ramayana when Jatayu, wounded after trying to save Sita from Ravana, informs them about her abduction."
+704,0,1,6,1,69,4,"This image portrays a traditional depiction of Hindu deities, including Durga with multiple arms, Ganesha, and other divine figures in folk-art style."
+705,0,1,6,2,71,2,This image shows like different goddesses but unable to figure out who are they?
+706,0,1,6,3,73,2,This image shows the royal scene a feature with crown but unable to find whats happening in the imange.
+707,0,1,6,4,75,3,The image shows five features where two were ladies and three are men. One person is carrying the pots using olden tradition. 
+708,0,1,6,5,77,3,"this painting shows that goddesses sitting, whereas seven figures are standing behind the goddesses, but I cannot recognizing who are standing behind the goddesses."
+709,0,1,6,6,79,2,"The identity of the standing figures is unclear, making it difficult to fully understand the narrative behind the artwork. I had understand that Lord Vinayaka put his trunk to crowned figures mouth."
+710,0,1,7,1,81,4,The painting looks like from Load Krishna with three women. Its a scene from Mahabaratham.
+711,0,1,7,2,83,2,The painting contains two section of painting where i was unable to identify the scenes and whats happening there.
+712,0,1,7,3,85,4,The images shows that a child playing with calf and where as right painting shows a figure standing on another persons back to take pot from height. It shows that the child is Lord Krishna from Mahabaratham.
+713,0,1,7,4,87,3,This painting shows that four people four are in boat. The sky blue figure tell us as Lord Krishna. But I can't sence behind the scence.
+714,0,1,7,5,89,2,"The vibrant folk-art style and storytelling through distinct panels make the narrative visually engaging and culturally rich. But the meaning behind the scene is somewhat unclear, making it difficult to fully interpret the story."
+715,0,1,7,6,91,2,"The vibrant colors and detailed storytelling, make the painting visually striking and rich in symbolism. The narrative is complex and requires prior knowledge of mythology to fully understand, making it harder to interpret without context."
+716,0,1,7,7,93,3,"The painting beautifully captures a moment of reverence and divine interaction, with detailed expressions and symbolic gestures enhancing the storytelling. The image represents Lord Krishna worshipped by a woman and image contain Shakuni."
+717,0,1,7,8,95,4,"The painting vividly portrays a well-known mythological scene with a blue-skinned figure in a tree and multiple women below, using vibrant colors and expressive gestures. This scene maybe from Mahabharat."
+718,0,1,7,9,97,1,This painting is good but unable to understand the scenes from the painting.
+719,0,1,7,10,99,5,The painting contain sky blue figure representing Krishna in cart and a women layed on ground and other standing infront of cart for praying to Krishna.
+720,0,1,7,11,101,2,I didn't understand the scene beyond the painting.
+721,0,1,7,12,103,3,The painting shows a sky blue baby was carrying in a bowl on a persons head. But the right hand painting not clear to understand the message.
+722,0,1,7,13,105,2,"The painting effectively uses symmetry and storytelling, depicting divine figures interacting with animals, which adds a spiritual and mythical essence to the artwork."
+723,0,1,7,14,107,3,The unique imagery of a tree with human faces and the divine figure’s interaction with the horse make the painting visually intriguing and rich in symbolism.The meaning behind the scenes is ambiguous.
+724,0,1,7,15,109,4,"The painting beautifully captures a significant mythological moment, depicting a divine figure seated on a serpent with an angelic being nearby, using vibrant colors and expressive details. Where divine representing Lord Krishna."
+725,0,1,1,1,1,1,Beautiful representation of Goddess Durga
+726,0,1,1,2,3,1,Clear strokes of contours
+727,0,1,1,3,5,4,Bright colors
+728,0,1,1,4,7,5,Monotone background with contrast. Beautiful representation of hindu goddess.
+729,0,1,1,5,9,4,warm monotone
+730,0,1,1,6,11,3,too many things in just one picture
+731,0,1,1,7,13,4,worship of goddess durga represented well
+732,0,1,1,8,15,3,background and figures are too animated and deformed
+733,0,1,1,9,17,3,monotonic background with contrast. a beautiful hindu mythological depiction
+734,0,1,1,10,19,4,The size of the main character shows its dominance. 
+735,0,1,1,11,21,5,detailed figures and folds in clothing
+736,0,1,1,12,23,4,""
+737,0,1,2,1,25,5,The bird is exceptionally detailed with complex patterns
+738,0,1,2,2,27,4,Bengali texts in the picture highlights the mythological link. the last two figures however don't look good
+739,0,1,2,3,29,4,space not managed well to accomodate the figures
+740,0,1,2,4,31,5,The resurrection of laxman in ramayan is depicted beautifully here. 
+741,0,1,2,5,33,4,figures and clothing is detailed
+742,0,1,3,1,35,5,The best use of color and just detailed patterns
+743,0,1,3,2,37,5,"same as the previous image, beautifully detailed color and prominent strokes"
+744,0,1,3,3,39,4,"beautiful prominent strokes, could have been better if the character (ravan) was vertical"
+745,0,1,3,4,41,3,The arrows look too naive. Space is not managed well.
+746,0,1,4,1,43,3,"beautifully detailed trees and characters, however, characters (ram laxman sita) could have been more beautiful"
+747,0,1,4,2,45,3,"prominent designs, bright colors"
+748,0,1,4,3,47,3,character shapes could have been better
+749,0,1,4,4,49,4,space utilized well. patterns and details like leaves of tree are highlighted well to add sharpness to image
+750,0,1,4,5,51,3,"incredible sharp patterns. However, shapes of the characters are not very uniform (even with respect to closeness perspective)"
+751,0,1,6,1,69,5,"Best image so far. beautiful patterns, and characters blend with the monotonic background. Just like durga puja pandals of kolkata"
+752,0,1,6,2,71,5,"uniform characters, monotone with sharp patterns add a complex softness to the image."
+753,0,1,6,3,73,5,Beautiful! no reviews needed! 
+754,0,1,6,4,75,4,space utilization not the best
+755,0,1,6,5,77,4,space utilization not great. but great sharp complex patterns to add a prominent contrast to the calm monotonic background
+756,0,1,6,6,79,3,"eyes, nose of the characters are great."
+757,0,1,7,1,81,5,""
+758,0,1,7,2,83,2,""
+759,0,1,7,3,85,2,""
+760,0,1,7,4,87,4,""
+761,0,1,1,1,1,3,"I like the vibrant color in this artwork. The central figure looks powerful. However, the image feels a bit crowded, making it hard to focus on specific details. "
+762,0,1,1,1,1,3,"I like the vibrant color in this artwork. The central figure looks powerful. However, the image feels a bit crowded, making it hard to focus on specific details. "
+763,0,1,1,1,1,3,"I like the vibrant color in this artwork. The central figure looks powerful. However, the image feels a bit crowded, making it hard to focus on specific details. "
+764,0,1,1,1,1,3,"I like the vibrant color in this artwork. The central figure looks powerful. However, the image feels a bit crowded, making it hard to focus on specific details. "
+765,0,1,1,1,1,3,"I like the vibrant color in this artwork. The central figure looks powerful. However, the image feels a bit crowded, making it hard to focus on specific details. "
+766,0,1,1,1,1,3,"I like the vibrant color in this artwork. The central figure looks powerful. However, the image feels a bit crowded, making it hard to focus on specific details. "
+767,0,1,1,1,1,3,"I like the vibrant color in this artwork. The central figure looks powerful. However, the image feels a bit crowded, making it hard to focus on specific details. "
+768,0,1,1,1,1,3,"I like the vibrant color in this artwork. The central figure looks powerful. However, the image feels a bit crowded, making it hard to focus on specific details. "
+769,0,1,1,1,1,3,"I like the vibrant color in this artwork. The central figure looks powerful. However, the image feels a bit crowded, making it hard to focus on specific details. "
+770,0,1,1,1,1,3,"I like the vibrant color in this artwork. The central figure looks powerful. However, the image feels a bit crowded, making it hard to focus on specific details. "
+771,0,1,1,1,1,3,"I like the vibrant color in this artwork. The central figure looks powerful. However, the image feels a bit crowded, making it hard to focus on specific details. "
+772,0,1,1,1,1,3,"I like the vibrant color in this artwork. The central figure looks powerful. However, the image feels a bit crowded, making it hard to focus on specific details. "
+773,0,1,1,2,3,3,"i like that the image portrays a peaceful village.  However, the yellow tone seems to be too dominant, making the image feel overly warm and slightly washed out "
+774,0,1,1,3,5,2,"the hand guestures, facial expressions and clothing suggests a celebration. "
+775,0,1,1,5,9,3,i like the depiction of a sword fight between two men. 
+776,0,1,1,4,7,3,i like the use of bright color. 
+777,0,1,1,6,11,3,i like the depiction of the villagers daily life. 
+778,0,1,1,7,13,4,i like the vibrant color and it potrays a joyful celebration with a deity in the middle 
+779,0,1,1,7,13,4,i like the vibrant color and it potrays a joyful celebration with a deity in the middle 
+780,0,1,1,7,13,4,i like the vibrant color and it potrays a joyful celebration with a deity in the middle 
+781,0,1,1,11,21,2,the position of the middle pink figure is on the green figure seemly giving blessing to him 
+782,0,1,1,10,19,2,the use of different figure size shows how important the figure in blue is 
+783,0,1,1,9,17,3,i like the use of color and the storytelling 
+784,0,1,1,8,15,2,i like the body language every most figure is leaning and facing the figure on the right. 
+785,0,1,1,12,23,3,i like the story telling in the image where it depics a celebration of the middle two figures seemly a wedding
+786,0,1,2,1,25,4,there is an interesting figure on the right. head of a snake and body of a bird 
+787,0,1,2,2,27,3,it seems like the portrayal of certain issues with weights on their head 
+788,0,1,2,3,29,2,its interesting to see two figures with many heads 
+789,0,1,3,1,35,4,i like the use of colors and it seems like a crowning ceremony 
+790,0,1,3,2,37,2,i like the use of space how the figure with many heads is place in the middle and in a diagonal way
+791,0,1,3,4,41,4,it is interesting to see how they are holding a bow and arrow 
+792,0,1,5,1,53,3,it interesting to see a figure holding a leave above another figure to block the sunlight 
+793,0,1,5,2,55,2,the storytelling in this image is interesting as two figures seem to worship the figure in blue in two different ways. 
+794,0,1,5,3,57,2,i like the facial expression 
+795,0,1,5,7,65,3,i like how the image in seperated into different section to show the whole story 
+796,0,1,6,1,69,3,"i like how there is many delty in the picture 
+"
+797,0,1,1,1,1,2,liked the drawing and color
+798,0,1,1,2,3,3,well colored
+799,0,1,1,3,5,4,nice color
+800,0,1,1,4,7,2,beautifully depicted
+801,0,1,1,5,9,5,described the story nicely
+802,0,1,1,6,11,5,too many things in one panel
+803,0,1,1,7,13,2,good coloring
+804,0,1,1,7,13,2,good coloring
+805,0,1,1,7,13,2,good coloring
+806,0,1,1,7,13,2,good coloring
+807,0,1,1,7,13,2,good coloring
+808,0,1,1,7,13,2,good coloring
+809,0,1,1,7,13,2,good coloring
+810,0,1,1,7,13,2,good coloring
+811,0,1,1,7,13,2,good coloring
+812,0,1,1,8,15,4,disliked the pic
+813,0,1,1,9,17,4,""
+814,0,1,1,10,19,3,""
+815,0,1,1,11,21,1,""
+816,0,1,1,12,23,3,good painting
+817,0,1,2,1,25,5,nice detailing
+818,0,1,2,2,27,1,do not understand the painting
+819,0,1,2,3,29,1,representation not clear
+820,0,1,2,4,31,5,good coloring
+821,0,1,2,5,33,5,very well drawn
+822,0,1,3,1,35,5,""
+823,0,1,3,2,37,5,too much detailing
+824,0,1,3,3,39,5,good coloring
+825,0,1,3,4,41,1,""
+826,0,1,4,1,43,5,good coloring
+827,0,1,4,2,45,1,""
+828,0,1,4,3,47,3,""
+829,0,1,4,4,49,4,""
+830,0,1,4,5,51,2,visual dosent explain the story behind
+831,0,1,5,1,53,1,""
+832,0,1,5,2,55,1,looks like a sad painting
+833,0,1,5,3,57,1,""
+834,0,1,5,4,59,1,""
+835,0,1,5,5,61,1,""
+836,0,1,5,6,63,1,""
+837,0,1,5,7,65,1,""
+838,0,1,5,8,67,1,""
+839,0,1,1,1,1,5,The art work is good i could see its regarding some godess
+840,0,1,1,2,3,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+841,0,1,1,3,5,5,"I like the art work and it depicts about some culture
+"
+842,0,1,1,4,7,5,beautifully depicts the the art with some story telling
+843,0,1,1,5,9,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+844,0,1,1,6,11,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+845,0,1,1,7,13,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+846,0,1,1,8,15,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+847,0,1,1,9,17,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+848,0,1,1,10,19,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+849,0,1,1,11,21,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+850,0,1,1,12,23,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+851,0,1,2,1,25,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+852,0,1,2,2,27,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+853,0,1,2,3,29,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+854,0,1,2,4,31,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+855,0,1,2,5,33,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+856,0,1,3,1,35,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+857,0,1,3,2,37,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+858,0,1,3,3,39,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+859,0,1,3,4,41,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+860,0,1,4,1,43,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+861,0,1,4,2,45,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+862,0,1,4,3,47,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+863,0,1,4,4,49,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+864,0,1,4,5,51,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+865,0,1,5,1,53,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+866,0,1,5,2,55,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+867,0,1,5,3,57,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+868,0,1,5,4,59,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+869,0,1,5,5,61,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+870,0,1,5,6,63,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+871,0,1,5,7,65,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+1275,107,1,12,6,181,5,""
+872,0,1,5,8,67,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+873,0,1,6,1,69,5,The vibrant colors and tradidtional style and beautifully depicted the culutural scene
+874,0,1,6,2,71,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+875,0,1,6,3,73,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+876,0,1,6,4,75,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+877,0,1,6,5,77,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+878,0,1,6,6,79,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+879,0,1,7,1,81,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+880,0,1,7,2,83,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+881,0,1,7,3,85,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+882,0,1,7,4,87,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+883,0,1,7,5,89,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+884,0,1,7,6,91,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+885,0,1,7,7,93,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+886,0,1,7,8,95,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+887,0,1,7,9,97,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+888,0,1,7,10,99,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+889,0,1,7,11,101,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+890,0,1,7,12,103,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+891,0,1,7,13,105,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+892,0,1,7,14,107,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+893,0,1,7,15,109,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+894,0,1,8,1,111,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+895,0,1,8,2,113,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+896,0,1,8,3,115,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+897,0,1,8,4,117,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+898,0,1,8,5,119,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+899,0,1,8,6,121,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+900,0,1,8,7,123,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+901,0,1,9,1,125,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+902,0,1,9,2,127,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+903,0,1,9,3,129,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+904,0,1,9,4,131,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+905,0,1,9,5,133,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+906,0,1,9,6,135,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+907,0,1,9,7,137,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+908,0,1,9,8,139,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+909,0,1,9,9,141,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+910,0,1,10,1,143,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+911,0,1,10,2,145,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+912,0,1,10,3,147,5,The vibrant colors and traditional style and beautifully depicted the culutural scene
+913,0,1,10,4,149,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+914,0,1,10,5,151,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+915,0,1,10,6,153,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+916,0,1,10,7,155,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+917,0,1,10,8,157,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+918,0,1,11,1,159,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+919,0,1,11,2,161,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+920,0,1,11,3,163,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+921,0,1,11,4,165,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+922,0,1,11,5,167,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+923,0,1,11,6,169,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+924,0,1,12,1,171,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+925,0,1,12,2,173,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+926,0,1,12,3,175,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+927,0,1,12,4,177,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+928,0,1,12,5,179,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+929,0,1,12,6,181,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+930,0,1,12,7,183,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+931,0,1,12,8,185,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+932,0,1,12,9,187,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+933,0,1,12,10,189,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+934,0,1,12,11,191,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+935,0,1,12,12,193,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+936,0,1,12,13,195,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+937,0,1,12,14,197,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+938,0,1,13,1,199,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+939,0,1,13,2,201,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+940,0,1,13,3,203,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+941,0,1,13,4,205,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+942,0,1,13,5,207,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+943,0,1,13,6,209,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+944,0,1,13,7,211,5,The vibrant colors and traditional style beautifully depicted the cultural scene
+945,0,1,1,1,1,5,god bless me
+946,0,1,1,2,3,5,feeding grasss
+947,0,1,1,3,5,3,i dont understand
+948,0,1,1,4,7,5,people very divisional to godess
+949,0,1,1,5,9,5,i like the way they fight
+950,102,1,1,1,1,3,""
+951,102,1,1,2,3,4,Clarity of what the image wants to portray.
+952,0,1,1,6,11,5,i like the way they sit and learn
+953,102,1,1,3,5,4,Pleasant picture
+954,0,1,1,7,13,5,divisional people 
+955,102,1,1,4,7,4,Shows something mythological and is non violent
+956,102,1,1,5,9,3,shows a violent sword fight
+957,102,1,1,6,11,5,shows a festival being celebrated 
+958,102,1,1,7,13,3,shows some violence
+959,0,1,1,8,15,5,i like the way man is try to rescue  
+960,0,1,1,9,17,3,dcbjkre
+961,0,1,1,10,19,3,the king
+962,102,1,1,8,15,2,doesnt give positive vibes as the person is cutting womens hair while she is pleading.
+963,0,1,1,11,21,4,nara bali
+964,102,1,1,9,17,3,"good , mythological."
+965,0,1,1,12,23,4,cooking
+966,0,1,2,1,25,3,feeding
+967,102,1,1,10,19,3,normal picture of someone who seems to be a king and people serving him
+968,102,1,1,11,21,3,"Good , mythological"
+969,102,1,1,12,23,4,"great , couple getting married."
+970,102,1,2,1,25,3,"Bird trying to eat the person , sort of violent"
+971,0,1,2,2,27,3,the blacks
+972,0,1,2,3,29,3,ravana
+973,102,1,2,2,27,2,seems like people pleading forgiveness
+974,0,1,2,4,31,4,Taking rest
+975,0,1,2,5,33,3,ravana and his son
+976,102,1,3,1,35,3,mythological
+977,102,1,3,2,37,2,some of them seem to be crying
+978,102,1,3,3,39,2,Includes Ravan
+979,0,1,3,1,35,3,king blessing
+980,102,1,3,4,41,3,"good , mythological."
+981,102,1,4,1,43,4,good
+982,102,1,4,2,45,2,Includes Ravaan
+983,102,1,4,3,47,4,Good
+984,102,1,4,4,49,4,good
+985,102,1,4,5,51,2,seems like someone is being attacked
+986,102,1,6,1,69,4,"Good , Mythological"
+987,0,1,3,2,37,3,upside down
+988,102,1,6,2,71,3,not sure whats going on
+989,0,1,3,3,39,4,side up ravana
+990,102,1,6,3,73,3,Its a kings court 
+991,102,1,6,4,75,3,depiction of market
+992,0,1,3,4,41,4,ravana fighting with rama lakhmana
+993,102,1,6,5,77,3,"Not sure what its conveying , but the color of image is a little off"
+994,102,1,6,6,79,3,"Good , Mythology"
+995,0,1,4,1,43,4,nice trees
+996,0,1,4,2,45,3,ravana and wife
+997,0,1,4,3,47,3,jaii rama
+998,0,1,4,4,49,1,nice art
+999,0,1,4,5,51,1,nice art
+1000,0,1,5,1,53,1,though walking
+1001,0,1,5,2,55,3,Jai sri krishna
+1002,0,1,5,3,57,4,rama and deer
+1003,0,1,5,4,59,3,4 ppl
+1004,0,1,5,5,61,4,nice fight
+1005,0,1,5,6,63,2,be careful
+1006,0,1,5,7,65,1,oooooooooooooo
+1007,0,1,5,8,67,3,pakshi raja sorry
+1008,0,1,6,1,69,3,nice colour grading
+1009,0,1,6,2,71,3,orange colour
+1010,0,1,6,3,73,3,king in the north
+1011,0,1,1,1,1,5,"Goddess Durga and various other gods and goddesses from Hindu religion. In the picture, the goddess's lion kills either an animal or an evil man (Rakshacha)"
+1012,0,1,6,4,75,5,kjjgguuiuo ioyiyoo uyuyiuoi
+1013,0,1,6,5,77,3,"godessess
+"
+1014,0,1,6,6,79,3,lotus flower
+1015,0,1,7,1,81,5,krishna and his lila
+1016,0,1,7,2,83,4,krishna with govulu
+1017,0,1,1,2,3,4,Two married people are talking to man and a lady is feeling animal cow. However it is very hard to determine the context of the picture
+1018,0,1,7,3,85,4,krishna venna donga
+1019,0,1,7,4,87,4,jfchrh dheoukdhee cui few
+1020,0,1,7,5,89,4,dawdds32
+1021,0,1,7,6,91,4,kurma avatharam
+1022,0,1,7,7,93,4,rice bowl
+1023,0,1,7,8,95,4,dresses stolen by krishna
+1024,0,1,7,9,97,4,hey krishna 
+1025,0,1,1,3,5,3,Marriage ceremony is performed and conch shell is also used to perform ceremony. However it is very hard to determine the storyline of the picture.
+1026,0,1,7,10,99,4,donky ride
+1027,0,1,7,11,101,4,lord krishna
+1028,0,1,1,4,7,4,It looks like a Hindu deity and mythological as people have come to pay homage to Hindu deity in sea. The whole picture is mythological
+1029,0,1,7,12,103,5,save krisha
+1030,0,1,7,13,105,5,krisna playing
+1031,0,1,7,14,107,5,jai sri krishna
+1032,0,1,1,5,9,4,two people are sword fighting and it looks like an event
+1033,0,1,7,15,109,4,krishna on snake nice pic
+1034,0,1,8,1,111,4,nice
+1035,0,1,8,2,113,4,nice
+1036,0,1,1,6,11,3,"Unable to understand, but there is mom playing with her kid and goddess like creature and two married people preaching 4 kids "
+1037,0,1,8,3,115,4,nice
+1038,0,1,8,4,117,4,nice
+1039,0,1,8,5,119,4,nice
+1040,0,1,8,6,121,4,niceee
+1041,0,1,8,7,123,4,nice
+1042,0,1,1,7,13,5,"Goddess Durga from Hindu religion in the picture, the goddess's lion kills an evil man (Rakchasha)"
+1043,0,1,9,1,125,5,nice
+1044,0,1,9,2,127,5,nice
+1045,0,1,9,3,129,5,nice
+1046,0,1,9,4,131,5,nice
+1047,0,1,1,8,15,3,a woman is praying for mercy to man who wants to her and another man has holded this woman and there is another woman wearing white saree
+1048,0,1,9,5,133,5,nice
+1049,0,1,9,6,135,5,nice
+1050,0,1,9,7,137,5,nice
+1051,0,1,9,8,139,5,nice
+1052,0,1,9,9,141,5,nice
+1053,0,1,1,9,17,4,It looks like a Hindu deity and mythological as people have come to pay homage to Hindu deity in sea. The whole picture is mythological
+1054,0,1,10,1,143,5,nice
+1055,0,1,10,2,145,5,nice
+1056,0,1,10,3,147,5,nice
+1057,0,1,10,4,149,5,nice
+1058,0,1,10,5,151,5,nice
+1059,0,1,10,6,153,5,nice
+1060,0,1,10,7,155,5,nice
+1061,0,1,10,8,157,5,nice
+1062,0,1,11,1,159,4,nice
+1063,0,1,11,2,161,4,nice
+1064,0,1,11,3,163,4,nice
+1065,0,1,11,4,165,5,""
+1066,0,1,11,5,167,4,""
+1067,0,1,11,6,169,5,""
+1068,0,1,12,1,171,5,""
+1069,0,1,12,2,173,2,""
+1070,0,1,12,3,175,1,""
+1071,0,1,12,4,177,2,rere
+1072,0,1,1,10,19,4,A person or counsell is sitting on his place and a lady is standing in front of him folding hands. One more lady probably servant is comforting him.
+1073,0,1,12,5,179,4,cercer
+1074,0,1,12,6,181,4,deded
+1075,0,1,12,7,183,3,xewed dd22
+1076,0,1,12,8,185,3,wecw dewkl
+1077,0,1,12,9,187,3,frev oewfoi
+1078,0,1,1,11,21,3,A goddess like creature is standing on shoulder of man and 2 men are praying to the goddess
+1079,0,1,12,10,189,3,heriojeevn
+1080,0,1,12,11,191,3,nnkjknkj
+1081,0,1,12,12,193,3,nice
+1082,0,1,12,13,195,3,nice
+1083,0,1,1,12,23,5,two person are getting married and there accompanied by people performing rituals
+1084,0,1,12,14,197,3,average
+1085,0,1,13,1,199,1,not nice
+1086,0,1,13,2,201,1,monkies
+1087,0,1,13,3,203,3,nice
+1088,0,1,2,1,25,2,two married people are seeing an artificial bird like creature
+1089,0,1,13,4,205,4,colour grading not good
+1090,0,1,13,5,207,3,xehiew
+1091,0,1,13,6,209,3,"edkjedh elcelce
+"
+1092,0,1,13,7,211,3,kjabscjejwe e ehdeo edhoe w
+1093,0,1,2,2,27,2,5 people faces are colored black and there are given some punishment
+1094,0,1,2,3,29,3,2 mythological creature with 10 heads and one more person is listening to two other people talking 
+1095,0,1,2,4,31,3,a mythological creature is standing with folded hands and a person is senseless and another person. Seems like lakshman being poisioned
+1096,0,1,1,1,1,1,I recognize a few Indian gods here. I like how the scroll is showing death of evil
+1097,0,1,2,5,33,4,a man with 10 head is talking to two person. Like Ramayana
+1098,0,1,3,1,35,3,""
+1099,0,1,3,2,37,2,""
+1100,0,1,3,3,39,5,Ravana from ramayana
+1101,0,1,3,4,41,4,Ravana from ramayana is fighting ram and lakshman
+1102,0,1,1,2,3,5,I like how this scroll is showing earlier lifestyle before all the technology was introduced to humans.
+1103,0,1,4,1,43,4,"Ram, lakshman and sita on vanvaas"
+1104,0,1,1,3,5,5,I did not understand the context of this picture but i just see two women and a male. 
+1105,0,1,4,2,45,4,Ravana along with his daasi's
+1106,0,1,4,3,47,4,"Ram, lakshman and sita on vanvaas and another lady who is sitting inside a small house"
+1107,0,1,1,1,1,5,The art is about the goddess Durga's victory over the demon Mahishasura. This art combines multiple mythological characters from Hindu Puran. This mythology is deeply rooted with Bengal's culture.
+1108,0,1,4,4,49,3,"Ram, lakshman and sita on vanvaas and unable to determine what is happening"
+1109,0,1,4,5,51,4,""
+1110,0,1,1,4,7,5,I like how this picture is the goddess of wealth and it's a nice depiction that covers all aspects of her appearance
+1111,0,1,5,1,53,4,"Ram, lakshman and sita on vanvaas"
+1112,0,1,5,2,55,2,""
+1113,0,1,5,3,57,4,Ram and sita on vanvaas with brother lakshman talking
+1114,0,1,5,4,59,4,""
+1115,0,1,5,5,61,2,""
+1116,0,1,5,6,63,4,A rishi and lady are talking to each other.
+1117,0,1,5,7,65,2,""
+1118,0,1,5,8,67,2,""
+1119,0,1,1,2,3,4,This is a picture of a newly married couple and a traditional village of Bengal. I like the simple expression of the art and single stroke water color technique of the painting.
+1120,0,1,6,1,69,4,Goddess durga and Ganesha and other people are also standing
+1121,0,1,6,2,71,4,""
+1122,0,1,6,3,73,4,A king as sitting in his crown talking to his counsell and being comforted by caretaker
+1123,0,1,6,4,75,2,""
+1124,0,1,6,5,77,2,""
+1125,0,1,6,6,79,3,Ganesh and parvati
+1126,0,1,7,1,81,4,Two married people talking to two lady
+1127,0,1,7,2,83,4,2 cows and a person is carrying goat in his arms and he is talking to a bow and a girl and there is one more person talking to 2 ladies
+1128,0,1,7,3,85,2,""
+1129,0,1,7,4,87,4,People riding a mythological shaped boat
+1130,0,1,7,5,89,2,""
+1131,0,1,7,6,91,2,""
+1132,0,1,7,7,93,4,People praying to mythological person
+1133,0,1,7,8,95,4,Lord krishna has hidden the clothes of gopi's
+1134,0,1,7,9,97,4,related to krishna killing putna
+1135,0,1,7,10,99,4,""
+1136,0,1,7,11,101,4,""
+1137,0,1,7,12,103,4,Krishna is taken from banks of river 
+1138,0,1,7,13,105,4,""
+1139,0,1,7,14,107,2,""
+1140,0,1,7,15,109,4,""
+1141,0,1,8,1,111,4,""
+1142,0,1,8,2,113,4,""
+1143,0,1,8,3,115,4,""
+1144,0,1,8,4,117,4,""
+1145,0,1,8,5,119,4,""
+1146,0,1,8,6,121,4,People praying to a goddess for mercy
+1147,0,1,8,7,123,2,""
+1148,0,1,1,5,9,5,"I like the sword fight shown, which shows ancient Indian war culture."
+1149,0,1,9,1,125,4,Radha and Krishna
+1150,0,1,9,2,127,5,Radha and flirting with radha
+1151,0,1,9,3,129,4,Gopian and Krishna
+1152,0,1,9,4,131,3,Radha and Krishna
+1153,0,1,9,5,133,4,Radha and Krishna
+1154,0,1,9,6,135,4,Radha and Krishna
+1155,0,1,9,7,137,4,Radha and Krishna and cow and calf
+1156,0,1,1,6,11,5,"This picture is showing on if the famous south-Indian ""pooja"" which is done by most of the females for well-being of the family. "
+1157,0,1,9,8,139,4,Radha and Krishna
+1158,0,1,9,9,141,4,Gaopiyan and Krishna
+1159,0,1,10,1,143,4,""
+1160,0,1,10,2,145,2,""
+1161,0,1,10,3,147,2,""
+1162,0,1,1,7,13,5,I like how the picture is showing death of evil and all gods respecting female goddesses.
+1163,0,1,10,4,149,2,""
+1164,0,1,10,5,151,4,Krishna hiding the clothes of gopiyaan
+1165,0,1,10,6,153,2,Putna and Krishna
+1166,0,1,1,8,15,5,I dislike this scroll cause I believe it shows animal offering to the god.
+1167,107,1,1,1,1,4,"Goddess Durga and various other gods and goddesses from Hindu religion. In the picture, the goddess's lion kills either an animal or an evil man (Rakshacha)"
+1168,107,1,1,2,3,3,Two married people are talking to man and a lady is feeling animal cow. However it is very hard to determine the context of the picture
+1169,107,1,1,3,5,4,Marriage ceremony is performed and conch shell is also used to perform ceremony. However it is very hard to determine the storyline of the picture.
+1170,107,1,1,4,7,4,It looks like a Hindu deity and mythological as people have come to pay homage to Hindu deity in sea. The whole picture is mythological
+1171,107,1,1,5,9,4,two people are sword fighting and it looks like an event
+1172,107,1,1,6,11,2,"Unable to understand, but there is mom playing with her kid and goddess like creature and two married people preaching 4 kids "
+1173,0,1,1,9,17,5,I like how it is showing Indian goddess of wealth.
+1174,107,1,1,7,13,4,"Goddess Durga from Hindu religion in the picture, the goddess's lion kills an evil man (Rakchasha)"
+1175,107,1,1,8,15,2,""
+1176,107,1,1,9,17,2,""
+1177,107,1,1,10,19,2,A person or counsell is sitting on his place and a lady is standing in front of him folding hands. One more lady probably servant is comforting him.
+1178,107,1,1,11,21,3,A goddess like creature is standing on shoulder of man and 2 men are praying to the goddess
+1179,0,1,1,10,19,5,I like how it is showing the culture of kings ruling in India.
+1180,107,1,1,12,23,4,two person are getting married and there accompanied by people performing rituals
+1181,107,1,2,1,25,2,two married people are seeing an artificial bird like creature
+1182,107,1,2,2,27,3,5 people faces are colored black and there are given some punishment
+1183,0,1,1,11,21,3,I dislike that I don't understand what is going on in this scroll
+1184,107,1,2,3,29,4,2 mythological creature with 10 heads and one more person is listening to two other people talking 
+1185,107,1,2,4,31,4,a mythological creature is standing with folded hands and a person is senseless and another person. Seems like lakshman being poisioned
+1186,107,1,2,5,33,4,""
+1187,0,1,1,12,23,5,I like this scroll cause it shows Indian wedding culture I believe.
+1188,107,1,3,1,35,2,""
+1189,0,1,2,1,25,5,I like that this scroll is showing Mandala art which is quite popular in India.
+1190,107,1,3,2,37,2,""
+1191,107,1,3,3,39,4,Ravana
+1192,107,1,3,4,41,4,Ravana from ramayana is fighting ram and lakshman
+1193,107,1,4,1,43,4,"Ram, lakshman and sita on vanvaas"
+1194,0,1,2,2,27,5,I like that this scroll is depicting how students used to treat their teachers or gurus as gods.
+1195,107,1,4,2,45,4,Ravana along with his daasi's
+1196,107,1,4,3,47,4,"Ram, lakshman and sita on vanvaas and another lady who is sitting inside a small house"
+1197,0,1,2,3,29,5,This scroll shows the scene of the god Hanuman visiting seetha in Lanka and negotiating with Ravan.
+1198,107,1,4,5,51,4,""
+1199,107,1,5,1,53,4,"Ram, lakshman and sita on vanvaas"
+1200,107,1,5,2,55,4,"Ram, lakshman and sita on vanvaas"
+1201,107,1,5,3,57,4,"Ram, lakshman and sita on vanvaas"
+1202,0,1,2,4,31,5,I like how this scroll shows the scene in Ramayana where Ram's brother Lakshman gets poisoned and Hanuman rescues him.
+1203,107,1,5,4,59,2,""
+1204,107,1,5,5,61,2,""
+1205,0,1,2,5,33,5,I like that this scroll again shows negotiation of counter parties before the war.
+1206,107,1,5,6,63,4,A ravana dressed in form of rishi is talking to sita.
+1207,107,1,5,7,65,4,""
+1208,107,1,5,8,67,4,""
+1209,107,1,6,1,69,4,Goddess durga and Ganesha and other people are also standing
+1210,107,1,6,2,71,4,""
+1211,107,1,6,3,73,4,A king as sitting in his crown talking to his counsell and being comforted by caretaker
+1212,107,1,6,4,75,4,""
+1213,107,1,6,5,77,4,""
+1214,107,1,6,6,79,4,Ganesh and parvati
+1215,107,1,7,1,81,4,Two married (radha and krishan) people talking to two lady
+1216,107,1,7,2,83,4,2 cows and a person krishna is carrying goat in his arms and he is talking to a bow and a girl and there is one more person talking to 2 ladies. The place is countryside
+1217,107,1,7,3,85,4,""
+1218,107,1,7,4,87,4,People riding a mythological shaped boat
+1219,107,1,7,5,89,4,""
+1220,107,1,7,6,91,4,""
+1221,107,1,7,7,93,4,People praying to god krishna
+1222,107,1,7,8,95,4,Lord krishna has hidden the clothes of gopi's
+1223,0,1,3,1,35,5,I like that this scroll is showing olden days Indian clothing.
+1224,107,1,7,9,97,4,related to krishna killing putna
+1225,107,1,7,10,99,4,related to krishna killing putna
+1226,107,1,7,11,101,4,""
+1227,107,1,7,12,103,4,Krishna is taken from banks of river by adopted parents
+1228,107,1,7,13,105,4,""
+1229,107,1,7,14,107,4,""
+1230,107,1,7,15,109,4,""
+1231,0,1,3,2,37,5,I like how this scroll shows that Ravan had 10 heads
+1232,0,1,3,3,39,5,I like how this scroll shows that Ravan had 10 heads
+1233,107,1,8,1,111,2,""
+1234,107,1,8,2,113,2,""
+1235,107,1,8,3,115,2,""
+1236,107,1,8,4,117,4,""
+1237,107,1,8,5,119,4,""
+1238,107,1,8,6,121,4,People praying to a goddess for mercy
+1239,107,1,8,7,123,2,""
+1240,107,1,9,1,125,4,Radha and Krishna
+1241,107,1,9,2,127,4,Radha and Krishna
+1242,0,1,3,4,41,5,I like how this scroll is covering the important piece of Indian culture between Rama and Ravan.
+1243,107,1,9,3,129,4,Radha and Krishna and friend
+1244,107,1,9,4,131,4,Radha and Krishna enjoying converstaion
+1245,107,1,9,5,133,4,""
+1246,107,1,9,6,135,4,""
+1247,107,1,9,7,137,4,""
+1248,107,1,9,8,139,4,""
+1249,107,1,9,9,141,4,""
+1250,107,1,10,1,143,4,""
+1251,107,1,10,2,145,2,""
+1252,0,1,4,1,43,5,I like how trees are designed in this scroll.
+1253,107,1,10,3,147,2,""
+1254,107,1,10,4,149,2,""
+1255,107,1,10,5,151,4,Krishna hiding the clothes of gopiyaan
+1256,107,1,10,6,153,4,""
+1257,0,1,4,2,45,5,I like the patterns in the scroll that play a huge role in the Indian saree designs.
+1258,107,1,10,7,155,4,krishna being given up original parents
+1259,107,1,10,8,157,2,""
+1260,107,1,11,1,159,4,""
+1261,107,1,11,2,161,4,""
+1262,107,1,11,3,163,4,""
+1263,0,1,4,3,47,5,I lie the clothing designs of people in this panel
+1264,107,1,11,4,165,4,""
+1265,107,1,11,5,167,4,""
+1266,107,1,11,6,169,5,Shiva and Parvati and bhakts
+1267,0,1,4,4,49,5,I like the clothing and patterns in the panel
+1268,107,1,12,1,171,4,""
+1269,107,1,12,1,171,4,""
+1270,107,1,12,2,173,4,""
+1271,107,1,12,3,175,4,""
+1272,107,1,12,4,177,5,""
+1273,107,1,12,5,179,4,""
+1274,0,1,4,5,51,5,I like the patterns and the mandala art in the scrolls
+1276,107,1,12,7,183,5,""
+1277,107,1,12,8,185,5,""
+1278,107,1,12,9,187,5,""
+1279,107,1,12,10,189,5,""
+1280,107,1,12,11,191,5,""
+1281,107,1,12,12,193,5,""
+1282,107,1,12,13,195,4,""
+1283,107,1,12,14,197,5,""
+1284,107,1,13,1,199,2,""
+1285,107,1,13,2,201,4,4 human monkeys (vanarsena)
+1286,107,1,13,3,203,4,Ravana talking to his counsell
+1287,107,1,13,4,205,4,Vanarsena from ramayana
+1288,107,1,13,5,207,4,Rama and Lakshman fighting with Ravana in Ramayana
+1289,107,1,13,6,209,4,""
+1290,107,1,13,7,211,2,""
+1291,49,1,1,1,1,5,"The painting is traditional depiction of a multi-armed god, who is possibly from Hindu mythology, seated on a line. The god is crowned and draped in red robes,with symbolic objects carried in different hands, Standing figures, some of whom are blue,"
+1292,90,1,1,1,1,5,"An intricately detailed and colorful representation of divine strength, overflowing with symbolism and narrative."
+1293,90,1,1,2,3,4,"A lively folk-art painting showcasing countryside living, featuring dynamic characters and abundant cultural elements."
+1294,90,1,1,3,5,4,A bright and emotive folk-inspired artwork that highlights customary clothing and cultural narratives.
+1295,90,1,1,4,7,5,"An intricately crafted artwork featuring lively hues, illustrating a celestial and legendary tableau filled with profound cultural significance."
+1296,90,1,1,5,9,4,"An energetic and culturally vibrant artwork that highlights traditional fighting and music, featuring lively characters and bright colors."
+1297,90,1,1,6,11,5,A vividly colorful and intricately detailed artwork that portrays rural life and customs with profound storytelling and cultural significance.
+1298,90,1,1,7,13,5,"A striking and enchanting representation of sacred devotion, elegantly illustrated with deep hues and complex narrative components."
+1299,90,1,1,8,15,4,"An engaging piece of folk art featuring vivid storytelling and rich cultural significance, further accentuated by bright colors and detailed character intricacies."
+1300,90,1,1,9,17,5,An impressive and elegantly arranged piece of art that fuses mythology and nature using vivid colors and compelling narratives.
+1301,90,1,1,10,19,5,"An elegant and vivid depiction of a divine being, showcasing vibrant colors, elaborate details, and a profound sense of respect."
+1302,90,1,1,11,21,5,"An impactful and elaborate representation of divine energy, featuring vivid hues and complex symbolism that enrich its spiritual nature."
+1303,90,1,1,12,23,5,"An intricately detailed and culturally significant piece of art, illustrating a sacred ceremony with vivid colors and emotive figures."
+1304,90,1,2,1,25,5,"An eye-catching and meticulously crafted piece of art, showcasing vibrant hues, elaborate designs, and an enchanting depiction of mythology."
+1305,90,1,2,2,27,5,"An eye-catching and dynamic arrangement featuring prominent contrasts, elaborate designs, and a powerful symbolic essence."
+1306,90,1,2,3,29,5,"An enchanting and complex piece of art featuring bold color choices and numerous faces, crafting a compelling and lively visual story."
+1307,90,1,2,4,31,5,"An audacious and evocative piece of art featuring vibrant colors and intense emotional expressions, effectively capturing a pivotal moment."
+1308,90,1,2,5,33,5,"A captivating arrangement featuring vibrant hues and elaborate details, successfully conveying a sense of divine presence and authority."
+1309,90,1,3,1,35,5,"An intricately detailed and colorful arrangement, abundant in cultural significance and narrative, featuring bold hues and elaborate designs."
+1310,90,1,3,2,37,5,"An exquisite and detailed arrangement, vibrant in hue and cultural significance, elegantly portraying a powerful and compelling story."
+1311,90,1,3,3,39,5,"An impactful and striking portrayal, skillfully employing vivid colors and elaborate details to express a compelling and emotional story."
+1312,90,1,3,4,41,5,"An eye-catching and energetic arrangement, featuring vibrant hues and elaborate details that wonderfully depict a vivid mythological scene."
+1313,90,1,4,1,43,5,"An elegantly arranged and tranquil piece of art, filled with cultural significance and adorned with vivid hues and elaborate details."
+1314,90,1,4,2,45,5,"An impressive and intricate portrayal of a mythological character, featuring vibrant colors, elaborate designs, and a commanding narrative presence."
+1315,90,1,4,3,47,5,"An intricately crafted and well-proportioned arrangement, featuring vivid hues and dynamic figures that animate cultural narratives."
+1316,90,1,4,4,49,5,"An energetic and harmonious arrangement, filled with cultural narratives, dynamic characters, and intricately detailed traditional aspects."
+1317,90,1,4,5,51,5,"An enchanting and complex piece of art, fusing mythical elements with rich hues and exquisite detailing."
+1318,0,1,1,1,1,5,Great vibrant colors and good story telling that makes the artwork visually captivating and meaningful.
+1319,0,1,1,5,9,3,"This is an art of chhau dance, a folk dance from eastern India. I like the way its represents the cultural heritage.
+If the art work had a little bit more details, maybe it helpful to understand better."
+1320,0,1,1,2,3,5,great traditional folk art style and beautiful capture of rural life
+1321,0,1,1,3,5,5,shiva parvathi
+1322,0,1,1,4,7,5,Samudhra devi blesses people
+1323,0,1,1,5,9,5,Great design of dola and wonderful representing of practicing with knife
+1324,0,1,1,6,11,5,Great vibrant colors and good story telling that makes the artwork visually captivating and meaningful.
+1325,0,1,1,7,13,4,Good representing of cultures
+1326,0,1,1,7,13,5,"This art is about the worship of Goddess Durga, or celebrating Durga Puja. This is a classic example of Patachitra from Bengal. "
+1327,0,1,1,8,15,5,Great vibrant colors and good story telling that makes the artwork visually captivating and meaningful.
+1328,0,1,1,9,17,5,Samudhra devi blessed people
+1329,0,1,1,10,19,5,WONDERFUL representation of king pic
+1566,118,1,9,9,141,4,Lord 
+1330,0,1,1,11,21,5,Great vibrant colors and good story telling that makes the artwork visually captivating and meaningful.
+1331,0,1,1,12,23,5,Great vibrant colors and good story telling that makes the artwork visually captivating and meaningful.
+1332,0,1,2,1,25,5,Great vibrant colors and good story telling that makes the artwork visually captivating and meaningful.
+1333,0,1,2,2,27,4,Great vibrant colors and good story telling that makes the artwork visually captivating and meaningful.
+1334,0,1,2,3,29,5,Ravana description is so great
+1335,0,1,2,4,31,4,Great vibrant colors and good story telling that makes the artwork visually captivating and meaningful.
+1336,0,1,2,5,33,5,Great vibrant colors and good story telling that makes the artwork visually captivating and meaningful.
+1337,0,1,3,1,35,5,Great vibrant colors and good story telling that makes the artwork visually captivating and meaningful.
+1338,0,1,3,2,37,5,raavana with his wifes and great pictorial view
+1339,0,1,3,3,39,5,I like the way the pic described raavana
+1340,0,1,3,4,41,5,Rama and Raavana fight along with lakshamana picturization is damnn good
+1341,0,1,4,1,43,5, Great vibrant colors and good story telling that makes the artwork visually captivating and meaningful.
+1342,0,1,1,1,1,5,"""A beautifully detailed and vibrant depiction of divine power and mythology!"
+1343,0,1,1,2,3,4,"""A serene and beautifully illustrated rural scene with rich cultural details!"""
+1344,0,1,1,8,15,3,"This is a stories of Lord Krishna's childhood, specifically focusing on the mischievous acts of young Krishna. Usually Patachitra follows a storytelling approach. I like the its distinctive style and elements.
+
+The figures of this art could be better."
+1345,0,1,1,3,5,2,"""A vibrant and expressive depiction of traditional attire and cultural storytelling!"""
+1346,0,1,1,4,7,5,"A captivating scene with strong symbolism, though the background could be more detailed."
+1347,49,1,1,1,1,5,"The image depicts a multi-armed deity, possibly from Hindu mythology, seated on a lion and surrounded by celestial beings. The vibrant background includes flames, arches, and divine elements, emphasizing a spiritual theme."
+1348,0,1,4,2,45,5,Bold use of colors displaying raavana
+1349,0,1,1,5,9,3,"Interesting depiction of battle, but the facial expressions feel a bit stiff"
+1350,0,1,1,6,11,4,"A vibrant storytelling piece with rich cultural elements, though a bit cluttered"
+1351,0,1,1,9,17,5,"This image portray a scene from the Manasa Mangal Kavya or Padma Purana. I like the storytelling approach, which helps the audience to visualize the main story of Padma Purana."
+1352,0,1,1,7,13,5,Very good! A powerful and vibrant depiction of divine victory with great detail
+1353,0,1,1,8,15,4,A beautifully illustrated rural scene capturing daily life with great authenticity.
+1354,0,1,1,9,17,5,"The composition is intriguing, but the details could be more refined"
+1355,49,1,1,2,3,5,"The second image portrays a rural scene with three standing figures in traditional attire, a woman with a cow, and village huts in the background, representing a peaceful village setting."
+1356,0,1,1,10,19,2,"The regal posture is well-captured, but the background could use more depth"
+1357,49,1,1,3,5,5,"The third image features a group of five people in colorful garments, engaged in conversation or storytelling, with expressive hand gestures adding to the narrative."
+1358,49,1,1,1,1,5,"The image depicts a multi-armed deity, possibly from Hindu mythology, seated on a lion and surrounded by celestial beings. The vibrant background includes flames, arches, and divine elements, emphasizing a spiritual theme."
+1359,0,1,1,11,21,5,A striking and powerful depiction—intense yet beautifully illustrated!
+1360,49,1,1,2,3,5,"The second image portrays a rural scene with three standing figures in traditional attire, a woman with a cow, and village huts in the background, representing a peaceful village setting."
+1361,49,1,1,3,5,5,"The third image features a group of five people in colorful garments, engaged in conversation or storytelling, with expressive hand gestures adding to the narrative."
+1362,49,1,1,4,7,5,"This shows a divine figure seated on a lotus surrounded by foliage, while a boat carrying praying passengers approaches, symbolizing devotion and spirituality."
+1363,0,1,1,12,23,4,A beautifully detailed scene that resembles a traditional marriage ceremony
+1364,0,1,1,10,19,5,"I like the beautiful architecture, and representation of traditional Indian art. Making the central character larger than other two characters, symbolize the power of the character."
+1365,0,1,4,3,47,5,Great vibrant colors and good story telling that makes the artwork visually captivating and meaningful.
+1366,0,1,4,4,49,5,Great vibrant colors and good story telling that makes the artwork visually captivating and meaningful.
+1367,0,1,4,5,51,5,Great vibrant colors and good story telling that makes the artwork visually captivating and meaningful.
+1368,0,1,2,1,25,5,"An absolutely mesmerizing piece! The mythical bird with its hypnotic patterns looks both majestic and otherworldly. Feels like a scene straight out of an ancient legend!"""
+1369,0,1,2,2,27,3,This one gives off some serious eerie yet fascinating vibes! The bold expressions and repetitive patterns make it feel like a mystical ritual frozen in time.
+1370,49,1,1,5,9,5,"The image shows two warriors engaged in a sword fight while a musician plays a large drum, symbolizing martial tradition and rhythm."
+1371,0,1,2,3,29,5,"""Absolutely surreal! The repeating faces create a hypnotic effect, making it feel like a visual mantra in motion. Bold and unforgettable!"""
+1372,49,1,1,6,11,5,"The image depicts a lively village scene with a marketplace, a mother and child, and a deity, reflecting daily life and devotion."
+1373,49,1,1,7,13,5,"The image portrays a grand divine figure worshipped by a crowd, surrounded by celestial beings, emphasizing reverence and celebration."
+1374,0,1,1,11,21,4,This image depicts Goddess Durga. I like the Simplified Representation of this art.
+1375,49,1,1,8,15,5,"The image captures a ritualistic scene with individuals performing sacred acts, suggesting a religious or cultural ceremony.
+"
+1376,49,1,1,9,17,5,"The image features a boat carrying figures toward a goddess seated on a large lotus, symbolizing faith, devotion, and the spiritual journey toward enlightenment."
+1377,49,1,1,10,19,5,"The image shows a regal figure seated on a throne, dressed in blue, with attendants on either side, one holding a ceremonial fan, symbolizing power and respect."
+1378,49,1,1,11,21,5,"The image features a multi-armed deity standing on a pedestal, flanked by two figures in reverence, representing divine strength and worship."
+1379,0,1,2,4,31,2,"looks like Ramayana  great! The storytelling in this artwork is impressive, but the colors could be a bit more dynamic."
+1380,49,1,1,12,23,5,"The image portrays a group of elegantly dressed women performing a ritual around a decorated pot, signifying a sacred or celebratory ceremony.
+
+
+
+
+
+
+"
+1381,0,1,1,12,23,3,"This image is about a Hindu marriage ritual. I like the storytelling and symbolic approach of the art.
+
+It has some repetitive figure which I didn't like."
+1382,0,1,2,5,33,1,"The detailing is great, but the color contrast could have been better for clarity"
+1383,0,1,1,3,5,4,"This story is from Hindu mythological of Manasa Mangal Kavya or Padma Purana, showing the Marriage between Behula and her husband Lakhindar. I like the simple cultural expression of this art using mythological characters."
+1384,49,1,2,1,25,5,"The image portrays two human figures, one with green skin, facing a large, mythical bird with intricate patterns, suggesting a divine or legendary encounter."
+1385,49,1,2,2,27,5,"The image depicts five identical figures with black faces, wearing traditional garments, chanting or raising their hands, possibly representing a ritual or a spiritual act."
+1386,49,1,2,3,29,5,"The image showcases a bearded figure with multiple heads standing among other characters, possibly representing a mythological king or deity in a narrative setting."
+1387,49,1,2,4,31,5,"The image illustrates a green-skinned figure lying down, attended by two others, with a monkey-like figure in prayer, hinting at a scene from an epic tale."
+1388,49,1,2,5,33,5,"The image presents a multi-headed blue-skinned figure, adorned with a crown, interacting with other characters, symbolizing a pivotal moment from a mythological story.
+
+
+
+
+
+
+"
+1389,0,1,3,1,35,2,Looks like they are having a deep conversation – I wonder what secrets are being shared
+1390,49,1,3,1,35,5,"The image portrays a blue-skinned figure with a crown, gesturing towards a pink-skinned character, while two others, one green and one yellow, kneel in reverence. The lush background suggests a divine or mythological setting."
+1391,49,1,3,2,37,5,"The image depicts a blue-skinned multi-headed figure lying down, surrounded by a group of onlookers, indicating a significant moment, possibly the defeat of a powerful being. The detailed patterns and facial expressions convey sorrow or contemplation."
+1392,49,1,3,3,39,5,"The image shows the same blue multi-headed figure lying in flames, symbolizing a cremation or fiery end, likely representing the fall of a major antagonist in a mythological narrative. The bright flames contrast with the dark outlines of the body."
+1393,0,1,3,2,37,2,"The contrasting colors are striking, but maybe a bit more spacing would have made the composition stronger"
+1394,49,1,3,4,41,5,"The image captures a battle scene, with a multi-headed figure struck by numerous arrows while others observe. The dramatic composition highlights the climax of a heroic confrontation, possibly signifying the defeat of an epic villain."
+1395,0,1,3,3,39,5," ""The intense colors and dramatic composition bring an incredible energy to the scene!"""
+1396,0,1,3,4,41,5,"""The commanding presence of the central figure is mesmerizing—such an intricate portrayal of power!"
+1397,49,1,4,1,43,5,"The image depicts three figures standing among lush green trees, with a central green-skinned figure flanked by two others, one holding a palm leaf, suggesting a moment of respect or admiration."
+1398,49,1,4,2,45,5,"The image features a multi-headed, blue-skinned ruler seated in a grand setting, surrounded by attendants or courtiers, symbolizing authority, power, and possibly a moment of discussion or command."
+1399,49,1,4,3,47,5,"The image portrays a group of people in conversation near a hut, with a blue-skinned figure at the center, indicating a key moment in a narrative, possibly linked to royalty or divine presence."
+1400,49,1,4,4,49,5,"The image shows a green-skinned character interacting with others near a hut, with two seated figures inside, representing a domestic or strategic discussion in a traditional setting."
+1401,49,1,4,5,51,5,"The image presents a grand mythical bird interacting with a blue-skinned royal figure and a multi-headed character, symbolizing a divine or legendary event, possibly linked to a mythological journey or offering."
+1402,0,1,2,1,25,5,"This art is about Hindu mythology, portraying the bird Garuda, the vahana (vehicle) of Lord Vishnu. I like the unique style and, use of bold stroke and flat color of the art."
+1403,0,1,4,1,43,1,"While the scene is well-balanced, it lacks the dramatic energy found in other panels"
+1404,0,1,4,2,45,5,The presence of power and wisdom is beautifully captured in this regal composition!
+1405,0,1,4,3,47,3,The calm expressions and vibrant colors give a peaceful and divine feel!
+1406,0,1,4,4,49,1,"The expressions feel a bit neutral, could use more emotion to enhance the storytelling"
+1407,0,1,4,5,51,5,"This giant bird looks like a divine messenger, carrying secrets from the heavens!"
+1408,49,1,5,1,53,5,"The image portrays three figures walking over rocky terrain, with one holding a leaf as a shade, symbolizing resilience and companionship in a journey."
+1409,49,1,5,2,55,5,"The image features a blue-skinned royal or divine figure seated inside a palace, with two attendants in conversation, indicating a moment of counsel or instruction."
+1410,49,1,5,3,57,5,"The image showcases a serene outdoor setting where individuals are gathered near trees and a hut, possibly engaging in storytelling or discussion."
+1411,49,1,5,4,59,5,"The image captures a group of people in an animated discussion near a thatched-roof hut, emphasizing social interaction and daily life."
+1412,49,1,5,5,61,5,"The image presents a blue-skinned figure facing a large mythical bird, suggesting a divine or legendary encounter, possibly referencing an important moment in mythology."
+1413,0,1,8,1,111,2,"The earthy shades create an intense mood, but the expressions seem a little too stoic for my taste."""
+1414,49,1,5,6,63,5,"The image depicts a blue-skinned bearded figure under a tree, while a woman carrying a pot stands nearby, representing a traditional domestic or pastoral scene."
+1415,49,1,5,7,65,5,"The image illustrates a rich natural setting with individuals engaged in various activities, including gathering food and interacting, symbolizing a balanced rural life."
+1416,49,1,5,8,67,5,"The image features two figures standing before a large bird-like creature in a forested environment, highlighting an interaction with a mythical or symbolic being."
+1417,0,1,8,2,113,2,"Nice composition, but the background feels a bit empty compared to the subjects."
+1418,0,1,9,1,125,5,"The colors pop beautifully, making this artwork feel alive and divine!"
+1419,0,1,10,1,143,5,"The expressions and attire are beautifully rendered, adding elegance."
+1420,0,1,11,1,159,5,"The monochrome design with subtle red highlights gives this piece a classic, regal feel. The intricate detailing in the attire and expressions adds depth to the scene."
+1421,114,1,1,1,1,5,"Vibrant colors, intricate details, and powerful symbolism."
+1422,114,1,1,2,3,5,"Vivid colors, unique style. Figures well-rendered, but background buildings are less detailed."
+1423,114,1,1,3,5,5,indian classic art. WOW
+1424,114,1,1,4,7,5,It is pure devotional sail taken by devotees to their god. 
+1425,114,1,1,5,9,5,"Dynamic figures, interesting composition.  The drum is well-detailed, but the background lacks depth."
+1426,114,1,1,6,11,3,"Rich in detail, tells a story.  The varied scenes and figures are engaging and well-composed."
+1427,114,1,1,7,13,4,"Detailed depiction of a deity. 
+The composition is intricate and the figures are welldefined and colrful."
+1428,114,1,1,8,15,2,The scene is crowded and the figures are somewhat indistinct. The colors are bright but the overall composition feels cluttered.
+1429,0,1,2,2,27,4,"This art portray a story of Hundu mythology, Ramayana. The figures are Hanuman worshiping the the lord Ram. I like the symbolic representation of who it differentiate between human and Hanuman by using tails and black face."
+1430,0,1,1,1,1,5,"I liked the way the art is ,I also liked the art because goddess is surrounded by many other gods as a strength"
+1431,0,1,1,2,3,4,I liked the way the women is helping the animals by feeding them grass and also this gives me vibes of people discussing something important
+1432,0,1,1,4,7,5,I really liked the godess on lotus
+1433,0,1,1,5,9,4,I liked it because it depicts a war and a soldier encouraging people to watch through drums
+1434,0,1,1,8,15,4,I liked it because it describes about tradition
+1435,0,1,1,10,19,3,I liked the picture because the king is instructing something ans the person is listening
+1436,0,1,1,11,21,5,I liked the way people are worshipping goddess
+1437,0,1,1,12,23,5,I liked it because it tells about marroiage tradition and they are celebrating it
+1438,0,1,13,7,211,2,I didn't like this because the art is not describing anything
+1439,0,1,13,5,207,3,I liked it because it represents Ravan killed by Rama
+1440,0,1,12,1,171,5,I liked it beacuse the image is highlighted red and it clearly shows the exepressions 
+1441,0,1,13,1,199,4,"Striking bird, unique style. Figures are basic, tree is detailed. "
+1442,0,1,12,5,179,5,"I liked it because the godess is giving water to prople who are in needy ,this art clearly states it"
+1443,0,1,13,2,201,2,The figures are repetitive and lack detail.
+1444,0,1,12,6,181,4,"The expressions of the women is clearly visble and they are very happy,I really liked their style of dressing"
+1445,0,1,13,3,203,4,"Mythological theme is well represented, though figures are simple."
+1446,0,1,12,8,185,4,This depicts the culture of ours where people kill animals for pooja
+1447,0,1,13,4,205,3,"Figures are basic and repetitive, lacking detail. The water element is interesting with one figure holding something in hand."
+1448,0,1,12,13,195,2,I didn't like because the women's hands are not visible
+1449,0,1,4,1,43,5,I liked i because of lord Rama with Seetha Devi in vana vaasam
+1450,0,1,4,2,45,5,The art is describing about ravana
+1451,0,1,13,5,207,4,"The arrows suggest movement, like ravana's bustling streets. Figures are simple, but ravana many heads add intrigue."
+1452,0,1,4,5,51,4,The art tells about ravan and his vehicle
+1453,0,1,5,1,53,5,this tells about helping Seetha by Laxmana
+1454,0,1,13,6,209,4,"The many heads are striking, creating a sense of drama.  Figures are simple, but the composition is interesting."
+1455,0,1,5,3,57,2,I didn't like this because the image is showing lord in aggressive way
+1456,0,1,13,7,211,2,"The repetitive background pattern is interesting, but the figure is simplistic."
+1457,0,1,5,8,67,5,This explains about Jatayau
+1458,0,1,7,1,81,4,Thia picture depicts about krishna
+1459,0,1,7,3,85,4,Krishna and his time in his village
+1460,0,1,7,4,87,5,Lord krishna in boat
+1461,0,1,7,7,93,4,lord krishna devottee
+1462,0,1,7,8,95,4,Krishna stoling 
+1463,0,1,7,10,99,4,All the devottees welcoming Krishna
+1464,0,1,12,13,195,4,"Two women riders with men on there back riding horses and people in between them look in chaos. Dynamic figures, vibrant colors, and a sense of movement."
+1465,116,1,12,14,197,4,"The painting immediately grabs attention with its bold and saturated colors, the grouping of figures, animals, and objects suggests a narrative."
+1466,116,1,13,7,211,4,""
+1467,0,1,2,3,29,4,I like the bold and clear approach of the mythological characters.
+1468,0,1,2,4,31,4,"Story from Hundu puran Ramayan. I like the use of vibrant color, clear and simple visualization of the characters."
+1469,0,1,1,4,7,5,This is a  story of Manasa Mangal Kavya or Padma Purana. I like this mythological story and this art.
+1470,0,1,1,6,11,4,I like the storytelling approach of the art
+1567,118,1,10,1,143,4,Krishna
+1471,116,1,1,1,1,4,It's great painting contains lots of mythological information. divine picture. 
+1472,116,1,1,2,3,5,"Vibrant folk art depicts a lively scene with figures and a goat, hinting at a cultural narrative, though lacking detailed refinement."
+1473,116,1,1,3,5,3, The figures' poses are somewhat repetitive.
+1474,116,1,1,4,7,5,Boat voyage meets lotus goddess in this folk art piece
+1475,116,1,1,5,9,4,"cultural performance, captured in bold colors and simple forms."
+1476,116,1,1,6,11,5,"stylized figures, huts, and trees in vibrant colors suggest a cultural story within a scroll."
+1477,116,1,1,7,13,5,"Deity Durga triumphs amidst devotees, devotion in folk art style"
+1478,116,1,1,8,15,4,Folk art scene with figures and a bird
+1479,116,1,1,9,17,3,Boat journey with stylized figures meets a lotus goddess
+1480,116,1,1,10,19,3,stylized forms and warm tones.
+1481,116,1,1,11,21,4,"Armed deity stands tall, flanked by devotees."
+1482,116,1,1,12,23,3,Group of figures with a ceremonial pot.
+1483,116,1,2,1,25,4,Two figures and a large bird with patterned wings.
+1484,116,1,2,2,27,3,Five figures with raised arms and script.
+1485,116,1,2,3,29,4,a mythological narrative in this folk art panel.
+1486,116,1,2,4,31,5,"Three figures in a scene; one with multiple eyes, another reclining."
+1487,116,1,2,5,33,3,Multi-headed figure with crown stands among others.
+1488,0,1,2,5,33,4,I like the use of vibrant color to differentiate characters and element of the art. The simplicity of the art helps the rural audience to visualize the story of Patachatra.
+1489,0,1,3,1,35,5,"I like this art for its unique style, use of colors, and use of unique patterns; makes it a classic example of Indian folk-art"
+1490,0,1,1,1,1,4,Like
+1491,118,1,1,1,1,4,All gods 
+1492,118,1,1,2,3,4,cows 
+1493,118,1,1,3,5,4,Drawings
+1494,118,1,1,4,7,4,Lord Ganesh
+1495,118,1,1,5,9,4,Weapons 
+1496,118,1,1,6,11,4,Painting
+1497,118,1,1,7,13,4,Lion
+1498,118,1,1,8,15,4,Birds
+1499,118,1,1,9,17,4,Nice painting 
+1500,118,1,1,10,19,4,King
+1501,118,1,1,11,21,4,Worship 
+1502,118,1,1,12,23,4,Indian Marriage 
+1503,118,1,2,1,25,4,Nice bird 
+1504,118,1,2,2,27,4,Monkeys 
+1505,0,1,3,2,37,5,"This is a story from Hindu puran, the Mahabharata, focusing on the death of Bhishma. I like the simple emotional expression of this art."
+1506,118,1,2,3,29,4,Ramayana
+1507,118,1,2,4,31,4,Hanuman and Rama
+1508,118,1,2,5,33,4,Ramayana painting 
+1509,118,1,3,1,35,4,Kings 
+1510,118,1,3,2,37,4,Ramayana 
+1511,118,1,3,3,39,4,Ravanasura 
+1512,118,1,3,4,41,4,Ramayana 
+1513,118,1,4,1,43,4,Rama Sita
+1514,118,1,4,2,45,4,Ravanasura
+1515,118,1,4,3,47,4,ramayana
+1516,118,1,4,4,49,4,Ramayana 
+1517,0,1,3,3,39,5,"I like the dramatic depiction, symbolism, and unique style of this art."
+1518,118,1,4,5,51,4,Hamsavahana
+1519,118,1,5,1,53,4,Rama Sita
+1520,118,1,5,2,55,4,King
+1521,118,1,5,3,57,4,Nice painting 
+1522,118,1,5,4,59,4,Mythology 
+1523,118,1,5,5,61,4,Bird
+1524,118,1,5,6,63,4,Ramayana 
+1525,118,1,5,7,65,4,Ramayana
+1526,118,1,5,8,67,4,Ramayana 
+1527,118,1,6,1,69,4,Ganesh
+1528,118,1,6,2,71,4,Lord
+1529,118,1,6,3,73,4,King
+1530,118,1,6,4,75,4,History 
+1531,118,1,6,5,77,4,Lord
+1532,118,1,6,6,79,4,Ganesha 
+1533,0,1,3,4,41,4,"I like the storytelling approach, use of vibrant colors, and the arrangement the characters."
+1534,118,1,7,1,81,4,Painting 
+1535,118,1,7,2,83,4,Cows 
+1536,118,1,7,3,85,4,Olden days
+1537,118,1,7,4,87,4,river 
+1538,118,1,7,5,89,4,Two different stories 
+1539,118,1,7,6,91,4,Lord
+1540,118,1,7,7,93,4,""
+1541,0,1,4,1,43,5,"I like the folk art style of the art, and the arrangement the characters"
+1542,118,1,7,8,95,4,Krishna
+1543,118,1,7,9,97,4,Krishna
+1544,118,1,7,10,99,4,Horse
+1545,118,1,7,11,101,4,Painting 
+1546,118,1,7,12,103,4,Krishna 
+1547,118,1,7,13,105,4,Krishna
+1548,118,1,7,14,107,4,Krishna
+1549,118,1,7,15,109,4,Krishna 
+1550,118,1,8,1,111,4,Lord
+1551,118,1,8,2,113,4,Cow
+1552,118,1,8,3,115,4,Snake
+1553,118,1,8,4,117,4,Painting
+1554,118,1,8,5,119,4,Lord
+1555,0,1,4,2,45,3,"I like the clear depiction of Ravana, but the other characters of the art is similar looking and little bit scattered, especially eyes."
+1556,118,1,8,6,121,4,Lord 
+1557,118,1,8,7,123,4,Snake
+1558,118,1,9,1,125,4,Krishna
+1559,118,1,9,2,127,4,Krishna
+1560,118,1,9,3,129,4,Krishna
+1561,118,1,9,4,131,4,Krishna
+1562,118,1,9,5,133,4,Krishna
+1563,118,1,9,6,135,4,Krishna
+1564,118,1,9,7,137,4,Cow
+1565,118,1,9,8,139,4,Snake
+1568,118,1,10,2,145,4,King
+1569,118,1,10,3,147,4,Painting 
+1570,118,1,10,4,149,4,Krishna
+1571,118,1,10,5,151,4,Krishna 
+1572,118,1,10,6,153,4,Krishna
+1573,118,1,10,7,155,4,Krishna
+1574,0,1,4,3,47,3,"I like the Storytelling element, folk art style, and use of colors. However, I didn't like the similar looking facial patterns and orientation."
+1575,118,1,10,8,157,4,Krishna
+1576,118,1,11,1,159,4,Painting 
+1577,118,1,11,2,161,4,Painting 
+1578,118,1,11,3,163,4,Snake 
+1579,118,1,11,4,165,4,Painting 
+1580,118,1,11,5,167,4,Painting 
+1581,118,1,11,6,169,4,Siva 
+1582,118,1,12,1,171,4,Horse 
+1583,118,1,12,2,173,4,Animals 
+1584,118,1,12,3,175,4,Rivers 
+1585,118,1,12,4,177,4,Painting 
+1586,0,1,4,4,49,4,"I like the facial expression, and simple story telling style."
+1587,118,1,12,5,179,4,Lord 
+1588,118,1,12,6,181,4,Painting 
+1589,118,1,12,7,183,4,King 
+1590,118,1,12,8,185,4,Lord 
+1591,118,1,12,9,187,4,Painting 
+1592,118,1,12,10,189,4,Painting 
+1593,118,1,12,11,191,4,Painting 
+1594,118,1,12,12,193,4,Horse 
+1595,118,1,12,13,195,4,Horse 
+1596,118,1,12,14,197,4,Horse 
+1597,118,1,13,1,199,4,Bird
+1598,118,1,13,2,201,4,Monkeys 
+1599,118,1,13,3,203,4,Ramayana 
+1600,118,1,13,4,205,4,Monkeys 
+1601,118,1,13,5,207,4,Ramayana 
+1602,118,1,13,6,209,4,Hanuman
+1603,118,1,13,7,211,4,Painting 
+1604,0,1,4,5,51,4,"I like the strong presence of mythological characters, symbolism, and storytelling approach."
+1605,0,1,5,1,53,4,I like the unique brush style of the land field.
+1606,0,1,1,1,1,5,it shows  women in different emotions in different situations and explain how women can be 
+1607,0,1,1,2,3,4,i like how women is feeding the animals
+1608,0,1,5,2,55,2,I didn't like the art for its awful figure drawing.
+1609,0,1,1,3,5,2,all the women and men expressions are same
+1610,0,1,5,3,57,3,Some of the objects of this art is not clear to the audience.
+1611,0,1,1,4,7,4,there are deity and devotees
+1612,0,1,1,5,9,5,two men are fighting and other one is playing drums
+1613,0,1,5,4,59,3,I don't like the awful presentation of the house in the background.
+1614,0,1,5,5,61,3,"Funny looking facial expression, wthich do not integrate with the story."
+1615,0,1,1,6,11,5,i like how are women and men are doing there work in being happy about it
+1616,0,1,5,6,63,4,I like the beautiful patterns of the tree in the background.
+1617,0,1,5,7,65,3,"This art has lot of characters, which is nice. but the placement the objects and figure is awful."
+1618,0,1,5,8,67,4,I like the emotional expression the this art.
+1619,0,1,1,7,13,5,there are deity and devotees and raskas 
+1620,0,1,1,8,15,1,i did not like the way the way pictures is expressing the emotions
+1621,0,1,1,9,17,3,deity in  lotus and devotess in boat
+1622,0,1,1,10,19,5,there is king and dassi
+1623,0,1,1,11,21,4,deity and devotess praying for her
+1624,0,1,1,12,23,5,marraige between 2 people and everyone is blessing them
+1625,0,1,2,1,25,5,2 people with a peacock
+1626,0,1,1,1,1,5,"This **Patachitra-style painting** beautifully captures rural life with expressive figures, earthy tones, and folk storytelling elements."
+1627,0,1,1,1,1,5,"This Patachitra-style painting beautifully captures rural life with expressive figures, earthy tones, and folk storytelling elements."
+1628,0,1,1,2,3,5,"This Patachitra-style painting vividly portrays a storytelling moment with expressive gestures, intricate details, and rich folk artistry."
+1629,0,1,2,2,27,3,i disloke about the poeple expressions in this picture
+1630,0,1,1,3,5,5,"This Patachitra-style painting depicts a rich folk narrative through expressive gestures, intricate details, and an earthy color palette."
+1631,0,1,2,3,29,3,the one with 10 heads is ravan and  other are his people
+1632,0,1,1,4,7,5,"This Patachitra-style painting portrays a divine encounter with a goddess on a lotus, enriched by expressive gestures and intricate detailing."
+1633,0,1,2,4,31,5,a men is sleeping in other person lap and the other peopson is eagerly waiting for him shows his  expressions
+1634,0,1,1,5,9,5,"This Patachitra-style painting vividly portrays a traditional duel with expressive postures, detailed weaponry, and a rhythmic, celebratory ambiance."
+1635,0,1,2,5,33,4,the details about people expression is all same without much difference
+1636,0,1,1,6,11,5,"This Patachitra-style painting vividly depicts a grand **Durga Puja scene**, showcasing the goddess’s divine power with intricate details and rich storytelling"
+1637,0,1,3,1,35,5,i did not like how 3 people are treating the other person
+1638,0,1,3,2,37,4,i disked how many are waiting for him with sad and pity emotions
+1639,0,1,3,3,39,5,the man with 10 heads us sleeping
+1640,0,1,1,7,13,5,"This Patachitra-style painting vividly portrays a grand Durga Puja scene, highlighting the goddess’s divine power with intricate details and rich storytelling."
+1641,0,1,3,4,41,5,fight is going one between them
+1642,0,1,1,8,15,5,"This Patachitra-style painting depicts a vibrant folk scene with expressive figures engaged in ritualistic or daily activities, enriched by earthy tones and dynamic composition."
+1935,0,1,7,11,101,3,Is that female infanticide?!!
+1643,0,1,1,1,1,5,"The richness of the artwork is emphasized by the traditional style and vivid colors, which I found appealing. The composition is strong and dynamic because of the goddess's many arms and the divine figures that surround her. "
+1644,0,1,1,9,17,5,"This Patachitra-style painting portrays a mythological journey, with figures on a boat approaching a divine entity on a blooming lotus in a serene setting."
+1645,0,1,1,1,1,4,""
+1646,0,1,4,1,43,5,2 men and a women are under the tree talking with each other
+1647,0,1,1,2,3,4,""
+1648,0,1,1,3,5,4,""
+1649,0,1,1,4,7,5,""
+1650,0,1,1,5,9,5,""
+1651,0,1,1,6,11,4,""
+1652,0,1,1,2,3,5,"I liked the earthy tones and traditional folk art style, which beautifully capture a rural setting. The expressive figures and simple yet detailed depiction of village life add charm and cultural depth to the scene."
+1653,0,1,1,7,13,4,""
+1654,0,1,1,10,19,5,"This Patachitra-style painting depicts a royal or divine figure on a grand throne, radiating authority and reverence through intricate details and bold contrasts."
+1655,0,1,1,8,15,4,""
+1656,0,1,1,9,17,4,""
+1657,0,1,1,10,19,4,""
+1658,0,1,1,11,21,3,""
+1659,0,1,1,12,23,5,""
+1660,0,1,4,2,45,4,raavan and other 3 people are sitting beside and looking into each other
+1661,0,1,2,1,25,4,""
+1662,0,1,2,2,27,2,""
+1663,0,1,1,11,21,5,"This Patachitra-style painting beautifully depicts a multi-armed goddess, symbolizing power and devotion, with rich detailing and a sacred aura."
+1664,0,1,2,3,29,2,""
+1665,0,1,2,4,31,2,""
+1666,0,1,2,5,33,2,""
+1667,0,1,4,3,47,3,the expression of all of them are blank
+1668,0,1,3,1,35,3,""
+1669,0,1,3,2,37,4,""
+1670,0,1,3,3,39,2,""
+1671,0,1,3,4,41,2,""
+1672,0,1,1,3,5,4,"The vibrant colors and traditional folk art style create a visually appealing composition. However, the facial expressions and detailing could be more refined for added depth and clarity. "
+1673,0,1,1,12,23,5,"This Patachitra-style painting depicts elegantly dressed figures in a ritual or storytelling moment, enriched by expressive gestures and intricate folk detailing."
+1674,0,1,4,1,43,4,""
+1675,0,1,4,4,49,4,3 men  has kept 2 people inside something
+1676,0,1,4,2,45,4,""
+1677,0,1,4,3,47,4,""
+1678,0,1,4,4,49,4,""
+1679,0,1,4,5,51,4,""
+1680,0,1,5,1,53,4,""
+1681,0,1,5,2,55,3,""
+1682,0,1,5,3,57,4,""
+1683,0,1,5,4,59,4,""
+1684,0,1,5,5,61,3,""
+1685,0,1,2,1,25,5,"This Patachitra-style painting vividly depicts a mythological scene with a majestic bird, intricate details, and rich storytelling elements."
+1686,0,1,5,6,63,3,""
+1687,0,1,5,7,65,3,""
+1688,0,1,4,5,51,4,a peapock has bought something in t=her mouth and everyone is seeing them
+1689,0,1,5,8,67,2,""
+1690,0,1,1,4,7,5,"The artwork's vivid colors and fine details exquisitely depict a heavenly and tranquil moment. The scene is given a legendary charm by the composition, particularly the boat and the goddess on the lotus. "
+1691,0,1,13,1,199,4,a crow is grabing for something from the tree
+1692,0,1,1,5,9,5,"The artwork vividly portrays a dynamic scene with warriors in combat and a musician adding rhythm, enhancing the storytelling. The bold lines and earthy tones create an engaging traditional folk art aesthetic."
+1693,0,1,1,6,11,5,"This artwork beautifully captures various aspects of rural life, from daily activities to religious devotion, with vibrant details. The balanced composition and storytelling elements make it visually engaging and culturally rich. "
+1694,0,1,1,7,13,5,"The artwork beautifully captures the divine presence of Goddess Durga, surrounded by devotees in a temple setting. The intricate details and vibrant colors enhance the storytelling, making it visually captivating."
+1695,0,1,1,8,15,5,"The artwork vividly depicts a ritualistic scene with expressive characters and intricate details, enhancing its cultural depth. The natural elements and storytelling create a captivating and traditional folk art aesthetic."
+1696,0,1,2,2,27,5,"This Patachitra-style painting depicts monkeys carrying stones, illustrating a scene from the Ramayana, where Lord Rama's vanara army builds the bridge to Lanka with intricate detailing and vibrant storytelling."
+1697,0,1,2,3,29,5,"This Patachitra-style painting vividly depicts Ravana seated on his throne, while **Hanuman confidently sits on his burning tail before him, symbolizing defiance and power in the epic Ramayana, with intricate detailing and vibrant storytelling."
+1698,0,1,1,1,1,5,Captures all mythological dieties of Hindu culture
+1699,0,1,2,4,31,5,"This Patachitra-style painting beautifully portrays Hanuman seated faithfully while Lord Rama sleeps on Lakshmana’s lap, symbolizing devotion and protection in the Ramayana, with intricate details and rich storytelling elements."
+1700,0,1,1,9,17,5,"The artwork beautifully portrays a divine encounter on water, with a goddess emerging from a lotus and travelers in a boat. The vibrant colors and symbolic elements enhance the mystical and traditional aesthetic."
+1701,0,1,1,2,3,2,Cannot interpret what the picture is trying to potray
+1702,0,1,2,5,33,5,"This Patachitra-style painting vividly depicts Lord Rama and Lakshmana standing boldly before Ravana, symbolizing the epic confrontation in the Ramayana, with intricate detailing, expressive figures, and rich storytelling elements."
+1703,0,1,1,3,5,3,Nice colors.
+1704,0,1,1,4,7,3,Good details.
+1705,0,1,1,10,19,4,"The regal depiction of the central figure, along with the intricate detailing, enhances the divine aura of the scene. However, the background could have been more refined to add depth and contrast."
+1706,0,1,3,1,35,5,"This Patachitra-style painting beautifully depicts Sugriva’s Pattabhisheka (coronation), where Lord Rama crowns Sugriva as the king of Kishkindha, symbolizing victory and dharma, with intricate detailing, regal elements, and vibrant storytelling."
+1707,0,1,3,1,35,5,"This Patachitra-style painting beautifully depicts Sugriva’s Pattabhisheka (coronation), where Lord Rama crowns Sugriva as the king of Kishkindha, symbolizing victory and dharma, with intricate detailing, regal elements, and vibrant storytelling."
+1708,116,1,3,1,35,4,Four figures with distinct colors and gestures
+1709,0,1,1,11,21,4,"The depiction of the goddess with multiple arms is powerful, and the traditional folk art style adds cultural richness. However, the background feels a bit plain, and more intricate detailing could enhance the overall composition. "
+1710,116,1,3,2,37,5,Recumbent figure surrounded by standing figures
+1711,0,1,1,12,23,4,"The artwork beautifully captures a ritualistic moment with vibrant colors and expressive figures, enhancing its cultural essence. Slightly more refined facial expressions and detailing could make the scene even more engaging. "
+1712,0,1,3,2,37,5,"This Patachitra-style painting poignantly depicts Ravana lying lifeless, surrounded by his grieving queens, symbolizing the end of the Ramayana’s great battle, with intricate detailing, emotional expressions, and rich storytelling elements."
+1713,0,1,1,5,9,2,This artwork shows warriors fighting while a musician plays a drum.
+1714,0,1,3,3,39,5,"This Patachitra-style painting solemnly depicts Ravana lying lifeless on the battlefield, symbolizing the fall of the mighty king of Lanka, with intricate detailing and dramatic storytelling elements."
+1715,116,1,3,3,39,5,vibrant hues suggest a dreamlike scene in this folk art panel. It depicts lord shiva sleeping.
+1716,0,1,1,6,11,3,"This artwork depicts village life, daily activities, and religious devotion."
+1717,0,1,2,1,25,5,"The artwork is mesmerizing with its intricate patterns, bold colors, and mythical essence, making the composition visually striking. The detailing on the bird’s feathers and the expressive characters add a rich storytelling element. "
+1718,0,1,3,4,41,5,"This Patachitra-style painting vividly portrays Ravana and Lord Rama engaged in an intense battle, symbolizing the climactic war in the Ramayana, with intricate detailing, dynamic postures, and rich storytelling elements."
+1719,0,1,1,7,13,4,People praying goddess.
+1720,116,1,3,4,41,5,Multi-crowned figure with bow stands among others. great mythological picture.
+1721,0,1,2,2,27,3,"The artwork presents a unique and striking composition with bold contrasts and symbolic elements. However, the expressions feel somewhat rigid, and additional detailing could enhance the overall depth. "
+1722,0,1,4,1,43,5,"This Patachitra-style painting beautifully depicts Lord Rama, Sita, and Lakshmana, symbolizing their journey in the Ramayana, with intricate detailing, vibrant colors, and rich storytelling elements."
+1723,0,1,1,8,15,2,The shape of the human on the left end looks like an animal. Looks like a ritual scene.
+1724,0,1,2,3,29,5,"The artwork is visually captivating with its intricate multi-headed figures, bold colors, and striking composition. The unique storytelling and mythological depth make it a compelling and powerful piece. "
+1725,0,1,4,2,45,5,"This Patachitra-style painting depicts Ravana seated majestically on his throne, exuding power and dominance, with intricate detailing, rich ornamentation, and vibrant storytelling elements."
+1726,0,1,1,9,17,4,Journey on water towards a goddess.
+1727,0,1,1,10,19,4,Looks like a king seated in a royal setting.
+1728,0,1,4,3,47,5,"This Patachitra-style painting beautifully portrays Lord Rama, Sita, and Lakshmana, depicting their journey with intricate detailing, expressive figures, and vibrant storytelling elements from the Ramayana."
+1729,0,1,1,1,1,4,"A strong composition with expressive characters and bold colors, though the flat background reduces depth. Enhancing shading and refining proportions could improve it. "
+1730,0,1,1,11,21,3,Multi-armed goddess receiving prayers.
+1731,0,1,1,12,23,4,Looks like a ritual performed during marriage.
+1732,0,1,2,1,25,3,Cannot interpret what the painting is trying to depict.
+1733,116,1,4,1,43,5,Three figures stand amidst stylized foliage; vibrant colors and patterned clothing evoke a scene from Indian folklore in this folk art panel.
+1734,116,1,4,2,45,4,"Multi-headed, crowned figure with blue skin sits among others"
+1735,116,1,4,3,47,3,"our figures, including one with blue skin, stand amidst stylized trees and a hut."
+1736,0,1,4,4,49,5,"This Patachitra-style painting vividly depicts Lord Rama, Sita, and his brothers—Lakshmana, Bharata, and Shatrughna, symbolizing unity and devotion in the Ramayana, with intricate detailing and rich storytelling elements."
+1737,116,1,4,4,49,5,Five figures with green skin stand near a hut. with a tree behind. good folk art
+1738,0,1,1,2,3,5,"A dynamic and intense battle scene with excellent movement and contrast, making the storytelling strong. Enhancing background depth would further elevate the composition."
+1739,0,1,1,3,5,3,"A simple yet clear depiction of mythology, but it lacks visual depth and excitement. More contrast and environmental details could make the scene more engaging."
+1740,0,1,1,4,7,4,A vibrant and energetic festival-like scene with expressive characters but feels slightly cluttered. Reducing background complexity would create a stronger visual hierarchy.
+1741,116,1,4,5,51,4,Large bird with patterned wings stands among figures with blue skin and crowns.
+1742,0,1,4,5,51,5,"This Patachitra-style painting beautifully depicts Ravana flying in the Pushpaka Vimana, symbolizing his celestial chariot, with intricate detailing, vibrant colors, and rich storytelling elements from the Ramayana."
+1743,0,1,1,5,9,4,A serene nature scene with harmonious colors that depict divine connection with the environment. Enhancing contrast on the main figure would improve focus and storytelling.
+1744,0,1,1,6,11,5,A striking portrayal of a goddess in battle with strong posture and intricate patterns. Ensuring arm proportions remain uniform would enhance visual harmony.
+1745,0,1,2,2,27,3,Looks like punished people.
+1746,0,1,2,3,29,3,""
+1936,0,1,7,12,103,3,Are they abandoning the child?!
+1747,0,1,1,7,13,4,A highly detailed mythological gathering showcasing deep storytelling but appears visually overwhelming. Strengthening focal points through contrast and spacing would improve clarity.
+1748,0,1,1,8,15,5,A peaceful and intimate portrayal of divine love with soft pastel colors and graceful composition. Subtle background enhancements could further highlight the figures beautifully.
+1749,116,1,8,1,111,4,4 figures with green skin stand under a stylized tree being devoted by other two creating a sense of devotion through this art.
+1750,116,1,8,1,111,4,4 figures with green skin stand under a stylized tree being devoted by other two creating a sense of devotion through this art.
+1751,0,1,2,4,31,3,Here the left most figure looks like a monkey.
+1752,0,1,2,5,33,3,""
+1753,0,1,1,9,17,4,An intriguing mythological story with a mystical color palette but lacks immediate clarity for unfamiliar viewers. Adding symbolic elements or inscriptions would help make the story more accessible.
+1754,0,1,3,1,35,3,The colors are good
+1755,0,1,1,1,1,5,This vivid depiction of goddess Durga showcases divine strength.
+1756,0,1,1,10,19,3,A traditional yet static composition with earthy tones that faithfully follow folk-art conventions. Introducing more contrast and movement would make it visually engaging.
+1757,0,1,6,1,69,5,"This Patachitra-style painting beautifully portrays Goddess Durga with Lord Ganesha, symbolizing divine strength and wisdom, with intricate detailing, vibrant colors, and rich storytelling elements from Hindu mythology."
+1758,116,1,8,2,113,5,Two green-skinned figures stand beside a pot and a bull. great art
+1759,0,1,3,2,37,3,The colors are good.
+1760,0,1,1,11,21,3,An ambitious battle scene with impressive storytelling but an overwhelming number of details. Creating distinct focal points using contrast would improve readability.
+1761,0,1,6,2,71,5,"This Patachitra-style painting beautifully depicts a goddess seated on a divine bird, symbolizing power and grace, with intricate detailing, vibrant colors, and rich storytelling elements from Hindu mythology."
+1762,116,1,8,3,115,5,"Two green-skinned figures stand beside a pot and a snake, muted tones suggest a scene from Indian mythology."
+1763,0,1,3,3,39,3,Details are good.
+1764,0,1,6,3,73,5,"This Patachitra-style painting vividly portrays a majestic king seated on his grand throne, exuding power and authority, with intricate detailing, royal ornamentation, and rich storytelling elements."
+1765,0,1,1,12,23,4,A highly ornamental depiction of a mythological ritual with rich symmetrical designs. Adding more expressive gestures would enhance emotional engagement.
+1766,116,1,8,4,117,5,Two green-skinned figures stand beside a stylized tree and a circular pool
+1767,0,1,3,4,41,4,Looks like a depiction of Ramayana. Nice details
+1768,0,1,2,1,25,4,A strong introductory scene that clearly establishes the setting and characters but lacks excitement. Foreshadowing through expressions or background cues would add intrigue.
+1769,0,1,4,1,43,4,Nice colors.
+1770,0,1,4,2,45,4,Nice details in the arch.
+1771,116,1,8,5,119,5,Four green-skinned figures stand under a stylized tree with two women devoted the pair under the tree.
+1772,0,1,4,3,47,3,""
+1773,0,1,7,1,81,5,"This Patachitra-style painting beautifully depicts Radha and Krishna, symbolizing divine love and devotion, with intricate detailing, vibrant colors, and rich storytelling elements from Hindu mythology."
+1774,0,1,4,4,49,4,Details in leaves are good.
+1775,116,1,8,6,121,5,devotional art.
+1776,0,1,4,5,51,5,Great details in the bird.
+1777,0,1,5,1,53,3,Faces are not clear.
+1778,0,1,5,2,55,2,Unclear figures.
+1779,0,1,7,8,95,5,"This Patachitra-style painting beautifully depicts Lord Krishna sitting on a tree, symbolizing his playful and divine nature, with intricate detailing, vibrant colors, and rich storytelling elements from Hindu mythology."
+1780,0,1,1,2,3,3,The artwork's warm tones and expressive bring a lively rural scene to life.The detailed attire and village setting enhance its traditional folk-art appeal.
+1781,0,1,5,3,57,2,""
+1782,0,1,5,4,59,3,Unable to interpret the scene.
+1783,0,1,5,5,61,3,Unable to interpret the scene.
+1784,116,1,8,7,123,5,"they way male figure pressing snake on the ground , looks like saving the women in the most plesent way"
+1785,0,1,2,2,27,3,A transitional panel connecting major story moments but visually underwhelming as a standalone piece. Adding a more dynamic focal point would improve engagement.
+1786,0,1,5,6,63,3,Looks like a scene from Ramayana.
+1787,0,1,5,7,65,3,Details are not clear.
+1788,0,1,2,3,29,5,"A powerful climactic battle scene filled with energy, bold contrast, and expressive motion. Well-defined outlines and sharpening details would enhance clarity and depth."
+1789,0,1,2,4,31,4,"A peaceful resolution scene symbolizing harmony and closure, structured with soft colors. A glowing aura or ornament around the main figure could add more visual emphasis."
+1790,0,1,5,8,67,3,"Looks like the scene where ""Garuda"" is killed by Ravana."
+1791,96,1,1,1,1,5,the image looks like an indian goddess standing with few other gods and goddesses around her. I can also see there are few animals setting near her.
+1792,0,1,6,1,69,4,Color palette is interesting and good.
+1793,0,1,1,3,5,4,The expressive hand gestures and traditional attire enhance story telling aspect of this scene.The warm color palette and symmetrical composition give it a balanced and engaging look.
+1794,0,1,2,5,33,4,"A ritualistic closing scene with a structured composition, reinforcing the story’s finality. Emphasizing the central character with more contrast would create a stronger impact."
+1795,0,1,13,2,201,4,4 me whose emotions ar covered 
+1796,0,1,3,1,35,4,"An opening scene for a new scroll, setting up a fresh narrative with clear visuals. Adding a foreshadowing element or a symbolic gesture would enhance anticipation."
+1797,0,1,3,2,37,5,A high-intensity action scene with expressive movement and dynamic storytelling. Adding shading would improve depth while keeping the excitement intact.
+1798,0,1,13,3,203,5,"A man is sitting on chair, and other 2 are standing"
+1799,0,1,3,3,39,5,"A grand divine intervention or victory scene, exuding radiance and power with striking contrast. Balancing background elements would enhance harmony without losing focus."
+1800,116,1,13,2,201,4,"Good presentation.
+"
+1801,0,1,13,4,205,4,all the men are looking into something
+1802,96,1,1,2,3,3,The image looks like a village with 4 royals of which one of them is playing with 2 calves. There are 3 huts in the background and three of them are discussing with each other
+1803,0,1,3,4,41,4,A structured concluding panel offering a sense of closure with ritualistic balance and symbolism. Minor celebratory details or an inscription would enhance its finality.
+1804,116,1,13,3,203,5,"looks like ravana and his devotees standing beside, which is an indian mythological art"
+1805,0,1,13,5,207,4,the war is going on between them and attacking with arrows
+1806,0,1,1,4,7,4,"The serene depiction of the goddess seated on a lotus contrasts beautifully with the boat of devotees.The use of soft blues and greens creates a calming yet divine atmosphere, enhancing the story telling."
+1807,116,1,13,4,205,4,looks like 5 figures standing before a vessel of water.
+1808,0,1,13,6,209,5,all of them are kneeling to one person
+1809,0,1,2,4,31,4,"The artwork effectively conveys an emotional and narrative depth through expressive characters and bold colors. However, the background feels quite empty, and additional details could enhance the storytelling."
+1810,116,1,13,5,207,5,this art looks like representing ramayanam which is a indian mythology.
+1811,116,1,13,6,209,5,""
+1812,0,1,2,5,33,4,"The artwork vividly represents a mythological scene with bold colors and intricate detailing, especially in the multi-headed figure. However, the background could use more depth to enhance the dramatic effect."
+1813,116,1,13,7,211,4,simple figure with good background
+1814,0,1,13,7,211,4,the animal in this piture in not clear
+1815,116,1,13,1,199,5,In this picture there is a bird and two figures standing below a tree. Nice art.
+1816,96,1,1,3,5,3,the image has 5 people. Could see there are 2 women and 3 men. Looks like one of the women is praying. Also 2 men are wearing footwear and the rest are on barefoot
+1817,0,1,1,5,9,4,The depiction of sword fighters alongside a musican adds a dynamic sense of rhythm and movement.The earthy tones and folk-style detailing enhance the traditional storytelling aspect.
+1818,0,1,1,6,11,4,"This artwork beautifully portrays daily village life, religious devotion, and cultural traditions. The balanced composition and rich storytelling elements create a lively and engaging visual narrative."
+1819,96,1,1,4,7,4,The image has a goddess sitting in a lotus flower. There is a boat in which a god is sitting with 3 of his disciples in it. One of them is rowing the boat.
+1820,0,1,1,7,13,5,"This powerful depiction of Goddess Durga in a temple setting radiates divine energy and devotion. The intricate detailing, vibrant colors, and worshippers’ expressions enhance the sacred atmosphere."
+1821,96,1,1,5,9,3,the image looks like a sword competition between 2 men. There is a woman in the background playing drums for the competition
+1822,0,1,1,8,15,3,"This portrays a  spiritual moment with expressive characters and symbolic elements. The tones and composition tells  the storytelling, making it visually engaging."
+1823,0,1,3,1,35,5,"The artwork beautifully captures a mythological scene with bold colors, expressive figures, and intricate detailing. The rich patterns and storytelling elements enhance its visual appeal and cultural depth."
+1824,0,1,1,9,17,4,"This beautifully symbolizes divinity emerging from nature, with the goddess seated in a blooming lotus. The serene water setting and detailed expressions create a harmonious and spiritual narrative."
+1825,0,1,3,2,37,3,"The composition is rich with detail and vibrant colors, effectively capturing an intense scene. However, the dense arrangement makes it slightly overwhelming, and more clarity in facial expressions could enhance the storytelling. "
+1826,0,1,3,3,39,2,"The artwork captures a dramatic moment with bold colors and intricate line work, enhancing its intensity. However, the background feels overly repetitive, and additional depth in expressions could improve emotional impact. "
+1827,0,1,1,10,19,5,"The presence of the central figure, adorned in blue, portrays authority and divinity. The composition and rich detailing in the architecture enhance the grandeur of this scene."
+1828,0,1,3,4,41,5,"The artwork brilliantly captures an intense battle scene with vibrant colors, intricate detailing, and dynamic movement. The multi-headed figure and flowing arrows create a striking composition that enhances the storytelling. "
+1829,0,1,4,1,43,5,"The artwork beautifully captures a serene moment with vibrant colors, expressive figures, and intricate tree patterns adding depth. The composition is well-balanced, evoking a sense of harmony and storytelling."
+1830,0,1,1,11,21,4,The figure of the goddess with multiple arms symbolizes immense divine power and protection. The symmetrical arrangement and enhance the spiritual intensity of the scene.
+1831,0,1,4,2,45,3,"The artwork effectively conveys a royal and divine atmosphere with bold colors and intricate patterns. However, the expressions appear somewhat rigid, and additional detailing could enhance the depth and emotional engagement."
+1832,0,1,1,12,23,5,The expressions and setup create a strong sense of devotion and tradition. The vibrant colors and attire add to the richness of the storytelling.
+1833,0,1,4,3,47,4,The artwork beautifully captures a narrative moment with expressive characters and intricate detailing in the trees and architecture. Slightly more variation in facial expressions could enhance the storytelling depth.
+1834,0,1,4,4,49,5,"The artwork masterfully conveys a scene with bold colors, intricate patterns, and expressive storytelling. The balanced composition and attention to detail make it visually striking and culturally rich. "
+1835,0,1,4,5,51,2,"The artwork presents an intriguing mythological scene with intricate patterns and vibrant colors. However, the composition feels cluttered, making it difficult to focus on key elements."
+1836,0,1,2,1,25,4,The  feather patterns and bold color contrasts make this artwork visually striking. The mythical bird and expressive human figures enhance the storytelling with a sense of wonder.
+1837,96,1,1,6,11,5,The image has a shop selling things. 4 kids are sitting infront of the shop. There is also a woman sitting in the background with a child in her lap.
+1838,0,1,2,2,27,5,The repetitive figures and striking facial expressions create a sense of ritual and devotion.
+1839,0,1,5,1,53,5,"The artwork beautifully portrays a dynamic and symbolic scene with bold colors, intricate line work, and expressive figures. The flowing composition and rich detailing enhance its cultural and visual appeal. "
+1840,0,1,2,3,29,2,"The multiple-headed figures create a mesmerizing effect, symbolizing power and wisdom. The use of bold colors and intricate detailing enhances the depth of the composition."
+1841,0,1,2,4,31,1,"This powerfully conveys a moment of reverence and contemplation, with expressive figures adding depth to the scene. The contrast between the green and gray tones enhances the visual storytelling."
+1842,0,1,5,2,55,4,The artwork effectively captures a regal and contemplative scene with rich colors and detailed patterns. Adding more depth to facial expressions could enhance the emotional connection. 
+1843,96,1,1,7,13,5,the image has a goddess with few of her forms around her . There are people praying to her. There is also a lion at her feet.
+1844,0,1,5,3,57,5,"The artwork beautifully captures a peaceful village scene with vibrant colors, intricate patterns, and expressive figures. The lush greenery and storytelling elements enhance the visual charm and cultural depth."
+1845,0,1,2,5,33,5,"Multi-headed figure exudes power and authority, complemented by vibrant colors and intricate detailing. The dynamic poses and expressive faces enhance the narrative's intensity."
+1846,0,1,5,4,59,5,"The artwork beautifully captures a vibrant village scene with bold colors, intricate patterns, and expressive characters. The balanced composition and storytelling elements enhance its cultural richness and visual appeal."
+1847,0,1,3,1,35,4,"The vibrant colors and intricate detailing bring this scene to life, highlighting themes of power and devotion. The expressive gestures and rich patterns enhance the storytelling depth."
+1848,96,1,1,8,15,2,There are two men and two women in the image. There is also a bird flying in the sky. The 2 men seem to be fighting with each other while the women are trying to stop them
+1849,0,1,5,5,61,3,"The artwork presents a striking encounter with bold colors and dynamic composition. However, the background elements feel somewhat sparse, and additional detailing could enhance the scene’s depth."
+1850,0,1,3,2,37,3,"The symmetry and expressions create a powerful visual impact, highlighting themes of power and transition."
+1851,0,1,3,3,39,1,The intricate detailing on the figure and surroundings adds depth to the depiction of a significant moment.
+1852,96,1,1,9,17,3,image has a goddess inside a lotus. There a boat in the image with 3 people where 2 of them look like royals while a normal person is rowing the boat
+1853,0,1,3,4,41,4,"The dramatic battle scene is brought to life with dynamic poses and intricate detailing. The multiple-headed figure, vibrant colors, and flying arrows create a sense of intense motion and conflict."
+1854,0,1,5,6,63,5,"The artwork beautifully blends nature and human interaction with vibrant colors, intricate patterns, and expressive figures. The composition feels balanced, bringing out a rich storytelling essence. "
+1855,0,1,4,1,43,1,The lush greenery and expressive figures create a serene yet engaging scene. 
+1856,0,1,5,7,65,5,"The artwork beautifully illustrates a rich and dynamic scene with vibrant colors, intricate patterns, and expressive figures. The storytelling elements and composition create a visually compelling and culturally significant piece. "
+1857,0,1,5,8,67,4,"The artwork presents a striking scene with vibrant colors, intricate patterns, and engaging storytelling. Slightly more refinement in the facial expressions and background details could enhance the overall depth. "
+1858,96,1,1,10,19,5,There is a king sitting on the throne and two people who seem like his servants are in the background. The king looks like he is thinking of whether he was caught by his wife when he was with his mistress
+1859,0,1,4,2,45,4,The multi-headed figure commands attention with intricate detailing and bold colors. The symmetrical composition and expressive characters enhance the grandeur and storytelling depth.
+1860,0,1,4,3,47,4,"The vibrant colors and intricate patterns bring this scene to life, evoking themes of community and devotion. The expressive figures and architectural elements enhance the storytelling depth."
+1861,0,1,4,4,49,3,"The bold colors and expressive figures bring a strong sense of movement and interaction. The composition, framed by nature and architecture, enhances the depth and narrative flow of the scene."
+1862,96,1,1,11,21,3,image has a goddess with lot of hands and two men are standing infront of her asking for boons. Looks like the goddess is has given them a curse by giving them a boy. And the two men are confused of whether to accept him or not
+1863,0,1,4,5,51,4,"The majestic bird, intricate detailing, and vibrant colors create a striking composition. The interaction between the divine figures and the mythical creature enhances the depth of the storytelling."
+1864,0,1,5,1,53,3,I can see Ram and Lakshman protecting Sita Devi from extreme weather.
+1865,96,1,2,1,25,3,"image has a swan with her mouth wide open as if she is highly experienced. While the swan expected something to be put in her mouth, she only got some water and she's disappointed"
+1866,0,1,5,2,55,3,I can see  Devi showing devotion towards a god.
+1867,0,1,5,3,57,5,Sita devi asking for that deer to be bought to her because of its beauty.He insists ram and ram insists Lakshman for it.
+1868,0,1,5,4,59,3,The expressive gestures and vibrant colors effectively depict a lively social interaction. The detailed patterns in clothing and background enhance the depth and cultural richness of the scene.
+1869,0,1,5,5,61,4,The bold contrast between the mythical creature and the human figure creates a striking visual impact. The intricate feather patterns and expressive detailing add depth and movement to the scene.
+1870,96,1,3,2,37,5,The image has a king with too many women around him. Looks like he's having the time of his lifetime. He has 10 heads and 10 women in the picture. iykyk
+1871,0,1,5,6,63,4,"I can see Sita Devi giving food a mysterious man dressed as a sanyasi, Probabily raven"
+1872,0,1,5,7,65,5,"After Sita devi wish, Ram and Lakshman are on a mission to capture that deer."
+1873,0,1,5,8,67,4,Ram and Lakshman are apologetic towards that bird.
+1874,96,1,3,4,41,5,The image has a demon king and righteous and pious king and his brother. The demon king is fighting with the other two and there is a man standing behind this demon is massaging his shoulders in the middle of the  fight. Lucky demon king !!
+1875,96,1,1,1,1,5,"This is a traditional Indian folk painting depicting Goddess Durga slaying the buffalo demon Mahishasura. The vibrant artwork features multiple deities, celestial beings, and Durga's lion mount in a dynamic battle scene."
+1876,0,1,1,1,1,5,"Vibrant Colors, Lion"
+1877,0,1,1,2,3,3,The two people look like they're getting married. I am anti-marriage. But like the woman feeding cows.
+1878,0,1,1,3,5,1,Not a fan of marriage. Also why are the 3 people on the right not wearing shoes?
+1879,0,1,1,4,7,5,Boat with peacock featherhead and lady on lotus. The color contrast is awesome between the lady's attire and the lotus.
+1880,0,1,1,5,9,4,Drums go dum dum da da.
+1881,96,1,13,7,211,3,there is a cat in the image with deer body. its not happy as the grass is not green and its black. 
+1882,0,1,1,6,11,5,Everyday life. That's peaceful to watch.
+1883,96,1,13,6,209,5,image has a man sitting on his curled elongated tail. Infront of him are 4 persons of which 3 have several heads and one has one head
+1884,0,1,1,7,13,2,People worshiping a mythological woman who looks violent. Violence and blind faith. 
+1885,96,1,13,5,207,5,image has 3 men shooting arrows on a 7 headed man. arrows are bent and are missing his heads. 7 headed guy is also shooting arrows on to the men
+1886,0,1,1,8,15,1,Why are they killing him?
+1887,0,1,1,9,17,1,No!! You destoryed the art from Image 7 in Panel 4 from scroll 1!
+1888,96,1,13,4,205,2,image has 5 people around a small pool. two of them have tails. one of them has 4 hands. two others are eager to jump into the pool
+1889,0,1,1,10,19,3,Nice color of the king/minister.
+1890,0,1,1,11,21,1,Why are they promoting human sacrifice?!! He is a human not a chicken!!
+1891,0,1,1,12,23,2,"Not a fan of marriage but, to each their own I guess."
+1892,0,1,2,1,25,5,Art!
+1893,96,1,13,3,203,3,a 7 headed man is sitting on a chair and two other men are beside him on either side and the 7 headed man is giving orders to them to clean his behind
+1894,0,1,2,2,27,5,Nice color combination and representation of language. Now that's diversity.
+1895,0,1,2,3,29,5,Good art.
+1896,0,1,2,4,31,5,Monkey!!!
+1897,0,1,2,5,33,4,The crown of Ravan's heads are weird.
+1898,0,1,3,1,35,5,Nice color
+1899,96,1,13,2,201,2,image has 4 people with tails looking at each other. they look like they are arguing about their tail size.
+1900,0,1,3,2,37,3,"Color combination is nice but too many people are present in a small space and once again, the crown is absurd!"
+1901,0,1,3,3,39,3,Why is he sleeping with his crown on?
+1902,96,1,13,1,199,1,there is a crow in the image with its mouth wide open as if it can gallop an entire tree. two men in the image look like they are trying to stop the crow.
+1903,0,1,3,4,41,3,It's a bit difficult to understand that they're fighting.
+1904,0,1,4,1,43,5,Nice color
+1905,0,1,4,2,45,3,The crown makes no sense!
+1906,0,1,4,3,47,5,Yay! They're dancing!
+1907,0,1,4,4,49,5,Dance Dance!
+1908,0,1,4,5,51,5,The crown is still weird but the color and the bird saved the picture.
+1909,0,1,5,1,53,5,Dance Dance!
+1910,0,1,5,2,55,3,Why is only person sitting on the chair?
+1911,96,1,12,14,197,1,image is very crowded with lot of people. there is a horse in the picture with his calf. There is a baby cheetah with a woman. 
+1912,0,1,5,3,57,5,Feeding animals!!
+1913,0,1,5,4,59,5,Rock Paper Scissors!
+1914,0,1,5,5,61,5,Nice Birdie. Please don't eat me.
+1915,0,1,5,8,67,5,Oh!!! The sadness behind this picture!! It is portrayed flawlessly. The bird lost it's wing and is crying for help.
+1916,0,1,5,7,65,5,Nice color
+1917,0,1,6,1,69,5,Diverse Mythological illustration in once picture using monotonous color scheme.
+1918,0,1,6,2,71,5,Diverse Mythological illustration using monotonous color scheme.
+1919,96,1,11,6,169,3,image a three most powerful gods of hindu mythology and few other people also in the picture with a crocodile
+1920,0,1,6,3,73,2,The color scheme is good but I don't like the concept of kings and servants.
+1921,0,1,6,4,75,5,Nice color scheme and design of trees.
+1922,0,1,6,5,77,3,Too many people in one picture.
+1923,0,1,6,6,79,5,Color combination + Bird + Mythology
+1924,0,1,7,1,81,5,Nice color
+1925,0,1,7,2,83,5,Nice color plus everyday rural life.
+1926,0,1,7,3,85,5,Nice portrayal of daily rural life.
+1927,0,1,7,4,87,5,The color of the ocean and the boat with peacock featherhead.
+1928,0,1,7,6,91,5,The portrayal of god worship and monarchy in one picture.
+1929,0,1,7,7,93,3,Not a huge fan of blind faith
+1930,0,1,7,8,95,1,Is he watching the women naked?! Isn't that like invasion of their privacy?
+1931,96,1,11,5,167,1,image has so many people . so many women and so many men. its a monochrome image except the red colored accents here and there 
+1932,0,1,7,9,97,5,Parents playing with kids!
+1933,0,1,7,10,99,5,Perfect juxtaposition of affluence and poverty
+1934,96,1,11,4,165,3,image has some men and women standing and sitting up straight and 5 people sleeping on the floor
+1937,96,1,11,3,163,1,image has a snake and 5 people . one is sleeping next to the snake. and 2 are sitting beside the snake feeding it
+1938,0,1,7,13,105,5,Playing with elephant and birdie!
+1939,0,1,7,14,107,4,Disturbingly satisfying
+1940,0,1,7,15,109,3,Mythology
+1941,96,1,11,2,161,2,image has 8 people. 4 of them are facing to the left while the other 4 are facing facing to the right 
+1942,0,1,8,1,111,5,Nice color contrast 
+1943,0,1,8,2,113,5,Daily rural life.
+1944,0,1,8,3,115,5,Perfect portrayal of snake nuisance while farming
+1945,0,1,8,4,117,5,Harvest Season
+1946,0,1,8,5,119,4,Resting under the tree
+1947,0,1,8,6,121,2,Why is she naked? Isn't she supposed to be the goddess?
+1948,0,1,8,7,123,5,Snake biting the female farmer.
+1949,96,1,11,1,159,3,image has a queen sitting in the middle and three men sitting beside her. there are also 4 men next to her.
+1950,0,1,9,1,125,5,Vibrant Color combination.
+1951,0,1,9,2,127,5,Vibrant Color combination
+1952,0,1,9,3,129,5,People talking in an open field
+1953,96,1,10,8,157,5,image has a famous indian god called lord krishna and he's with his beloved Radha. He is playing his flute to impress her.
+1954,0,1,9,4,131,5,Filling pitcher with water.
+1955,0,1,9,5,133,5,Similar picture as Image 127 in Panel 2 Scroll 9 but with different background
+1956,0,1,9,6,135,5,People talking
+1957,0,1,9,7,137,5,People talking and calf feeding drinking  milk from her mother
+1958,96,1,10,7,155,5,image has a man carrying a baby across the ocean while a big snake is protecting him from the top. The child grows up to be the most intelligent and charming man of his time.
+1959,0,1,9,8,139,4,Snake prank. That is dangerous
+1960,0,1,9,9,141,5,Dancing with the gods!
+1961,0,1,10,1,143,5,Beautiful color combinations
+1962,96,1,10,6,153,5,image has a woman feeding a kid. she seems to be the demon with 2 other of her servants beside her
+1963,0,1,10,2,145,5,Good illustration of monarchy
+1964,0,1,10,3,147,3,Scary man. Happy Women
+1965,0,1,10,4,149,5,Entertaining women with flute performance.
+1966,96,1,10,4,149,5,image has lord krishna sitting on a tree and 3 women are sitting next to him.
+1967,0,1,10,5,151,3,Entertaining is one thing but looking at naked women while they're bathing is morally wrong.
+1968,96,1,10,2,145,5,image has a king sitting with 4 servants and next to him
+1969,0,1,10,6,153,5,A demon lady breastfeeding. Seems like demons were not bad afterall
+1970,0,1,10,7,155,3,Why are you sacrificing the kid to snakes?
+1971,0,1,10,8,157,5,People listening to flute performance.
+1972,0,1,11,1,159,5,Nice pencil drawing with minimal colors.
+1973,96,1,10,1,143,5,image has lord krishna and his wife next to him. they are sitting on swans and a women is serving them 
+1974,0,1,11,2,161,5,Nice pencil drawing with minimal colors.
+1975,0,1,11,3,163,5,Nice pencil drawing with minimal colors. Plus Snake
+1976,0,1,11,4,165,3,Nice drawing but way too many people
+1977,0,1,11,5,167,3,"Nice drawing again but, way too many people in one picture."
+1978,0,1,11,6,169,3,Drawing is nice but the meaning behind the illustration is clear.
+1979,0,1,13,1,199,5,Bird trying to eat fruits from the tree.
+1980,0,1,13,2,201,5,vervet monkeys!!! ooh-ooh-aa-aa!
+1981,0,1,13,3,203,3,"It's good there is no crown but once again, why is there only one person sitting on the chair?"
+1982,0,1,13,4,205,5,Vervet monkeys near a water reservoir.
+1983,0,1,13,5,207,2,The direction of arrows make it difficult to interpret the illustration and the crown is stupid!
+1984,0,1,13,6,209,5,Vervet monkey teaches human and mythological beings! The monkey is a teacher.
+1985,0,1,13,7,211,5,Monkey on its four limbs.
+1986,0,1,12,1,171,5,Riding on the tiger!
+1987,96,1,9,1,125,5,image has a king with his wife standing next to him. there are two servants next to them. the king looks like lord krishna and his wife's name is rukmini
+1988,0,1,12,2,173,5,Nice combination of real living beings such as humans and animals.
+1989,0,1,12,3,175,5,Daily rural life near the riverside
+1990,0,1,12,4,177,5,People talking 
+1991,0,1,12,5,179,3,People worshiping a mythological being coming out of lake.
+1992,0,1,12,6,181,3,Are they offering him all the water? 
+1993,96,1,9,3,129,5,image has 3 people. one of them has blue skin tone and two of them have fair skin tone. the girls look like they like the man and they are talking to him.
+1994,0,1,12,7,183,3,King discussing with his ministers. But why are the ministers not sitting?
+1995,0,1,12,8,185,2,Did they sacrifice a cow for worship? But aren't these guys supposed to worship cows as gods. Perfect description of hypocrisy.
+1996,0,1,12,9,187,5,People sleeping and working
+1997,0,1,12,10,189,2,Why are the people not sitting besides the king?
+1998,0,1,12,11,191,2,Why are they not sitting?
+1999,96,1,9,4,131,5,the image has lord krishna with a woman next to him. there is a pot in the middle which looks like a wish pot. the woman is asking for a wish he is granting the wish
+2000,0,1,12,12,193,4,Too many people in one picture but the horses saved it.
+2001,0,1,12,13,195,2,Are they at war? 
+2002,0,1,12,14,197,3,Picture is too populated
+2003,96,1,9,7,137,5,image has lord krishna and a woman . there is a cow feeding her calf. image looks cute.
