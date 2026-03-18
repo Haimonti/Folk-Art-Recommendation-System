@@ -1,5 +1,7 @@
 This files lists all the code used for inductive baseline and model settings
-Use extractfeature.ipynb for feature extractions before running inductivesettings--itemitem.ipynb
+Use extractfeature.ipynb for feature extractions before running any inductive setting file for feature extraction.
+
+2 inductivesettings files are for baseline conmparisons.
 
 All inductive experiments were conducted on a university-managed HPC compute
 node under a single-GPU configuration. Unless otherwise specified, each run reserved
