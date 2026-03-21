@@ -5,5 +5,3 @@ __pycache__/
 *.pyc
 .DS_Store
 .env
-backend/data/embeddings/*.npy
-backend/data/images/
