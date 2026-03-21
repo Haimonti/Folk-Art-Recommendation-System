@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+:root {
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #141414;
+  --bg-card: #1a1a1a;
+  --text-primary: #f5f5f5;
+  --text-secondary: #a0a0a0;
+  --accent: #d4a574;
+  --accent-hover: #e8c49a;
+  --border: #2a2a2a;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+/* Mobile utilities */
+@media (max-width: 768px) {
+  body {
+    -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
+  }
+}
+
+/* Hide scrollbar on range inputs */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
