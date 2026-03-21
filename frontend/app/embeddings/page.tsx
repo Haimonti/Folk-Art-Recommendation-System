@@ -83,7 +83,7 @@ export default function EmbeddingsPage() {
   const [imageCache, setImageCache] = useState<Record<string, any>>({});
   const [showSplit, setShowSplit] = useState(false);
   const [transitioning, setTransitioning] = useState(false);
-  const fgRef = useRef<any>();
+  const fgRef = useRef<any>(null);
   const windowSize = useWindowSize();
   const [showControls, setShowControls] = useState(false);
 

@@ -95,7 +95,7 @@ export default function GraphPage() {
   const [panels, setPanels] = useState<any[]>([]);
   const [useImageNodes, setUseImageNodes] = useState(true);
   const [imageCache, setImageCache] = useState<Record<string, any>>({});
-  const fgRef = useRef<any>();
+  const fgRef = useRef<any>(null);
   const windowSize = useWindowSize();
   const [showControls, setShowControls] = useState(false);
 
