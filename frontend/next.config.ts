@@ -6,11 +6,11 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/api/:path*",
-        destination: "http://127.0.0.1:8000/api/:path*",
+        destination: "https://gemi-backend-eftn.onrender.com/api/:path*",
       },
       {
         source: "/images/:path*",
-        destination: "http://127.0.0.1:8000/images/:path*",
+        destination: "https://gemi-backend-eftn.onrender.com/images/:path*",
       },
     ];
   },
