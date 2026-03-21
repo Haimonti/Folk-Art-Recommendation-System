@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef, useCallback } from "react";
+import { useState, useEffect, useRef, useCallback, Suspense } from "react";
 
 function useWindowSize() {
   const [size, setSize] = useState({ width: 800, height: 600 });
@@ -80,7 +80,7 @@ const LEGEND = [
   { color: "#FFD700", label: "All Three" },
 ];
 
-export default function GraphPage() {
+function GraphPageInner() {
   const searchParams = useSearchParams();
   const urlModel = searchParams.get("model");
   const urlPanel = searchParams.get("panel");
@@ -481,5 +481,13 @@ export default function GraphPage() {
         )}
       </div>
     </main>
+  );
+}
+
+export default function GraphPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-[#020208] flex items-center justify-center"><div className="w-16 h-16 border-2 border-[#d4a574]/30 border-t-[#d4a574] rounded-full animate-spin" /></div>}>
+      <GraphPageInner />
+    </Suspense>
   );
 }
