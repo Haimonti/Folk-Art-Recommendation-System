@@ -6,11 +6,11 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/api/:path*",
-        destination: "https://gemi-backend-eftn.onrender.com/api/:path*",
+        destination: "https://gemi-backend-folkart-healthcare-frontend.apps.buffalo.edu/api/:path*",
       },
       {
         source: "/images/:path*",
-        destination: "https://gemi-backend-eftn.onrender.com/images/:path*",
+        destination: "https://gemi-backend-folkart-healthcare-frontend.apps.buffalo.edu/images/:path*",
       },
     ];
   },
