@@ -3,6 +3,8 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Heart, Sparkles, Zap } from "lucide-react";
+import { panelName } from "../../lib/panelName";
+import { createPortal } from "react-dom";
 
 interface Panel {
   index: number;
@@ -64,6 +66,9 @@ export default function ExplorePage() {
       .then((data) => setPanels(data.panels || []))
       .catch(console.error);
   }, []);
+  useEffect(() => {
+    if (typeof window !== "undefined") window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [step]);
 
   const toggleLike = (index: number) => {
     setLiked((prev) => {
@@ -139,9 +144,9 @@ export default function ExplorePage() {
         {/* Header */}
         <header className="sticky top-0 z-50 bg-[#0a0a0a]/80 backdrop-blur-md border-b border-[#2a2a2a]">
           <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-            <a href="/" className="text-2xl font-bold text-[#d4a574]">GeMi</a>
+            <a href="/" className="text-3xl md:text-4xl font-bold text-[#d4a574]">GeMi</a>
             <div className="flex items-center gap-2 md:gap-3 flex-wrap">
-              <a href="/story" className="px-2 md:px-4 py-1.5 md:py-2 bg-[#1a1a1a] border border-[#2a2a2a] rounded-lg text-sm text-[#a0a0a0] hover:text-white hover:border-[#404040] transition-all">
+              <a href="/story" className="px-2 md:px-4 py-1.5 md:py-2 bg-[#1a1a1a] border border-[#2a2a2a] rounded-lg text-base md:text-lg font-medium text-[#c2c2c2] hover:text-white hover:border-[#404040] transition-all">
                 Scroll Stories
               </a>
               {liked.size > 0 && (
@@ -157,7 +162,7 @@ export default function ExplorePage() {
           {/* Title */}
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mb-8">
             <h2 className="text-2xl md:text-3xl font-bold mb-2">Explore Scroll Paintings</h2>
-            <p className="text-[#a0a0a0]">Choose a category to browse, like the panels that interest you, then get personalized recommendations.</p>
+            <p className="text-base md:text-lg text-[#c8c8c8]">Choose a category to browse, like the panels that interest you, then get personalized recommendations.</p>
           </motion.div>
 
           {/* Category Cards */}
@@ -169,17 +174,17 @@ export default function ExplorePage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.05 }}
                 onClick={() => setActiveCategory(cat.key)}
-                className={`relative p-2 md:p-4 rounded-xl border text-left transition-all ${
+                className={`relative p-3 md:p-5 rounded-xl border text-left transition-all ${
                   activeCategory === cat.key
                     ? "bg-[#d4a574]/15 border-[#d4a574] shadow-lg shadow-[#d4a574]/10"
                     : "bg-[#141414] border-[#2a2a2a] hover:border-[#404040] hover:bg-[#1a1a1a]"
                 }`}
               >
-                <div className="text-lg md:text-2xl mb-1 md:mb-2">{cat.emoji}</div>
-                <div className={`text-xs md:text-sm font-semibold mb-0.5 md:mb-1 ${activeCategory === cat.key ? "text-[#d4a574]" : "text-white"}`}>{cat.label}</div>
-                <div className="text-xs text-[#606060] leading-snug hidden md:block">{cat.description}</div>
+                <div className="text-2xl md:text-3xl mb-1 md:mb-2">{cat.emoji}</div>
+                <div className={`text-sm md:text-base font-semibold mb-0.5 md:mb-1 ${activeCategory === cat.key ? "text-[#d4a574]" : "text-white"}`}>{cat.label}</div>
+                <div className="text-sm md:text-base text-[#c2c2c2] leading-snug hidden md:block">{cat.description}</div>
                 <div className={`absolute top-3 right-3 text-xs px-1.5 py-0.5 rounded-full ${
-                  activeCategory === cat.key ? "bg-[#d4a574] text-[#0a0a0a]" : "bg-[#2a2a2a] text-[#606060]"
+                  activeCategory === cat.key ? "bg-[#d4a574] text-[#0a0a0a]" : "bg-[#2a2a2a] text-[#9a9a9a]"
                 }`}>
                   {panels.filter((p) => matchesCategory(p, cat.key)).length}
                 </div>
@@ -193,7 +198,7 @@ export default function ExplorePage() {
               {CATEGORIES.find((c) => c.key === activeCategory)?.emoji}{" "}
               {CATEGORIES.find((c) => c.key === activeCategory)?.label}
             </h3>
-            <span className="text-sm text-[#606060]">{filteredPanels.length} panels</span>
+            <span className="text-sm text-[#9a9a9a]">{filteredPanels.length} panels</span>
           </div>
 
           {/* Panel Grid */}
@@ -204,6 +209,8 @@ export default function ExplorePage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: Math.min(i * 0.02, 0.5) }}
+                whileHover={{ scale: 1.05, y: -8, boxShadow: "0 18px 40px rgba(212,165,116,0.35)", transition: { type: "spring", stiffness: 380, damping: 18 } }}
+                whileTap={{ scale: 0.97 }}
                 onClick={() => setExpandedPanel(panel.index)}
                 className={`relative group rounded-xl overflow-hidden border-2 transition-all cursor-pointer ${
                   liked.has(panel.index)
@@ -212,7 +219,7 @@ export default function ExplorePage() {
                 }`}
               >
                 <div className="aspect-square bg-[#141414]">
-                  <img src={panel.image_url} alt={panel.id} className="w-full h-full object-cover" loading="lazy" />
+                  <img src={panel.image_url} alt={panel.id} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" />
                 </div>
                 <button
                   onClick={(e) => { e.stopPropagation(); toggleLike(panel.index); }}
@@ -222,9 +229,9 @@ export default function ExplorePage() {
                 </button>
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-3 pt-8">
                   <div className="flex gap-1.5">
-                    {panel.animal_label === 1 && <span className="text-xs bg-[#2166AC]/30 text-[#6baed6] px-1.5 py-0.5 rounded">{ANIMAL} Animal</span>}
-                    {panel.myth_label === 1 && <span className="text-xs bg-[#B2182B]/30 text-[#fc8d62] px-1.5 py-0.5 rounded">{MYTH} Myth</span>}
-                    {panel.tree_label === 1 && <span className="text-xs bg-[#1B7837]/30 text-[#66c2a5] px-1.5 py-0.5 rounded">{TREE} Tree</span>}
+                    {panel.animal_label === 1 && <span className="text-xs font-medium bg-[#2166AC]/80 text-white px-1.5 py-0.5 rounded">{ANIMAL} Animal</span>}
+                    {panel.myth_label === 1 && <span className="text-xs font-medium bg-[#B2182B]/80 text-white px-1.5 py-0.5 rounded">{MYTH} Myth</span>}
+                    {panel.tree_label === 1 && <span className="text-xs font-medium bg-[#1B7837]/80 text-white px-1.5 py-0.5 rounded">{TREE} Tree</span>}
                   </div>
                 </div>
               </motion.div>
@@ -232,60 +239,71 @@ export default function ExplorePage() {
           </div>
 
           {/* Panel Detail Modal */}
+          {typeof document !== "undefined" && createPortal(
           <AnimatePresence>
             {expandedPanel !== null && (
               <motion.div
                 initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
                 onClick={() => setExpandedPanel(null)}
-                className="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 flex items-center justify-center p-6"
+                className="fixed inset-0 bg-black/75 backdrop-blur-sm z-[100] flex items-center justify-center p-4"
               >
                 <motion.div
-                  initial={{ scale: 0.9, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} exit={{ scale: 0.9, opacity: 0 }}
+                  initial={{ scale: 0.92, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} exit={{ scale: 0.92, opacity: 0 }}
+                  transition={{ type: "spring", stiffness: 260, damping: 24 }}
                   onClick={(e) => e.stopPropagation()}
-                  className="bg-[#1a1a1a] rounded-2xl max-w-2xl w-full max-h-[80vh] overflow-y-auto p-6 border border-[#2a2a2a]"
+                  className="bg-[#1a1a1a] rounded-2xl w-full max-w-2xl md:max-w-4xl max-h-[88vh] p-5 border border-[#2a2a2a] flex flex-col md:flex-row gap-5"
                 >
                   {(() => {
                     const p = panels.find((x) => x.index === expandedPanel);
                     if (!p) return null;
                     return (
                       <>
-                        <img src={p.image_url} alt={p.id} className="w-full rounded-xl mb-4" />
-                        <h3 className="text-xl font-bold mb-2">Panel {p.id}</h3>
-                        <div className="flex gap-2 mb-3">
-                          {p.animal_label === 1 && <span className="text-sm bg-[#2166AC]/20 text-[#6baed6] px-2 py-1 rounded">{ANIMAL} Animal</span>}
-                          {p.myth_label === 1 && <span className="text-sm bg-[#B2182B]/20 text-[#fc8d62] px-2 py-1 rounded">{MYTH} Mythology</span>}
-                          {p.tree_label === 1 && <span className="text-sm bg-[#1B7837]/20 text-[#66c2a5] px-2 py-1 rounded">{TREE} Tree</span>}
+                        <div className="md:w-1/2 flex items-center justify-center shrink-0">
+                          <img src={p.image_url} alt={p.id} className="w-auto max-h-[38vh] md:max-h-[76vh] rounded-xl object-contain" />
                         </div>
-                        <p className="text-[#a0a0a0] text-sm leading-relaxed">{p.text || "No text available for this panel."}</p>
-                        <button
-                          onClick={() => { toggleLike(p.index); setExpandedPanel(null); }}
-                          className={`mt-4 w-full py-3 rounded-lg font-medium transition-colors ${
-                            liked.has(p.index)
-                              ? "bg-[#d4a574]/20 text-[#d4a574] border border-[#d4a574]"
-                              : "bg-[#d4a574] text-[#0a0a0a] hover:bg-[#e8c49a]"
-                          }`}
-                        >
-                          {liked.has(p.index) ? "Liked" : "Like this panel"}
-                        </button>
+                        <div className="md:w-1/2 flex flex-col min-h-0">
+                          <h3 className="text-2xl md:text-3xl font-bold mb-2">{panelName(p.id)}</h3>
+                          <div className="flex gap-2 mb-3 flex-wrap">
+                            {p.animal_label === 1 && <span className="text-sm font-medium bg-[#2166AC]/80 text-white px-2 py-1 rounded">{ANIMAL} Animal</span>}
+                            {p.myth_label === 1 && <span className="text-sm font-medium bg-[#B2182B]/80 text-white px-2 py-1 rounded">{MYTH} Mythology</span>}
+                            {p.tree_label === 1 && <span className="text-sm font-medium bg-[#1B7837]/80 text-white px-2 py-1 rounded">{TREE} Tree</span>}
+                          </div>
+                          <p className="italic text-[#d8d8d8] text-base md:text-lg leading-relaxed flex-1 min-h-0 overflow-y-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">{p.text || "No text available for this panel."}</p>
+                          <button
+                            onClick={() => { toggleLike(p.index); setExpandedPanel(null); }}
+                            className={`mt-4 w-full py-3 rounded-lg font-medium transition-colors shrink-0 ${
+                              liked.has(p.index)
+                                ? "bg-[#d4a574]/20 text-[#d4a574] border border-[#d4a574]"
+                                : "bg-[#d4a574] text-[#0a0a0a] hover:bg-[#e8c49a]"
+                            }`}
+                          >
+                            {liked.has(p.index) ? "Liked" : "Like this panel"}
+                          </button>
+                        </div>
                       </>
                     );
                   })()}
                 </motion.div>
               </motion.div>
             )}
-          </AnimatePresence>
+          </AnimatePresence>,
+          document.body)}
         </div>
 
         {/* ── Sticky Bottom Bar ── */}
-        {liked.size > 0 && (
+        <AnimatePresence>
+        {liked.size > 0 && expandedPanel === null && (
           <motion.div
-            initial={{ y: 100 }}
-            animate={{ y: 0 }}
-            className="fixed bottom-0 left-0 right-0 bg-[#141414]/95 backdrop-blur-md border-t border-[#2a2a2a] py-3 z-40"
+            key="bottombar"
+            initial={{ y: 120, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            exit={{ y: 120, opacity: 0 }}
+            transition={{ type: "spring", stiffness: 300, damping: 30 }}
+            className="fixed bottom-4 left-1/2 -translate-x-1/2 max-w-[95vw] bg-[#141414]/95 backdrop-blur-md border border-[#2a2a2a] rounded-2xl shadow-2xl py-3 px-4 z-40"
           >
-            <div className="max-w-2xl mx-auto flex flex-wrap items-end justify-center gap-3 md:gap-8 px-4">
+            <div className="flex flex-wrap items-end justify-center gap-3 md:gap-6">
               <div className="flex flex-col items-center gap-1.5">
-                <span className="text-[10px] text-[#606060] uppercase tracking-wider">Interests</span>
+                <span className="text-sm font-semibold text-[#b8b8b8] uppercase tracking-wider">Interests</span>
                 <div className="flex gap-1.5">
                   {[
                     { key: "animal", label: ANIMAL + " Animal" },
@@ -298,7 +316,7 @@ export default function ExplorePage() {
                       className={`px-2.5 py-1 rounded-full text-xs font-medium transition-all ${
                         concepts[c.key as keyof typeof concepts]
                           ? "bg-[#d4a574]/20 text-[#d4a574] border border-[#d4a574]/50"
-                          : "bg-[#1a1a1a] text-[#606060] border border-[#2a2a2a]"
+                          : "bg-[#1a1a1a] text-[#9a9a9a] border border-[#2a2a2a]"
                       }`}
                     >
                       {c.label}
@@ -308,7 +326,7 @@ export default function ExplorePage() {
               </div>
 
               <div className="flex flex-col items-center gap-1.5">
-                <span className="text-[10px] text-[#606060] uppercase tracking-wider">Setting</span>
+                <span className="text-sm font-semibold text-[#b8b8b8] uppercase tracking-wider">Setting</span>
                 <div className="flex bg-[#1a1a1a] rounded-lg border border-[#2a2a2a] overflow-hidden">
                   {["transductive", "inductive"].map((s) => (
                     <button
@@ -319,7 +337,7 @@ export default function ExplorePage() {
                         setSelectedModel(prefix + "_vgae");
                       }}
                       className={`px-2.5 py-1.5 text-xs font-medium transition-all ${
-                        setting === s ? "bg-[#d4a574] text-[#0a0a0a]" : "text-[#a0a0a0] hover:text-white"
+                        setting === s ? "bg-[#d4a574] text-[#0a0a0a]" : "text-[#c2c2c2] hover:text-white"
                       }`}
                     >
                       {s === "transductive" ? "Trans." : "Ind."}
@@ -329,14 +347,14 @@ export default function ExplorePage() {
               </div>
 
               <div className="flex flex-col items-center gap-1.5">
-                <span className="text-[10px] text-[#606060] uppercase tracking-wider">Feature Backbone</span>
+                <span className="text-sm font-semibold text-[#b8b8b8] uppercase tracking-wider">Feature Backbone</span>
                 <div className="flex bg-[#1a1a1a] rounded-lg border border-[#2a2a2a] overflow-hidden">
                   {["llamasigclip", "llamavae"].map((f) => (
                     <button
                       key={f}
                       onClick={() => { setFeatureBackbone(f); setSelectedModel(setting === "inductive" ? f + "_ind_vgae" : f + "_vgae"); }}
                       className={`px-3 py-1.5 text-xs font-medium transition-all ${
-                        featureBackbone === f ? "bg-[#d4a574] text-[#0a0a0a]" : "text-[#a0a0a0] hover:text-white"
+                        featureBackbone === f ? "bg-[#d4a574] text-[#0a0a0a]" : "text-[#c2c2c2] hover:text-white"
                       }`}
                     >
                       {f === "llamasigclip" ? "SigCLIP" : "VAE"}
@@ -346,7 +364,7 @@ export default function ExplorePage() {
               </div>
 
               <div className="flex flex-col items-center gap-1.5">
-                <span className="text-[10px] text-[#606060] uppercase tracking-wider">GNN Model</span>
+                <span className="text-sm font-semibold text-[#b8b8b8] uppercase tracking-wider">GNN Model</span>
                 <div className="flex bg-[#1a1a1a] rounded-lg border border-[#2a2a2a] overflow-hidden">
                   {["gcn", "gae", "vgae"].map((g) => {
                     const key = setting === "inductive" ? featureBackbone + "_ind_" + g : featureBackbone + "_" + g;
@@ -355,7 +373,7 @@ export default function ExplorePage() {
                         key={g}
                         onClick={() => setSelectedModel(key)}
                         className={`px-3 py-1.5 text-xs font-medium transition-all ${
-                          selectedModel === key ? "bg-[#d4a574] text-[#0a0a0a]" : "text-[#a0a0a0] hover:text-white"
+                          selectedModel === key ? "bg-[#d4a574] text-[#0a0a0a]" : "text-[#c2c2c2] hover:text-white"
                         }`}
                       >
                         {g.toUpperCase()}
@@ -377,6 +395,7 @@ export default function ExplorePage() {
             </div>
           </motion.div>
         )}
+        </AnimatePresence>
       </main>
     );
   }
@@ -404,20 +423,20 @@ export default function ExplorePage() {
             
             <a
               href={`/graph?model=${selectedModel}&panel=0&depth=2`}
-              className="flex items-center gap-1 md:gap-1.5 px-2 md:px-4 py-1.5 md:py-2 bg-[#1a1a1a] border border-[#2a2a2a] rounded-lg text-xs md:text-sm text-[#a0a0a0] hover:text-white hover:border-[#404040] transition-all"
+              className="flex items-center gap-1 md:gap-1.5 px-2 md:px-4 py-1.5 md:py-2 bg-[#1a1a1a] border border-[#2a2a2a] rounded-lg text-sm md:text-base font-medium text-[#c2c2c2] hover:text-white hover:border-[#404040] transition-all"
             >
               Graph Explorer
             </a>
             <button
               onClick={() => setStep(step === "compare" ? "results" : "compare")}
-              className="flex items-center gap-1 md:gap-1.5 px-2 md:px-4 py-1.5 md:py-2 bg-[#1a1a1a] border border-[#2a2a2a] rounded-lg text-xs md:text-sm text-[#a0a0a0] hover:text-white hover:border-[#404040] transition-all"
+              className="flex items-center gap-1 md:gap-1.5 px-2 md:px-4 py-1.5 md:py-2 bg-[#1a1a1a] border border-[#2a2a2a] rounded-lg text-sm md:text-base font-medium text-[#c2c2c2] hover:text-white hover:border-[#404040] transition-all"
             >
               <Zap className="w-3.5 h-3.5" />
               {step === "compare" ? "Single View" : "Compare Models"}
             </button>
             <button
               onClick={() => setStep("browse")}
-              className="px-4 py-2 bg-[#1a1a1a] border border-[#2a2a2a] rounded-lg text-sm text-[#a0a0a0] hover:text-white hover:border-[#404040] transition-all"
+              className="px-4 py-2 bg-[#1a1a1a] border border-[#2a2a2a] rounded-lg text-base md:text-lg font-medium text-[#c2c2c2] hover:text-white hover:border-[#404040] transition-all"
             >
               Back
             </button>
@@ -430,7 +449,7 @@ export default function ExplorePage() {
           <>
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mb-8">
               <h2 className="text-3xl font-bold mb-2">Your Recommendations</h2>
-              <p className="text-[#a0a0a0]">
+              <p className="text-[#c2c2c2]">
                 Via <span className="text-[#d4a574] font-medium">{selectedModel.replace("llamasigclip_ind_", "LlamaSigCLIP (Inductive) + ").replace("llamavae_ind_", "LlamaVAE (Inductive) + ").replace("llamasigclip_", "LlamaSigCLIP + ").replace("llamavae_", "LlamaVAE + ").replace("vgae", "VGAE").replace("gcn", "GCN").replace("gae", "GAE")}</span> based on {liked.size} liked panels
               </p>
             </motion.div>
@@ -457,14 +476,14 @@ export default function ExplorePage() {
                       {rec.tree_label === 1 && <span className="text-xs bg-[#1B7837]/20 text-[#66c2a5] px-1.5 py-0.5 rounded">{TREE}</span>}
                       {rec.concept_matches?.length > 0 && <span className="text-xs text-[#d4a574] ml-auto">matches</span>}
                     </div>
-                    <p className="text-xs text-[#a0a0a0] line-clamp-3">{rec.text || "No text."}</p>
+                    <p className="text-xs text-[#c2c2c2] line-clamp-3">{rec.text || "No text."}</p>
                     {rec.explanation?.per_panel_similarity?.length > 0 && (
                       <details className="mt-3">
-                        <summary className="text-xs text-[#606060] cursor-pointer hover:text-[#a0a0a0]">Why this?</summary>
+                        <summary className="text-xs text-[#9a9a9a] cursor-pointer hover:text-[#c2c2c2]">Why this?</summary>
                         <div className="mt-2 space-y-1">
                           {rec.explanation.per_panel_similarity.slice(0, 3).map((s: any) => (
                             <div key={s.liked_panel_id} className="flex justify-between text-xs">
-                              <span className="text-[#a0a0a0]">~ {s.liked_panel_id}</span>
+                              <span className="text-[#c2c2c2]">~ {s.liked_panel_id}</span>
                               <span className="text-[#d4a574]">{(s.similarity * 100).toFixed(1)}%</span>
                             </div>
                           ))}
@@ -490,11 +509,11 @@ export default function ExplorePage() {
               <div className="flex items-center justify-between">
                 <div>
                   <h2 className="text-3xl font-bold mb-2">Model Comparison</h2>
-                  <p className="text-[#a0a0a0]">How GCN, GAE, and VGAE recommend differently from the same liked panels.</p>
+                  <p className="text-[#c2c2c2]">How GCN, GAE, and VGAE recommend differently from the same liked panels.</p>
                 </div>
                 <div className="flex items-end gap-4">
                   <div className="flex flex-col items-center gap-1.5">
-                    <span className="text-[10px] text-[#606060] uppercase tracking-wider">Setting</span>
+                    <span className="text-sm font-semibold text-[#b8b8b8] uppercase tracking-wider">Setting</span>
                     <div className="flex bg-[#1a1a1a] rounded-lg border border-[#2a2a2a] overflow-hidden">
                       {["transductive", "inductive"].map((s) => (
                         <button
@@ -519,7 +538,7 @@ export default function ExplorePage() {
                             } catch (e) { console.error(e); }
                           }}
                           className={`px-2.5 py-1.5 text-xs font-medium transition-all ${
-                            setting === s ? "bg-[#d4a574] text-[#0a0a0a]" : "text-[#a0a0a0] hover:text-white"
+                            setting === s ? "bg-[#d4a574] text-[#0a0a0a]" : "text-[#c2c2c2] hover:text-white"
                           }`}
                         >
                           {s === "transductive" ? "Trans." : "Ind."}
@@ -528,7 +547,7 @@ export default function ExplorePage() {
                     </div>
                   </div>
                   <div className="flex flex-col items-center gap-1.5">
-                    <span className="text-[10px] text-[#606060] uppercase tracking-wider">Feature Backbone</span>
+                    <span className="text-sm font-semibold text-[#b8b8b8] uppercase tracking-wider">Feature Backbone</span>
                   <div className="flex bg-[#1a1a1a] rounded-lg border border-[#2a2a2a] overflow-hidden">
                     {["llamasigclip", "llamavae"].map((f) => (
                       <button
@@ -559,7 +578,7 @@ export default function ExplorePage() {
                           } catch (e) { console.error(e); }
                         }}
                         className={`px-4 py-2 text-sm font-medium transition-all ${
-                          featureBackbone === f ? "bg-[#d4a574] text-[#0a0a0a]" : "text-[#a0a0a0] hover:text-white"
+                          featureBackbone === f ? "bg-[#d4a574] text-[#0a0a0a]" : "text-[#c2c2c2] hover:text-white"
                         }`}
                       >
                         {f === "llamasigclip" ? "LlamaSigCLIP" : "LlamaVAE"}
@@ -582,7 +601,7 @@ export default function ExplorePage() {
                     >
                       <div className="p-4 border-b border-[#2a2a2a]" style={{ borderTopColor: colors[gnn || ""] || "#d4a574", borderTopWidth: 3 }}>
                         <h3 className="text-lg font-bold" style={{ color: colors[gnn || ""] }}>GeMi-{gnn}</h3>
-                        <p className="text-xs text-[#a0a0a0]">{modelName.includes("sigclip") ? "LlamaSigCLIP" : "LlamaVAE"}</p>
+                        <p className="text-xs text-[#c2c2c2]">{modelName.includes("sigclip") ? "LlamaSigCLIP" : "LlamaVAE"}</p>
                       </div>
                       <div className="divide-y divide-[#1a1a1a]">
                         {(Array.isArray(recs) ? recs : []).slice(0, 5).map((rec: any) => (
@@ -591,14 +610,14 @@ export default function ExplorePage() {
                             <div className="flex-1 min-w-0">
                               <div className="flex items-center gap-2 mb-1">
                                 <span className="text-xs font-bold text-[#d4a574]">#{rec.rank}</span>
-                                <span className="text-xs text-[#a0a0a0]">{(rec.similarity_score * 100).toFixed(1)}%</span>
+                                <span className="text-xs text-[#c2c2c2]">{(rec.similarity_score * 100).toFixed(1)}%</span>
                                 <div className="flex gap-1 ml-auto">
                                   {rec.animal_label === 1 && <span className="text-xs">{ANIMAL}</span>}
                                   {rec.myth_label === 1 && <span className="text-xs">{MYTH}</span>}
                                   {rec.tree_label === 1 && <span className="text-xs">{TREE}</span>}
                                 </div>
                               </div>
-                              <p className="text-xs text-[#606060] truncate">{rec.text || rec.id}</p>
+                              <p className="text-xs text-[#9a9a9a] truncate">{rec.text || rec.id}</p>
                             </div>
                           </div>
                         ))}

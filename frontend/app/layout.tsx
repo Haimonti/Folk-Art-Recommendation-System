@@ -1,5 +1,20 @@
 import type { Metadata } from "next";
+import { Cinzel, EB_Garamond } from "next/font/google";
 import "./globals.css";
+
+const cinzel = Cinzel({
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+  variable: "--font-display",
+  display: "swap",
+});
+
+const ebGaramond = EB_Garamond({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-body",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "GeMi Narrative Scroll Painting Recommendation",
@@ -16,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">{children}</body>
+      <body className={`${cinzel.variable} ${ebGaramond.variable} antialiased`}>{children}</body>
     </html>
   );
 }

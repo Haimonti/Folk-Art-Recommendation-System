@@ -13,6 +13,7 @@ function useWindowSize() {
   return size;
 }
 import { motion, AnimatePresence } from "framer-motion";
+import { panelName } from "../../lib/panelName";
 import dynamic from "next/dynamic";
 
 const ForceGraph3D = dynamic(() => import("react-force-graph-3d"), { ssr: false });
@@ -219,18 +220,18 @@ export default function EmbeddingsPage() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-[#020208]/60 backdrop-blur-xl border-b border-white/5">
         <div className="max-w-7xl mx-auto px-3 md:px-6 py-2 md:py-3 flex items-center justify-between">
           <div className="flex items-center gap-4">
-            <a href="/" className="text-xl md:text-2xl font-bold text-[#d4a574]">GeMi</a>
+            <a href="/" className="text-2xl md:text-3xl font-bold text-[#d4a574]">GeMi</a>
             <span className="text-sm text-white/20 hidden sm:inline">/</span>
-            <span className="text-xs md:text-sm text-white/50 font-medium hidden sm:inline">Embedding Space</span>
+            <span className="text-sm md:text-base text-white/70 font-semibold hidden sm:inline">Embedding Space</span>
           </div>
           <div className="flex gap-3">
-            <a href="/story" className="px-4 py-2 bg-white/5 border border-white/10 rounded-lg text-sm text-white/60 hover:text-white hover:border-white/20 transition-all">
+            <a href="/story" className="px-4 py-2 bg-white/5 border border-white/10 rounded-lg text-sm md:text-base font-medium text-white/75 hover:text-white hover:border-white/20 transition-all">
               Scroll Stories
             </a>
-            <a href="/graph" className="px-2 md:px-4 py-1.5 md:py-2 bg-white/5 border border-white/10 rounded-lg text-sm text-white/60 hover:text-white hover:border-white/20 transition-all">
+            <a href="/graph" className="px-2 md:px-4 py-1.5 md:py-2 bg-white/5 border border-white/10 rounded-lg text-sm md:text-base font-medium text-white/75 hover:text-white hover:border-white/20 transition-all">
               Graph Explorer
             </a>
-            <a href="/explore" className="px-2 md:px-4 py-1.5 md:py-2 bg-white/5 border border-white/10 rounded-lg text-sm text-white/60 hover:text-white hover:border-white/20 transition-all">
+            <a href="/explore" className="px-2 md:px-4 py-1.5 md:py-2 bg-white/5 border border-white/10 rounded-lg text-sm md:text-base font-medium text-white/75 hover:text-white hover:border-white/20 transition-all">
               Back to Explore
             </a>
           </div>
@@ -253,16 +254,16 @@ export default function EmbeddingsPage() {
         style={{ display: !showControls && windowSize.width < 768 ? "none" : "block" }}
         className="fixed z-40 bg-[#0a0a12]/95 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl shadow-black/50 overflow-y-auto left-2 right-2 bottom-14 max-h-[60vh] p-3 md:left-4 md:right-auto md:bottom-auto md:top-20 md:w-72 md:max-h-none md:p-4"
       >
-        <h3 className="text-base md:text-lg font-bold text-[#d4a574] mb-2 md:mb-3">Embedding Space</h3>
-        <p className="text-[10px] text-white/30 mb-4 leading-relaxed">3D t-SNE projection of all 189 panel embeddings. Switch models to see how GNN variants organize the latent space.</p>
+        <h3 className="text-xl md:text-2xl font-bold text-[#d4a574] mb-3 md:mb-4">Embedding Space</h3>
+        <p className="text-sm text-white/55 mb-4 leading-relaxed">3D t-SNE projection of all 189 panel embeddings. Switch models to see how GNN variants organize the latent space.</p>
 
         {/* Model */}
         <div className="mb-3">
-          <label className="text-[10px] text-white/30 uppercase tracking-widest block mb-2">Model</label>
+          <label className="text-sm text-white/55 font-semibold uppercase tracking-widest block mb-2">Model</label>
           <select
             value={selectedModel}
             onChange={(e) => handleModelChange(e.target.value)}
-            className="w-full bg-white/5 border border-white/10 rounded-xl px-3 py-2.5 text-sm text-white focus:outline-none focus:border-[#d4a574]/50"
+            className="w-full bg-white/5 border border-white/10 rounded-xl px-3 py-2.5 text-base font-medium text-white focus:outline-none focus:border-[#d4a574]/50"
           >
             {MODELS.map((m) => (
               <option key={m.key} value={m.key} className="bg-[#0a0a12]">{m.label}</option>
@@ -274,7 +275,7 @@ export default function EmbeddingsPage() {
         <div className="flex gap-2 mb-3">
           <button
             onClick={() => setUseImages(!useImages)}
-            className={`flex-1 py-2 rounded-xl text-xs font-medium transition-all ${
+            className={`flex-1 py-2.5 rounded-xl text-sm font-semibold transition-all ${
               useImages ? "bg-[#d4a574]/20 text-[#d4a574] border border-[#d4a574]/30" : "bg-white/5 text-white/40 border border-white/10"
             }`}
           >
@@ -282,7 +283,7 @@ export default function EmbeddingsPage() {
           </button>
           <button
             onClick={() => setShowSplit(!showSplit)}
-            className={`flex-1 py-2 rounded-xl text-xs font-medium transition-all ${
+            className={`flex-1 py-2.5 rounded-xl text-sm font-semibold transition-all ${
               showSplit ? "bg-[#d4a574]/20 text-[#d4a574] border border-[#d4a574]/30" : "bg-white/5 text-white/40 border border-white/10"
             }`}
           >
@@ -292,12 +293,12 @@ export default function EmbeddingsPage() {
 
         {/* Legend */}
         <div className="border-t border-white/5 pt-3">
-          <label className="text-[10px] text-white/30 uppercase tracking-widest block mb-2">Concepts</label>
+          <label className="text-sm text-white/55 font-semibold uppercase tracking-widest block mb-2">Concepts</label>
           <div className="grid grid-cols-2 gap-y-1.5 gap-x-3">
             {LEGEND.map((item) => (
               <div key={item.label} className="flex items-center gap-2">
                 <div className="w-2.5 h-2.5 rounded-full flex-shrink-0" style={{ backgroundColor: item.color, boxShadow: `0 0 6px ${item.color}60` }} />
-                <span className="text-[10px] text-white/50">{item.label}</span>
+                <span className="text-sm text-white/70">{item.label}</span>
               </div>
             ))}
           </div>
@@ -305,7 +306,7 @@ export default function EmbeddingsPage() {
             <div className="mt-2 pt-2 border-t border-white/5">
               <div className="flex items-center gap-2 mb-1">
                 <div className="w-2.5 h-2.5 rounded-full bg-white/80" />
-                <span className="text-[10px] text-white/50">Test set (white ring)</span>
+                <span className="text-xs text-white/50">Test set (white ring)</span>
               </div>
             </div>
           )}
@@ -315,26 +316,26 @@ export default function EmbeddingsPage() {
         <div className="border-t border-white/5 pt-3 mt-3">
           <div className="grid grid-cols-3 gap-2 text-center">
             <div>
-              <div className="text-sm font-bold text-[#3B82F6]">{animalCount}</div>
-              <div className="text-[9px] text-white/30">Animal</div>
+              <div className="text-lg font-bold text-[#3B82F6]">{animalCount}</div>
+              <div className="text-xs text-white/50">Animal</div>
             </div>
             <div>
-              <div className="text-sm font-bold text-[#EF4444]">{mythCount}</div>
-              <div className="text-[9px] text-white/30">Myth</div>
+              <div className="text-lg font-bold text-[#EF4444]">{mythCount}</div>
+              <div className="text-xs text-white/50">Myth</div>
             </div>
             <div>
-              <div className="text-sm font-bold text-[#22C55E]">{treeCount}</div>
-              <div className="text-[9px] text-white/30">Tree</div>
+              <div className="text-lg font-bold text-[#22C55E]">{treeCount}</div>
+              <div className="text-xs text-white/50">Tree</div>
             </div>
           </div>
           <div className="flex justify-center gap-6 mt-2">
             <div className="text-center">
-              <span className="text-sm font-bold text-[#d4a574]">{trainCount}</span>
-              <span className="text-[9px] text-white/30 ml-1">Train</span>
+              <span className="text-lg font-bold text-[#d4a574]">{trainCount}</span>
+              <span className="text-xs text-white/50 ml-1">Train</span>
             </div>
             <div className="text-center">
-              <span className="text-sm font-bold text-[#d4a574]">{testCount}</span>
-              <span className="text-[9px] text-white/30 ml-1">Test</span>
+              <span className="text-lg font-bold text-[#d4a574]">{testCount}</span>
+              <span className="text-xs text-white/50 ml-1">Test</span>
             </div>
           </div>
         </div>
@@ -357,12 +358,12 @@ export default function EmbeddingsPage() {
               </div>
             </div>
             <div className="p-3 -mt-4 relative">
-              <h4 className="text-sm font-bold text-white mb-1">Panel {hoveredNode.panel_id}</h4>
-              <p className="text-[10px] text-white/40 mb-2">{getNodeLabel(hoveredNode)}</p>
+              <h4 className="text-base font-bold text-white mb-1">{panelName(hoveredNode.panel_id)}</h4>
+              <p className="text-xs text-white/40 mb-2">{getNodeLabel(hoveredNode)}</p>
               <div className="flex gap-1">
-                {hoveredNode.animal === 1 && <span className="text-[10px] px-1.5 py-0.5 rounded font-medium" style={{ backgroundColor: "#3B82F620", color: "#3B82F6" }}>Animal</span>}
-                {hoveredNode.mythology === 1 && <span className="text-[10px] px-1.5 py-0.5 rounded font-medium" style={{ backgroundColor: "#EF444420", color: "#EF4444" }}>Myth</span>}
-                {hoveredNode.tree === 1 && <span className="text-[10px] px-1.5 py-0.5 rounded font-medium" style={{ backgroundColor: "#22C55E20", color: "#22C55E" }}>Tree</span>}
+                {hoveredNode.animal === 1 && <span className="text-xs px-1.5 py-0.5 rounded font-medium" style={{ backgroundColor: "#3B82F620", color: "#3B82F6" }}>Animal</span>}
+                {hoveredNode.mythology === 1 && <span className="text-xs px-1.5 py-0.5 rounded font-medium" style={{ backgroundColor: "#EF444420", color: "#EF4444" }}>Myth</span>}
+                {hoveredNode.tree === 1 && <span className="text-xs px-1.5 py-0.5 rounded font-medium" style={{ backgroundColor: "#22C55E20", color: "#22C55E" }}>Tree</span>}
               </div>
             </div>
           </motion.div>

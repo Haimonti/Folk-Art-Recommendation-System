@@ -49,7 +49,7 @@ export default function Home() {
           <h1 className="text-4xl md:text-7xl font-bold tracking-tight mb-2">
             <span className="text-[#d4a574]">GeMi</span>
           </h1>
-          <p className="text-xs md:text-lg text-[#a0a0a0] tracking-widest uppercase mb-6 md:mb-8">
+          <p className="text-sm md:text-2xl text-[#dcdcdc] tracking-widest uppercase font-medium mb-6 md:mb-8">
             Graph-based Multimodal Recommendation
           </p>
         </motion.div>
@@ -58,7 +58,7 @@ export default function Home() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.8 }}
-          className="text-base md:text-xl text-[#c0c0c0] leading-relaxed mb-3 md:mb-4 px-2"
+          className="text-lg md:text-2xl text-[#e4e4e4] leading-relaxed mb-3 md:mb-4 px-2"
         >
           Discover narrative scroll paintings through personalized recommendation.
         </motion.p>
@@ -67,7 +67,7 @@ export default function Home() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.7, duration: 0.8 }}
-          className="text-sm md:text-base text-[#808080] leading-relaxed mb-8 md:mb-12 max-w-xl mx-auto px-2"
+          className="text-base md:text-xl text-[#cccccc] leading-relaxed mb-8 md:mb-12 max-w-xl mx-auto px-2"
         >
           An endangered performing art from Eastern India, conserved through multimodal AI
           that combines vision-language models with graph neural networks.
@@ -87,8 +87,8 @@ export default function Home() {
               { label: "Concepts", value: 3 },
             ].map((s) => (
               <div key={s.label} className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-[#d4a574]">{s.value}</div>
-                <div className="text-sm text-[#a0a0a0] mt-1">{s.label}</div>
+                <div className="text-3xl md:text-5xl font-bold text-[#d4a574]">{s.value}</div>
+                <div className="text-base md:text-lg text-[#c2c2c2] mt-1">{s.label}</div>
               </div>
             ))}
           </motion.div>
@@ -112,10 +112,10 @@ export default function Home() {
           transition={{ delay: 1.4, duration: 0.6 }}
           className="mt-8 flex flex-col items-center gap-1"
         >
-          <p className="text-sm text-[#606060]">
+          <p className="text-sm text-[#9a9a9a]">
             Workshop on AI & Analytics for Social Good
           </p>
-          <p className="text-xs text-[#404040]">
+          <p className="text-xs text-[#888888]">
             University of Maryland, April 24, 2026
           </p>
         </motion.div>

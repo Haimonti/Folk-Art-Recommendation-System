@@ -85,6 +85,15 @@ app.add_middleware(
 if IMG_DIR.exists():
     app.mount("/images", StaticFiles(directory=str(IMG_DIR)), name="images")
 
+from app.db import init_db
+from app.capture import router as capture_router
+try:
+    init_db()
+    print('  preference database ready')
+except Exception as _db_err:
+    print(f'  preference database unavailable at startup: {_db_err}')
+app.include_router(capture_router)
+
 
 # ── Pydantic Models ──
 class UserSession(BaseModel):

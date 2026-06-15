@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { panelName } from "../../lib/panelName";
 
 interface ScrollInfo {
   scroll_id: string;
@@ -82,11 +83,11 @@ export default function StoryPage() {
         <header className="sticky top-0 z-50 bg-[#0a0a0a]/80 backdrop-blur-md border-b border-[#2a2a2a]">
           <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
             <div className="flex items-center gap-4">
-              <a href="/" className="text-2xl font-bold text-[#d4a574]">GeMi</a>
-              <span className="text-sm text-[#606060]">/</span>
-              <span className="text-sm text-[#a0a0a0]">Scroll Stories</span>
+              <a href="/" className="text-3xl md:text-4xl font-bold text-[#d4a574]">GeMi</a>
+              <span className="text-base text-[#9a9a9a]">/</span>
+              <span className="text-base md:text-lg font-semibold text-[#d4d4d4]">Scroll Stories</span>
             </div>
-            <a href="/explore" className="px-4 py-2 bg-[#1a1a1a] border border-[#2a2a2a] rounded-lg text-sm text-[#a0a0a0] hover:text-white hover:border-[#404040] transition-all">
+            <a href="/explore" className="px-4 py-2 bg-[#1a1a1a] border border-[#2a2a2a] rounded-lg text-sm md:text-base font-medium text-[#d4d4d4] hover:text-white hover:border-[#404040] transition-all">
               Back to Explore
             </a>
           </div>
@@ -94,9 +95,9 @@ export default function StoryPage() {
 
         <div className="max-w-5xl mx-auto px-6 py-12 relative z-10">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-            <h2 className="text-2xl md:text-4xl font-bold mb-3 text-white">Scroll Stories</h2>
-            <p className="text-[#a0a0a0] text-sm md:text-lg mb-6 md:mb-10 max-w-2xl">
-              Experience Patachitra scroll paintings as they were meant to be seen — panel by panel, 
+            <h2 className="text-3xl md:text-5xl font-bold mb-4 text-white">Scroll Stories</h2>
+            <p className="text-[#d4d4d4] text-base md:text-xl leading-relaxed mb-6 md:mb-10 max-w-2xl">
+              Experience Patachitra scroll paintings as they were meant to be seen, panel by panel, 
               with the accompanying narrative song text. Each scroll tells a complete story.
             </p>
           </motion.div>
@@ -116,8 +117,8 @@ export default function StoryPage() {
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/20 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-4">
-                  <h3 className="text-base font-bold text-white mb-1">Scroll {scroll.scroll_id}</h3>
-                  <p className="text-xs text-[#a0a0a0]">{scroll.panel_count} panels</p>
+                  <h3 className="text-lg md:text-xl font-bold text-white mb-1">Scroll {scroll.scroll_id}</h3>
+                  <p className="text-sm text-[#c8c8c8]">{scroll.panel_count} panels</p>
                 </div>
               </motion.button>
             ))}
@@ -136,15 +137,15 @@ export default function StoryPage() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-[#050505]/80 backdrop-blur-xl border-b border-white/5">
         <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
           <div className="flex items-center gap-4">
-            <a href="/" className="text-2xl font-bold text-[#d4a574]">GeMi</a>
-            <span className="text-sm text-white/20">/</span>
-            <span className="text-xs md:text-sm text-white/50">Scroll {selectedScroll}</span>
-            <span className="text-sm text-white/20">·</span>
-            <span className="text-xs md:text-sm text-[#d4a574]">{activePanel + 1} / {panels.length}</span>
+            <a href="/" className="text-3xl md:text-4xl font-bold text-[#d4a574]">GeMi</a>
+            <span className="text-base text-white/20">/</span>
+            <span className="text-sm md:text-base font-semibold text-white/70">Scroll {selectedScroll}</span>
+            <span className="text-base text-white/20">·</span>
+            <span className="text-sm md:text-base font-semibold text-[#d4a574]">{activePanel + 1} / {panels.length}</span>
           </div>
           <button
             onClick={() => { setSelectedScroll(null); setPanels([]); }}
-            className="px-4 py-2 bg-white/5 border border-white/10 rounded-lg text-sm text-white/60 hover:text-white hover:border-white/20 transition-all"
+            className="px-4 py-2 bg-white/5 border border-white/10 rounded-lg text-sm md:text-base font-medium text-white/75 hover:text-white hover:border-white/20 transition-all"
           >
             All Scrolls
           </button>
@@ -166,7 +167,7 @@ export default function StoryPage() {
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -80 }}
                 transition={{ duration: 0.35, ease: "easeOut" }}
-                className="max-w-4xl w-full flex flex-col md:flex-row gap-4 md:gap-8 items-start"
+                className="max-w-6xl w-full flex flex-col md:flex-row gap-6 md:gap-10 items-center"
               >
                 {/* Image */}
                 <div className="flex-1 relative">
@@ -174,7 +175,7 @@ export default function StoryPage() {
                     <img
                       src={currentPanel.image_url}
                       alt={currentPanel.id}
-                      className="w-full object-contain max-h-[40vh] md:max-h-[60vh]"
+                      className="w-full object-contain max-h-[44vh] md:max-h-[72vh]"
                     />
                   </div>
                   {/* Labels */}
@@ -186,12 +187,12 @@ export default function StoryPage() {
                 </div>
 
                 {/* Text narrative */}
-                <div className="w-full md:w-80 flex-shrink-0">
+                <div className="w-full md:w-2/5 flex-shrink-0">
                   <div className="sticky top-24">
-                    <div className="text-[10px] text-white/30 uppercase tracking-widest mb-2">Panel {activePanel + 1} of {panels.length}</div>
-                    <h3 className="text-xl font-bold text-[#d4a574] mb-4">Scroll {currentPanel.scroll_id}, Panel {currentPanel.panel_id}</h3>
-                    <div className="bg-white/5 rounded-xl p-5 border border-white/5">
-                      <p className="text-sm text-white/70 leading-relaxed italic">
+                    <div className="text-sm font-semibold text-white/45 uppercase tracking-widest mb-2">Panel {activePanel + 1} of {panels.length}</div>
+                    <h3 className="text-2xl md:text-3xl font-bold text-[#d4a574] mb-4">{panelName(currentPanel.id)}</h3>
+                    <div className="bg-white/5 rounded-xl p-6 border border-white/5">
+                      <p className="text-base md:text-lg text-white/85 leading-relaxed italic">
                         {currentPanel.text || "No narrative text available for this panel."}
                       </p>
                     </div>
