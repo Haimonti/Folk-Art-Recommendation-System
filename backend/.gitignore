@@ -2,3 +2,8 @@
 __pycache__/
 *.pyc
 gemi_local.db
+
+# runtime logs and build cache
+*.log
+frontend/tsconfig.tsbuildinfo
+*.bak
