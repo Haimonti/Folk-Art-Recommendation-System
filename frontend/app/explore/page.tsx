@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Heart, Sparkles, Zap } from "lucide-react";
 import { panelName } from "../../lib/panelName";
+import { logEvent, logRecommendation } from "../../lib/analytics";
 import { createPortal } from "react-dom";
 
 interface Panel {
@@ -71,6 +72,9 @@ export default function ExplorePage() {
   }, [step]);
 
   const toggleLike = (index: number) => {
+    const panel = panels.find((x) => x.index === index);
+    const wasLiked = liked.has(index);
+    logEvent(wasLiked ? "unlike" : "like", { panelIndex: index, panelId: panel?.id });
     setLiked((prev) => {
       const next = new Set(prev);
       if (next.has(index)) next.delete(index);
@@ -105,6 +109,11 @@ export default function ExplorePage() {
       });
       const recData = await recRes.json();
       setRecommendations(recData.recommendations || []);
+      logRecommendation({
+        modelName: selectedModel,
+        seedPanelIndices: Array.from(liked),
+        servedPanelIndices: (recData.recommendations || []).map((r: any) => r.index),
+      });
 
       const compareModels = ["gcn", "gae", "vgae"].map((g) => setting === "inductive" ? featureBackbone + "_ind_" + g : featureBackbone + "_" + g);
       const compRes = await fetch("/api/compare", {
@@ -211,7 +220,7 @@ export default function ExplorePage() {
                 transition={{ delay: Math.min(i * 0.02, 0.5) }}
                 whileHover={{ scale: 1.05, y: -8, boxShadow: "0 18px 40px rgba(212,165,116,0.35)", transition: { type: "spring", stiffness: 380, damping: 18 } }}
                 whileTap={{ scale: 0.97 }}
-                onClick={() => setExpandedPanel(panel.index)}
+                onClick={() => { setExpandedPanel(panel.index); logEvent("view", { panelIndex: panel.index, panelId: panel.id, context: { source: "grid" } }); }}
                 className={`relative group rounded-xl overflow-hidden border-2 transition-all cursor-pointer ${
                   liked.has(panel.index)
                     ? "border-[#d4a574] shadow-lg shadow-[#d4a574]/20"
