@@ -25,7 +25,8 @@ def generate_positional_embedding(position, embedding_dim=10):
               
     return embedding
 # Convert to DataFrame
-df = pd.read_csv('MovieLens_all.csv')
+data = 'Goodreads_YoungAdult_HSAL_Final'
+df = pd.read_csv(f'Data/{data}.csv')
 #df=df.dropna()
 # Helper function to extract series and position
 def process_series(item_series_id):
@@ -72,4 +73,4 @@ series_table = series_table.drop_duplicates(subset=['item_id']).reset_index(drop
 series_table=series_table.drop('standalone_or_series',axis=1)
 series_table = series_table[series_table['series_id'].str.startswith("Series", na=False)]
 
-series_table.to_csv('Series_table_sinusodial_Series_table_MovieLens_all.csv', index=False)
+series_table.to_csv(f'Series_table_sinusodial_Series_table_{data}.csv', index=False)

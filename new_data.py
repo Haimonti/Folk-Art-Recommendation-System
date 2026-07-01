@@ -115,12 +115,12 @@ def generate_data(data, graph, item_max_length, user_max_length, train_path, tes
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data', default='MovieLens_Final_100k', help='data name: mixed_data')
+    parser.add_argument('--data', default='Goodreads_YoungAdult_HSAL_Final', help='data name: mixed_data')
     parser.add_argument('--graph', action='store_true', help='no_batch')
     parser.add_argument('--item_max_length', type=int, default=50, help='most recent')
     parser.add_argument('--user_max_length', type=int, default=50, help='most recent')
-    parser.add_argument('--job', type=int, default=10, help='number of epochs to train for')
-    parser.add_argument('--k_hop', type=int, default=4, help='k_hop')
+    parser.add_argument('--job', type=int, default=50, help='number of epochs to train for')
+    parser.add_argument('--k_hop', type=int, default=3, help='k_hop')
     opt = parser.parse_args()
     data_path = './Data/' + opt.data + '.csv'
     graph_path = './Data/' + opt.data + '_graph'

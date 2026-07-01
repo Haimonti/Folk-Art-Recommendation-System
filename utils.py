@@ -59,12 +59,6 @@ def load_data(data_path):
     dir_list = os.listdir(data_path)
     dir_list.sort()
     for filename in dir_list:
-        #################################################
-        full_dir = os.path.join(data_path, filename)
-        # Skip if not a directory (e.g., .DS_Store)
-        if not os.path.isdir(full_dir):
-            continue
-        #################################################
         for fil in os.listdir(os.path.join(data_path, filename)):
             data_dir.append(os.path.join(os.path.join(data_path, filename), fil))
     return data_dir

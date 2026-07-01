@@ -25,8 +25,8 @@ import dgl
 warnings.filterwarnings('ignore')
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data', default='MovieLens_Final_100k', help='data name: mixed_data')
-    parser.add_argument('--batchSize', type=int, default=16, help='input batch size')
+    parser.add_argument('--data', default='Goodreads_YoungAdult_HSAL_Final', help='data name: mixed_data')
+    parser.add_argument('--batchSize', type=int, default=64, help='input batch size')
     parser.add_argument('--hidden_size', type=int, default=50, help='hidden state size')
     parser.add_argument('--epoch', type=int, default=10, help='number of epochs to train for')
     parser.add_argument('--lr', type=float, default=0.001, help='learning rate')
@@ -48,7 +48,8 @@ def main():
     parser.add_argument("--record", action='store_true', default=False, help='record experimental results')
     parser.add_argument("--val", action='store_true', default=False)
     parser.add_argument("--model_record", action='store_true', default=False, help='record model')
-
+    parser.add_argument("--resume", action="store_true", help="resume from checkpoint")
+    
     opt = parser.parse_args()
     print(opt.data)
     args, extras = parser.parse_known_args()
@@ -61,7 +62,7 @@ def main():
         else torch.device("cpu")
     )
     print('device',device)
-
+    
 
     if opt.record:
         log_file = f'results/{opt.data}_ba_{opt.batchSize}_G_{opt.gpu}_dim_{opt.hidden_size}_ulong_{opt.user_long}_ilong_{opt.item_long}_' \
@@ -74,18 +75,37 @@ def main():
         model_file = f'{opt.data}_ba_{opt.batchSize}_G_{opt.gpu}_dim_{opt.hidden_size}_ulong_{opt.user_long}_ilong_{opt.item_long}_' \
                 f'US_{opt.user_short}_IS_{opt.item_short}_La_{args.last_item}_UM_{opt.user_max_length}_IM_{opt.item_max_length}_K_{opt.k_hop}' \
                 f'_layer_{opt.layer_num}_l2_{opt.l2}'
+        ##################################
+        checkpoint_dir = "save_checkpoints"
+        os.makedirs(checkpoint_dir, exist_ok=True)
+        checkpoint_path = os.path.join(checkpoint_dir, model_file + "_checkpoint.pth")
+        results_path = os.path.join(checkpoint_dir, model_file + "_results.txt")
+        ###################################
 
     # loading data
     data = pd.read_csv('./Data/' + opt.data + '.csv')
     user = data['user_id'].unique()
     item = data['item_id'].unique()
-    user_num = len(user)
-    item_num = len(item)
+    
+    #####################
+    user_num = len(user)+10000
+    item_num = len(item)+10000
+    #####################
+    
+
     train_root = f'Newdata/{opt.data}_{opt.item_max_length}_{opt.user_max_length}_{opt.k_hop}/train/'
 
     test_root = f'Newdata/{opt.data}_{opt.item_max_length}_{opt.user_max_length}_{opt.k_hop}/test/'
     val_root = f'Newdata/{opt.data}_{opt.item_max_length}_{opt.user_max_length}_{opt.k_hop}/val/'
+    
+    ################################################### 
+    
     train_set = myFloder(train_root, load_graphs)
+    #train_set_raw = myFloder(train_root, load_graphs)
+    #train_set = [data for data in tqdm(train_set_raw)]
+    
+    ###################################################
+
     test_set = myFloder(test_root, load_graphs)
 
     if opt.val:
@@ -103,7 +123,7 @@ def main():
                             collate_fn=train_collate_fn, # Use the partial function
                             shuffle=True, 
                             pin_memory=True, 
-                            num_workers=12)
+                            num_workers=16)
     
     #########################################################################################
     test_data = DataLoader(dataset=test_set, batch_size=opt.batchSize, collate_fn=lambda x: collate_test(x, data_neg), pin_memory=True, num_workers=0)
@@ -126,11 +146,31 @@ def main():
 
     #########################################################################################
     #loss_func = nn.CrossEntropyLoss()
-    #loss_func = nn.BCEWithLogitsLoss() 
+    #loss_func = nn.BCEWithLogitsLoss()
+    
+    ##################################################################
     best_result = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]   # hit5,hit10,hit20,mrr5,mrr10,mrr20
-    best_epoch = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] 
+    best_epoch = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     stop_num = 0
-    for epoch in range(opt.epoch):
+    start_epoch = 0
+
+    if opt.resume and os.path.exists(checkpoint_path):
+        print("Loading checkpoint...")
+        checkpoint = torch.load(checkpoint_path, map_location=device)
+    
+        model.load_state_dict(checkpoint["model_state_dict"])
+        optimizer.load_state_dict(checkpoint["optimizer_state_dict"])
+        start_epoch = checkpoint["epoch"] + 1
+        best_result = checkpoint["best_result"]
+        best_epoch = checkpoint["best_epoch"]
+    
+        print(f"Resumed from epoch {start_epoch}")
+    ##################################################################
+
+
+
+    #for epoch in range(opt.epoch):
+    for epoch in range(start_epoch, opt.epoch):
         stop = True
         epoch_loss = 0
         iter = 0
@@ -314,7 +354,24 @@ def main():
                 best_epoch[2], best_epoch[3], best_epoch[4], best_epoch[5], best_epoch[6], best_epoch[7], best_epoch[8],
                 best_epoch[9], best_epoch[10], best_epoch[11], best_epoch[12], best_epoch[13], best_epoch[14], best_epoch[15], best_epoch[16], best_epoch[17], best_epoch[18], best_epoch[19], best_epoch[20], best_epoch[21]
                 ))
-            
+            # ===== SAVE RESULTS HERE =====
+            with open(results_path, "a") as f:
+                f.write(
+                f"Epoch {epoch+1}, "
+                f"TrainLoss {epoch_loss:.4f}, "
+                f"TestLoss {np.mean(all_loss):.4f}, "
+                f"Recall@10 {best_result[1]:.4f}, "
+                f"NDCG@10 {best_result[12]:.4f}\n")
+
+            # ==============================
+            if opt.model_record:
+                torch.save({
+                "epoch": epoch,
+                "model_state_dict": model.state_dict(),
+                "optimizer_state_dict": optimizer.state_dict(),
+                "best_result": best_result,
+                "best_epoch": best_epoch
+                }, checkpoint_path)
 
     print('End training: ', datetime.datetime.now())
 
